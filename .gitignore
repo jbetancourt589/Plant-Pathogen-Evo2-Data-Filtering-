@@ -1,4 +1,21 @@
-.venv/
-.idea/
+# Python cache files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor/project settings
+.idea/
+.vscode/
+
+# Build and test output
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
