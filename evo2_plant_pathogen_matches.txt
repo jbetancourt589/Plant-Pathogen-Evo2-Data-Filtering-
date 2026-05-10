@@ -1,0 +1,214 @@
+Agrobacterium rhizogenes	N
+Agrobacterium spp.	Y
+Agrobacterium tumefaciens	Y
+Alternaria alternata	N
+Alternaria citri	N
+Alternaria dauci	N
+Alternaria gerberae	N
+Alternaria porri	N
+Alternaria solani	N
+Alternaria spp.	N
+Anisogramma anomala	N
+Apiognomonia veneta	N
+Armillaria mellea	N
+Armillaria spp.	N
+Arthuriomyces peckianus	N
+Ascochyta gerberae	N
+Ascochyta lathyri	N
+Ascochyta spp.	N
+Aspergillus niger	N
+Aster yellows MLO	Y
+Avocado sunblotch viroid	N
+BLTVA (beet leafhopper transmitted virescence agent)	N
+Beet curly top virus (BCTV)	N
+Beet leafhopper transmitted virescence agent (BLTVA)	N
+Bipolaris spp.	N
+Blumeriella jaapii	N
+Botryosphaeria spp.	N
+Botryosphaeria stevensii	N
+Botrytis cinerea	N
+Botrytis narcissicola	N
+Botrytis spp.	N
+Bremia lactucae	N
+Candidatus Liberibacter asiaticus	Y
+Ceratocystis fimbriata	N
+Cercospora carotae	N
+Cercospora spp.	N
+Ciborinia camelliae	N
+Citrus exocortis viroid (CEVd)	N
+Cladosporium (syn. Fusicladium) carpophilum	N
+Cladosporium echinulatum	N
+Cladosporium paeoniae	N
+Clavibacter michiganensis	Y
+Collectotrichum gloeosporioides	N
+Colletotrichum graminicola	N
+Cryptocline cinerescens	N
+Curvularia spp.	N
+Cytospora spp.	N
+Dematophora necatrix	N
+Diplocarpon earlianum	N
+Diplocarpon rosae	N
+Diplodia quercina	N
+Discula fraxinea	N
+Drechslera iridis	N
+Elsinoe corni	N
+Elsinoe spp.	N
+Entomosporium spp.	N
+Erwinia amylovora	Y
+Erwinia carotovora	N
+Erwinia nigrifluens	N
+Erwinia quercina	N
+Erwinia rubrifaciens	N
+Erwinia spp.	Y
+Erysiphe cichoracearum	N
+Erysiphe cruciferarum	N
+Erysiphe graminis	N
+Erysiphe heraclei	N
+Erysiphe lagerstroemiae	N
+Erysiphe lycopersici	N
+Erysiphe necator	N
+Erysiphe pisi	N
+Erysiphe polygoni	N
+Eutypa lata	N
+Exobasidium spp.	N
+Fig mosaic emaravirus	N
+Fomes annosus	N
+Fusarium circinatum	N
+Fusarium oxysporum	N
+Fusarium solani	N
+Fusarium spp.	N
+Fusicladium (syn. Cladosporium) carpophilum	N
+Gaeumannomyces graminis var. avenae	N
+Ganoderma applanatum	N
+Ganoderma lucidum	N
+Gloesporium quercum	N
+Glomerella cingulata	N
+Gnomonia fragariae	N
+Gnomonia leptostyla	N
+Golovinomyces cichoracearum	N
+Gymnoconia nitens	N
+Gymnosporangium libocedri	N
+Hendersonula tortuloidea	N
+Heterobasidion annosum	N
+Heterosporium gracile	N
+Ilarvirus	N
+Kabatina juniperi	N
+Laetiporus sulphureus	N
+Laetisaria fuciformis	N
+Lettuce big vein virus	N
+Leveillula taurica	N
+MLOÂ Â	N
+Magnaporthe poae	N
+Maize dwarf mosaic virus	N
+Microdochium nivale	N
+Monilinia spp.	N
+Mycosphaerella brassicicola	N
+Mycosphaerella fragariae	N
+Mycosphaerella rubi	N
+Mycosphaerella spp.	N
+Nectria galligena	N
+Neofusicoccum spp.	N
+Ophiosphaerella korrae	N
+Ophiostoma ulmi	N
+Ovulinia azalea	N
+Penicillium spp.	N
+Peronospora destructor	N
+Peronospora farinosa	N
+Peronospora parasitica	N
+Peronospora sparsa	N
+Peronospora viciae f.sp. pisi	N
+Pestalotiopsis funerea	N
+Phaeoacremonium spp.	N
+Phoma spp.	N
+Phoma terrestris	N
+Phomopsis juniperovora	N
+Phomopsis obscurans	N
+Phomopsis spp.	N
+Phomopsis viticola	N
+Phragmidium mucronatum	N
+Phragmidium rubi-idaei	N
+Phyllosticta spp.	N
+Phyllosticta zinniae	N
+Phytophthora capsici	N
+Phytophthora cinnamomi	N
+Phytophthora infestans	N
+Phytophthora megasperma	N
+Phytophthora ramorum	N
+Phytophthora spp.	N
+Plasmodiophora brassicae	N
+Plasmopara (syn. Peronospora) spp.	N
+Plasmopara viticola	N
+Pleurotus ostreatus	N
+Podosphaera clandestina	N
+Podosphaera leucotricha	N
+Podosphaera pannosa	N
+Podosphaera tridactyla	N
+Potato leaf roll virus	N
+Pseudomonas gladioli	N
+Pseudomonas savastanoi pv. nerii	N
+Pseudomonas savastanoi pv. savastanoi	N
+Pseudomonas spp.	Y
+Pseudomonas syringae	Y
+Pseudonectria rousseliana	N
+Pseudoperonospora cubensis	N
+Puccinia asparagi	N
+Puccinia sorghi	N
+Puccinia spp.	N
+Pyriculria grisea	N
+Pythium spp.	N
+Pythium violae	N
+Ramularia deusta	N
+Ramularia primulae	N
+Ramularia tulasnei	N
+Rhizoctonia solani	N
+Rhizoctonia spp.	N
+Rhizopus spp.	N
+Rosellinia necatrix	N
+Schizophyllum commune	N
+Sclerotinia narcissicola	N
+Sclerotinia sclerotiorum	N
+Sclerotinia spp.	N
+Sclerotium cepivorum	N
+Sclerotium rolfsii	N
+Septocyta ruborum	N
+Septoria chrysanthemi	N
+Septoria dianthi	N
+Septoria spp.	N
+Septoria verbenae	N
+Sphaceloma rosarum	N
+Sphacelotheca reiliana	N
+Sphaerotheca fuliginea	N
+Sphaerotheca macularis	N
+Sphaerotheca pannosa	N
+Spongospora subterranea	N
+Stemphylium spp.	N
+Stemphylium vesicarium	N
+Stereum spp.	N
+Streptomyces spp.	Y
+Stromatinia gladioli	N
+Taphrina deformans	N
+Taphrina spp.	N
+Thielaviopsis spp.	N
+Tobacco mosaic virus Â	N
+Tomato spotted wilt virus	N
+Trametes hirsuta	N
+Trametes versicolor	N
+Tranzschelia discolor	N
+Tristeza virus	N
+Uromyces phaseoli	N
+Ustilago maydis	N
+Venturia inaequalis	N
+Venturia pirina	N
+Verticillium albo-atrum	N
+Verticillium dahliae	N
+Verticillium spp.	N
+Wilsonomyces carpophilus	N
+X-disease	N
+Xanthamonas campestris	N
+Xanthamonas fragariae	N
+Xanthomonas campestris	Y
+Xanthomonas spp.	Y
+Xylella fastidiosa	Y
+Zythia fragariae	N
+cherry leaf roll virus	N
+na	N
