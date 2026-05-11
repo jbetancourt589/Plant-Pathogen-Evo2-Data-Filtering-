@@ -2,6 +2,8 @@
 
 This project checks whether plant pathogens from the UC IPM disease list and `additional_pathogens.txt` appear in an Evo2 training-organism file.
 
+Evo2 is a genomic foundation model trained on large amounts of biological sequence data; this project uses an organism list associated with Evo2 to check whether specific plant pathogens appear in that data.
+
 The program creates a text file with one pathogen per line:
 
 ```text
