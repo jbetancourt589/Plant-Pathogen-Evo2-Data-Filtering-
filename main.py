@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Check UC IPM pathogens against the Evo2 organism file.
+Checks if each UC IPM pathogen appears in the Evo2 organism file.
 
 RUN: python main.py --evo2-file all_bacterial_species_in_evo2.txt --output results.txt
 """
