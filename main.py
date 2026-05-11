@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
-Make a Y/N text file for the organisms that have/haven't been trained by evo2
+Check UC IPM pathogens against the Evo2 organism file.
 
 RUN: python main.py --evo2-file all_bacterial_species_in_evo2.txt --output results.txt
-
 """
 
 import argparse
@@ -12,17 +11,17 @@ import html
 import re
 import sys
 import urllib.request
+from dataclasses import dataclass
 from html.parser import HTMLParser
 from pathlib import Path
 
 
 UC_IPM_URL = "https://ipm.ucanr.edu/PMG/diseases/diseaseslist.html"
 
-# These are not real organism names, so the script skips them.
+# Skip non-organism names.
 SKIP_NAMES = {"", "none", "unknown", "various"}
 
-# Words that usually mean "extra strain details start here".
-# For matching, we mostly care about genus + species, not the strain ID.
+# Stop matching before strain details.
 STRAIN_WORDS = {
     "subsp",
     "subspecies",
@@ -39,13 +38,16 @@ STRAIN_WORDS = {
 }
 
 
-class SimpleTableParser(HTMLParser):
-    """
-    Reads HTML tables and stores each row as a list of cell values.
+@dataclass(frozen=True)
+class Evo2Organism:
+    """One Evo2 row."""
 
-    The UC IPM page has one big table. Python's standard library does not have
-    a table reader, so this tiny parser collects the table cells for us.
-    """
+    assembly_id: str
+    species_name: str
+
+
+class SimpleTableParser(HTMLParser):
+    """Collect rows from an HTML table."""
 
     def __init__(self):
         super().__init__()
@@ -77,17 +79,12 @@ class SimpleTableParser(HTMLParser):
 
 
 def clean_spaces(text):
-    """Turn repeated spaces/newlines into one normal space."""
+    """Collapse extra whitespace."""
     return re.sub(r"\s+", " ", html.unescape(text)).strip()
 
 
 def normalize_name(name):
-    """
-    Make names easier to compare.
-
-    Example:
-    "Pythium spp." and "pythium spp" become the same text.
-    """
+    """Make names easier to compare."""
     name = html.unescape(name).lower()
     name = name.replace("&", " and ")
     name = re.sub(r"\b(spp?|sp)\.", r"\1", name)
@@ -96,17 +93,12 @@ def normalize_name(name):
 
 
 def remove_parentheses(name):
-    """Remove notes like '(syn. Cladosporium)' from a name."""
+    """Remove parenthetical notes."""
     return clean_spaces(re.sub(r"\([^)]*\)", " ", name))
 
 
 def possible_name_versions(name):
-    """
-    Return different versions of one pathogen name.
-
-    This helps with names that include synonyms, like:
-    "Fusicladium (syn. Cladosporium) carpophilum"
-    """
+    """Return synonym/name variants."""
     versions = {name, remove_parentheses(name)}
 
     synonym_match = re.search(r"^(\S+)\s+\((?:syn\.?|synonym)\s+([^)]+)\)\s+(.+)$", name, re.I)
@@ -123,17 +115,12 @@ def possible_name_versions(name):
 
 
 def main_part_of_name(name):
-    """
-    Keep the main part of a scientific name for matching.
-
-    Most exact species matches only need genus + species:
-    "Pseudomonas syringae pv. tomato" becomes "pseudomonas syringae".
-    """
+    """Keep the main species-level name."""
     words = normalize_name(remove_parentheses(name)).split()
     if not words:
         return ""
 
-    # "Candidatus Liberibacter asiaticus" needs three words, not two.
+    # Candidatus names usually need three words.
     if words[0] == "candidatus" and len(words) >= 3:
         return " ".join(words[:3])
 
@@ -152,24 +139,19 @@ def main_part_of_name(name):
 
 
 def is_genus_level_name(name):
-    """
-    True for broad names like 'Pseudomonas spp.'.
-
-    For these, the script checks whether any Evo2 organism starts with that
-    genus instead of requiring one exact species.
-    """
+    """Check for broad names like 'Pseudomonas spp.'."""
     normalized = normalize_name(name)
     return bool(re.search(r"\b(spp|sp)\b", normalized)) and len(normalized.split()) >= 2
 
 
 def first_word(name):
-    """Return the genus, which is usually the first word."""
+    """Return the first word."""
     words = normalize_name(name).split()
     return words[0] if words else ""
 
 
 def read_evo2_file(path):
-    """Read the Evo2 training file and return only the organism names."""
+    """Read Evo2 organism rows."""
     with path.open("r", encoding="utf-8-sig", newline="") as file:
         sample = file.read(4096)
         file.seek(0)
@@ -177,21 +159,28 @@ def read_evo2_file(path):
         delimiter = "\t" if "\t" in sample else ","
         reader = csv.DictReader(file, delimiter=delimiter)
 
-        # Your file has a Species_Name column, so this is the normal path.
+        # Normal input format.
         if reader.fieldnames and "Species_Name" in reader.fieldnames:
-            return [clean_spaces(row["Species_Name"]) for row in reader if row.get("Species_Name")]
+            return [
+                Evo2Organism(
+                    assembly_id=clean_spaces(row.get("Assembly_ID", "")),
+                    species_name=clean_spaces(row["Species_Name"]),
+                )
+                for row in reader
+                if row.get("Species_Name")
+            ]
 
-        # Backup path for a simpler file with one organism name per line.
+        # Fallback: one organism name per line.
         file.seek(0)
         return [
-            clean_spaces(line)
+            Evo2Organism(assembly_id="", species_name=clean_spaces(line))
             for line in file
             if clean_spaces(line) and not line.lower().startswith("assembly_id")
         ]
 
 
 def download_uc_ipm_page(url):
-    """Download the UC IPM disease-list page."""
+    """Download the UC IPM page."""
     request = urllib.request.Request(
         url,
         headers={"User-Agent": "GenomeModeling Evo2 pathogen checker"},
@@ -201,7 +190,7 @@ def download_uc_ipm_page(url):
 
 
 def get_pathogens_from_uc_ipm(page_html):
-    """Pull the scientific-name column out of the UC IPM table."""
+    """Get pathogen names from the UC IPM table."""
     parser = SimpleTableParser()
     parser.feed(page_html)
 
@@ -223,54 +212,75 @@ def get_pathogens_from_uc_ipm(page_html):
     return pathogens
 
 
-def make_training_lookup_sets(evo2_names):
-    """
-    Make lookup sets so matching is fast.
+def make_training_lookup_maps(evo2_organisms):
+    """Build name-to-assembly lookup maps."""
+    normalized_names = {}
+    main_names = {}
+    genera = {}
 
-    normalized_names: full normalized organism names
-    main_names: genus + species style names
-    genera: just the genus names
-    """
-    normalized_names = {normalize_name(name) for name in evo2_names}
-    main_names = {main_part_of_name(name) for name in evo2_names if main_part_of_name(name)}
-    genera = {first_word(name) for name in evo2_names if first_word(name)}
+    for organism in evo2_organisms:
+        species_name = organism.species_name
+        assembly_id = organism.assembly_id
+
+        normalized_names.setdefault(normalize_name(species_name), set()).add(assembly_id)
+
+        main_name = main_part_of_name(species_name)
+        if main_name:
+            main_names.setdefault(main_name, set()).add(assembly_id)
+
+        genus = first_word(species_name)
+        if genus:
+            genera.setdefault(genus, set()).add(assembly_id)
+
     return normalized_names, main_names, genera
 
 
-def was_used_in_evo2(pathogen_name, normalized_evo2_names, main_evo2_names, evo2_genera):
-    """Return True if the pathogen looks like it appears in the Evo2 file."""
-    for version in possible_name_versions(pathogen_name):
+def matching_assembly_ids(pathogen_name, normalized_evo2_names, main_evo2_names, evo2_genera):
+    """Find matching assembly IDs."""
+    matches = set()
+
+    for version in sorted(possible_name_versions(pathogen_name)):
         normalized_version = normalize_name(version)
 
-        # Best case: exact normalized name match.
+        # Exact name match.
         if normalized_version in normalized_evo2_names:
-            return True
+            matches.update(normalized_evo2_names[normalized_version])
 
-        # Broad names like "Erwinia spp." match if Evo2 has any Erwinia.
+        # Genus-level match.
         if is_genus_level_name(version):
-            return first_word(version) in evo2_genera
+            genus = first_word(version)
+            if genus in evo2_genera:
+                matches.update(evo2_genera[genus])
 
-        # Species-level names can match even when Evo2 has extra strain words.
-        if main_part_of_name(version) in main_evo2_names:
-            return True
+        # Species-level match.
+        main_name = main_part_of_name(version)
+        if main_name in main_evo2_names:
+            matches.update(main_evo2_names[main_name])
 
-        # Example: pathogen is "Xylella fastidiosa" and Evo2 has
-        # "Xylella fastidiosa 9a5c".
-        if any(evo2_name.startswith(f"{normalized_version} ") for evo2_name in normalized_evo2_names):
-            return True
+        # Prefix match for names with extra details.
+        for evo2_name, assembly_ids in normalized_evo2_names.items():
+            if evo2_name.startswith(f"{normalized_version} "):
+                matches.update(assembly_ids)
 
-    return False
+    return matches
 
 
-def write_output_file(pathogens, statuses, output_path):
-    """Write the final shareable text file."""
+def write_output_file(matches, output_path):
+    """Write the output file."""
     with output_path.open("w", encoding="utf-8", newline="\n") as file:
-        for pathogen in sorted(statuses):
-            file.write(f"{pathogen}\t{statuses[pathogen]}\n")
+        file.write("# Y = found in the Evo2 organism file; N = not found.\n")
+        file.write("# Multiple assembly IDs mean multiple Evo2 assemblies matched the same pathogen.\n")
+        file.write("# Pathogen\tY/N\tAssembly_IDs\n\n\n")
+
+        for pathogen in sorted(matches):
+            assembly_ids = matches[pathogen]
+            status = "Y" if assembly_ids else "N"
+            assembly_id_text = ";".join(sorted(assembly_id for assembly_id in assembly_ids if assembly_id))
+            file.write(f"{pathogen}\t{status}\t{assembly_id_text}\n")
 
 
 def get_command_line_args():
-    """Set up the command-line options."""
+    """Read command-line options."""
     parser = argparse.ArgumentParser(
         description="Check whether UC IPM plant pathogens were used in Evo2 training."
     )
@@ -287,34 +297,35 @@ def main():
         print(f"Error: Evo2 file does not exist: {args.evo2_file}", file=sys.stderr)
         return 2
 
-    # Step 1: read the Evo2 training organisms from your text file.
-    evo2_names = read_evo2_file(args.evo2_file)
-    normalized_evo2_names, main_evo2_names, evo2_genera = make_training_lookup_sets(evo2_names)
+    # Read Evo2 organisms.
+    evo2_organisms = read_evo2_file(args.evo2_file)
+    normalized_evo2_names, main_evo2_names, evo2_genera = make_training_lookup_maps(evo2_organisms)
 
-    # Step 2: download the UC IPM page and get the plant pathogen names.
+    # Get UC IPM pathogens.
     page_html = download_uc_ipm_page(args.url)
     pathogens = get_pathogens_from_uc_ipm(page_html)
     if not pathogens:
         print("Error: no pathogen names were found on the UC IPM page.", file=sys.stderr)
         return 1
 
-    # Step 3: compare each pathogen against the Evo2 names.
-    statuses = {}
+    # Match pathogens to Evo2 rows.
+    matches = {}
     for pathogen in pathogens:
-        if pathogen not in statuses:
-            statuses[pathogen] = (
-                "Y"
-                if was_used_in_evo2(pathogen, normalized_evo2_names, main_evo2_names, evo2_genera)
-                else "N"
+        if pathogen not in matches:
+            matches[pathogen] = matching_assembly_ids(
+                pathogen,
+                normalized_evo2_names,
+                main_evo2_names,
+                evo2_genera,
             )
 
-    # Step 4: write the final txt file.
+    # Write results.
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    write_output_file(pathogens, statuses, args.output)
+    write_output_file(matches, args.output)
 
-    yes_count = sum(status == "Y" for status in statuses.values())
-    no_count = sum(status == "N" for status in statuses.values())
-    print(f"Wrote {len(statuses)} pathogen results to {args.output}")
+    yes_count = sum(bool(assembly_ids) for assembly_ids in matches.values())
+    no_count = sum(not assembly_ids for assembly_ids in matches.values())
+    print(f"Wrote {len(matches)} pathogen results to {args.output}")
     print(f"Y: {yes_count}")
     print(f"N: {no_count}")
     return 0

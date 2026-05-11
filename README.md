@@ -5,12 +5,18 @@ This project checks whether plant pathogens from the UC IPM disease list appear 
 The program creates a text file with one pathogen per line:
 
 ```text
-Agrobacterium tumefaciens	Y
+# Y = found in the Evo2 organism file; N = not found.
+# Multiple assembly IDs mean multiple Evo2 assemblies matched the same pathogen.
+# Pathogen	Y/N	Assembly_IDs
+
+
+Agrobacterium tumefaciens	Y	GCA_017744915.1;GCF_000834635.1;GCF_001541315.1;GCF_005221325.1;GCF_005221385.1;GCF_009649785.1;GCF_013337285.1;GCF_017726655.1
 Alternaria alternata	N
 ```
 
 `Y` means the pathogen appears to match an organism in the Evo2 training file.
 `N` means the pathogen was not found.
+The third field contains the matching Evo2 assembly ID or IDs when a match is found. `N` rows leave that field blank.
 
 ## Files
 
@@ -32,7 +38,7 @@ The script will:
 2. Download the UC IPM plant disease list.
 3. Pull out the pathogen scientific names.
 4. Compare those names to the Evo2 names.
-5. Write the final `Y` / `N` results file.
+5. Write the final `Y` / `N` results file with matching assembly IDs.
 
 ## Data Source
 
