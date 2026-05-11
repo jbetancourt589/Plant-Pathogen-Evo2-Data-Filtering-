@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Checks if each UC IPM pathogen appears in the Evo2 organism file.
+Checks if each UC IPM pathogen plus each additional pathogen appears in the Evo2 organism file.
 
-RUN: python main.py --evo2-file all_bacterial_species_in_evo2.txt --output results.txt
+RUN: python main.py
 """
 
 import argparse
@@ -17,6 +17,9 @@ from pathlib import Path
 
 
 UC_IPM_URL = "https://ipm.ucanr.edu/PMG/diseases/diseaseslist.html"
+DEFAULT_ADDITIONAL_PATHOGENS_FILE = Path("additional_pathogens.txt")
+DEFAULT_ASSEMBLY_FILE = Path("all_bacterial_species_in_evo2.txt")
+DEFAULT_OUTPUT_FILE = Path("evo2_plant_pathogen_matches.txt")
 
 # Skip non-organism names.
 SKIP_NAMES = {"", "none", "unknown", "various"}
@@ -173,9 +176,19 @@ def read_evo2_file(path):
         # Fallback: one organism name per line.
         file.seek(0)
         return [
-            Evo2Organism(assembly_id="", species_name=clean_spaces(line))
+            Evo2Organism(assembly_id=clean_spaces(line), species_name=clean_spaces(line))
             for line in file
             if clean_spaces(line) and not line.lower().startswith("assembly_id")
+        ]
+
+
+def read_pathogen_name_file(path):
+    """Read one pathogen name per line."""
+    with path.open("r", encoding="utf-8-sig") as file:
+        return [
+            clean_spaces(line)
+            for line in file
+            if clean_spaces(line) and not clean_spaces(line).startswith("#")
         ]
 
 
@@ -284,8 +297,24 @@ def get_command_line_args():
     parser = argparse.ArgumentParser(
         description="Check whether UC IPM plant pathogens were used in Evo2 training."
     )
-    parser.add_argument("--evo2-file", required=True, type=Path, help="Path to the Evo2 organism text file.")
-    parser.add_argument("--output", required=True, type=Path, help="Path for the output text file.")
+    parser.add_argument(
+        "--additional-pathogens",
+        default=DEFAULT_ADDITIONAL_PATHOGENS_FILE,
+        type=Path,
+        help=f"Path to extra pathogen names to add to the UC IPM list. Default: {DEFAULT_ADDITIONAL_PATHOGENS_FILE}",
+    )
+    parser.add_argument(
+        "--assembly-file",
+        default=DEFAULT_ASSEMBLY_FILE,
+        type=Path,
+        help=f"Path to the Evo2 assembly ID table. Default: {DEFAULT_ASSEMBLY_FILE}",
+    )
+    parser.add_argument(
+        "--output",
+        default=DEFAULT_OUTPUT_FILE,
+        type=Path,
+        help=f"Path for the output text file. Default: {DEFAULT_OUTPUT_FILE}",
+    )
     parser.add_argument("--url", default=UC_IPM_URL, help="UC IPM disease-list URL.")
     return parser.parse_args()
 
@@ -293,13 +322,17 @@ def get_command_line_args():
 def main():
     args = get_command_line_args()
 
-    if not args.evo2_file.exists():
-        print(f"Error: Evo2 file does not exist: {args.evo2_file}", file=sys.stderr)
+    if not args.additional_pathogens.exists():
+        print(f"Error: additional pathogen file does not exist: {args.additional_pathogens}", file=sys.stderr)
         return 2
 
-    # Read Evo2 organisms.
-    evo2_organisms = read_evo2_file(args.evo2_file)
-    normalized_evo2_names, main_evo2_names, evo2_genera = make_training_lookup_maps(evo2_organisms)
+    if not args.assembly_file.exists():
+        print(f"Error: Evo2 assembly file does not exist: {args.assembly_file}", file=sys.stderr)
+        return 2
+
+    # Read the Evo2 assembly ID table.
+    evo2_assemblies = read_evo2_file(args.assembly_file)
+    assembly_names, assembly_main_names, assembly_genera = make_training_lookup_maps(evo2_assemblies)
 
     # Get UC IPM pathogens.
     page_html = download_uc_ipm_page(args.url)
@@ -308,15 +341,18 @@ def main():
         print("Error: no pathogen names were found on the UC IPM page.", file=sys.stderr)
         return 1
 
-    # Match pathogens to Evo2 rows.
+    additional_pathogens = read_pathogen_name_file(args.additional_pathogens)
+    pathogens = list(dict.fromkeys(pathogens + additional_pathogens))
+
+    # Match pathogens to Evo2 assembly rows.
     matches = {}
     for pathogen in pathogens:
         if pathogen not in matches:
             matches[pathogen] = matching_assembly_ids(
                 pathogen,
-                normalized_evo2_names,
-                main_evo2_names,
-                evo2_genera,
+                assembly_names,
+                assembly_main_names,
+                assembly_genera,
             )
 
     # Write results.

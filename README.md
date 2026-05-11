@@ -1,6 +1,6 @@
 # Plant Pathogen Genome Filtering
 
-This project checks whether plant pathogens from the UC IPM disease list appear in an Evo2 training-organism file.
+This project checks whether plant pathogens from the UC IPM disease list and `additional_pathogens.txt` appear in an Evo2 training-organism file.
 
 The program creates a text file with one pathogen per line:
 
@@ -14,14 +14,15 @@ Agrobacterium tumefaciens	Y	GCA_017744915.1;GCF_000834635.1;GCF_001541315.1;GCF_
 Alternaria alternata	N
 ```
 
-`Y` means the pathogen appears to match an organism in the Evo2 training file.
+`Y` means the pathogen appears to match an organism in the Evo2 organism file.
 `N` means the pathogen was not found.
 The third field contains the matching Evo2 assembly ID or IDs when a match is found. `N` rows leave that field blank.
 
 ## Files
 
 - `main.py` - the Python script
-- `all_bacterial_species_in_evo2.txt` - the Evo2 training-organism file
+- `additional_pathogens.txt` - extra pathogen names to include with the UC IPM website names
+- `all_bacterial_species_in_evo2.txt` - the Evo2 assembly ID lookup file
 - `evo2_plant_pathogen_matches.txt` - the output file created by the script
 
 ## How To Run
@@ -29,16 +30,17 @@ The third field contains the matching Evo2 assembly ID or IDs when a match is fo
 From this project folder, run:
 
 ```powershell
-python main.py --evo2-file all_bacterial_species_in_evo2.txt --output evo2_plant_pathogen_matches.txt
+python main.py
 ```
 
 The script will:
 
-1. Read the Evo2 organism file.
-2. Download the UC IPM plant disease list.
-3. Pull out the pathogen scientific names.
-4. Compare those names to the Evo2 names.
-5. Write the final `Y` / `N` results file with matching assembly IDs.
+1. Download the UC IPM plant disease list.
+2. Pull out the pathogen scientific names.
+3. Read extra pathogen names from `additional_pathogens.txt`.
+4. Read the Evo2 assembly ID lookup file.
+5. Compare all pathogen names to the Evo2 names.
+6. Write the final `Y` / `N` results file with matching assembly IDs.
 
 ## Data Source
 
