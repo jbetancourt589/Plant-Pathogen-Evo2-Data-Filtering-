@@ -20,6 +20,8 @@ Alternaria alternata	N
 `N` means the pathogen was not found.
 The third field contains the matching Evo2 assembly ID or IDs when a match is found. `N` rows leave that field blank.
 
+For the eukaryotic output, the original `Input_Assembly_ID` and `Species_Name` columns are kept, then `Y/N` and `Evo2_Assembly_IDs` are added.
+
 ## Files
 
 - `main.py` - the Python script

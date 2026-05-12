@@ -194,18 +194,6 @@ def read_pathogen_name_file(path):
         ]
 
 
-def organism_names_from_rows(organisms):
-    """Keep one copy of each species name."""
-    names = []
-    seen = set()
-    for organism in organisms:
-        normalized = normalize_name(organism.species_name)
-        if normalized and normalized not in seen:
-            names.append(organism.species_name)
-            seen.add(normalized)
-    return names
-
-
 def download_uc_ipm_page(url):
     """Fetch the UC IPM disease list."""
     request = urllib.request.Request(
@@ -391,6 +379,39 @@ def write_matches_for_names(pathogen_names, lookup_maps, output_path):
     return matches
 
 
+def write_matches_for_organism_rows(organisms, lookup_maps, output_path):
+    """Keep the input assembly/species rows and add Evo2 match columns."""
+    assembly_names, assembly_main_names, assembly_genera = lookup_maps
+
+    rows = []
+    for organism in organisms:
+        matches = matching_assembly_ids(
+            organism.species_name,
+            assembly_names,
+            assembly_main_names,
+            assembly_genera,
+        )
+        rows.append((organism, matches))
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with output_path.open("w", encoding="utf-8", newline="\n") as file:
+        file.write("# Y = found in the Evo2 organism file; N = not found.\n")
+        file.write("# Evo2_Assembly_IDs lists the matching assembly IDs from evo2_full_training_dataset.txt.\n")
+        file.write("# Input_Assembly_ID\tSpecies_Name\tY/N\tEvo2_Assembly_IDs\n\n\n")
+
+        for organism, matches in rows:
+            status = "Y" if matches else "N"
+            assembly_id_text = ";".join(sorted(assembly_id for assembly_id in matches if assembly_id))
+            file.write(f"{organism.assembly_id}\t{organism.species_name}\t{status}\t{assembly_id_text}\n")
+
+    yes_count = sum(bool(matches) for _, matches in rows)
+    no_count = sum(not matches for _, matches in rows)
+    print(f"Wrote {len(rows)} pathogen results to {output_path}")
+    print(f"Y: {yes_count}")
+    print(f"N: {no_count}")
+    return rows
+
+
 def main():
     args = get_command_line_args()
 
@@ -422,8 +443,7 @@ def main():
 
     if args.organism_type in {"all", "eukaryotic"}:
         eukaryotic_rows = read_evo2_file(args.eukaryotic_file)
-        eukaryotic_names = organism_names_from_rows(eukaryotic_rows)
-        write_matches_for_names(eukaryotic_names, lookup_maps, args.eukaryotic_output)
+        write_matches_for_organism_rows(eukaryotic_rows, lookup_maps, args.eukaryotic_output)
 
     return 0
 
