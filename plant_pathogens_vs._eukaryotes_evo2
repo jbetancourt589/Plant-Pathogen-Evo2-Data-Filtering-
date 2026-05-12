@@ -1,0 +1,981 @@
+# Y = found in evo2_eukaryotic_plant_pathogens.txt; N = not found.
+# Pathogen	Y/N
+
+
+Abutilon mosaic virus	N
+Actinidia yellowing ringspot virus	N
+African cassava mosaic virus	N
+Ageratum latent virus 1998	N
+Agrobacterium albertimagni	N
+Agrobacterium arsenijevicii	N
+Agrobacterium bohemicum	N
+Agrobacterium burrii	N
+Agrobacterium cavarae	N
+Agrobacterium cucumeris	N
+Agrobacterium deltaense	N
+Agrobacterium fabrum	N
+Agrobacterium larrymoorei	N
+Agrobacterium leguminum	N
+Agrobacterium pusense	N
+Agrobacterium radiobacter	N
+Agrobacterium rhizogenes	N
+Agrobacterium rosae	N
+Agrobacterium rubi	N
+Agrobacterium salinitolerans	N
+Agrobacterium spp.	N
+Agrobacterium tomkonis	N
+Agrobacterium tumefaciens	N
+Agrobacterium vaccinii	N
+Agrobacterium vitis	N
+Agropyron mosaic virus	N
+Alfalfa latent virus	N
+Alfalfa mosaic virus	N
+Alternaria alstroemeriae	N
+Alternaria alternata	Y
+Alternaria angustiovoidea	Y
+Alternaria arborescens	Y
+Alternaria arbusti	Y
+Alternaria atra	Y
+Alternaria brassicae	Y
+Alternaria brassicicola	Y
+Alternaria burnsii	Y
+Alternaria citri	N
+Alternaria consortialis	Y
+Alternaria dauci	Y
+Alternaria destruens	N
+Alternaria ethzedia	Y
+Alternaria gaisen	Y
+Alternaria gansuensis	Y
+Alternaria gerberae	N
+Alternaria infectoria	Y
+Alternaria linariae	N
+Alternaria longipes	Y
+Alternaria metachromatica	Y
+Alternaria panax	Y
+Alternaria porri	N
+Alternaria radicina	N
+Alternaria solani	Y
+Alternaria spp.	Y
+Alternaria tenuissima	Y
+Alternaria triticimaculans	Y
+Alternaria triticina	Y
+Alternaria viburni	Y
+American hop latent virus	N
+American plum line pattern virus	N
+Andean potato mottle virus	N
+Anisogramma anomala	Y
+Apiognomonia veneta	N
+Apple chlorotic leafspot virus	N
+Apple ilarvirus 2	N
+Apple mosaic virus	N
+Apple necrotic mosaic virus	N
+Apple scar skin viroid	N
+Apple stem grooving virus	N
+Arabis mosaic virus	N
+Armillaria cepistipes	Y
+Armillaria fuscipes	Y
+Armillaria gallica	Y
+Armillaria luteobubalina	Y
+Armillaria mellea	Y
+Armillaria novae-zelandiae	Y
+Armillaria ostoyae	Y
+Armillaria sinapina	N
+Armillaria solidipes	Y
+Armillaria spp.	Y
+Arracacha virus B	N
+Arthuriomyces peckianus	N
+Artichoke Italian latent virus	N
+Artichoke yellow ringspot virus	N
+Ascochyta fabae	Y
+Ascochyta gerberae	N
+Ascochyta koolunga	Y
+Ascochyta lathyri	N
+Ascochyta lentis	Y
+Ascochyta pisi	Y
+Ascochyta rabiei	Y
+Ascochyta spp.	Y
+Ascochyta viciae-villosae	Y
+Asparagus virus 2	N
+Aspergillus flavus	N
+Aspergillus fumigatus	Y
+Aspergillus niger	Y
+Aster yellows MLO	N
+Avocado sunblotch viroid	N
+BLTVA (beet leafhopper transmitted virescence agent)	N
+Babaco ilarvirus 1	N
+Banana streak virus	N
+Barley mild mosaic virus	N
+Barley stripe mosaic virus	N
+Barley yellow striate mosaic virus	N
+Bean common mosaic virus	N
+Bean golden mosaic virus	N
+Bean leaf roll virus	N
+Bean pod mottle virus	N
+Bean rugose mosaic virus	N
+Bean yellow mosaic virus	N
+Beet curly top virus	N
+Beet curly top virus (BCTV)	N
+Beet leafhopper transmitted virescence agent (BLTVA)	N
+Beet mosaic virus	N
+Beet necrotic yellow vein virus	N
+Beet western yellows virus	N
+Beet yellow stunt virus	N
+Beet yellows virus	N
+Belladonna mottle virus	N
+Bidens mottle virus	N
+Bipolaris spp.	Y
+Black raspberry necrosis virus	N
+Blackberry chlorotic ringspot virus	N
+Blackeye cowpea mosaic virus	N
+Blueberry leaf mottle virus	N
+Blueberry red ringspot virus	N
+Blueberry scorch virus	N
+Blueberry shock virus	N
+Blueberry shoestring virus	N
+Blumeriella jaapii	Y
+Boeremia exigua	Y
+Botryosphaeria dothidea	Y
+Botryosphaeria kuwatsukai	N
+Botryosphaeria spp.	Y
+Botryosphaeria stevensii	N
+Botrytis aclada	Y
+Botrytis byssoidea	Y
+Botrytis cinerea	Y
+Botrytis cinerea B05.10	Y
+Botrytis deweyae	Y
+Botrytis elliptica	Y
+Botrytis euroamericana	N
+Botrytis fabae	Y
+Botrytis fabiopsis	N
+Botrytis fragariae	Y
+Botrytis medusae	Y
+Botrytis narcissicola	N
+Botrytis paeoniae	Y
+Botrytis porri	Y
+Botrytis pseudocinerea	Y
+Botrytis sinoallii	Y
+Botrytis spp.	Y
+Botrytis squamosa	Y
+Botrytis tulipae	Y
+Bremia lactucae	N
+Brenneria alni	N
+Brenneria nigrifluens	N
+Brenneria roseae	N
+Brenneria rubrifaciens	N
+Brenneria salicis	N
+Broad bean mottle virus	N
+Brome mosaic virus	N
+Cacao swollen shoot virus	N
+Cacao yellow mosaic virus	N
+Cactus virus X	N
+Candidatus Liberibacter asiaticus	N
+Candidatus liberibacter	N
+Cape gooseberry ilarvirus 1	N
+Carnation etched ring virus	N
+Carnation latent virus	N
+Carnation mottle virus	N
+Carnation necrotic fleck virus	N
+Carnation ringspot virus	N
+Carnation vein mottle virus	N
+Carrot mottle virus	N
+Carrot red leaf virus	N
+Carrot thin leaf virus	N
+Cassava Ivorian bacilliform virus	N
+Cassava common mosaic virus	N
+Cassava vein mosaic virus	N
+Cassia yellow blotch virus	N
+Cauliflower mosaic virus	N
+Celery mosaic virus	N
+Ceratobasidium cereale	N
+Ceratobasidium theobromae	Y
+Ceratocystis fimbriata	N
+Cercospora apii	N
+Cercospora berteroae	Y
+Cercospora beticola	Y
+Cercospora brassicicola	Y
+Cercospora canescens	Y
+Cercospora carotae	N
+Cercospora citrullina	Y
+Cercospora janseana	Y
+Cercospora kikuchii	N
+Cercospora nicotianae	Y
+Cercospora sesami	Y
+Cercospora sojina	Y
+Cercospora spp.	Y
+Cercospora zeae-maydis	Y
+Cercospora zeina	Y
+Cereal chlorotic mottle virus	N
+Cherry leaf roll virus	N
+Cherry rasp leaf virus	N
+Chloris striate mosaic virus	N
+Chrysanthemum stunt viroid	N
+Chrysanthemum virus B	N
+Ciborinia camelliae	Y
+Citrus exocortis viroid	N
+Citrus exocortis viroid (CEVd)	N
+Citrus leaf rugose virus	N
+Citrus psorosis virus	N
+Citrus tristeza virus	N
+Citrus variegation virus	N
+Cladosporium (syn. Fusicladium) carpophilum	N
+Cladosporium asperulatum	N
+Cladosporium colombiae	Y
+Cladosporium cucumerinum	Y
+Cladosporium echinulatum	N
+Cladosporium paeoniae	N
+Cladosporium phlei	Y
+Cladosporium pseudocladosporioides	N
+Cladosporium ramotenellum	N
+Cladosporium subtilissimum	N
+Cladosporium subuliforme	N
+Cladosporium tenuissimum	N
+Cladosporium velox	Y
+Clavibacter michiganensis	N
+Clitoria yellow vein virus	N
+Clonostachys byssicola	Y
+Clonostachys rhizophaga	Y
+Clover yellow vein virus	N
+Cocksfoot mild mosaic virus	N
+Cocksfoot mottle virus	N
+Cocksfoot streak virus	N
+Coconut cadang-cadang viroid	N
+Coleus blumei viroid 1	N
+Collectotrichum gloeosporioides	N
+Colletotrichum gloeosporioides	Y
+Colletotrichum graminicola	Y
+Cowpea aphid-borne mosaic virus	N
+Cowpea chlorotic mottle virus	N
+Cowpea mild mottle virus	N
+Cowpea mosaic virus	N
+Cowpea mottle virus	N
+Cowpea severe mosaic virus	N
+Cryptocline cinerescens	N
+Cucumber green mottle mosaic virus	N
+Cucumber leaf spot virus	N
+Cucumber mosaic virus	N
+Cucumber necrosis virus	N
+Curvularia spp.	Y
+Cylindrocladium buxicola	N
+Cymbidium mosaic virus	N
+Cymbidium ringspot virus	N
+Cytospora chrysosperma	Y
+Cytospora leucostoma	Y
+Cytospora mali	Y
+Cytospora paraplurivora	Y
+Cytospora piceae	Y
+Cytospora piceicola	Y
+Cytospora spp.	Y
+Dahlia mosaic virus	N
+Dasheen mosaic virus	N
+Dematophora necatrix	N
+Desmodium yellow mottle virus	N
+Diaporthe ampelina	Y
+Diaporthe amygdali	Y
+Diaporthe aspalathi	Y
+Diaporthe australafricana	Y
+Diaporthe batatas	Y
+Diaporthe capsici	Y
+Diaporthe caulivora	Y
+Diaporthe citri	Y
+Diaporthe destruens	Y
+Diaporthe eres	Y
+Diaporthe helianthi	Y
+Diaporthe humulicola	Y
+Diaporthe ilicicola	Y
+Diaporthe kyushuensis	N
+Diaporthe longicolla	Y
+Diaporthe macadamiae	N
+Diaporthe nobilis	Y
+Diaporthe ueckeri	N
+Diaporthe vaccinii	Y
+Diaporthe vexans	Y
+Didymella arachidicola	Y
+Didymella glomerata	Y
+Didymella pinodella	Y
+Didymella pinodes	N
+Didymella pomorum	Y
+Didymella segeticola	Y
+Diplocarpon coronariae	N
+Diplocarpon earlianum	N
+Diplocarpon mali	Y
+Diplocarpon rosae	Y
+Diplodia quercina	N
+Discula fraxinea	N
+Drechslera iridis	N
+Eggplant mosaic virus	N
+Eggplant mottled dwarf virus	N
+Elderberry latent virus	N
+Elm mottle virus	N
+Elsinoe ampelina	Y
+Elsinoe arachidis	Y
+Elsinoe australis	Y
+Elsinoe batatas	Y
+Elsinoe corni	N
+Elsinoe fawcettii	Y
+Elsinoe necatrix	Y
+Elsinoe perseae	Y
+Elsinoe spp.	Y
+Entomosporium spp.	N
+Eremothecium cymbalariae	Y
+Erwinia amylovora	N
+Erwinia billingiae	N
+Erwinia carotovora	N
+Erwinia nigrifluens	N
+Erwinia oleae	N
+Erwinia persicina	N
+Erwinia piriflorinigrans	N
+Erwinia plantamica	N
+Erwinia psidii	N
+Erwinia pyri	N
+Erwinia pyrifoliae	N
+Erwinia quercina	N
+Erwinia rhapontici	N
+Erwinia rubrifaciens	N
+Erwinia sorbitola	N
+Erwinia spp.	N
+Erwinia tracheiphila	N
+Erysimum latent virus	N
+Erysiphe cichoracearum	N
+Erysiphe cruciferarum	N
+Erysiphe graminis	N
+Erysiphe heraclei	N
+Erysiphe lagerstroemiae	N
+Erysiphe lycopersici	N
+Erysiphe necator	N
+Erysiphe pisi	Y
+Erysiphe polygoni	N
+Erysiphe pulchra	Y
+Eutypa lata	Y
+Exobasidium spp.	Y
+Fig mosaic emaravirus	N
+Fiji disease virus	N
+Fomes annosus	N
+Foxtail mosaic virus	N
+Frangipani mosaic virus	N
+Fusarium abutilonis	Y
+Fusarium acuminatum	N
+Fusarium acutatum	Y
+Fusarium andiyazi	N
+Fusarium asiaticum	Y
+Fusarium avenaceum	Y
+Fusarium boothii	Y
+Fusarium brachygibbosum	Y
+Fusarium cerealis	Y
+Fusarium chlamydosporum	Y
+Fusarium circinatum	Y
+Fusarium commune	N
+Fusarium concentricum	N
+Fusarium cortaderiae	N
+Fusarium culmorum	Y
+Fusarium denticulatum	Y
+Fusarium equiseti	Y
+Fusarium euwallaceae	Y
+Fusarium falciforme	Y
+Fusarium fujikuroi	Y
+Fusarium graminearum	Y
+Fusarium keratoplasticum	Y
+Fusarium kyushuense	Y
+Fusarium langsethiae	N
+Fusarium mangiferae	Y
+Fusarium meridionale	Y
+Fusarium musae	Y
+Fusarium neocosmosporiellum	Y
+Fusarium nirenbergiae	N
+Fusarium nygamai	Y
+Fusarium odoratissimum	Y
+Fusarium oligoseptatum	Y
+Fusarium oxysporum	Y
+Fusarium paranaense	Y
+Fusarium phalaenopsidis	N
+Fusarium poae	Y
+Fusarium proliferatum	Y
+Fusarium pseudoanthophilum	Y
+Fusarium pseudograminearum	Y
+Fusarium pseudonygamai	Y
+Fusarium redolens	Y
+Fusarium sacchari	Y
+Fusarium sambucinum	Y
+Fusarium solani	Y
+Fusarium solani-melongenae	Y
+Fusarium sporotrichioides	Y
+Fusarium spp.	Y
+Fusarium sterilihyphosum	Y
+Fusarium subtropicale	Y
+Fusarium sulawesiense	Y
+Fusarium tardichlamydosporum	N
+Fusarium temperatum	Y
+Fusarium tricinctum	Y
+Fusarium vanettenii	Y
+Fusarium venenatum	Y
+Fusarium verticillioides	Y
+Fusarium virguliforme	Y
+Fusarium vorosii	Y
+Fusarium xylarioides	Y
+Fusicladium (syn. Cladosporium) carpophilum	N
+Gaeumannomyces graminis var. avenae	N
+Galinsoga mosaic virus	N
+Ganoderma applanatum	N
+Ganoderma boninense	Y
+Ganoderma lingzhi	Y
+Ganoderma lucidum	Y
+Ganoderma meredithae	Y
+Geotrichum citri-aurantii	Y
+Gloesporium quercum	N
+Glomerella cingulata	N
+Gnomonia fragariae	N
+Gnomonia leptostyla	N
+Golovinomyces cichoracearum	Y
+Grapevine Bulgarian latent virus	N
+Grapevine chrome mosaic virus	N
+Grapevine fanleaf virus	N
+Grapevine virus A	N
+Green Sichuan pepper ilarvirus	N
+Groundnut rosette virus	N
+Gymnoconia nitens	N
+Gymnosporangium libocedri	N
+Helenium virus S	N
+Henbane mosaic virus	N
+Hendersonula tortuloidea	N
+Heracleum latent virus	N
+Heterobasidion annosum	Y
+Heterosporium gracile	N
+Hibiscus chlorotic ringspot virus	N
+Hippeastrum mosaic virus	N
+Hop latent virus	N
+Hop mosaic virus	N
+Hop stunt viroid	N
+Humulus japonicus latent virus	N
+Hyaloperonospora parasitica	Y
+Hydrangea ringspot virus	N
+Ilarvirus	N
+Ilarvirus APLPV	N
+Ilarvirus ApMV	N
+Ilarvirus PrV1	N
+Ilarvirus RIV1	N
+Iris mild mosaic virus	N
+Iris severe mosaic virus	N
+Johnsongrass mosaic virus	N
+Kabatina juniperi	N
+Kennedya yellow mosaic virus	N
+Laetiporus sulphureus	Y
+Laetisaria fuciformis	N
+Lasiodiplodia citricola	Y
+Lasiodiplodia gonubiensis	Y
+Lasiodiplodia hormozganensis	Y
+Lasiodiplodia iranensis	N
+Lasiodiplodia mahajangana	Y
+Lasiodiplodia pseudotheobromae	N
+Lasiodiplodia theobromae	Y
+Leek yellow stripe virus	N
+Lettuce big vein virus	N
+Lettuce infectious yellows virus	N
+Lettuce mosaic virus	N
+Lettuce necrotic yellows virus	N
+Leveillula taurica	N
+Liberibacter africanus	N
+Liberibacter americanus	N
+Liberibacter asiaticus	N
+Liberibacter brunswickensis	N
+Liberibacter solanacearum	N
+Lilac leaf chlorosis virus	N
+Lilac ring mottle virus	N
+Lily symptomless virus	N
+Lucerne transient streak virus	N
+MLOÂ Â	N
+Maclura mosaic virus	N
+Macrophomina euphorbiicola	N
+Macrophomina phaseolina	Y
+Macrophomina pseudophaseolina	Y
+Magnaporthe poae	N
+Maize chlorotic dwarf virus	N
+Maize dwarf mosaic virus	N
+Maize mosaic virus	N
+Maize rayado fino virus	N
+Maize rough dwarf virus	N
+Maize streak virus	N
+Maize stripe virus	N
+Maize white line mosaic virus	N
+Melandrium yellow fleck virus	N
+Melon necrotic spot virus	N
+Microdochium nivale	Y
+Miscanthus streak virus	N
+Monilinia aucupariae	Y
+Monilinia fructicola	Y
+Monilinia fructigena	Y
+Monilinia laxa	Y
+Monilinia polystroma	Y
+Monilinia spp.	Y
+Monilinia vaccinii-corymbosi	Y
+Mucor piriformis	N
+Mung bean yellow mosaic virus	N
+Mycosphaerella arachidis	Y
+Mycosphaerella brassicicola	N
+Mycosphaerella fragariae	N
+Mycosphaerella rubi	N
+Mycosphaerella spp.	Y
+Narcissus late season yellows virus	N
+Narcissus latent virus	N
+Narcissus mosaic virus	N
+Narcissus yellow stripe virus	N
+Nectria galligena	N
+Neofusicoccum caryigenum	N
+Neofusicoccum kwambonambiense	Y
+Neofusicoccum laricinum	Y
+Neofusicoccum parvum	Y
+Neofusicoccum ribis	Y
+Neofusicoccum spp.	Y
+Neonectria candida	N
+Neonectria coccinea	Y
+Neonectria ditissima	Y
+Neonectria faginata	Y
+Neonectria galligena	N
+Neonectria hederae	Y
+Neonectria magnoliae	Y
+Neonectria neomacrospora	Y
+Neonectria punicea	Y
+Nerine virus X	N
+Northern cereal mosaic virus	N
+Oat blue dwarf virus	N
+Oat chlorotic stunt virus	N
+Oat necrotic mottle virus	N
+Oat sterile dwarf virus	N
+Odontoglossum ringspot virus	N
+Oidium heveae	Y
+Okra mosaic virus	N
+Olive latent virus 2	N
+Onion yellow dwarf virus	N
+Ophiosphaerella korrae	Y
+Ophiostoma ulmi	Y
+Orchid fleck virus	N
+Orthotospovirus tomatomaculae	N
+Ovulinia azalea	N
+Panicum mosaic virus	N
+Pantoea beijingensis	N
+Papaya mosaic virus	N
+Papaya ringspot virus	N
+Parietaria mottle virus	N
+Parsnip yellow fleck virus	N
+Passionfruit woodiness virus	N
+Pea early-browning virus	N
+Pea enation mosaic virus	N
+Pea seed-borne mosaic virus	N
+Pea streak virus	N
+Peach latent mosaic viroid	N
+Peach rosette mosaic virus	N
+Peanut clump virus	N
+Peanut mottle virus	N
+Peanut stunt virus	N
+Peanut virus C	N
+Pear blister canker viroid	N
+Pectobacterium carotovorum	N
+Pelargonium flower break virus	N
+Pelargonium zonate spot virus	N
+Penicillium aurantiogriseum	Y
+Penicillium digitatum	Y
+Penicillium expansum	Y
+Penicillium italicum	Y
+Penicillium spp.	Y
+Pepino mosaic virus	N
+Pepper mild mottle virus	N
+Pepper mottle virus	N
+Pepper ringspot virus	N
+Pepper veinal mottle virus	N
+Peronospora belbahrii	Y
+Peronospora destructor	Y
+Peronospora effusa	N
+Peronospora farinosa	Y
+Peronospora parasitica	N
+Peronospora sparsa	N
+Peronospora tabacina	Y
+Peronospora viciae f.sp. pisi	Y
+Peru tomato virus	N
+Pestalotiopsis funerea	N
+Petunia vein clearing virus	N
+Phaeoacremonium minimum UCRPA7	Y
+Phaeoacremonium spp.	Y
+Phoma herbarum	Y
+Phoma spp.	Y
+Phoma terrestris	N
+Phomopsis juniperovora	N
+Phomopsis mahothocarpi	N
+Phomopsis obscurans	N
+Phomopsis spp.	N
+Phomopsis viticola	N
+Phragmidium mucronatum	N
+Phragmidium rubi-idaei	N
+Phyllachora maydis	Y
+Phyllosticta spp.	Y
+Phyllosticta zinniae	N
+Phymatotrichopsis omnivora	Y
+Phytophthora abietivora	N
+Phytophthora agathidicida	Y
+Phytophthora aleatoria	Y
+Phytophthora alni	N
+Phytophthora asiatica	N
+Phytophthora attenuata	N
+Phytophthora betacei	Y
+Phytophthora boehmeriae	Y
+Phytophthora brassicae	Y
+Phytophthora cactorum	Y
+Phytophthora cajani	Y
+Phytophthora cambivora	N
+Phytophthora capsici	Y
+Phytophthora castanetorum	N
+Phytophthora chlamydospora	Y
+Phytophthora cinnamomi	N
+Phytophthora citricola	Y
+Phytophthora citrophthora	Y
+Phytophthora colocasiae	Y
+Phytophthora constricta	Y
+Phytophthora crassamura	Y
+Phytophthora cryptogea	Y
+Phytophthora elongata	N
+Phytophthora europaea	Y
+Phytophthora flexuosa	N
+Phytophthora foliorum	Y
+Phytophthora formosa	N
+Phytophthora fragariae	Y
+Phytophthora fragariaefolia	Y
+Phytophthora gibbosa	N
+Phytophthora gonapodyides	Y
+Phytophthora gregata	N
+Phytophthora hedraiandra	N
+Phytophthora heterohybrida	N
+Phytophthora hibernalis	Y
+Phytophthora humicola	N
+Phytophthora idaei	Y
+Phytophthora incrassata	N
+Phytophthora infestans	Y
+Phytophthora infestans T30-4	Y
+Phytophthora intricata	N
+Phytophthora kernoviae	Y
+Phytophthora lateralis	Y
+Phytophthora lilii	N
+Phytophthora litchii	Y
+Phytophthora litoralis	N
+Phytophthora macrochlamydospora	Y
+Phytophthora meadii	Y
+Phytophthora megakarya	Y
+Phytophthora megasperma	N
+Phytophthora melonis	Y
+Phytophthora multivora	Y
+Phytophthora nagaii	N
+Phytophthora nicotianae	Y
+Phytophthora niederhauseri	Y
+Phytophthora ohioensis (nom. inval.)	Y
+Phytophthora oleae	N
+Phytophthora ornamentata	N
+Phytophthora palmivora	Y
+Phytophthora parvispora	Y
+Phytophthora pini	Y
+Phytophthora pinifolia	Y
+Phytophthora pisi	Y
+Phytophthora pistaciae	Y
+Phytophthora plurivora	Y
+Phytophthora pluvialis	Y
+Phytophthora podocarpi	Y
+Phytophthora pseudolactucae	N
+Phytophthora pseudosyringae	Y
+Phytophthora quercina	Y
+Phytophthora quininea	Y
+Phytophthora ramorum	N
+Phytophthora rosacearum	N
+Phytophthora rubi	Y
+Phytophthora sansomeana	Y
+Phytophthora sojae	Y
+Phytophthora spp.	Y
+Phytophthora syringae	Y
+Phytophthora tentaculata	Y
+Phytophthora tubulina	Y
+Phytophthora uliginosa	Y
+Phytophthora vignae f. sp. vignae	Y
+Plantain virus X	N
+Plasmodiophora brassicae	Y
+Plasmopara (syn. Peronospora) spp.	Y
+Plasmopara halstedii	Y
+Plasmopara muralis	Y
+Plasmopara viticola	Y
+Pleurotus ostreatus	Y
+Plum pox virus	N
+Podosphaera aphanis	Y
+Podosphaera clandestina	N
+Podosphaera fusca	Y
+Podosphaera leucotricha	Y
+Podosphaera pannosa	N
+Podosphaera tridactyla	N
+Podosphaera xanthii	Y
+Poinsettia mosaic virus	N
+Pokeweed mosaic virus	N
+Poplar mosaic virus	N
+Potato aucuba mosaic virus	N
+Potato black ringspot virus	N
+Potato leaf roll virus	N
+Potato leafroll virus	N
+Potato mop-top virus	N
+Potato virus Y	N
+Potato yellow dwarf virus	N
+Potato yellowing virus	N
+Pothos latent virus	N
+Privet ringspot virus	N
+Prune dwarf virus	N
+Prunus necrotic ringspot virus	N
+Pseudomonas gladioli	N
+Pseudomonas savastanoi pv. nerii	N
+Pseudomonas savastanoi pv. savastanoi	N
+Pseudomonas spp.	N
+Pseudomonas syringae	N
+Pseudonectria rousseliana	N
+Pseudoperonospora cubensis	N
+Pseudoperonospora humuli	Y
+Puccinia asparagi	N
+Puccinia brachypodii	Y
+Puccinia coronata	Y
+Puccinia graminis	Y
+Puccinia hordei	Y
+Puccinia horiana	Y
+Puccinia novopanici	Y
+Puccinia polysora	Y
+Puccinia silphii	N
+Puccinia sorghi	Y
+Puccinia spp.	Y
+Puccinia striiformis	Y
+Puccinia triticina	Y
+Pyriculria grisea	N
+Pythium amasculinum	N
+Pythium angustatum	Y
+Pythium aphanidermatum	Y
+Pythium aphanidermatum DAOM BR444	Y
+Pythium apiculatum	N
+Pythium apleroticum	Y
+Pythium aquatile	Y
+Pythium aristosporum	Y
+Pythium arrhenomanes	Y
+Pythium biforme	Y
+Pythium brachiatum	Y
+Pythium catenulatum	Y
+Pythium cedri	N
+Pythium chondricola	Y
+Pythium coloratum	Y
+Pythium diclinum	Y
+Pythium dissimile	Y
+Pythium dissotocum	Y
+Pythium folliculosum	Y
+Pythium graminicola	Y
+Pythium grandisporangium	Y
+Pythium guiyangense	Y
+Pythium hydnosporum	N
+Pythium inflatum	Y
+Pythium insidiosum	Y
+Pythium lycopersicum	N
+Pythium monospermum	Y
+Pythium myriotylum	Y
+Pythium oligandrum	Y
+Pythium ornamentatum	N
+Pythium pectinolyticum	Y
+Pythium periplocum	Y
+Pythium phragmiticola	Y
+Pythium phragmitis	Y
+Pythium plurisporium	Y
+Pythium porphyrae	N
+Pythium pyrilobum	Y
+Pythium rhizo-oryzae	Y
+Pythium rishiriense	Y
+Pythium scleroteichum	Y
+Pythium spp.	Y
+Pythium sukuiense	Y
+Pythium torulosum	N
+Pythium utonaiense	Y
+Pythium vanterpoolii	Y
+Pythium violae	N
+Pythium volutum	Y
+Radish mosaic virus	N
+Ramularia coccinea	Y
+Ramularia collo-cygni	Y
+Ramularia deusta	N
+Ramularia primulae	N
+Ramularia tulasnei	N
+Raspberry bushy dwarf virus	N
+Raspberry ringspot virus	N
+Raspberry vein chlorosis virus	N
+Red clover necrotic mosaic virus	N
+Rhizobium rhizogenes	N
+Rhizoctonia solani	Y
+Rhizoctonia spp.	Y
+Rhizopus spp.	Y
+Rhizopus stolonifer	Y
+Rhytidhysteron rufulum	Y
+Ribgrass mosaic virus	N
+Rice black streaked dwarf virus	N
+Rice dwarf virus	N
+Rice gall dwarf virus	N
+Rice grassy stunt virus	N
+Rice hoja blanca virus	N
+Rice necrosis mosaic virus	N
+Rice ragged stunt virus	N
+Rice stripe virus	N
+Rice transitory yellowing virus	N
+Rice tungro spherical virus	N
+Rice yellow mottle virus	N
+Rosellinia necatrix	Y
+Rubus yellow net virus	N
+Ryegrass mosaic virus	N
+Saguaro cactus virus	N
+Satsuma dwarf virus	N
+Schizophyllum commune	Y
+Sclerotinia asari	N
+Sclerotinia borealis	Y
+Sclerotinia minor	Y
+Sclerotinia narcissicola	N
+Sclerotinia nivalis	Y
+Sclerotinia sclerotiorum	Y
+Sclerotinia spermophila	Y
+Sclerotinia spp.	Y
+Sclerotinia subarctica	Y
+Sclerotinia trifoliorum	Y
+Sclerotium cepivorum	N
+Sclerotium rolfsii	N
+Scrophularia mottle virus	N
+Septocyta ruborum	N
+Septoria chrysanthemi	N
+Septoria dianthi	N
+Septoria glycines	N
+Septoria linicola	Y
+Septoria petroselini	Y
+Septoria spp.	Y
+Septoria verbenae	N
+Shallot latent virus	N
+Shallot virus X	N
+Soil-borne wheat mosaic virus	N
+Solanum nigrum ilarvirus 1	N
+Solanum nodiflorum mottle virus	N
+Sonchus yellow net virus	N
+Sorghum mosaic virus	N
+Southern bean mosaic virus	N
+Sowbane mosaic virus	N
+Sowthistle yellow vein virus	N
+Soybean chlorotic mottle virus	N
+Soybean dwarf virus	N
+Soybean mosaic virus	N
+Sphaceloma rosarum	N
+Sphacelotheca reiliana	N
+Sphaerotheca fuliginea	N
+Sphaerotheca macularis	N
+Sphaerotheca pannosa	N
+Spinach latent virus	N
+Spongospora subterranea	Y
+Squash leaf curl virus	N
+Stemphylium beticola	Y
+Stemphylium lycopersici	Y
+Stemphylium spp.	Y
+Stemphylium vesicarium	Y
+Stereum hirsutum FP-91666 SS1	Y
+Stereum spp.	Y
+Strawberry crinkle virus	N
+Strawberry latent ringspot virus	N
+Strawberry necrotic shock virus	N
+Strawberry vein banding virus	N
+Streptomyces spp.	N
+Stromatinia gladioli	N
+Subterranean clover stunt virus	N
+Sunn-hemp mosaic virus	N
+Sweet clover necrotic mosaic virus	N
+Sweet potato mild mottle virus	N
+Taphrina betulina	Y
+Taphrina communis	Y
+Taphrina confusa	Y
+Taphrina deformans	Y
+Taphrina flavorubra JCM 22207	Y
+Taphrina populina JCM 22190	Y
+Taphrina spp.	Y
+Taphrina wiesneri	Y
+Tea plant line pattern virus	N
+Thielaviopsis ethacetica	Y
+Thielaviopsis musarum	Y
+Thielaviopsis punctulata	Y
+Thielaviopsis spp.	Y
+Tobacco etch virus	N
+Tobacco leaf curl virus	N
+Tobacco mild green mosaic virus	N
+Tobacco mosaic virus	N
+Tobacco mosaic virus Â	N
+Tobacco necrosis virus	N
+Tobacco rattle virus	N
+Tobacco ringspot virus	N
+Tobacco streak virus	N
+Tobacco vein mottling virus	N
+Tobacco yellow dwarf virus	N
+Tomato aspermy virus	N
+Tomato black ring virus	N
+Tomato bushy stunt virus	N
+Tomato golden mosaic virus	N
+Tomato ilarvirus 1	N
+Tomato mosaic virus	N
+Tomato necrotic streak virus	N
+Tomato pseudo-curly top virus	N
+Tomato ringspot virus	N
+Tomato spotted wilt virus	N
+Trametes gibbosa	Y
+Trametes hirsuta	Y
+Trametes pubescens	Y
+Trametes versicolor	Y
+Trametes versicolor FP-101664 SS1	Y
+Tranzschelia discolor	N
+Trichoderma asperellum	Y
+Tristeza virus	N
+Tulare apple mosaic virus	N
+Tulip breaking virus	N
+Tulip virus X	N
+Turnip crinkle virus	N
+Turnip mosaic virus	N
+Turnip rosette virus	N
+Turnip yellow mosaic virus	N
+Ullucus polerovirus 1	N
+Uromyces phaseoli	N
+Uromyces transversalis	N
+Uromyces viciae-fabae	Y
+Ustilago maydis	N
+Ustulina deusta	Y
+Velvet tobacco mottle virus	N
+Venturia asperata	Y
+Venturia aucupariae	Y
+Venturia carpophila	Y
+Venturia effusa	Y
+Venturia inaequalis	N
+Venturia nashicola	Y
+Venturia oleaginea	Y
+Venturia pirina	N
+Venturia pyrina ICMP 11032	Y
+Verticillium albo-atrum	Y
+Verticillium alfalfae VaMs.102	Y
+Verticillium dahliae	Y
+Verticillium dahliae VdLs.17	Y
+Verticillium isaacii	Y
+Verticillium klebahnii	Y
+Verticillium longisporum	Y
+Verticillium nonalfalfae	Y
+Verticillium spp.	Y
+Verticillium zaregamsianum	Y
+Viola yellow mottle virus	N
+Watermelon mosaic virus	N
+Wheat spindle streak mosaic virus	N
+Wheat streak mosaic virus	N
+Wheat yellow dwarf virus	N
+White clover mosaic virus	N
+Wild cucumber mosaic virus	N
+Wilsonomyces carpophilus	N
+Wineberry latent virus	N
+Wound tumor virus	N
+X-disease	N
+Xanthamonas campestris	N
+Xanthamonas fragariae	N
+Xanthomonas campestris	N
+Xanthomonas fragariae	N
+Xanthomonas spp.	N
+Xylella fastidiosa	N
+Yam mosaic virus	N
+Zucchini yellow mosaic virus	N
+Zythia fragariae	N
+cherry leaf roll virus	N
+na	N
+rose ilarvirus 2	N
+water chestnut virus A	N

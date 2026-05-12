@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Check plant pathogen lists against the Evo2 training list.
+Check plant pathogen names against the Evo2 plant-pathogen list and full Evo2 list.
 
 RUN: python main.py
 """
@@ -17,11 +17,11 @@ from pathlib import Path
 
 
 UC_IPM_URL = "https://ipm.ucanr.edu/PMG/diseases/diseaseslist.html"
-DEFAULT_ADDITIONAL_BACTERIA_PATHOGENS_FILE = Path("additional_bacteria_plant_pathogens.txt")
+DEFAULT_COMBINED_PATHOGEN_FILE = Path("combined_plant_pathogen_list.txt")
+DEFAULT_EUKARYOTIC_PATHOGEN_FILE = Path("evo2_eukaryotic_plant_pathogens.txt")
 DEFAULT_EVO2_TRAINING_FILE = Path("evo2_full_training_dataset.txt")
-DEFAULT_BACTERIAL_OUTPUT_FILE = Path("bacteria_plant_pathogen_results")
-DEFAULT_EUKARYOTIC_FILE = Path("eukaryotic_plant_pathogens.txt")
-DEFAULT_EUKARYOTIC_OUTPUT_FILE = Path("eukaryotic_plant_pathogen_results")
+DEFAULT_EUKARYOTIC_OUTPUT_FILE = Path("plant_pathogens_vs._eukaryotes_evo2")
+DEFAULT_ENTIRE_EVO2_OUTPUT_FILE = Path("plant_pathogen_vs._entire_evo2")
 
 # Names from the UC IPM table that are not actual organisms.
 SKIP_NAMES = {"", "none", "unknown", "various"}
@@ -280,18 +280,16 @@ def matching_assembly_ids(pathogen_name, normalized_evo2_names, main_evo2_names,
     return matches
 
 
-def write_output_file(matches, output_path):
+def write_output_file(matches, output_path, source_name):
     """Write the Y/N result file."""
     with output_path.open("w", encoding="utf-8", newline="\n") as file:
-        file.write("# Y = found in the Evo2 organism file; N = not found.\n")
-        file.write("# Multiple assembly IDs mean multiple Evo2 assemblies matched the same pathogen.\n")
-        file.write("# Pathogen\tY/N\tAssembly_IDs\n\n\n")
+        file.write(f"# Y = found in {source_name}; N = not found.\n")
+        file.write("# Pathogen\tY/N\n\n\n")
 
         for pathogen in sorted(matches):
             assembly_ids = matches[pathogen]
             status = "Y" if assembly_ids else "N"
-            assembly_id_text = ";".join(sorted(assembly_id for assembly_id in assembly_ids if assembly_id))
-            file.write(f"{pathogen}\t{status}\t{assembly_id_text}\n")
+            file.write(f"{pathogen}\t{status}\n")
 
 
 def get_command_line_args():
@@ -300,20 +298,18 @@ def get_command_line_args():
         description="Check whether UC IPM plant pathogens were used in Evo2 training."
     )
     parser.add_argument(
-        "--organism-type",
-        choices=("all", "bacterial", "eukaryotic"),
-        default="all",
-        help="Which organism-type output to generate. Default: all",
+        "--combined-pathogens",
+        default=DEFAULT_COMBINED_PATHOGEN_FILE,
+        type=Path,
+        help=f"Path to the extra plant pathogen list. Default: {DEFAULT_COMBINED_PATHOGEN_FILE}",
     )
     parser.add_argument(
-        "--additional-bacteria-pathogens",
-        "--additional-pathogens",
-        dest="additional_bacteria_pathogens",
-        default=DEFAULT_ADDITIONAL_BACTERIA_PATHOGENS_FILE,
+        "--eukaryotic-dataset",
+        default=DEFAULT_EUKARYOTIC_PATHOGEN_FILE,
         type=Path,
         help=(
-            "Path to extra bacterial plant pathogen names to add to the UC IPM list. "
-            f"Default: {DEFAULT_ADDITIONAL_BACTERIA_PATHOGENS_FILE}"
+            "Path to the Evo2 eukaryotic plant-pathogen list. "
+            f"Default: {DEFAULT_EUKARYOTIC_PATHOGEN_FILE}"
         ),
     )
     parser.add_argument(
@@ -323,39 +319,33 @@ def get_command_line_args():
         help=f"Path to the full Evo2 training dataset. Default: {DEFAULT_EVO2_TRAINING_FILE}",
     )
     parser.add_argument(
-        "--eukaryotic-file",
-        default=DEFAULT_EUKARYOTIC_FILE,
-        type=Path,
-        help=f"Path to the eukaryotic assembly/species query file. Default: {DEFAULT_EUKARYOTIC_FILE}",
-    )
-    parser.add_argument(
-        "--bacterial-output",
-        default=DEFAULT_BACTERIAL_OUTPUT_FILE,
-        type=Path,
-        help=f"Path for the bacterial output file. Default: {DEFAULT_BACTERIAL_OUTPUT_FILE}",
-    )
-    parser.add_argument(
         "--eukaryotic-output",
         default=DEFAULT_EUKARYOTIC_OUTPUT_FILE,
         type=Path,
-        help=f"Path for the eukaryotic output file. Default: {DEFAULT_EUKARYOTIC_OUTPUT_FILE}",
+        help=f"Path for the eukaryotic comparison output. Default: {DEFAULT_EUKARYOTIC_OUTPUT_FILE}",
+    )
+    parser.add_argument(
+        "--entire-evo2-output",
+        default=DEFAULT_ENTIRE_EVO2_OUTPUT_FILE,
+        type=Path,
+        help=f"Path for the full Evo2 comparison output. Default: {DEFAULT_ENTIRE_EVO2_OUTPUT_FILE}",
     )
     parser.add_argument("--url", default=UC_IPM_URL, help="UC IPM disease-list URL.")
     return parser.parse_args()
 
 
-def combined_bacterial_pathogen_names(url, additional_bacteria_pathogens_path):
-    """Website names plus the extra bacteria list."""
+def combined_pathogen_names(url, combined_pathogens_path):
+    """Website names plus the local pathogen list."""
     page_html = download_uc_ipm_page(url)
     pathogens = get_pathogens_from_uc_ipm(page_html)
     if not pathogens:
         raise RuntimeError("no pathogen names were found on the UC IPM page")
 
-    additional_bacteria_pathogens = read_pathogen_name_file(additional_bacteria_pathogens_path)
-    return list(dict.fromkeys(pathogens + additional_bacteria_pathogens))
+    extra_pathogens = read_pathogen_name_file(combined_pathogens_path)
+    return list(dict.fromkeys(pathogens + extra_pathogens))
 
 
-def write_matches_for_names(pathogen_names, lookup_maps, output_path):
+def write_matches_for_names(pathogen_names, lookup_maps, output_path, source_name):
     """Make one result file."""
     assembly_names, assembly_main_names, assembly_genera = lookup_maps
     matches = {}
@@ -369,7 +359,7 @@ def write_matches_for_names(pathogen_names, lookup_maps, output_path):
             )
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    write_output_file(matches, output_path)
+    write_output_file(matches, output_path, source_name)
 
     yes_count = sum(bool(assembly_ids) for assembly_ids in matches.values())
     no_count = sum(not assembly_ids for assembly_ids in matches.values())
@@ -379,71 +369,48 @@ def write_matches_for_names(pathogen_names, lookup_maps, output_path):
     return matches
 
 
-def write_matches_for_organism_rows(organisms, lookup_maps, output_path):
-    """Keep the input assembly/species rows and add Evo2 match columns."""
-    assembly_names, assembly_main_names, assembly_genera = lookup_maps
-
-    rows = []
-    for organism in organisms:
-        matches = matching_assembly_ids(
-            organism.species_name,
-            assembly_names,
-            assembly_main_names,
-            assembly_genera,
-        )
-        rows.append((organism, matches))
-
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    with output_path.open("w", encoding="utf-8", newline="\n") as file:
-        file.write("# Y = found in the Evo2 organism file; N = not found.\n")
-        file.write("# Evo2_Assembly_IDs lists the matching assembly IDs from evo2_full_training_dataset.txt.\n")
-        file.write("# Input_Assembly_ID\tSpecies_Name\tY/N\tEvo2_Assembly_IDs\n\n\n")
-
-        for organism, matches in rows:
-            status = "Y" if matches else "N"
-            assembly_id_text = ";".join(sorted(assembly_id for assembly_id in matches if assembly_id))
-            file.write(f"{organism.assembly_id}\t{organism.species_name}\t{status}\t{assembly_id_text}\n")
-
-    yes_count = sum(bool(matches) for _, matches in rows)
-    no_count = sum(not matches for _, matches in rows)
-    print(f"Wrote {len(rows)} pathogen results to {output_path}")
-    print(f"Y: {yes_count}")
-    print(f"N: {no_count}")
-    return rows
-
-
 def main():
     args = get_command_line_args()
 
+    if not args.combined_pathogens.exists():
+        print(f"Error: combined pathogen file does not exist: {args.combined_pathogens}", file=sys.stderr)
+        return 2
+    if not args.eukaryotic_dataset.exists():
+        print(f"Error: eukaryotic dataset file does not exist: {args.eukaryotic_dataset}", file=sys.stderr)
+        return 2
     if not args.evo2_training_file.exists():
         print(f"Error: Evo2 training file does not exist: {args.evo2_training_file}", file=sys.stderr)
         return 2
 
-    if args.organism_type in {"all", "bacterial"} and not args.additional_bacteria_pathogens.exists():
-        print(
-            f"Error: additional bacteria pathogen file does not exist: {args.additional_bacteria_pathogens}",
-            file=sys.stderr,
+    eukaryotic_rows = read_evo2_file(args.eukaryotic_dataset)
+    eukaryotic_lookup_maps = make_training_lookup_maps(eukaryotic_rows)
+
+    evo2_rows = read_evo2_file(args.evo2_training_file)
+    evo2_lookup_maps = make_training_lookup_maps(evo2_rows)
+
+    try:
+        pathogen_names = combined_pathogen_names(
+            args.url,
+            args.combined_pathogens,
         )
-        return 2
+    except RuntimeError as error:
+        print(f"Error: {error}.", file=sys.stderr)
+        return 1
 
-    if args.organism_type in {"all", "eukaryotic"} and not args.eukaryotic_file.exists():
-        print(f"Error: eukaryotic file does not exist: {args.eukaryotic_file}", file=sys.stderr)
-        return 2
+    write_matches_for_names(
+        pathogen_names,
+        eukaryotic_lookup_maps,
+        args.eukaryotic_output,
+        args.eukaryotic_dataset.name,
+    )
 
-    evo2_assemblies = read_evo2_file(args.evo2_training_file)
-    lookup_maps = make_training_lookup_maps(evo2_assemblies)
-
-    if args.organism_type in {"all", "bacterial"}:
-        try:
-            bacterial_names = combined_bacterial_pathogen_names(args.url, args.additional_bacteria_pathogens)
-        except RuntimeError as error:
-            print(f"Error: {error}.", file=sys.stderr)
-            return 1
-        write_matches_for_names(bacterial_names, lookup_maps, args.bacterial_output)
-
-    if args.organism_type in {"all", "eukaryotic"}:
-        eukaryotic_rows = read_evo2_file(args.eukaryotic_file)
-        write_matches_for_organism_rows(eukaryotic_rows, lookup_maps, args.eukaryotic_output)
+    combined_list_names = read_pathogen_name_file(args.combined_pathogens)
+    write_matches_for_names(
+        combined_list_names,
+        evo2_lookup_maps,
+        args.entire_evo2_output,
+        args.evo2_training_file.name,
+    )
 
     return 0
 
