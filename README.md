@@ -1,10 +1,10 @@
 # Plant Pathogen Genome Filtering
 
-This project checks whether plant pathogens from the UC IPM disease list and `additional_pathogens.txt` appear in an Evo2 training-organism file.
+This project checks plant pathogen names against `evo2_full_training_dataset.txt`, the full Evo2 training-organism file.
 
-Evo2 is a genomic foundation model trained on large amounts of biological sequence data; this project uses an organism list associated with Evo2 to check whether specific plant pathogens appear in that data.
+Evo2 is a genomic model trained on biological sequence data. Here, I am using the Evo2 organism list to see which plant pathogens show up in that training data.
 
-The program creates a text file with one pathogen per line:
+The program writes two result files:
 
 ```text
 # Y = found in the Evo2 organism file; N = not found.
@@ -23,9 +23,11 @@ The third field contains the matching Evo2 assembly ID or IDs when a match is fo
 ## Files
 
 - `main.py` - the Python script
-- `additional_pathogens.txt` - extra pathogen names to include with the UC IPM website names
-- `all_bacterial_species_in_evo2.txt` - the Evo2 assembly ID lookup file
-- `evo2_plant_pathogen_matches.txt` - the output file created by the script
+- `evo2_full_training_dataset.txt` - the Evo2 list used for comparison
+- `additional_bacteria_plant_pathogens.txt` - extra bacterial plant pathogen names added to the UC IPM website names
+- `eukaryotic_plant_pathogens.txt` - eukaryotic plant pathogen names
+- `bacteria_plant_pathogen_results` - bacterial output file
+- `eukaryotic_plant_pathogen_results` - eukaryotic output file
 
 ## How To Run
 
@@ -35,14 +37,27 @@ From this project folder, run:
 python main.py
 ```
 
+This creates:
+
+```text
+bacteria_plant_pathogen_results
+eukaryotic_plant_pathogen_results
+```
+
+To run only one part:
+
+```powershell
+python main.py --organism-type bacterial
+python main.py --organism-type eukaryotic
+```
+
 The script will:
 
-1. Download the UC IPM plant disease list.
-2. Pull out the pathogen scientific names.
-3. Read extra pathogen names from `additional_pathogens.txt`.
-4. Read the Evo2 assembly ID lookup file.
-5. Compare all pathogen names to the Evo2 names.
-6. Write the final `Y` / `N` results file with matching assembly IDs.
+1. Read `evo2_full_training_dataset.txt`.
+2. Make the bacteria list from the UC IPM website plus `additional_bacteria_plant_pathogens.txt`.
+3. Read the eukaryote list from `eukaryotic_plant_pathogens.txt`.
+4. Compare both lists to the Evo2 list.
+5. Write the two result files with matching assembly IDs.
 
 ## Data Source
 

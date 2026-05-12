@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Checks if each UC IPM pathogen plus each additional pathogen appears in the Evo2 organism file.
+Check plant pathogen lists against the Evo2 training list.
 
 RUN: python main.py
 """
@@ -17,14 +17,16 @@ from pathlib import Path
 
 
 UC_IPM_URL = "https://ipm.ucanr.edu/PMG/diseases/diseaseslist.html"
-DEFAULT_ADDITIONAL_PATHOGENS_FILE = Path("additional_pathogens.txt")
-DEFAULT_ASSEMBLY_FILE = Path("all_bacterial_species_in_evo2.txt")
-DEFAULT_OUTPUT_FILE = Path("evo2_plant_pathogen_matches.txt")
+DEFAULT_ADDITIONAL_BACTERIA_PATHOGENS_FILE = Path("additional_bacteria_plant_pathogens.txt")
+DEFAULT_EVO2_TRAINING_FILE = Path("evo2_full_training_dataset.txt")
+DEFAULT_BACTERIAL_OUTPUT_FILE = Path("bacteria_plant_pathogen_results")
+DEFAULT_EUKARYOTIC_FILE = Path("eukaryotic_plant_pathogens.txt")
+DEFAULT_EUKARYOTIC_OUTPUT_FILE = Path("eukaryotic_plant_pathogen_results")
 
-# Skip non-organism names.
+# Names from the UC IPM table that are not actual organisms.
 SKIP_NAMES = {"", "none", "unknown", "various"}
 
-# Stop matching before strain details.
+# Words after these are usually strain/pathovar details.
 STRAIN_WORDS = {
     "subsp",
     "subspecies",
@@ -43,14 +45,14 @@ STRAIN_WORDS = {
 
 @dataclass(frozen=True)
 class Evo2Organism:
-    """One Evo2 row."""
+    """One row from an assembly/species file."""
 
     assembly_id: str
     species_name: str
 
 
 class SimpleTableParser(HTMLParser):
-    """Collect rows from an HTML table."""
+    """Small table parser for the UC IPM page."""
 
     def __init__(self):
         super().__init__()
@@ -82,12 +84,12 @@ class SimpleTableParser(HTMLParser):
 
 
 def clean_spaces(text):
-    """Collapse extra whitespace."""
+    """Clean up repeated whitespace."""
     return re.sub(r"\s+", " ", html.unescape(text)).strip()
 
 
 def normalize_name(name):
-    """Make names easier to compare."""
+    """Lowercase and remove punctuation for matching."""
     name = html.unescape(name).lower()
     name = name.replace("&", " and ")
     name = re.sub(r"\b(spp?|sp)\.", r"\1", name)
@@ -96,12 +98,12 @@ def normalize_name(name):
 
 
 def remove_parentheses(name):
-    """Remove parenthetical notes."""
+    """Drop notes in parentheses."""
     return clean_spaces(re.sub(r"\([^)]*\)", " ", name))
 
 
 def possible_name_versions(name):
-    """Return synonym/name variants."""
+    """Handle a few simple synonym formats."""
     versions = {name, remove_parentheses(name)}
 
     synonym_match = re.search(r"^(\S+)\s+\((?:syn\.?|synonym)\s+([^)]+)\)\s+(.+)$", name, re.I)
@@ -118,12 +120,12 @@ def possible_name_versions(name):
 
 
 def main_part_of_name(name):
-    """Keep the main species-level name."""
+    """Keep the genus/species part used for matching."""
     words = normalize_name(remove_parentheses(name)).split()
     if not words:
         return ""
 
-    # Candidatus names usually need three words.
+    # Candidatus names usually need the third word too.
     if words[0] == "candidatus" and len(words) >= 3:
         return " ".join(words[:3])
 
@@ -142,19 +144,19 @@ def main_part_of_name(name):
 
 
 def is_genus_level_name(name):
-    """Check for broad names like 'Pseudomonas spp.'."""
+    """True for names like Pseudomonas spp."""
     normalized = normalize_name(name)
     return bool(re.search(r"\b(spp|sp)\b", normalized)) and len(normalized.split()) >= 2
 
 
 def first_word(name):
-    """Return the first word."""
+    """Get the genus-ish first word."""
     words = normalize_name(name).split()
     return words[0] if words else ""
 
 
 def read_evo2_file(path):
-    """Read Evo2 organism rows."""
+    """Read an assembly/species file."""
     with path.open("r", encoding="utf-8-sig", newline="") as file:
         sample = file.read(4096)
         file.seek(0)
@@ -162,7 +164,7 @@ def read_evo2_file(path):
         delimiter = "\t" if "\t" in sample else ","
         reader = csv.DictReader(file, delimiter=delimiter)
 
-        # Normal input format.
+        # Tab/csv files with headers.
         if reader.fieldnames and "Species_Name" in reader.fieldnames:
             return [
                 Evo2Organism(
@@ -173,7 +175,7 @@ def read_evo2_file(path):
                 if row.get("Species_Name")
             ]
 
-        # Fallback: one organism name per line.
+        # Plain one-name-per-line files.
         file.seek(0)
         return [
             Evo2Organism(assembly_id=clean_spaces(line), species_name=clean_spaces(line))
@@ -183,7 +185,7 @@ def read_evo2_file(path):
 
 
 def read_pathogen_name_file(path):
-    """Read one pathogen name per line."""
+    """Read a plain list of pathogen names."""
     with path.open("r", encoding="utf-8-sig") as file:
         return [
             clean_spaces(line)
@@ -192,8 +194,20 @@ def read_pathogen_name_file(path):
         ]
 
 
+def organism_names_from_rows(organisms):
+    """Keep one copy of each species name."""
+    names = []
+    seen = set()
+    for organism in organisms:
+        normalized = normalize_name(organism.species_name)
+        if normalized and normalized not in seen:
+            names.append(organism.species_name)
+            seen.add(normalized)
+    return names
+
+
 def download_uc_ipm_page(url):
-    """Download the UC IPM page."""
+    """Fetch the UC IPM disease list."""
     request = urllib.request.Request(
         url,
         headers={"User-Agent": "GenomeModeling Evo2 pathogen checker"},
@@ -203,7 +217,7 @@ def download_uc_ipm_page(url):
 
 
 def get_pathogens_from_uc_ipm(page_html):
-    """Get pathogen names from the UC IPM table."""
+    """Pull scientific names out of the UC IPM table."""
     parser = SimpleTableParser()
     parser.feed(page_html)
 
@@ -226,7 +240,7 @@ def get_pathogens_from_uc_ipm(page_html):
 
 
 def make_training_lookup_maps(evo2_organisms):
-    """Build name-to-assembly lookup maps."""
+    """Build lookup tables for matching."""
     normalized_names = {}
     main_names = {}
     genera = {}
@@ -249,28 +263,28 @@ def make_training_lookup_maps(evo2_organisms):
 
 
 def matching_assembly_ids(pathogen_name, normalized_evo2_names, main_evo2_names, evo2_genera):
-    """Find matching assembly IDs."""
+    """Find Evo2 assembly IDs for one name."""
     matches = set()
 
     for version in sorted(possible_name_versions(pathogen_name)):
         normalized_version = normalize_name(version)
 
-        # Exact name match.
+        # Exact match.
         if normalized_version in normalized_evo2_names:
             matches.update(normalized_evo2_names[normalized_version])
 
-        # Genus-level match.
+        # Genus-level names, like Pseudomonas spp.
         if is_genus_level_name(version):
             genus = first_word(version)
             if genus in evo2_genera:
                 matches.update(evo2_genera[genus])
 
-        # Species-level match.
+        # Genus + species match.
         main_name = main_part_of_name(version)
         if main_name in main_evo2_names:
             matches.update(main_evo2_names[main_name])
 
-        # Prefix match for names with extra details.
+        # Match names that have strain details after the species.
         for evo2_name, assembly_ids in normalized_evo2_names.items():
             if evo2_name.startswith(f"{normalized_version} "):
                 matches.update(assembly_ids)
@@ -279,7 +293,7 @@ def matching_assembly_ids(pathogen_name, normalized_evo2_names, main_evo2_names,
 
 
 def write_output_file(matches, output_path):
-    """Write the output file."""
+    """Write the Y/N result file."""
     with output_path.open("w", encoding="utf-8", newline="\n") as file:
         file.write("# Y = found in the Evo2 organism file; N = not found.\n")
         file.write("# Multiple assembly IDs mean multiple Evo2 assemblies matched the same pathogen.\n")
@@ -293,60 +307,71 @@ def write_output_file(matches, output_path):
 
 
 def get_command_line_args():
-    """Read command-line options."""
+    """Command-line options."""
     parser = argparse.ArgumentParser(
         description="Check whether UC IPM plant pathogens were used in Evo2 training."
     )
     parser.add_argument(
+        "--organism-type",
+        choices=("all", "bacterial", "eukaryotic"),
+        default="all",
+        help="Which organism-type output to generate. Default: all",
+    )
+    parser.add_argument(
+        "--additional-bacteria-pathogens",
         "--additional-pathogens",
-        default=DEFAULT_ADDITIONAL_PATHOGENS_FILE,
+        dest="additional_bacteria_pathogens",
+        default=DEFAULT_ADDITIONAL_BACTERIA_PATHOGENS_FILE,
         type=Path,
-        help=f"Path to extra pathogen names to add to the UC IPM list. Default: {DEFAULT_ADDITIONAL_PATHOGENS_FILE}",
+        help=(
+            "Path to extra bacterial plant pathogen names to add to the UC IPM list. "
+            f"Default: {DEFAULT_ADDITIONAL_BACTERIA_PATHOGENS_FILE}"
+        ),
     )
     parser.add_argument(
-        "--assembly-file",
-        default=DEFAULT_ASSEMBLY_FILE,
+        "--evo2-training-file",
+        default=DEFAULT_EVO2_TRAINING_FILE,
         type=Path,
-        help=f"Path to the Evo2 assembly ID table. Default: {DEFAULT_ASSEMBLY_FILE}",
+        help=f"Path to the full Evo2 training dataset. Default: {DEFAULT_EVO2_TRAINING_FILE}",
     )
     parser.add_argument(
-        "--output",
-        default=DEFAULT_OUTPUT_FILE,
+        "--eukaryotic-file",
+        default=DEFAULT_EUKARYOTIC_FILE,
         type=Path,
-        help=f"Path for the output text file. Default: {DEFAULT_OUTPUT_FILE}",
+        help=f"Path to the eukaryotic assembly/species query file. Default: {DEFAULT_EUKARYOTIC_FILE}",
+    )
+    parser.add_argument(
+        "--bacterial-output",
+        default=DEFAULT_BACTERIAL_OUTPUT_FILE,
+        type=Path,
+        help=f"Path for the bacterial output file. Default: {DEFAULT_BACTERIAL_OUTPUT_FILE}",
+    )
+    parser.add_argument(
+        "--eukaryotic-output",
+        default=DEFAULT_EUKARYOTIC_OUTPUT_FILE,
+        type=Path,
+        help=f"Path for the eukaryotic output file. Default: {DEFAULT_EUKARYOTIC_OUTPUT_FILE}",
     )
     parser.add_argument("--url", default=UC_IPM_URL, help="UC IPM disease-list URL.")
     return parser.parse_args()
 
 
-def main():
-    args = get_command_line_args()
-
-    if not args.additional_pathogens.exists():
-        print(f"Error: additional pathogen file does not exist: {args.additional_pathogens}", file=sys.stderr)
-        return 2
-
-    if not args.assembly_file.exists():
-        print(f"Error: Evo2 assembly file does not exist: {args.assembly_file}", file=sys.stderr)
-        return 2
-
-    # Read the Evo2 assembly ID table.
-    evo2_assemblies = read_evo2_file(args.assembly_file)
-    assembly_names, assembly_main_names, assembly_genera = make_training_lookup_maps(evo2_assemblies)
-
-    # Get UC IPM pathogens.
-    page_html = download_uc_ipm_page(args.url)
+def combined_bacterial_pathogen_names(url, additional_bacteria_pathogens_path):
+    """Website names plus the extra bacteria list."""
+    page_html = download_uc_ipm_page(url)
     pathogens = get_pathogens_from_uc_ipm(page_html)
     if not pathogens:
-        print("Error: no pathogen names were found on the UC IPM page.", file=sys.stderr)
-        return 1
+        raise RuntimeError("no pathogen names were found on the UC IPM page")
 
-    additional_pathogens = read_pathogen_name_file(args.additional_pathogens)
-    pathogens = list(dict.fromkeys(pathogens + additional_pathogens))
+    additional_bacteria_pathogens = read_pathogen_name_file(additional_bacteria_pathogens_path)
+    return list(dict.fromkeys(pathogens + additional_bacteria_pathogens))
 
-    # Match pathogens to Evo2 assembly rows.
+
+def write_matches_for_names(pathogen_names, lookup_maps, output_path):
+    """Make one result file."""
+    assembly_names, assembly_main_names, assembly_genera = lookup_maps
     matches = {}
-    for pathogen in pathogens:
+    for pathogen in pathogen_names:
         if pathogen not in matches:
             matches[pathogen] = matching_assembly_ids(
                 pathogen,
@@ -355,15 +380,51 @@ def main():
                 assembly_genera,
             )
 
-    # Write results.
-    args.output.parent.mkdir(parents=True, exist_ok=True)
-    write_output_file(matches, args.output)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    write_output_file(matches, output_path)
 
     yes_count = sum(bool(assembly_ids) for assembly_ids in matches.values())
     no_count = sum(not assembly_ids for assembly_ids in matches.values())
-    print(f"Wrote {len(matches)} pathogen results to {args.output}")
+    print(f"Wrote {len(matches)} pathogen results to {output_path}")
     print(f"Y: {yes_count}")
     print(f"N: {no_count}")
+    return matches
+
+
+def main():
+    args = get_command_line_args()
+
+    if not args.evo2_training_file.exists():
+        print(f"Error: Evo2 training file does not exist: {args.evo2_training_file}", file=sys.stderr)
+        return 2
+
+    if args.organism_type in {"all", "bacterial"} and not args.additional_bacteria_pathogens.exists():
+        print(
+            f"Error: additional bacteria pathogen file does not exist: {args.additional_bacteria_pathogens}",
+            file=sys.stderr,
+        )
+        return 2
+
+    if args.organism_type in {"all", "eukaryotic"} and not args.eukaryotic_file.exists():
+        print(f"Error: eukaryotic file does not exist: {args.eukaryotic_file}", file=sys.stderr)
+        return 2
+
+    evo2_assemblies = read_evo2_file(args.evo2_training_file)
+    lookup_maps = make_training_lookup_maps(evo2_assemblies)
+
+    if args.organism_type in {"all", "bacterial"}:
+        try:
+            bacterial_names = combined_bacterial_pathogen_names(args.url, args.additional_bacteria_pathogens)
+        except RuntimeError as error:
+            print(f"Error: {error}.", file=sys.stderr)
+            return 1
+        write_matches_for_names(bacterial_names, lookup_maps, args.bacterial_output)
+
+    if args.organism_type in {"all", "eukaryotic"}:
+        eukaryotic_rows = read_evo2_file(args.eukaryotic_file)
+        eukaryotic_names = organism_names_from_rows(eukaryotic_rows)
+        write_matches_for_names(eukaryotic_names, lookup_maps, args.eukaryotic_output)
+
     return 0
 
 
