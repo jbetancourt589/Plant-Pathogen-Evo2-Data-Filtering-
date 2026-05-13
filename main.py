@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Check plant pathogen names against the Evo2 plant-pathogen list and full Evo2 list.
+Check plant pathogen names against the Evo2 eukaryotic dataset and full Evo2 list.
 
 RUN: python main.py
 """
@@ -308,7 +308,7 @@ def get_command_line_args():
         default=DEFAULT_EUKARYOTIC_PATHOGEN_FILE,
         type=Path,
         help=(
-            "Path to the Evo2 eukaryotic plant-pathogen list. "
+            "Path to the Evo2 eukaryotic dataset. "
             f"Default: {DEFAULT_EUKARYOTIC_PATHOGEN_FILE}"
         ),
     )

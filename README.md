@@ -18,6 +18,17 @@ Alternaria alternata	N
 `Y` means the pathogen appears to match an organism in the source file named in the output header.
 `N` means the pathogen was not found.
 
+## What It Does
+
+The script builds a plant-pathogen query list from two sources: the UC IPM plant disease page and `combined_plant_pathogen_list.txt`. It then normalizes names so small formatting differences do not block a match, including capitalization, punctuation, parenthetical notes, genus-level names such as `Pseudomonas spp.`, and strain/pathovar text after the genus and species.
+
+It runs two comparisons:
+
+1. The UC IPM names plus `combined_plant_pathogen_list.txt` are checked against `evo2_eukaryotic_dataset.txt`.
+2. The names in `combined_plant_pathogen_list.txt` are checked against `evo2_full_training_dataset.txt`.
+
+Each output row contains the pathogen name and `Y` or `N`. The output files do not include assembly IDs; they only report whether the pathogen matched the selected Evo2 source file.
+
 ## Files
 
 - `main.py` - the Python script
