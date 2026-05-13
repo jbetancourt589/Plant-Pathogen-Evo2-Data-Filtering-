@@ -1,8 +1,8 @@
 # Plant Pathogen Genome Filtering
 
-This project checks plant pathogen names against Evo2 organism datasets.
+This project checks a plant-pathogen dataset against Evo2 organism datasets.
 
-Evo2 is a genomic model trained on biological sequence data. Here, I am checking which plant pathogen names show up in `evo2_eukaryotic_dataset.txt`, the eukaryotic organism list from the Evo2 dataset, and in `evo2_full_training_dataset.txt`, the full Evo2 training-organism list.
+Evo2 is a genomic model trained on biological sequence data. Here, I am checking which names from the plant-pathogen dataset show up in `evo2_eukaryotic_dataset.txt`, the eukaryotic organism list from the Evo2 dataset, and in `evo2_full_training_dataset.txt`, the full Evo2 training-organism list.
 
 The program writes two result files:
 
@@ -20,12 +20,12 @@ Alternaria alternata	N
 
 ## What It Does
 
-The script builds a plant-pathogen query list from two sources: the UC IPM plant disease page and `combined_plant_pathogen_list.txt`. It then normalizes names so small formatting differences do not block a match, including capitalization, punctuation, parenthetical notes, genus-level names such as `Pseudomonas spp.`, and strain/pathovar text after the genus and species.
+The script builds one plant-pathogen dataset from two sources: the UC IPM plant disease page and `combined_plant_pathogen_list.txt`. It then normalizes names so small formatting differences do not block a match, including capitalization, punctuation, parenthetical notes, genus-level names such as `Pseudomonas spp.`, and strain/pathovar text after the genus and species.
 
 It runs two comparisons:
 
 1. The UC IPM names plus `combined_plant_pathogen_list.txt` are checked against `evo2_eukaryotic_dataset.txt`.
-2. The names in `combined_plant_pathogen_list.txt` are checked against `evo2_full_training_dataset.txt`.
+2. The same UC IPM names plus `combined_plant_pathogen_list.txt` are checked against `evo2_full_training_dataset.txt`.
 
 Each output row contains the pathogen name and `Y` or `N`. The output files do not include assembly IDs; they only report whether the pathogen matched the selected Evo2 source file.
 
@@ -36,7 +36,7 @@ Each output row contains the pathogen name and `Y` or `N`. The output files do n
 - `evo2_eukaryotic_dataset.txt` - eukaryotic organism dataset from Evo2
 - `evo2_full_training_dataset.txt` - full Evo2 training dataset used for comparison
 - `plant_pathogens_vs._eukaryotes_evo2` - UC IPM plus local pathogen names checked against `evo2_eukaryotic_dataset.txt`
-- `plant_pathogen_vs._entire_evo2` - local pathogen names checked against `evo2_full_training_dataset.txt`
+- `plant_pathogen_vs._entire_evo2` - UC IPM plus local pathogen names checked against `evo2_full_training_dataset.txt`
 
 ## How To Run
 
@@ -62,7 +62,7 @@ The script will:
 3. Read `evo2_eukaryotic_dataset.txt` as the Evo2 eukaryotic comparison dataset.
 4. Compare the website plus combined-list names to that Evo2 eukaryotic dataset.
 5. Read `evo2_full_training_dataset.txt` as the full Evo2 comparison dataset.
-6. Compare `combined_plant_pathogen_list.txt` directly to the full Evo2 dataset.
+6. Compare the website plus combined-list names to the full Evo2 dataset.
 7. Write both result files with `Y/N`.
 
 ## Data Source

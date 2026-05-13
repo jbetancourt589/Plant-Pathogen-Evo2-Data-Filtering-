@@ -404,9 +404,8 @@ def main():
         args.eukaryotic_dataset.name,
     )
 
-    combined_list_names = read_pathogen_name_file(args.combined_pathogens)
     write_matches_for_names(
-        combined_list_names,
+        pathogen_names,
         evo2_lookup_maps,
         args.entire_evo2_output,
         args.evo2_training_file.name,
