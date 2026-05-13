@@ -284,12 +284,14 @@ def write_output_file(matches, output_path, source_name):
     """Write the Y/N result file."""
     with output_path.open("w", encoding="utf-8", newline="\n") as file:
         file.write(f"# Y = found in {source_name}; N = not found.\n")
-        file.write("# Pathogen\tY/N\n\n\n")
+        file.write("# Assembly_IDs contains matching Evo2 assembly IDs when Y; N rows leave it blank.\n")
+        file.write("# Assembly_IDs\tPathogen\tY/N\n\n\n")
 
         for pathogen in sorted(matches):
             assembly_ids = matches[pathogen]
             status = "Y" if assembly_ids else "N"
-            file.write(f"{pathogen}\t{status}\n")
+            assembly_id_text = ";".join(sorted(assembly_id for assembly_id in assembly_ids if assembly_id))
+            file.write(f"{assembly_id_text}\t{pathogen}\t{status}\n")
 
 
 def get_command_line_args():

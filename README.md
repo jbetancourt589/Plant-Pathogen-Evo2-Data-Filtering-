@@ -8,15 +8,17 @@ The program writes two result files:
 
 ```text
 # Y = found in evo2_eukaryotic_dataset.txt; N = not found.
-# Pathogen	Y/N
+# Assembly_IDs contains matching Evo2 assembly IDs when Y; N rows leave it blank.
+# Assembly_IDs	Pathogen	Y/N
 
 
-Agrobacterium tumefaciens	Y
-Alternaria alternata	N
+GCA_017744915.1;GCF_000834635.1	Agrobacterium tumefaciens	Y
+	Alternaria alternata	N
 ```
 
 `Y` means the pathogen appears to match an organism in the source file named in the output header.
 `N` means the pathogen was not found.
+The leftmost `Assembly_IDs` column lists the matching Evo2 assembly ID or IDs for `Y` rows. `N` rows leave that column blank.
 
 ## What It Does
 
@@ -27,7 +29,7 @@ It runs two comparisons:
 1. The UC IPM names plus `combined_plant_pathogen_list.txt` are checked against `evo2_eukaryotic_dataset.txt`.
 2. The same UC IPM names plus `combined_plant_pathogen_list.txt` are checked against `evo2_full_training_dataset.txt`.
 
-Each output row contains the pathogen name and `Y` or `N`. The output files do not include assembly IDs; they only report whether the pathogen matched the selected Evo2 source file.
+Each output row contains the matching Evo2 assembly ID or IDs, the pathogen name, and `Y` or `N`. Rows with no match leave the leftmost assembly-ID column blank.
 
 ## Files
 
@@ -63,7 +65,7 @@ The script will:
 4. Compare the website plus combined-list names to that Evo2 eukaryotic dataset.
 5. Read `evo2_full_training_dataset.txt` as the full Evo2 comparison dataset.
 6. Compare the website plus combined-list names to the full Evo2 dataset.
-7. Write both result files with `Y/N`.
+7. Write both result files with `Y/N` and matching assembly IDs.
 
 ## Data Source
 
