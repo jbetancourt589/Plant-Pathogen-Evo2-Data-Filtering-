@@ -73,7 +73,7 @@ GCA_027578015.1	Coemansia sp. RSA 2618
 GCA_027579055.1	Coemansia interrupta
 GCA_027627225.1	Congeria kusceri
 GCA_028566435.1	Scorpiodoras heckelii
-GCA_029207755.1	FETCH_FAILED
+GCA_029207755.1	Chamaea fasciata
 GCA_029299245.1	Leptographium wingfieldii
 GCA_029929735.1	Mimosa pudica
 GCA_029945375.1	Agaricus subrufescens
@@ -97,7 +97,7 @@ GCA_031353405.1	Baronia brevicornis
 GCA_031753515.1	Metarhizium rileyi
 GCA_031762755.1	Hyacinthus orientalis
 GCA_032158295.1	Pycnopodia helianthoides
-GCA_032172135.1	FETCH_FAILED
+GCA_032172135.1	Glyptemys insculpta
 GCA_032468135.1	Calamaria suluensis
 GCA_033439115.1	Firmiana major
 GCA_034694425.1	Arrhopalites sp. Gr-Col-00791
@@ -129,19 +129,19 @@ GCA_905147225.2	Euproctis similis
 GCA_907164665.1	Colias nastes
 GCA_910574455.1	Trichaptum fuscoviolaceum
 GCA_911728455.2	Marthasterias glacialis
-GCA_916613615.1	FETCH_FAILED
+GCA_916613615.1	Steromphala cineraria
 GCA_930367235.1	Sarcophaga rosellei
 GCA_943590805.1	Trematomus scotti
 GCA_945910035.1	Brachypalpus laphriformis
 GCA_947359405.1	Antitype chi
 GCA_949752815.1	Conops quadrifasciatus
 GCA_951848785.1	Callosobruchus maculatus
-GCA_963082525.1	FETCH_FAILED
+GCA_963082525.1	Nesoenas mayeri
 GCA_963853775.1	Xanthia togata
 GCA_963924445.1	Philereme transversata
 GCA_963932285.1	Caenorhabditis macrosperma
-GCA_963966015.1	FETCH_FAILED
-GCA_964058755.1	FETCH_FAILED
+GCA_963966015.1	Aphidecta obliterata
+GCA_964058755.1	Campiglossa producta
 GCF_000091205.1	Cyanidioschyzon merolae
 GCF_000151335.2	Coccidioides posadasii
 GCF_000164805.1	Carlito syrichta
@@ -204,7 +204,7 @@ GCA_013399455.1	Anthoscopus minutus
 GCA_013407115.1	Glycine latifolia
 GCA_013621035.1	Clarias magur
 GCA_014706125.1	Phytophthora ohioensis (nom. inval.)
-GCA_014824575.3	FETCH_FAILED
+GCA_014824575.3	Sturnira hondurensis
 GCA_015107505.1	Grammatotria lemairii
 GCA_017311185.1	Proteles cristata
 GCA_018132145.1	Boehmeria nivea
@@ -249,8 +249,8 @@ GCA_028827885.1	Penicillium sp. IBT 31633x
 GCA_029375565.1	Gekko gecko
 GCA_029379385.1	Quillaja saponaria
 GCA_029747595.1	Trametes cubensis
-GCA_029955525.1	FETCH_FAILED
-GCA_029961685.1	FETCH_FAILED
+GCA_029955525.1	Oeneis ivallda
+GCA_029961685.1	Aristolochia californica
 GCA_030267945.1	Triparma strigata
 GCA_030323885.1	Branchipolynoe longqiensis
 GCA_030407185.1	Lipomyces yarrowii
@@ -272,12 +272,12 @@ GCA_032274845.1	Tyrannus crassirostris
 GCA_032275445.1	Crypturellus soui
 GCA_032357855.1	Amphibolips quercusostensackenii
 GCA_032361485.1	Panulirus cygnus
-GCA_033958435.1	FETCH_FAILED
+GCA_033958435.1	Carettochelys insculpta
 GCA_034509085.1	Spinus yarrellii
 GCA_034552555.1	Semaprochilodus insignis
 GCA_034694925.1	Ceratophysella denticulata
 GCA_034697525.1	Lithobius microps
-GCA_035079005.1	FETCH_FAILED
+GCA_035079005.1	Fraxinus americana
 GCA_035583055.1	Torymus tubicola
 GCA_035592195.1	Milvus lineatus
 GCA_036172665.1	Prosopocoilus inquinatus
@@ -301,31 +301,31 @@ GCA_900490015.1	Megastigmus stigmatizans
 GCA_900536415.3	Caenorhabditis sp. 38 MB-2015
 GCA_903066825.1	Alfaro cultratus
 GCA_903068095.1	Poeciliopsis presidionis
-GCA_903797595.2	FETCH_FAILED
-GCA_910589615.1	FETCH_FAILED
+GCA_903797595.2	Erithacus rubecula
+GCA_910589615.1	Taurulus bubalis
 GCA_928085145.1	Nezara viridula
-GCA_933228765.1	FETCH_FAILED
-GCA_944474755.1	FETCH_FAILED
+GCA_933228765.1	Miltochrista miniata
+GCA_944474755.1	Limnoperna fortunei
 GCA_946406115.1	Apoda limacodes
 GCA_947458855.1	Monopis laevigella
-GCA_949125395.1	FETCH_FAILED
+GCA_949125395.1	Diaphora mendica
 GCA_949130485.1	Agelas oroides
-GCA_949709995.1	FETCH_FAILED
-GCA_949788335.1	FETCH_FAILED
+GCA_949709995.1	Arachnomyces sp. KDTOL00113
+GCA_949788335.1	Salpingus planirostris
 GCA_950005105.1	Lycophotia porphyrea
 GCA_951217065.1	Baccha elongata
 GCA_951394345.1	Salicornia ramosissima
-GCA_951449985.1	FETCH_FAILED
+GCA_951449985.1	Falcaria lacertinaria
 GCA_958507055.1	Crioceris asparagi
-GCA_959613345.1	FETCH_FAILED
-GCA_963383615.1	FETCH_FAILED
+GCA_959613345.1	Tolmerus cingulatus
+GCA_963383615.1	Lipophrys pholis
 GCA_963555695.1	Dasypolia templi
 GCA_963573435.1	Eulemur albifrons
 GCA_963574965.1	Eulemur coronatus
 GCA_963681545.1	Germaria angustata
 GCA_963856015.1	Helicoverpa assulta
-GCA_963932185.1	FETCH_FAILED
-GCA_964017025.1	FETCH_FAILED
+GCA_963932185.1	Troglohyphantes excavatus
+GCA_964017025.1	Stenichneumon culpator
 GCF_000004695.1	Dictyostelium discoideum
 GCF_000240725.1	Nannochloropsis gaditana
 GCF_000732125.1	Scedosporium apiospermum
@@ -378,7 +378,7 @@ GCA_019775275.1	Penicillium sp. VS AB III KN
 GCA_019925275.1	Mytilus edulis
 GCA_019925795.1	Dendrobium chrysotoxum
 GCA_020272525.1	Epicoccum sorghinum
-GCA_020543525.1	FETCH_FAILED
+GCA_020543525.1	Coriolopsis trogii
 GCA_020995425.1	Cyberlindnera sargentensis
 GCA_021437245.1	Aegilops speltoides
 GCA_022433055.1	Begonia peltatifolia
@@ -386,7 +386,7 @@ GCA_022495125.1	Xylaria acuta
 GCA_022695795.1	Biscogniauxia marginata
 GCA_022963115.1	Ustilago tritici
 GCA_023337575.1	Pythium chondricola
-GCA_024489055.1	FETCH_FAILED
+GCA_024489055.1	Chanodichthys erythropterus
 GCA_024516245.1	Peziza echinospora
 GCA_024865655.1	Emberiza elegans
 GCA_025617405.1	Perca schrenkii
@@ -398,13 +398,13 @@ GCA_027576675.1	Plicofollis nella
 GCA_027577175.1	Coemansia sp. S146
 GCA_027743895.1	Seira musarum
 GCA_027946425.1	Neurospora sp. IMI 360204
-GCA_028537555.1	FETCH_FAILED
+GCA_028537555.1	Battus philenor
 GCA_028566535.1	Scolopax minor
 GCA_028646465.1	Rhinoceros unicornis
 GCA_028749325.2	Caryopteris x clandonensis
 GCA_029298845.1	Ophiostoma perfectum
 GCA_029448705.1	Adansonia digitata
-GCA_030161315.1	FETCH_FAILED
+GCA_030161315.1	Eutrema japonicum
 GCA_030179655.1	Scaptomyza flava
 GCA_030180135.1	Orychophragmus violaceus
 GCA_030264355.1	Sardinella lemuru
@@ -422,7 +422,7 @@ GCA_030574895.1	[Candida] insectorum
 GCA_030770355.1	Harpagoxenus sublaevis
 GCA_031125455.1	Saccharomycopsis microspora
 GCA_031590215.1	Maudiozyma bulderi
-GCA_031878705.1	FETCH_FAILED
+GCA_031878705.1	Tapirus indicus
 GCA_032275005.1	Desmognathus adatsihi
 GCA_032356145.1	Mastocarpus papillatus
 GCA_032466555.1	Tinamus major
@@ -468,22 +468,22 @@ GCA_928858565.1	Anthracocystis walkeri
 GCA_932274075.1	Diarsia rubi
 GCA_936450465.1	Gibbula magus
 GCA_944470555.2	Heterobilharzia americana
-GCA_944738645.1	FETCH_FAILED
+GCA_944738645.1	Eristalinus sepulchralis
 GCA_946409495.1	Blastobotrys aristatus
 GCA_946814005.1	Chamaenerion angustifolium
-GCA_949152395.1	FETCH_FAILED
+GCA_949152395.1	Agrochola litura
 GCA_949775105.1	Oldenlandia corymbosa
 GCA_951230895.1	Carpatolechia fugitivella
-GCA_951813785.1	FETCH_FAILED
-GCA_961405105.1	FETCH_FAILED
-GCA_963555595.1	FETCH_FAILED
+GCA_951813785.1	Criorhina ranunculi
+GCA_961405105.1	Perizoma affinitatum
+GCA_963555595.1	Tethea ocularis
 GCA_963564075.1	Eupithecia subfuscata
 GCA_963572265.1	Caenorhabditis doughertyi
 GCA_963667165.1	Barbarea vulgaris
 GCA_963855885.1	Coenonympha glycerion
 GCA_964019185.1	Maratus speculifer
-GCA_964023965.1	FETCH_FAILED
-GCA_964036295.1	FETCH_FAILED
+GCA_964023965.1	Melinopterus prodromus
+GCA_964036295.1	Plumapathes pennacea
 GCA_964057195.1	Orthosia cruda
 GCF_000223845.1	Gregarina niphandrodes
 GCF_000226545.1	Podospora anserina
@@ -589,7 +589,7 @@ GCA_029606265.1	Paecilomyces dactylethromorphus
 GCA_029721435.1	Gymnothorax reevesii
 GCA_029844175.1	Trichoderma sp. CBMAI-0179
 GCA_029906385.1	Neofusicoccum laricinum
-GCA_029959065.1	FETCH_FAILED
+GCA_029959065.1	Colias behrii
 GCA_030142105.1	Fusarium sp. FL617
 GCA_030269945.2	Trilocha varians
 GCA_030522905.1	Torymus flavipes
@@ -607,7 +607,7 @@ GCA_032313775.1	Urocyon cinereoargenteus
 GCA_032357275.1	Micropsitta pusio
 GCA_032360265.1	Heliamphora ciliata
 GCA_032361445.1	Panulirus gracilis
-GCA_032444005.1	FETCH_FAILED
+GCA_032444005.1	Ranitomeya imitator
 GCA_033070095.1	Escallonia herrerae
 GCA_033088355.1	Citrullus amarus
 GCA_033220425.1	Lepraria neglecta
@@ -637,7 +637,7 @@ GCA_900660305.1	Cetomimus sp. NI1144
 GCA_902810495.1	Petrochromis trewavasae
 GCA_903632075.3	Acanthosepion pharaonis
 GCA_903798355.1	Fraxinus baroniana
-GCA_905220365.2	FETCH_FAILED
+GCA_905220365.2	Vanessa cardui
 GCA_905231855.2	Eristalis tenax
 GCA_905319865.3	Cotesia congregata
 GCA_905404295.2	Ochlodes sylvanus
@@ -653,14 +653,14 @@ GCA_933228815.1	Machimus atricapillus
 GCA_944452925.2	Chrysolina oricalcia
 GCA_945859595.2	Megachile willughbiella
 GCA_947179395.2	Pulicaria dysenterica
-GCA_949319885.1	FETCH_FAILED
-GCA_958510865.1	FETCH_FAILED
-GCA_963514005.1	FETCH_FAILED
+GCA_949319885.1	Mecyna flavalis
+GCA_958510865.1	Myrrha octodecimguttata
+GCA_963514005.1	Raja brachyura
 GCA_963574695.1	Propithecus perrieri
 GCA_963919715.1	Microtus obscurus
 GCA_963922655.1	Cardamine chenopodiifolia
 GCA_964056705.1	Troilus luridus
-GCA_964059195.1	FETCH_FAILED
+GCA_964059195.1	Ectobius pallidus
 GCF_000090795.2	Amphimedon queenslandica
 GCF_000671375.1	Centruroides sculpturatus
 GCF_000836435.1	Fonsecaea multimorphosa
@@ -760,7 +760,7 @@ GCA_030581715.1	Cyberlindnera mississippiensis
 GCA_030585105.1	Wickerhamiella shivajii
 GCA_030770115.1	Daphnia galeata
 GCA_030867245.1	Colletotrichum eremochloae
-GCA_031143425.1	FETCH_FAILED
+GCA_031143425.1	Pleurodeles waltl
 GCA_031770025.1	Acropora spathulata
 GCA_033296905.1	Podospora australis
 GCA_033297175.1	Cladorrhinum sp. PSN332
@@ -800,20 +800,20 @@ GCA_900302345.1	Melanonus zugmayeri
 GCA_902706615.1	Meloidogyne luci
 GCA_903981925.1	Ostrea lurida
 GCA_905338405.1	Notodromas monacha
-GCA_916049575.1	FETCH_FAILED
+GCA_916049575.1	Ancistrocerus nigricornis
 GCA_922989275.2	Gari tellinella
 GCA_944452935.1	Rhogogaster chlorosoma
 GCA_947044415.1	Eupithecia dodoneata
 GCA_948150575.1	Tinea pellionella
-GCA_949715965.1	FETCH_FAILED
+GCA_949715965.1	Dysmachus trigonus
 GCA_949825045.1	Argyresthia goedartella
-GCA_951329385.1	FETCH_FAILED
+GCA_951329385.1	Polia nebulosa
 GCA_963170755.1	Amphimallon solstitiale
 GCA_963576555.1	Ferdinandea cuprea
-GCA_963669245.1	FETCH_FAILED
+GCA_963669245.1	Quercus cerris
 GCA_963932245.1	Tachinus rufipes
 GCA_963966625.1	Caenorhabditis zanzibari
-GCA_963971205.1	FETCH_FAILED
+GCA_963971205.1	Aethes cnicana
 GCA_963971425.1	Bryoerythrophyllum caledonicum
 GCA_964035795.1	Pterobdella sp. o SKG-2022
 GCF_000002445.2	Trypanosoma brucei
@@ -973,17 +973,17 @@ GCA_911728435.2	Apoderus coryli
 GCA_916701295.1	Sebastes jordani
 GCA_917862395.2	Heliconius sara
 GCA_921882275.1	Brenthis ino
-GCA_947562075.1	FETCH_FAILED
-GCA_949316375.1	FETCH_FAILED
+GCA_947562075.1	Orthosia gracilis
+GCA_949316375.1	Mythimna vitellina
 GCA_949748255.1	Eustalomyia histrio
 GCA_949775045.1	Metridium senile
 GCA_951394115.2	Drosophila phalerata
-GCA_951812935.1	FETCH_FAILED
+GCA_951812935.1	Hermaeophaga mercurialis
 GCA_958510785.1	Exephanes ischioxanthus
 GCA_963573315.1	Entomortierella parvispora
 GCA_963580455.1	Euonymus europaeus
-GCA_963584085.1	FETCH_FAILED
-GCA_963942575.1	FETCH_FAILED
+GCA_963584085.1	Pyrausta aurata
+GCA_963942575.1	Priocnemis perturbator
 GCA_963978885.1	Nemotelus pantherinus
 GCA_964016905.1	Perithous albicinctus
 GCA_964035525.1	Porites cylindrica
@@ -1015,7 +1015,7 @@ GCA_002778075.1	Grosmannia penicillata
 GCA_003351005.1	Cystobasidiaceae sp. HBUAS51001
 GCA_003706285.3	Kuraishia ogatae
 GCA_003708985.3	[Candida] gorgasii
-GCA_003813185.1	FETCH_FAILED
+GCA_003813185.1	Lentinus tigrinus
 GCA_006247105.1	Giardia muris
 GCA_007644065.1	Margaritispora aquatica
 GCA_008638375.1	Nyssa sinensis
@@ -1058,7 +1058,7 @@ GCA_021533815.1	Fusarium sp. C39
 GCA_022433065.1	Begonia loranthoides
 GCA_022530565.1	Madurella mycetomatis
 GCA_022817025.1	Sceliomorpha sp. ZL-2020
-GCA_023055425.1	FETCH_FAILED
+GCA_023055425.1	Linanthus parryae
 GCA_023333955.1	Globisporangium paroecandrum
 GCA_024363205.1	Cereus fernambucensis
 GCA_025331145.1	Rosa persica
@@ -1073,8 +1073,8 @@ GCA_028829895.1	Sinotaia quadrata
 GCA_028830335.1	Eucera pruinosa
 GCA_029814485.1	Erythrotriorchis buergersi
 GCA_029814765.1	Acanthurus leucopareius
-GCA_029955415.1	FETCH_FAILED
-GCA_029959095.1	FETCH_FAILED
+GCA_029955415.1	Lottia scabra
+GCA_029959095.1	Rhinichthys osculus
 GCA_030159155.1	Actinidia rufa
 GCA_030444905.1	Metschnikowia sp. yHKB443
 GCA_030556195.1	Anolis apletophallus
@@ -1122,37 +1122,37 @@ GCA_038381775.1	Adansonia rubrostipa
 GCA_038496175.1	Ampulex compressa
 GCA_039545255.1	Sporobolomyces carnicolor
 GCA_039654445.1	Cataglyphis savignyi
-GCA_039654945.1	FETCH_FAILED
+GCA_039654945.1	Dendrobates tinctorius
 GCA_900239745.1	Rotaria magnacalcarata
 GCA_900245855.1	Calvadosia cruxmelitensis
 GCA_900302755.1	Chromis chromis
 GCA_902077795.2	Clonostachys rhizophaga
 GCA_903819665.1	Aureobasidium mustum
 GCA_907164705.1	Parnassius apollo
-GCA_907164885.2	FETCH_FAILED
+GCA_907164885.2	Dolomedes plantarius
 GCA_910589525.2	Ennomos quercinarius
 GCA_910890315.1	Serendipita indica
 GCA_917563905.1	Neonectria neomacrospora
-GCA_929113105.1	FETCH_FAILED
+GCA_929113105.1	Agrypnus murinus
 GCA_930272545.1	Sphaerostilbella broomeana
 GCA_932527175.1	Operophtera brumata
 GCA_936432065.2	Rutpela maculata
 GCA_947086465.1	Eupithecia exiguata
 GCA_947310385.1	Nephrotoma appendiculata
 GCA_948567375.1	Lunularia cruciata
-GCA_949316185.1	FETCH_FAILED
-GCA_949629185.1	FETCH_FAILED
+GCA_949316185.1	Pyrausta nigrata
+GCA_949629185.1	Apamea crenata
 GCA_949634005.1	Mallotus japonicus
 GCA_949824845.1	Rhingia rostrata
 GCA_958510845.1	Cantharis nigra
 GCA_963210345.1	Inga oerstediana
 GCA_963457615.1	Nicrophorus investigator
-GCA_963457665.1	FETCH_FAILED
-GCA_963675345.1	FETCH_FAILED
+GCA_963457665.1	Thysanoteuthis rhombus
+GCA_963675345.1	Trididemnum clinides
 GCA_963932025.1	Erebia epiphron
 GCA_963932275.1	Andrena praecox
 GCA_964016985.1	Anodontia alba
-GCA_964034835.1	FETCH_FAILED
+GCA_964034835.1	Muscina levida
 GCA_964035505.1	Watsonalla cultraria
 GCA_964035585.1	Polytrichum formosum
 GCF_000417875.1	Pseudozyma flocculosa
@@ -1219,7 +1219,7 @@ GCA_014843695.1	Archivesica marissinica
 GCA_015105295.1	Neolamprologus caudopunctatus
 GCA_015179025.1	Terfezia claveryi
 GCA_015471245.1	Laticauda colubrina
-GCA_017639675.1	FETCH_FAILED
+GCA_017639675.1	Aplochiton taeniatus
 GCA_018231645.1	Heliconius ricini
 GCA_018245075.1	Celaenorrhinus patula
 GCA_018245655.1	Passova nigrocephala
@@ -1313,16 +1313,16 @@ GCA_910574055.2	Azolla filiculoides
 GCA_913698445.1	Ecitomorpha arachnoides
 GCA_932294275.1	Chloroclysta siterata
 GCA_932305915.1	Agriopis marginaria
-GCA_934045075.1	FETCH_FAILED
-GCA_945859605.1	FETCH_FAILED
+GCA_934045075.1	Yponomeuta sedellus
+GCA_945859605.1	Lumbricus rubellus
 GCA_946807835.1	Ailanthus altissimus
 GCA_946811695.1	Gonocerus acuteangulatus
-GCA_954870645.1	FETCH_FAILED
+GCA_954870645.1	Agrotis clavis
 GCA_958450375.1	Homarus gammarus
 GCA_963555665.1	Dircenna loreta
 GCA_963576455.1	Neolamprologus multifasciatus
 GCA_963680855.1	Lepeophtheirus nordmannii
-GCA_963924555.1	FETCH_FAILED
+GCA_963924555.1	Crambe crambe
 GCA_964030605.1	Acropora palmata
 GCF_000182925.2	Neurospora crassa
 GCF_000239395.1	Neolamprologus brichardi
@@ -1347,7 +1347,7 @@ GCA_000180655.1	Amaranthus tuberculatus
 GCA_000263175.2	Phaeosphaeriaceae sp. UM 1110
 GCA_000411055.1	Leavenworthia alabamica
 GCA_000499725.1	Eimeria brunetti
-GCA_000512585.3	FETCH_FAILED
+GCA_000512585.3	Kwoniella bestiolae
 GCA_000687305.2	Phytophthora rubi
 GCA_001014335.1	Coboldia fuscipes
 GCA_001272975.2	Laurentiella sp. PUJRC_G5
@@ -1370,7 +1370,7 @@ GCA_005959805.1	Elsinoe ampelina
 GCA_009428295.1	Tilletia walkeri
 GCA_011075105.1	Heteronetta atricapilla
 GCA_013186905.1	Fusarium udum
-GCA_013266295.2	FETCH_FAILED
+GCA_013266295.2	Branchiostoma floridae x Branchiostoma japonicum
 GCA_013305495.1	Metarhizium anisopliae
 GCA_013396505.1	Chunga burmeisteri
 GCA_013397535.1	Pterocles burchelli
@@ -1394,7 +1394,7 @@ GCA_018251295.1	Aethilla lavochrea
 GCA_018251615.1	Spioniades abbreviata
 GCA_018360365.1	Claviceps citrina
 GCA_018850815.1	Asterophora lycoperdoides
-GCA_019320115.1	FETCH_FAILED
+GCA_019320115.1	Miscanthus floridulus
 GCA_019457695.2	Chrysopelea ornata
 GCA_020152595.1	Chiridota heheva
 GCA_020744315.1	Curvularia eragrostidis
@@ -1451,13 +1451,13 @@ GCA_034696685.1	Julus scandinavius
 GCA_034699325.1	Oribatida sp. Gr-Ori-00743
 GCA_034814905.1	Penstemon davidsonii
 GCA_035222235.1	Margarornis squamiger
-GCA_035609135.1	FETCH_FAILED
+GCA_035609135.1	Eleutherodactylus coqui
 GCA_035771495.1	Cladosporium oxysporum
 GCA_036023395.1	Myiotriccus ornatus
 GCA_036507275.1	Sicyos edulis
 GCA_036559045.1	Platycarya longipes
 GCA_036873965.1	Neoagarum fimbriatum
-GCA_036936605.1	FETCH_FAILED
+GCA_036936605.1	Limnanthes douglasii
 GCA_036971555.1	Drechslerella coelobrocha
 GCA_037039145.1	Fundulus diaphanus
 GCA_037177315.1	Hephaestus fuliginosus
@@ -1470,30 +1470,30 @@ GCA_038406705.1	Eurycea bislineata
 GCA_039654385.1	Cataglyphis altisquamis
 GCA_900102585.1	Microbotryum saponariae
 GCA_900186055.1	Torulaspora microellipsoides
-GCA_905163465.1	FETCH_FAILED
+GCA_905163465.1	Craniophora ligustri
 GCA_905220375.1	Tachina fera
 GCA_910591695.1	Galerucella pusilla
 GCA_910592135.1	Racocetra fulgida
 GCA_912172775.2	Fraxinus pennsylvanica
 GCA_914767705.2	Tenthredo notha
-GCA_918358695.1	FETCH_FAILED
-GCA_947086405.1	FETCH_FAILED
+GCA_918358695.1	Melinaea menophilus
+GCA_947086405.1	Esperia sulphurella
 GCA_947311845.1	Poa pratensis
 GCA_947459285.1	Caenorhabditis angaria
 GCA_949126835.1	Anisus vortex
-GCA_949629155.1	FETCH_FAILED
-GCA_949987705.1	FETCH_FAILED
+GCA_949629155.1	Myopa testacea
+GCA_949987705.1	Thereva unica
 GCA_950097015.1	Macrostomum hystrix
 GCA_951394245.1	Cyclophora punctaria
 GCA_963576515.1	Cryptocephalus primarius
 GCA_963583965.1	Nomada ferruginata
 GCA_963661955.1	Leptosia nina
 GCA_963853835.1	Calendula officinalis
-GCA_963920595.1	FETCH_FAILED
-GCA_963920685.1	FETCH_FAILED
+GCA_963920595.1	Eimeria praecox
+GCA_963920685.1	Polydrusus tereticollis
 GCA_964023275.1	Norana najaformis
 GCA_964030475.1	Tethya wilhelma
-GCA_964034855.1	FETCH_FAILED
+GCA_964034855.1	Anser brachyrhynchus
 GCF_000002655.1	Aspergillus fumigatus
 GCF_000004825.1	Heterostelium album
 GCF_000313135.1	Acanthamoeba castellanii
@@ -1633,7 +1633,7 @@ GCA_036850665.1	Dicranocentrus wangi
 GCA_036873875.1	Laminaria ephemera
 GCA_036897505.1	Pelargonium transvaalense
 GCA_036937095.1	Phaeolepiota aurea
-GCA_037325665.1	FETCH_FAILED
+GCA_037325665.1	Littorina saxatilis
 GCA_037355385.1	Saccharomycopsis sp. FM-2023a
 GCA_037464815.1	Mylabris variabilis
 GCA_038090235.1	Pulveroboletus ravenelii
@@ -1646,17 +1646,17 @@ GCA_905220455.2	Deilephila porcellus
 GCA_932526585.2	Philonthus cognatus
 GCA_936431705.1	Cheilosia pagana
 GCA_942159475.1	Sthenelais limicola
-GCA_944738685.1	FETCH_FAILED
+GCA_944738685.1	Synanthedon myopaeformis
 GCA_947389925.1	Coelopa pilipes
 GCA_947623455.1	Mimachlamys varia
-GCA_949152445.1	FETCH_FAILED
+GCA_949152445.1	Cerastis rubricosa
 GCA_949825025.1	Siphlonurus alternatus
-GCA_958009055.1	FETCH_FAILED
-GCA_958496155.1	FETCH_FAILED
-GCA_963241965.1	FETCH_FAILED
+GCA_958009055.1	Choricystis sp. odSpoLacu1
+GCA_958496155.1	Sisyra nigra
+GCA_963241965.1	Tortrix viridana
 GCA_963573905.1	Presbytis comata
 GCA_963575745.1	Prorocentrum cordatum
-GCA_963585895.1	FETCH_FAILED
+GCA_963585895.1	Sepioteuthis lessoniana
 GCA_963921825.1	Erodium maritimum
 GCF_000143365.1	Chaetomium globosum
 GCF_000231115.1	Vittaforma corneae
@@ -1679,7 +1679,7 @@ GCF_902148845.1	Salarias fasciatus
 GCF_902655055.1	Lutra lutra
 GCF_907166805.1	Alternaria atra
 GCF_910591565.1	Cydia splendana
-GCA_000149305.1	FETCH_FAILED
+GCA_000149305.1	Rhizopus delemar
 GCA_000931505.1	Hypoxylon sp. E7406B
 GCA_001014845.1	Mochlonyx cinctipes
 GCA_001263375.1	Puccinia sorghi
@@ -1736,7 +1736,7 @@ GCA_023628425.1	Chaetomiaceae sp. PYS4301M
 GCA_023628475.1	Chaetomiaceae sp. PF1801
 GCA_023783355.1	Polyplastron multivesiculatum
 GCA_024340025.1	Tolypocladium tundrense
-GCA_024711535.1	FETCH_FAILED
+GCA_024711535.1	Dipodomys merriami
 GCA_025434125.1	Chologaster cornuta
 GCA_025563575.1	Acacia pycnantha
 GCA_025802055.1	Pica pica
@@ -1792,11 +1792,11 @@ GCA_035772895.1	Perdix hodgsoniae
 GCA_036025235.1	Hypseleotris gymnocephala
 GCA_036025515.1	Hypseleotris acropinna
 GCA_036630365.1	Acanthiza pusilla
-GCA_036971685.1	FETCH_FAILED
+GCA_036971685.1	Patagioenas fasciata
 GCA_037040845.1	Trichomonascaceae sp. B5901
 GCA_037114965.1	Monochamus alternatus
 GCA_037833695.1	Sechiopsis laciniata
-GCA_037950945.1	FETCH_FAILED
+GCA_037950945.1	Hypolimnas misippus
 GCA_038088405.1	Porites divaricata
 GCA_038089815.1	Sutorius eximius
 GCA_038090775.1	Leccinum idahoense
@@ -1818,18 +1818,18 @@ GCA_947070885.1	Tetragnatha kauaiensis
 GCA_947086495.1	Morpho achilles
 GCA_947397855.1	Thelaira solivaga
 GCA_947578425.1	Eugnorisma glareosa
-GCA_949699065.1	FETCH_FAILED
+GCA_949699065.1	Metalampra italica
 GCA_951394255.1	Polyploca ridens
-GCA_951802225.1	FETCH_FAILED
+GCA_951802225.1	Euspilapteryx auroguttella
 GCA_951806755.1	Brenthis hecate
 GCA_963573645.1	Pithecia hirsuta
-GCA_963691935.1	FETCH_FAILED
+GCA_963691935.1	Nephrotoma guestfalica
 GCA_963921995.1	Oxystoma pomonae
-GCA_963924685.1	FETCH_FAILED
+GCA_963924685.1	Dexiosoma caninum
 GCA_964017185.1	Rugalucina vietnamica
 GCA_964023205.1	Lutraria lutraria
-GCA_964036665.1	FETCH_FAILED
-GCA_964057225.1	FETCH_FAILED
+GCA_964036665.1	Gordius sp. MW1
+GCA_964057225.1	Auanema rhodensis
 GCF_000184155.1	Fragaria vesca
 GCF_000264995.1	Punctularia strigosozonata
 GCF_000690535.1	Cariama cristata
@@ -1851,7 +1851,7 @@ GCA_000582765.1	Phytomonas sp. EM1
 GCA_000772465.1	Nasalis larvatus
 GCA_000806385.1	Leptographium procerum
 GCA_001008265.1	Epichloe sylvatica
-GCA_001642395.1	FETCH_FAILED
+GCA_001642395.1	Nematocida displodere
 GCA_001657655.1	Talaromyces piceae
 GCA_001662545.1	Rosa x damascena
 GCA_002049455.2	Porphyra umbilicalis
@@ -1942,7 +1942,7 @@ GCA_030779165.1	Fusarium sp. MBC 441
 GCA_030782805.1	Aschersonia sp. MBC 622
 GCA_030849805.1	Sergeia podlipaevii
 GCA_031216185.1	Syzygium aqueum
-GCA_031893025.1	FETCH_FAILED
+GCA_031893025.1	Leptodactylus fuscus
 GCA_032361085.1	Calliostoma canaliculatum
 GCA_032466415.1	Forpus xanthopterygius
 GCA_033085395.1	Xanthoparmelia taractica
@@ -1975,23 +1975,23 @@ GCA_900490705.1	Pristionchus arcanus
 GCA_902168055.1	Aratinga solstitialis
 GCA_916610825.1	Haliclystus octoradiatus
 GCA_921972225.1	Euplexia lucipara
-GCA_929443795.2	FETCH_FAILED
-GCA_930367275.1	FETCH_FAILED
-GCA_932273835.1	FETCH_FAILED
+GCA_929443795.2	Astur gentilis
+GCA_930367275.1	Bombus pratorum
+GCA_932273835.1	Sarcophaga variegata
 GCA_937662695.2	Halyzia sedecimguttata
 GCA_946965025.1	Blera fallax
-GCA_947507515.1	FETCH_FAILED
+GCA_947507515.1	Eulithis testata
 GCA_949126865.1	Montipora capitata
-GCA_949748355.1	FETCH_FAILED
+GCA_949748355.1	Melanostigma gelatinosum
 GCA_949820665.1	Scrobipalpa costella
-GCA_951905685.1	FETCH_FAILED
+GCA_951905685.1	Eumerus sabulonum
 GCA_954870535.1	Fusarium sp. VM40
-GCA_958496365.1	FETCH_FAILED
+GCA_958496365.1	Subacronicta megacephala
 GCA_958510825.1	Brachypterus glaber
-GCA_963170055.1	FETCH_FAILED
-GCA_963556455.1	FETCH_FAILED
+GCA_963170055.1	Halisarca cf. caerulea
+GCA_963556455.1	Epiblema foenella
 GCA_963971165.1	Philopedon plagiatum
-GCA_963989305.1	FETCH_FAILED
+GCA_963989305.1	Lodderomyces beijingensis
 GCF_000004555.2	Caenorhabditis briggsae
 GCF_000182765.1	Candida parapsilosis
 GCF_000209125.1	Entamoeba dispar
@@ -2032,7 +2032,7 @@ GCA_001685095.1	Ellobius talpinus
 GCA_001746935.2	Setophaga coronata
 GCA_001748505.1	Sporisorium iseilematis-ciliati
 GCA_001939105.2	Sugiyamaella xylanicola (nom. inval.)
-GCA_002600585.1	FETCH_FAILED
+GCA_002600585.1	Cystoisospora suis
 GCA_002705745.1	Coemansia reversa
 GCA_002778165.1	Raffaelea arxii
 GCA_002994505.1	Seriola rivoliana
@@ -2064,7 +2064,7 @@ GCA_019649525.1	Hanseniaspora lindneri
 GCA_019706035.1	Raphanus raphanistrum
 GCA_021432725.1	Brachionus angularis
 GCA_022385605.1	Xylariaceae sp. FL0594
-GCA_022577455.1	FETCH_FAILED
+GCA_022577455.1	Arizona elegans
 GCA_022579005.1	Poronia punctata
 GCA_023335535.1	Globisporangium spinosum
 GCA_023373845.1	Nibea coibor
@@ -2073,7 +2073,7 @@ GCA_024499935.1	Tyrophagus putrescentiae
 GCA_024582635.1	Todiramphus saurophagus
 GCA_024679045.1	Phytophthora brassicae
 GCA_024741295.1	Macrocera vittata
-GCA_024862765.1	FETCH_FAILED
+GCA_024862765.1	Babesia caballi
 GCA_025209345.1	Picochlorum sp. BPE23
 GCA_025212355.1	Notarius kessleri
 GCA_025400075.2	Phenganax stokvisi
@@ -2126,7 +2126,7 @@ GCA_034700085.1	Hermanniella dolosa
 GCA_036289425.1	Rhopalosiphum nymphaeae
 GCA_036584455.1	Tetratostichococcus sp. P1
 GCA_036939775.1	Skeletonema grethae
-GCA_036971175.1	FETCH_FAILED
+GCA_036971175.1	Narcine bancroftii
 GCA_037040125.1	Kazachstania sp. M6911
 GCA_037040145.1	Sordariomycetes sp. M70-01Q
 GCA_037040355.1	Cutaneotrichosporon sp. M94-02A
@@ -2152,20 +2152,20 @@ GCA_907165295.1	Nomada fabriciana
 GCA_932074545.1	Andricus pictus
 GCA_932526445.1	Phragmatobia fuliginosa
 GCA_943593825.1	Chaenodraco wilsoni
-GCA_947507565.1	FETCH_FAILED
-GCA_947563755.1	FETCH_FAILED
-GCA_947577245.1	FETCH_FAILED
+GCA_947507565.1	Oscarella lobularis
+GCA_947563755.1	Lochmaea crataegi
+GCA_947577245.1	Andrena bucephala
 GCA_947859175.1	Gandaritis pyraliata
 GCA_948470475.1	Galaxea fascicularis
 GCA_949357655.1	Parascedosporium putredinis
-GCA_958299795.1	FETCH_FAILED
+GCA_958299795.1	Porites lutea
 GCA_958336345.1	Dorcus parallelipipedus
-GCA_963576785.1	FETCH_FAILED
-GCA_963920625.1	FETCH_FAILED
+GCA_963576785.1	Chlorophyllum brunneum
+GCA_963920625.1	Dinocampus coccinellae
 GCA_963920765.1	Ulota crispa
-GCA_963921215.1	FETCH_FAILED
+GCA_963921215.1	Scoparia ambigualis
 GCA_963966675.1	Lasioglossum calceatum
-GCA_964007535.1	FETCH_FAILED
+GCA_964007535.1	Brachyptera risi
 GCF_000002985.6	Caenorhabditis elegans
 GCF_000149615.1	Aspergillus terreus
 GCF_000167675.1	Trichoderma reesei
@@ -2248,7 +2248,7 @@ GCA_021950295.1	Epichloe scottii
 GCA_022376925.1	Tragulus kanchil
 GCA_022545495.1	Chrysanthemum lavandulifolium
 GCA_022605405.1	Earliella scabrosa
-GCA_022749685.1	FETCH_FAILED
+GCA_022749685.1	Semicossyphus pulcher
 GCA_022817065.1	Probaryconus sp. ZL-2020
 GCA_022818045.1	Neotoxoptera formosana
 GCA_023333755.1	Globisporangium uncinulatum
@@ -2267,7 +2267,7 @@ GCA_027559655.1	Accipiter superciliosus
 GCA_027563615.1	Churabana kuroshioae
 GCA_027576195.1	Cossypha heuglini
 GCA_028011325.1	Lentinula lateritia
-GCA_028583685.1	FETCH_FAILED
+GCA_028583685.1	Petaurus breviceps
 GCA_029204045.2	Tillandsia leiboldiana
 GCA_029641205.1	Citrus maxima
 GCA_029931835.1	Etheostoma nigrum
@@ -2301,7 +2301,7 @@ GCA_036898065.1	California macrophylla
 GCA_036939715.1	Shionodiscus oestrupii
 GCA_037043665.1	Drosophila differens
 GCA_037177175.1	Melanotaenia australis
-GCA_037893015.1	FETCH_FAILED
+GCA_037893015.1	Macrotis lagotis
 GCA_038089795.1	Pulchroboletus neoregius
 GCA_038091275.1	Tylopilus subfusipes
 GCA_038091955.1	Leccinum imitatum
@@ -2320,16 +2320,16 @@ GCA_910589765.1	Avena atlantica
 GCA_910592155.1	Ypsolopha scabrella
 GCA_913697995.1	Stiretrus anchorago
 GCA_916701215.1	Sebastes hopkinsi
-GCA_936435175.1	FETCH_FAILED
+GCA_936435175.1	Glyphotaelius pellucidus
 GCA_943590835.1	Pagetodes antarcticus
 GCA_945867215.1	Epinotia demarniana
-GCA_947284805.1	FETCH_FAILED
+GCA_947284805.1	Coleophora flavipennella
 GCA_947623385.2	Cladonia squamosa
 GCA_948099555.1	Croton setiger
-GCA_949316475.1	FETCH_FAILED
-GCA_949318235.1	FETCH_FAILED
+GCA_949316475.1	Hypomecis punctinalis
+GCA_949318235.1	Ecdyonurus torrentis
 GCA_949716465.1	Chalcosyrphus nemorum
-GCA_958336395.1	FETCH_FAILED
+GCA_958336395.1	Ctenicera cuprea
 GCA_963969345.1	Turbatrix aceti
 GCA_963978505.1	Listrodromus nycthemerus
 GCF_000002425.4	Physcomitrium patens
@@ -2402,9 +2402,9 @@ GCA_022829085.1	Abramis brama
 GCA_022985145.1	Pangasius djambal
 GCA_023055505.1	Callipepla californica
 GCA_023376005.1	Doryteuthis pealeii
-GCA_023634205.1	FETCH_FAILED
+GCA_023634205.1	Actinemys pallida
 GCA_023653625.1	Triadica sebifera
-GCA_023701655.1	FETCH_FAILED
+GCA_023701655.1	Ovis ammon polii x Ovis aries
 GCA_025403545.1	Epizoanthus stellaris
 GCA_025617385.1	Murraya koenigii
 GCA_025629825.1	Erythroxylum guanchezii
@@ -2425,7 +2425,7 @@ GCA_028827225.1	Penicillium sp. CMV-2018d
 GCA_029747655.1	Ensete ventricosum
 GCA_029814625.1	Psittacula derbiana
 GCA_029874995.1	Alburnus alburnus
-GCA_029959085.1	FETCH_FAILED
+GCA_029959085.1	Nemophila menziesii
 GCA_030068355.1	Notoglanidium maculatum
 GCA_030068375.1	Ostorhinchus rueppellii
 GCA_030254885.1	Vitis rotundifolia
@@ -2441,7 +2441,7 @@ GCA_030569635.1	Pichia thaimueangensis
 GCA_030570415.1	Saturnispora serradocipensis
 GCA_030572335.1	Cyberlindnera nakhonratchasimensis (nom. inval.)
 GCA_030686995.1	Artemisia argyi
-GCA_030819805.1	FETCH_FAILED
+GCA_030819805.1	Penstemon newberryi
 GCA_030849625.1	Wallacemonas sp. TrypX
 GCA_030849755.1	Trypanosoma avium
 GCA_031763565.1	Amazona festiva
@@ -2482,20 +2482,20 @@ GCA_916701305.1	Sebastes minor
 GCA_917834065.1	Ceutorhynchus assimilis
 GCA_943735955.1	Piscicola geometra
 GCA_947034895.1	Rhytidiadelphus loreus
-GCA_947247035.1	FETCH_FAILED
+GCA_947247035.1	Vipera ursinii
 GCA_947561395.2	Buxus sempervirens
 GCA_948474765.1	Patella depressa
 GCA_949152475.1	Terebella lapidaria
-GCA_949316135.1	FETCH_FAILED
-GCA_949319315.1	FETCH_FAILED
-GCA_949628255.1	FETCH_FAILED
+GCA_949316135.1	Choreutis nemorana
+GCA_949319315.1	Zelleria hepariella
+GCA_949628255.1	Macrophya alboannulata
 GCA_958009045.1	Oxytorus armatus
-GCA_963422495.1	FETCH_FAILED
+GCA_963422495.1	Polyommatus iphigenia
 GCA_963556145.1	Hygrocybe punicea
 GCA_963576765.1	Draba incana
 GCA_963675405.1	Cosmorhoe ocellata
-GCA_963691815.1	FETCH_FAILED
-GCA_963693445.1	FETCH_FAILED
+GCA_963691815.1	Echiichthys vipera
+GCA_963693445.1	Agonopterix heracliana
 GCA_963921195.1	Pegoplata infirma
 GCA_963970005.1	Durusdinium trenchii
 GCF_000190715.1	Dictyostelium purpureum
@@ -2587,7 +2587,7 @@ GCA_025201375.1	Gongronella butleri
 GCA_025461125.1	Carex kokanica
 GCA_025642075.2	Ridgeia piscesae
 GCA_025802135.1	Lagerstroemia fauriei
-GCA_026008535.1	FETCH_FAILED
+GCA_026008535.1	Perilla frutescens
 GCA_026401145.1	Lepisosteus osseus
 GCA_027406425.1	Blastocystis sp. subtype 8
 GCA_027564815.1	Symmerus nobilis
@@ -2648,23 +2648,23 @@ GCA_914767915.1	Agriopis aurantiaria
 GCA_916700675.1	Helicolenus avius
 GCA_916700725.1	Sebastes dallii
 GCA_921294245.1	Brassicogethes aeneus
-GCA_929108735.1	FETCH_FAILED
-GCA_939192795.1	FETCH_FAILED
+GCA_929108735.1	Andrena dorsata
+GCA_939192795.1	Bombylius discolor
 GCA_943735885.1	Stelis phaeoptera
 GCA_945910005.1	Isoperla grammatica
 GCA_946811185.2	Hippopus hippopus
 GCA_947507595.1	Pyralis farinalis
 GCA_948208565.1	Hura crepitans
-GCA_949128065.1	FETCH_FAILED
+GCA_949128065.1	Beris chalybata
 GCA_949699805.1	Tromatobia lineatoria
-GCA_949708635.1	FETCH_FAILED
+GCA_949708635.1	Hirtodrosophila cameraria
 GCA_951799395.1	Argentina silus
 GCA_951799405.1	Agapetus fuscipes
 GCA_963675895.2	Styela plicata
 GCA_963854855.1	Nasturtium officinale
-GCA_963942485.1	FETCH_FAILED
+GCA_963942485.1	Pediacus dermestoides
 GCA_963969385.1	Philonicus albiceps
-GCA_963971155.1	FETCH_FAILED
+GCA_963971155.1	Anthrax anthrax
 GCA_963989225.1	Dromius quadrimaculatus
 GCA_964017125.1	Flabesymbios commensalis
 GCF_000002725.2	Leishmania major
@@ -2781,7 +2781,7 @@ GCA_030566775.1	[Candida] smagusa
 GCA_030568425.1	Ambrosiozyma llanquihuensis
 GCA_030578735.1	Metschnikowia noctiluminum
 GCA_030583385.1	Spencermartinsiella ligniputridi
-GCA_030761175.1	FETCH_FAILED
+GCA_030761175.1	Masticophis lateralis
 GCA_031894775.1	Chloris gayana
 GCA_032360965.1	Ulva armoricana
 GCA_032878915.1	Castanopsis chinensis
@@ -2808,19 +2808,19 @@ GCA_038094315.1	Phylloporus cf. tubipes
 GCA_038406155.1	Pyrrhura leucotis
 GCA_039654345.1	Cataglyphis cursor
 GCA_900079185.1	Absidia glauca
-GCA_900880675.2	FETCH_FAILED
+GCA_900880675.2	Sparus aurata
 GCA_902829305.4	Spodoptera exigua
 GCA_905147375.1	Hylaea fasciaria
 GCA_911387925.2	Bombus hypnorum
-GCA_918358865.1	FETCH_FAILED
+GCA_918358865.1	Melinaea marsaeus
 GCA_943735915.1	Pherbina coryleti
 GCA_944470365.2	Schistosoma intercalatum
-GCA_947652115.1	FETCH_FAILED
+GCA_947652115.1	Blastomussa wellsi
 GCA_948329865.1	Linaria vulgaris
 GCA_949126895.1	Eilema caniola
-GCA_949126905.1	FETCH_FAILED
-GCA_949987555.1	FETCH_FAILED
-GCA_950108535.1	FETCH_FAILED
+GCA_949126905.1	Amorpha juglandis
+GCA_949987555.1	Borostomias antarcticus
+GCA_950108535.1	Agriphila straminella
 GCA_951394125.1	Epistrophe eligans
 GCA_959613385.1	Geotrupes spiniger
 GCA_963574815.1	Cercopithecus hamlyni
@@ -2828,7 +2828,7 @@ GCA_963678735.1	Metschnikowia agaves
 GCA_963680875.1	Bathymodiolus brooksi
 GCA_963924405.1	[Candida] anglica
 GCA_963971465.1	Lepidochitona cinerea
-GCA_963978495.1	FETCH_FAILED
+GCA_963978495.1	Athalia circularis
 GCF_000002235.5	Strongylocentrotus purpuratus
 GCF_000004155.1	Schizosaccharomyces cryophilus
 GCF_000143455.1	Volvox carteri
@@ -2909,7 +2909,7 @@ GCA_018901805.1	Zaprionus taronus
 GCA_018904225.1	Lordiphosa mommai
 GCA_018985235.1	Sanchytrium tribonematis
 GCA_019677385.1	Ceratobasidium sp. 392
-GCA_020746105.1	FETCH_FAILED
+GCA_020746105.1	Trogon surrucura
 GCA_020975415.1	Calonectria hawksworthii
 GCA_020976545.1	Fusarium sp. Barmshour
 GCA_022495205.1	Hypoxylon sp. FL1150
@@ -2991,19 +2991,19 @@ GCA_903798255.1	Fraxinus quadrangulata
 GCA_914969975.1	Anopheles atroparvus
 GCA_916700985.1	Sebastes borealis
 GCA_916720795.1	Danaus chrysippus
-GCA_917051295.2	FETCH_FAILED
+GCA_917051295.2	Erebia ligea
 GCA_920104245.2	Rhodotorula babjevae
 GCA_932526305.1	Epicampocera succincta
 GCA_946052875.1	Bos gaurus x Bos taurus
 GCA_947049315.1	Epistrophella euchroma
 GCA_948332465.1	Euphorbia lomelii
 GCA_951394215.1	Glyphodes perspectalis
-GCA_958496245.1	FETCH_FAILED
+GCA_958496245.1	Perizoma flavofasciatum
 GCA_963082785.1	Philonthus spinipes
 GCA_963277665.1	Viscum album
 GCA_963576475.1	Molanna angustata
 GCA_963576875.1	Acrobasis repandana
-GCA_963855925.1	FETCH_FAILED
+GCA_963855925.1	Inga laurina
 GCA_963971375.1	Platycheirus rosarum
 GCF_000145635.1	Gaeumannomyces tritici
 GCF_000213175.1	Neurospora tetrasperma
@@ -3144,18 +3144,18 @@ GCA_038091395.1	Leccinum rimulosum
 GCA_038503065.1	Paragyromitra xinjiangensis
 GCA_900073065.1	Phialocephala subalpina
 GCA_900302425.1	Brosme brosme
-GCA_900634625.2	FETCH_FAILED
+GCA_900634625.2	Parambassis ranga
 GCA_905147135.1	Blastobasis lacticolella
 GCA_905147745.2	Phlogophora meticulosa
 GCA_907164805.1	Brachyptera putata
-GCA_914767695.1	FETCH_FAILED
+GCA_914767695.1	Ptilodon capucinus
 GCA_916181665.1	Avena sativa
-GCA_916610205.1	FETCH_FAILED
+GCA_916610205.1	Griposia aprilina
 GCA_916610235.2	Lasioglossum morio
 GCA_916701615.1	Sebastes vulpes
 GCA_929108145.2	Limnephilus rhombicus
 GCA_933822405.4	Cylindrotheca closterium
-GCA_944319695.1	FETCH_FAILED
+GCA_944319695.1	Tiphia femorata
 GCA_946000715.1	Vitis cinerea var. helleri x Vitis riparia
 GCA_947034835.1	Ballota nigra
 GCA_947562085.1	Eudonia lacustrata
@@ -3163,14 +3163,14 @@ GCA_949673415.1	Euphorbia schlechtendalii
 GCA_954870855.1	Scutellaria minor
 GCA_958450325.1	Agrostemma githago
 GCA_958496145.1	Heliothis peltigera
-GCA_958496215.1	FETCH_FAILED
-GCA_963556195.1	FETCH_FAILED
-GCA_963662155.1	FETCH_FAILED
+GCA_958496215.1	Verbena officinalis
+GCA_963556195.1	Sepiola atlantica
+GCA_963662155.1	Lamellibrachia columna
 GCA_963669155.1	Arbacia lixula
 GCA_963681835.1	Meloidogyne enterolobii
 GCA_963921465.1	Triticum timopheevii
-GCA_963966075.1	FETCH_FAILED
-GCA_964017155.1	FETCH_FAILED
+GCA_963966075.1	Aphodius sticticus
+GCA_964017155.1	Oasisia sp. SBJ-2009
 GCF_000150705.2	Paracoccidioides lutzii
 GCF_000280675.1	Beauveria bassiana
 GCF_000365165.1	Cladophialophora carrionii
@@ -3213,7 +3213,7 @@ GCA_004143845.1	Drosophila lacertosa
 GCA_004369235.1	Perkinsus sp. BL_2016
 GCA_005059845.1	Cryomyces minteri
 GCA_006408615.1	Connochaetes taurinus
-GCA_009905375.1	FETCH_FAILED
+GCA_009905375.1	Apium graveolens
 GCA_011316045.1	Picochlorum costavermella
 GCA_013389785.1	Helicorthomorpha holstii
 GCA_013390105.1	Tichodroma muraria
@@ -3255,7 +3255,7 @@ GCA_024678965.1	Bradynema listronoti
 GCA_025447815.1	Percopsis transmontana
 GCA_025602915.1	Paraphysoderma sedebokerense
 GCA_025631205.1	Nesometra sesokonis
-GCA_026230145.1	FETCH_FAILED
+GCA_026230145.1	Diorhabda elongata
 GCA_026413525.1	Poicephalus cryptoxanthus
 GCA_027564015.1	Gallinago gallinago
 GCA_027574725.1	Parastichopus regalis
@@ -3282,7 +3282,7 @@ GCA_030579595.1	Spencermartinsiella europaea
 GCA_030581415.1	Wickerhamomyces mucosus
 GCA_030582335.1	Yamadazyma nakazawae
 GCA_030765045.1	Tenodera sinensis
-GCA_032199755.1	FETCH_FAILED
+GCA_032199755.1	Ambrosia artemisiifolia
 GCA_032200785.1	Phataginus tetradactyla
 GCA_032273165.1	Chlorellidium tetrabotrys
 GCA_032274325.1	Circus macrosceles
@@ -3298,7 +3298,7 @@ GCA_035043205.1	Drosophila trichaetosa
 GCA_035044805.1	Leucophenga maculata
 GCA_035583155.1	Acropternis orthonyx
 GCA_035668195.1	Sarracenia psittacina
-GCA_036010745.1	FETCH_FAILED
+GCA_036010745.1	Caloenas nicobarica
 GCA_036346035.1	Crossoptilon crossoptilon
 GCA_036785275.1	Cancer borealis
 GCA_036850905.1	Luffa acutangula
@@ -3308,7 +3308,7 @@ GCA_036940045.1	Stephanocyclus meneghinianus
 GCA_037039805.1	Irpex sp. M6601
 GCA_037043015.1	Bryum argenteum
 GCA_037577295.1	Ladigesia roloffi
-GCA_038021265.1	FETCH_FAILED
+GCA_038021265.1	Cyprinella venusta
 GCA_038088505.1	Diaporthe velutina
 GCA_038089495.1	Xerocomellus dryophilus
 GCA_038093775.1	Butyriboletus pseudospeciosus
@@ -3317,29 +3317,29 @@ GCA_038094715.1	Heimioporus punctisporus
 GCA_038380885.1	Phyllosticta citrichinensis
 GCA_039096215.1	Blastocystis sp. NMH
 GCA_900068985.1	Pterula multifida
-GCA_901000725.3	FETCH_FAILED
+GCA_901000725.3	Takifugu rubripes
 GCA_902806775.1	Microtus agrestis
 GCA_913698375.1	Ceroptres masudai
 GCA_913698485.1	Proechinophthirus fluctus
 GCA_916701655.1	Sebastiscus albofasciatus
-GCA_916999025.1	FETCH_FAILED
-GCA_918317495.1	FETCH_FAILED
+GCA_916999025.1	Orgyia antiqua
+GCA_918317495.1	Synanthedon vespiformis
 GCA_927399405.1	Agonopterix arenella
 GCA_932066315.1	Andricus coriarius
 GCA_932526535.1	Caradrina clavipalpis
-GCA_933228785.1	FETCH_FAILED
+GCA_933228785.1	Lasioglossum pauxillum
 GCA_937001585.2	Brachylomia viminalis
 GCA_943594155.1	Lepidonotothen larseni
 GCA_946903255.1	Schistosoma spindalis
 GCA_947508005.1	Amphipoea lucens
 GCA_947646735.1	Peronospora farinosa
 GCA_948099535.1	Jatropha multifida
-GCA_949126875.1	FETCH_FAILED
-GCA_949316365.1	FETCH_FAILED
+GCA_949126875.1	Lochmaea capreae
+GCA_949316365.1	Hoplodrina blanda
 GCA_950106695.1	Biston stratarius
 GCA_951394395.1	Colostygia pectinataria
-GCA_958496205.1	FETCH_FAILED
-GCA_963969495.1	FETCH_FAILED
+GCA_958496205.1	Idaea biselata
+GCA_963969495.1	Ceratothoa steindachneri
 GCA_963989415.1	Cerceris ruficornis
 GCF_000003515.1	Uncinocarpus reesii
 GCF_000327385.1	Lottia gigantea
@@ -3377,7 +3377,7 @@ GCA_002091855.1	Nothapodytes nimmoniana
 GCA_002205965.3	Kappaphycus alvarezii
 GCA_002335585.1	Cutaneotrichosporon daszewskae
 GCA_002742255.2	Ceratocystis albifundus
-GCA_002906115.5	FETCH_FAILED
+GCA_002906115.5	Quercus suber
 GCA_002995315.1	Rhizopogon villosulus
 GCA_003049465.1	Magnaporthiopsis rhizophila
 GCA_003313885.1	Boletus sp. MG55
@@ -3417,7 +3417,7 @@ GCA_018361025.1	Claviceps aff. purpurea
 GCA_018985215.1	Larimichthys polyactis
 GCA_019400425.1	Hymenochaete sp. R1
 GCA_019594935.1	Periophthalmus modestus
-GCA_020745685.1	FETCH_FAILED
+GCA_020745685.1	Tautogolabrus adspersus
 GCA_021533235.1	Biomphalaria straminea
 GCA_022160315.1	Panus rudis
 GCA_022225965.2	Diatrype stigma
@@ -3444,7 +3444,7 @@ GCA_027579175.1	Coemansia sp. IMI 203386
 GCA_028534055.1	Eulemur mongoz
 GCA_028565335.1	Limnodromus scolopaceus
 GCA_028565815.1	Cletocamptus dominicanus
-GCA_028752905.1	FETCH_FAILED
+GCA_028752905.1	Cladorhizidae sp. MBARI D1340-BT2
 GCA_028828245.1	Penicillium lividum
 GCA_029844215.1	Przewalskia tangutica
 GCA_029856935.1	Cyclocarya paliurus
@@ -3481,27 +3481,27 @@ GCA_038088995.1	Guyanaporus albipodus
 GCA_038089895.1	Boletellus ananas
 GCA_038089915.1	Sutorius australiensis
 GCA_038094135.1	Spongiforma cf. squarepantsii
-GCA_038363985.1	FETCH_FAILED
+GCA_038363985.1	Apiospora kogelbergensis
 GCA_038502155.1	Parochlus steinenii
 GCA_900406395.1	Kernera saxatilis
 GCA_902196195.1	Aptinothrips rufus
 GCA_903798275.1	Fraxinus angustifolia
 GCA_903853725.1	Aureobasidium uvarum
 GCA_911174995.1	Penicillium olsonii
-GCA_944567765.1	FETCH_FAILED
+GCA_944567765.1	Carterocephalus palaemon
 GCA_947000775.1	Pterois miles
 GCA_948193385.1	Breynia disticha
-GCA_949152465.1	FETCH_FAILED
-GCA_949628215.1	FETCH_FAILED
-GCA_963513935.1	FETCH_FAILED
-GCA_963513945.1	FETCH_FAILED
+GCA_949152465.1	Cantharis flavilabris
+GCA_949628215.1	Phalacrocorax aristotelis
+GCA_963513935.1	Aphrophora alni
+GCA_963513945.1	Hydrotaea diabolus
 GCA_963556745.1	Catoptria pinella
-GCA_963675555.1	FETCH_FAILED
-GCA_963966595.1	FETCH_FAILED
+GCA_963675555.1	Leptura quadrifasciata
+GCA_963966595.1	Physocephala rufipes
 GCA_963971145.1	Sussaba pulchella
 GCA_963971365.1	Lasioglossum villosulum
 GCA_964007475.1	Hybos culiciformis
-GCA_964030785.1	FETCH_FAILED
+GCA_964030785.1	Siderastrea siderea
 GCA_964056405.1	Acronicta alni
 GCF_000143415.4	Selaginella moellendorffii
 GCF_000150115.1	Histoplasma capsulatum
@@ -3567,7 +3567,7 @@ GCA_014849445.1	Cercopithecus mona
 GCA_014898875.1	Fusarium miscanthi
 GCA_015107635.1	Telmatochromis brachygnathus
 GCA_015108835.1	Lamprologus sp. 'ornatipinnis congo' AB-2019
-GCA_017655625.1	FETCH_FAILED
+GCA_017655625.1	Candida metapsilosis
 GCA_018152965.1	Scaptomyza pallida
 GCA_018237065.1	Emesis mandana
 GCA_018246895.1	Aspitha aspitha
@@ -3638,7 +3638,7 @@ GCA_036897195.1	Plantago coronopus
 GCA_036897425.1	Erodium trifolium
 GCA_036940005.1	Skeletonema menzelii
 GCA_037042185.1	Sordariomycetes sp. S80-01Y
-GCA_037042795.1	FETCH_FAILED
+GCA_037042795.1	Molothrus aeneus
 GCA_037074505.1	Albizia julibrissin
 GCA_037176975.1	Arrhamphus sclerolepis
 GCA_038090375.1	Boletus rubroflammeus
@@ -3654,25 +3654,25 @@ GCA_900622495.1	Hydatigera taeniaeformis
 GCA_900708905.1	Hymenolepis diminuta
 GCA_902806595.1	Pyrenopolyporus hunteri
 GCA_903798295.1	Fraxinus nigra
-GCA_907165135.1	FETCH_FAILED
+GCA_907165135.1	Oikopleura dioica
 GCA_910589415.1	Malachius bipustulatus
 GCA_916381525.1	Cercopithifilaria johnstoni
-GCA_933228675.1	FETCH_FAILED
+GCA_933228675.1	Stomorhina lunata
 GCA_945859575.2	Herminia tarsipennalis
 GCA_946894095.1	Incurvaria masculella
-GCA_949128165.1	FETCH_FAILED
-GCA_949710015.1	FETCH_FAILED
+GCA_949128165.1	Lathronympha strigana
+GCA_949710015.1	Crataerina pallida
 GCA_950096795.1	Macrostomum cliftonense
 GCA_963082945.1	Cerastis leucographa
 GCA_963556255.1	Allolobophora icterica
 GCA_963921935.1	Galeruca laticollis
 GCA_963924055.1	Drosophila limbata
-GCA_963924575.1	FETCH_FAILED
-GCA_963932425.1	FETCH_FAILED
-GCA_964019055.1	FETCH_FAILED
+GCA_963924575.1	Pycnomerus fuliginosus
+GCA_963932425.1	Athalia cordata
+GCA_964019055.1	Anthopleura xanthogrammica
 GCA_964020085.1	Micromussa lordhowensis
-GCA_964035675.1	FETCH_FAILED
-GCA_964058875.1	FETCH_FAILED
+GCA_964035675.1	Fomitopsis pulvina
+GCA_964058875.1	Carex rostrata
 GCF_000002495.2	Pyricularia oryzae
 GCF_000142805.1	Lachancea thermotolerans
 GCF_000186305.1	Python bivittatus
@@ -3705,7 +3705,7 @@ GCA_003708445.3	Grigorovia transvaalensis
 GCA_004014935.1	Saccharomycopsis malanga
 GCA_005317125.1	Leishmania amazonensis
 GCA_009618055.1	Micromonas sp. SAG5
-GCA_009768925.2	FETCH_FAILED
+GCA_009768925.2	Cryptosporidium bovis
 GCA_009829855.1	Neofusicoccum kwambonambiense
 GCA_009870185.1	Pygmarrhopalites habei
 GCA_009982855.1	Lizonia empirigonia
@@ -3812,7 +3812,7 @@ GCA_038092535.1	Xerocomus subilludens
 GCA_038092955.1	Boletus pseudo-olivaceus
 GCA_038094635.1	Tylopilus cervinicoccineus
 GCA_038406055.1	Anas flavirostris
-GCA_038497685.1	FETCH_FAILED
+GCA_038497685.1	Kockiozyma suomiensis
 GCA_039566865.1	Aurelia coerulea
 GCA_902602495.3	Ectocarpus sp. CCAP 1310/34
 GCA_905333005.2	Lycaena phlaeas
@@ -3823,18 +3823,18 @@ GCA_913698115.1	Omalisus fontisbellaquei
 GCA_941860345.1	Chrysodeixis includens
 GCA_943590905.1	Sphaerophoria taeniata
 GCA_943704425.1	Ministeria vibrans
-GCA_944452715.1	FETCH_FAILED
+GCA_944452715.1	Ophion slaviceki
 GCA_947396885.1	Heligmosomoides polygyrus
-GCA_948465475.1	FETCH_FAILED
+GCA_948465475.1	Thalpophila matura
 GCA_954870605.1	Acer campestre
-GCA_954870665.1	FETCH_FAILED
-GCA_963564715.1	FETCH_FAILED
+GCA_954870665.1	Stratiomys singularior
+GCA_963564715.1	Catocala sponsa
 GCA_963574505.1	Aotus griseimembra
-GCA_963854835.1	FETCH_FAILED
-GCA_963924455.1	FETCH_FAILED
-GCA_963930835.1	FETCH_FAILED
+GCA_963854835.1	Megamerina dolium
+GCA_963924455.1	Pelagia noctiluca
+GCA_963930835.1	Spongia lamella
 GCA_963930925.1	Coccomyxa viridis
-GCA_963966145.1	FETCH_FAILED
+GCA_963966145.1	Tenebrio molitor
 GCA_963971135.1	Stenus bimaculatus
 GCF_000271625.1	Coniophora puteana
 GCF_000326865.2	Helobdella robusta
@@ -3857,7 +3857,7 @@ GCF_033439085.1	Chaetomium fimeti
 GCF_963924245.1	Chroicocephalus ridibundus
 GCA_000349025.1	Anopheles minimus
 GCA_000376725.2	Ladona fulva
-GCA_000499845.2	FETCH_FAILED
+GCA_000499845.2	Phaseolus vulgaris
 GCA_000787095.1	Periophthalmodon schlosseri
 GCA_000941615.1	Parastrongyloides trichosuri
 GCA_001632425.1	Neolentinus lepideus
@@ -3943,7 +3943,7 @@ GCA_029100535.1	Stemphylium beticola
 GCA_029255685.2	Silene conica
 GCA_029286875.1	Lamproptera curius
 GCA_029532125.1	Lepus townsendii
-GCA_029955375.1	FETCH_FAILED
+GCA_029955375.1	Rubus parviflorus
 GCA_029959045.1	Taenioides sp. WSHXM2023
 GCA_030280995.1	Hemileia vastatrix
 GCA_030294605.1	Ambrosiella beaveri
@@ -3993,11 +3993,11 @@ GCA_902141375.1	Timema poppense
 GCA_904066235.2	Bursaphelenchus xylophilus
 GCA_905332375.1	Pieris macdunnoughi
 GCA_907163375.1	Prostheceraeus crozeri
-GCA_914767635.1	FETCH_FAILED
-GCA_932526625.1	FETCH_FAILED
+GCA_914767635.1	Melanostoma mellinum
+GCA_932526625.1	Rhingia campestris
 GCA_943735995.1	Sesia bembeciformis
 GCA_947507615.1	Hemithea aestivaria
-GCA_949715065.1	FETCH_FAILED
+GCA_949715065.1	Periphyllus acericola
 GCA_949820135.1	Sylvilagus floridanus
 GCA_951802195.1	Tausonia pullulans
 GCA_963583995.1	Xylota segnis
@@ -4131,7 +4131,7 @@ GCA_034190945.1	Octodonta nipae
 GCA_034508575.1	Petrolisthes manimaculis
 GCA_034698325.1	Sminthurinus elegans
 GCA_036025615.1	Melanotaenia fluviatilis
-GCA_036184385.1	FETCH_FAILED
+GCA_036184385.1	Tokudaia muenninki
 GCA_036346145.1	Olyra latifolia
 GCA_036346955.1	Dipus sagitta
 GCA_036365145.1	Orientallactaga sibirica
@@ -4151,26 +4151,26 @@ GCA_913698285.1	Eriopis connexa
 GCA_916701165.1	Sebastes melanostomus
 GCA_917880005.1	Nanger dama
 GCA_920105625.2	Clusia tigrina
-GCA_922984935.2	FETCH_FAILED
+GCA_922984935.2	Meles meles
 GCA_922987775.1	Agonopterix subpropinquella
 GCA_944472135.2	Trichobilharzia regenti
 GCA_947297635.1	[Candida] aaseri
-GCA_947561715.1	FETCH_FAILED
-GCA_947623365.1	FETCH_FAILED
-GCA_947623515.1	FETCH_FAILED
+GCA_947561715.1	Ascidia mentula
+GCA_947623365.1	Achlya flavicornis
+GCA_947623515.1	Neoascia interrupta
 GCA_947644855.1	Beta macrorhiza
 GCA_951802675.2	Boloria euphrosyne
 GCA_951805285.1	Thymelicus acteon
 GCA_958296145.1	Hydrotaea cyrtoneurina
-GCA_963576795.1	FETCH_FAILED
-GCA_963669355.1	FETCH_FAILED
-GCA_963680785.1	FETCH_FAILED
+GCA_963576795.1	Metopia argyrocephala
+GCA_963669355.1	Chorisops tibialis
+GCA_963680785.1	Diplosoma virens
 GCA_963921925.1	Sphagnum tenellum
 GCA_963931865.1	Axinella damicornis
 GCA_963932045.1	Caenorhabditis sinica
 GCA_963971345.1	Andrena flavipes
-GCA_964023185.1	FETCH_FAILED
-GCA_964035545.1	FETCH_FAILED
+GCA_964023185.1	Macaria liturata
+GCA_964035545.1	Bugula neritina
 GCA_964035575.1	Rhynchopus sp. YZ270_cl-10
 GCF_000091225.2	Encephalitozoon cuniculi
 GCF_000151315.2	Capsaspora owczarzaki
@@ -4313,10 +4313,10 @@ GCA_036873115.1	Pseudodiploospora longispora
 GCA_036897625.1	Pelargonium cotyledonis
 GCA_036937075.1	Mycocalia duriaeana
 GCA_037074535.1	Gleditsia sinensis
-GCA_037176705.1	FETCH_FAILED
+GCA_037176705.1	Molossus alvarezi
 GCA_037177355.1	Melanotaenia trifasciata
 GCA_037954015.1	Psophocarpus tetragonolobus
-GCA_038025025.1	FETCH_FAILED
+GCA_038025025.1	Phyllosticta citribraziliensis
 GCA_038089575.1	Phylloporus pelletieri
 GCA_038090875.1	Leccinum fallax
 GCA_038093035.1	Boletus nancyae
@@ -4330,19 +4330,19 @@ GCA_916701445.1	Sebastes variabilis
 GCA_939628115.1	Tribolium freemani
 GCA_946000675.1	Vitis riparia x Vitis rupestris
 GCA_946251885.1	Cosmia pyralina
-GCA_947389935.1	FETCH_FAILED
-GCA_948146005.1	FETCH_FAILED
+GCA_947389935.1	Agrilus cyanescens
+GCA_948146005.1	Nomada fucata
 GCA_949316455.1	Acleris holmiana
 GCA_949711725.1	Leptidea reali
 GCA_949752805.1	Deilephila elpenor
 GCA_963082835.1	Leptogaster cylindrica
-GCA_963457725.1	FETCH_FAILED
-GCA_963682175.1	FETCH_FAILED
+GCA_963457725.1	Sprattus sprattus
+GCA_963682175.1	Triglochin maritima
 GCA_963859965.1	Ceramica pisi
-GCA_963924715.1	FETCH_FAILED
+GCA_963924715.1	Thunnus thynnus
 GCA_963971475.1	Chrysops caecutiens
 GCA_964016965.1	Diacarnus erythraeanus
-GCA_964034945.1	FETCH_FAILED
+GCA_964034945.1	Chrysopilus asiliformis
 GCF_000006335.3	Candida tropicalis
 GCF_000143565.1	Laccaria bicolor
 GCF_000836235.2	Papilio xuthus
@@ -4356,7 +4356,7 @@ GCF_912999745.1	Papilio machaon
 GCF_950005125.1	Chionomys nivalis
 GCF_963455315.1	Globicephala melas
 GCF_963556715.1	Cydia fagiglandana
-GCA_000497125.2	FETCH_FAILED
+GCA_000497125.2	Spironucleus salmonicida
 GCA_000697295.1	Mucor indicus
 GCA_000751175.1	Stylonychia lemnae
 GCA_001189435.1	Tolypocladium ophioglossoides
@@ -4493,17 +4493,17 @@ GCA_911254575.1	Candida sanyaensis
 GCA_933207985.1	Pelobates cultripes
 GCA_933228885.1	Leistus spinibarbis
 GCA_940337035.1	Agriotes lineatus
-GCA_947568875.1	FETCH_FAILED
-GCA_947579855.1	FETCH_FAILED
-GCA_949126915.1	FETCH_FAILED
-GCA_949775005.1	FETCH_FAILED
+GCA_947568875.1	Fissipunctia ypsillon
+GCA_947579855.1	Anticlea derivata
+GCA_949126915.1	Musotima nitidalis
+GCA_949775005.1	Orthosia gothica
 GCA_949987585.1	Pipistrellus pygmaeus
-GCA_951394435.1	FETCH_FAILED
-GCA_951802425.1	FETCH_FAILED
+GCA_951394435.1	Stenella coeruleoalba
+GCA_951802425.1	Clavaria fumosa
 GCA_959347405.1	Napeogenes sylphis
-GCA_963576615.1	FETCH_FAILED
-GCA_963924545.1	FETCH_FAILED
-GCA_963932165.1	FETCH_FAILED
+GCA_963576615.1	Watersipora subatra
+GCA_963924545.1	Pogonocherus hispidulus
+GCA_963932165.1	Pimpla rufipes
 GCA_964017145.1	Agrocybe praecox
 GCF_000464535.1	Endocarpon pusillum
 GCF_000523455.1	Bipolaris oryzae
@@ -4566,7 +4566,7 @@ GCA_015106755.1	Etia nguti
 GCA_016097085.2	Sporothrix curviconia
 GCA_016758965.1	Circinella minor
 GCA_017140985.1	Hormaphis cornu
-GCA_017916325.1	FETCH_FAILED
+GCA_017916325.1	Leishmania martiniquensis
 GCA_018150735.1	Drosophila sp. 14030-0761.01
 GCA_018237505.1	Zabuella tenellus
 GCA_018237825.1	Theope publius
@@ -4657,7 +4657,7 @@ GCA_947310995.1	Yponomeuta cagnagella
 GCA_947578705.1	Lacanobia wlatinum
 GCA_948144175.1	Closterium sp. NIES-65
 GCA_948330635.1	Euphorbia biselegans
-GCA_950108345.1	FETCH_FAILED
+GCA_950108345.1	Malthinus flaveolus
 GCA_958295435.1	Mesorhabditis spiculigera
 GCA_958295605.1	Ajuga chamaepitys
 GCA_961763995.1	Juglans cinerea
@@ -4765,7 +4765,7 @@ GCA_026779145.1	Marcusenius schilthuisiae
 GCA_027243985.1	Cryptosporidium canis
 GCA_027576575.1	Netuma bilineata
 GCA_027579315.1	Coemansia helicoidea
-GCA_028538775.1	FETCH_FAILED
+GCA_028538775.1	Myotis yumanensis
 GCA_028564905.1	Leptodoras praelongus
 GCA_028565735.1	Pinacopodium congolense
 GCA_028828875.1	Penicillium capsulatum
@@ -4788,7 +4788,7 @@ GCA_032362145.1	Hypanus berthalutzae
 GCA_032466295.1	Forpus passerinus
 GCA_032718565.1	Distichodus sexfasciatus
 GCA_032988465.1	Onygenales sp. PD_10
-GCA_033568475.2	FETCH_FAILED
+GCA_033568475.2	Henckelia pumila
 GCA_033882615.1	Malus asiatica
 GCA_033980235.1	Diadema setosum
 GCA_034621355.1	Mycalesis mineus
@@ -4800,7 +4800,7 @@ GCA_035584695.1	Agave karwinskii
 GCA_036897095.1	Plantago elongata
 GCA_036939495.1	Thalassiosira hispida
 GCA_036940125.1	Mediolabrus comicus
-GCA_037305975.1	FETCH_FAILED
+GCA_037305975.1	Chrysolophus pictus
 GCA_037367365.1	Apogon talboti
 GCA_037678475.1	x Bolboschoenoplectus mariqueter
 GCA_037954035.1	Rosalia funebris
@@ -4825,7 +4825,7 @@ GCA_905333075.3	Atethmia centrago
 GCA_914767995.1	Thecocarcelia acutangulata
 GCA_914829495.1	Eilema sororculum
 GCA_916050605.2	Platycheirus albimanus
-GCA_921293005.1	FETCH_FAILED
+GCA_921293005.1	Nemoura dubitans
 GCA_932178445.1	Andricus quercusramuli
 GCA_932521405.1	Oscheius sp. JU1382
 GCA_944474815.3	Schistosoma curassoni
@@ -4834,10 +4834,10 @@ GCA_947687605.1	Reutealis trisperma
 GCA_949927565.1	Lactuca saligna
 GCA_950022655.1	Alentia gelatinosa
 GCA_950381575.1	Plusia festucae
-GCA_951394365.1	FETCH_FAILED
-GCA_954871355.1	FETCH_FAILED
-GCA_963243735.1	FETCH_FAILED
-GCA_963669185.1	FETCH_FAILED
+GCA_951394365.1	Tetrao urogallus
+GCA_954871355.1	Cabera pusaria
+GCA_963243735.1	Neocrepidodera transversa
+GCA_963669185.1	Dyspetes luteomarginatus
 GCA_963924495.1	Nemapogon koenigi
 GCA_964035005.1	Erebia palarica
 GCF_000223485.1	Spathaspora passalidarum
@@ -4915,7 +4915,7 @@ GCA_024542945.1	allo-octoploid hybrid of Carassius auratus x Cyprinus carpio
 GCA_025309335.1	Aegypius monachus
 GCA_025448135.1	Haliaeetus ichthyaetus
 GCA_025469175.1	Geopemphigus sp. TES_GeoC_2020
-GCA_026167975.1	FETCH_FAILED
+GCA_026167975.1	Phrynosoma blainvillii
 GCA_026289955.1	Argiope argentata
 GCA_026770025.1	Craspedostauros australis
 GCA_027123135.1	Urophycis floridana
@@ -4977,7 +4977,7 @@ GCA_038090335.1	Solioccasus polychromus
 GCA_038090635.1	Rubroboletus satanas
 GCA_038092075.1	Leccinum fuscescens
 GCA_038093155.1	Boletus huronensis
-GCA_038363925.1	FETCH_FAILED
+GCA_038363925.1	Apiospora phragmitis
 GCA_038501925.1	Xenopus petersii
 GCA_038502455.1	Anisogramma anomala
 GCA_038502775.1	Hippodamia convergens
@@ -4998,9 +4998,9 @@ GCA_928212115.1	Lactuca virosa
 GCA_928724795.1	Ustanciosporium gigantosporum
 GCA_943142095.1	Ophonus ardosiacus
 GCA_947623535.1	Coelioxys conoideus
-GCA_949316085.1	FETCH_FAILED
+GCA_949316085.1	Hypercompe scribonia
 GCA_951828415.1	Anomoia purmunda
-GCA_956465555.1	FETCH_FAILED
+GCA_956465555.1	Nitzschia sp. pyKryTriq1
 GCA_961205885.1	Ptychoptera albimana
 GCA_963454915.1	Gymnoscopelus microlampas
 GCA_963573325.1	Astragalus glycyphyllos
@@ -5122,7 +5122,7 @@ GCA_035578175.1	Catonia carolina
 GCA_036024655.1	Galaxias oliros
 GCA_036025375.1	Retropinna semoni
 GCA_036346405.1	Phyllostachys edulis
-GCA_036669905.1	FETCH_FAILED
+GCA_036669905.1	Acropora muricata
 GCA_036897175.1	Plantago depressa
 GCA_037013495.1	Hippophae tibetana
 GCA_037040025.1	Sphaerogastrella javana
@@ -5152,18 +5152,18 @@ GCA_932294315.1	Epinotia nisella
 GCA_934048045.1	Polygonum aviculare
 GCA_947179485.1	Allacma fusca
 GCA_947846245.1	Cerastoderma edule
-GCA_948252455.1	FETCH_FAILED
+GCA_948252455.1	Acleris cristana
 GCA_949128115.1	Anaspis maculata
-GCA_949316355.1	FETCH_FAILED
+GCA_949316355.1	Bruchidius siliquastri
 GCA_949628195.1	Phasia obesa
 GCA_951751655.1	Ophion costatus
 GCA_954870985.1	Trifolium fragiferum
 GCA_958295575.1	Leucania comma
-GCA_963662125.1	FETCH_FAILED
+GCA_963662125.1	Diplazon laetatorius
 GCA_963675795.1	Crossocerus cetratus
 GCA_963678705.1	Panorpa germanica
 GCA_963678985.1	Spisula subtruncata
-GCA_963691645.1	FETCH_FAILED
+GCA_963691645.1	Pelosia muscerda
 GCA_963691705.1	Viola odorata
 GCA_963971445.1	Ornithomya chloropus
 GCF_000002435.2	Giardia duodenalis
@@ -5249,7 +5249,7 @@ GCA_021397985.1	Sporothrix dimorphospora
 GCA_022539455.1	Dendrobium nobile
 GCA_022606135.1	Fomes fomentarius
 GCA_022609195.1	Plenodomus libanotidis
-GCA_022682495.2	FETCH_FAILED
+GCA_022682495.2	Desmodus rotundus
 GCA_022837005.1	Calonectria pteridis
 GCA_023337755.1	Pythium aristosporum
 GCA_023374145.1	Lepidium sativum
@@ -5268,7 +5268,7 @@ GCA_029282285.1	Mycena rebaudengoi
 GCA_029606305.1	Paecilomyces fulvus
 GCA_029619325.2	Dynastes grantii
 GCA_029874695.1	Gobio lozanoi
-GCA_030064385.1	FETCH_FAILED
+GCA_030064385.1	Melaleuca quinquenervia
 GCA_030068395.1	Apalone spinifera
 GCA_030248215.1	Enoplolaimus lenunculus
 GCA_030463285.1	Phytophthora europaea
@@ -5281,7 +5281,7 @@ GCA_030572795.1	Nematodospora anomalae
 GCA_030573055.1	Metschnikowia anglica
 GCA_030574835.1	[Candida] cerambycidarum
 GCA_030583365.1	Sugiyamaella japonica
-GCA_030848795.1	FETCH_FAILED
+GCA_030848795.1	Temnothorax nylanderi
 GCA_030849045.1	Wallacemonas rigidus
 GCA_031834385.1	Semotilus atromaculatus
 GCA_032355295.1	Fusarium meridionale
@@ -5310,7 +5310,7 @@ GCA_037832335.1	Carallia pectinifolia
 GCA_039720435.1	Amazona ochrocephala
 GCA_900128565.1	Stramenopiles sp. TOSAG23-6
 GCA_902168325.1	Peromyscus nudipes
-GCA_907269105.1	FETCH_FAILED
+GCA_907269105.1	Volucella inanis
 GCA_916700785.1	Sebastes flavidus
 GCA_930367185.1	Myathropa florea
 GCA_945859665.1	Anorthoa munda
@@ -5318,17 +5318,17 @@ GCA_946699065.1	Loxodes magnus
 GCA_947049275.1	Epinotia bilunana
 GCA_947310845.1	Yponomeuta plumbellus
 GCA_948193215.1	Bocquillonia castaneifolia
-GCA_949315975.1	FETCH_FAILED
-GCA_951800025.1	FETCH_FAILED
+GCA_949315975.1	Eudonia truncicolella
+GCA_951800025.1	Oligia strigilis
 GCA_951800085.1	Comarum palustre
 GCA_963555745.1	Cardamine flexuosa
 GCA_963573855.1	Lepilemur septentrionalis
 GCA_963854735.1	Marvania coccoides
 GCA_963922205.1	Romanomermis culicivorax
 GCA_963969395.1	Pseudoscleropodium purum
-GCA_963969515.1	FETCH_FAILED
-GCA_963971305.1	FETCH_FAILED
-GCA_964026355.1	FETCH_FAILED
+GCA_963969515.1	Yponomeuta evonymella
+GCA_963971305.1	Arcuatula senhousia
+GCA_964026355.1	Pseudorhiza aurosa
 GCA_964036215.1	Oscheius sp. DF5033
 GCF_000239375.1	Pundamilia nyererei
 GCF_000293215.1	Trichosporon asahii
@@ -5407,7 +5407,7 @@ GCA_018904025.1	Zaprionus vittiger
 GCA_019702555.1	Prasinocladus sp. malaysianus
 GCA_019722365.1	Lithospermum erythrorhizon
 GCA_020423425.1	Chrysopa pallens
-GCA_020510985.1	FETCH_FAILED
+GCA_020510985.1	Pholidichthys leucotaenia
 GCA_020740385.1	Mylabris phalerata
 GCA_020976825.1	Odocoileus hemionus
 GCA_021018855.1	Cladosporium oxysporum
@@ -5490,20 +5490,20 @@ GCA_918026875.4	Diatraea saccharalis
 GCA_929447395.1	Epistrophe grossulariae
 GCA_936450705.2	Protodeltote pygarga
 GCA_946902985.2	Meconema thalassinum
-GCA_947623395.1	FETCH_FAILED
+GCA_947623395.1	Synanthedon tipuliformis
 GCA_948193465.1	Acalypha hispida
-GCA_949629135.1	FETCH_FAILED
-GCA_949715475.1	FETCH_FAILED
-GCA_949802685.1	FETCH_FAILED
+GCA_949629135.1	Eremobia ochroleuca
+GCA_949715475.1	Microchrysa polita
+GCA_949802685.1	Dicyrtomina minuta
 GCA_963151315.1	Nymphalis c-album
-GCA_963513975.1	FETCH_FAILED
-GCA_963514095.1	FETCH_FAILED
+GCA_963513975.1	Fringilla coelebs
+GCA_963514095.1	Eutrigla gurnardus
 GCA_963576535.1	Plemyria rubiginata
 GCA_963693085.1	Alisma plantago-aquatica
-GCA_963693495.1	FETCH_FAILED
-GCA_963920635.1	FETCH_FAILED
+GCA_963693495.1	Malacosoma neustria
+GCA_963920635.1	Pseudeuparius sepicola
 GCA_963931845.1	Maratus michaelseni
-GCA_963978545.1	FETCH_FAILED
+GCA_963978545.1	Linyphia triangularis
 GCA_963978895.1	Erpobdella octoculata
 GCF_000004075.3	Cucumis sativus
 GCF_000005505.3	Brachypodium distachyon
@@ -5548,7 +5548,7 @@ GCA_004335895.1	Chlamydomonas sp. AIC
 GCA_004794655.1	Marisa cornuarietis
 GCA_006783055.1	Trinorchestia longiramus
 GCA_007556505.1	Elsinoe australis
-GCA_009819655.1	FETCH_FAILED
+GCA_009819655.1	Sylvia atricapilla
 GCA_010015745.1	Setomelanomma holmii
 GCA_010093745.1	Piedraia hortae
 GCA_013389885.1	Geococcyx californianus
@@ -5589,7 +5589,7 @@ GCA_025330725.1	Chlamydoabsidia padenii
 GCA_025330945.1	Mucuna pruriens
 GCA_025490895.1	Thaumatotibia leucotreta
 GCA_025727695.1	Ciconia stormi
-GCA_026230005.1	FETCH_FAILED
+GCA_026230005.1	Gila orcuttii
 GCA_026283605.1	Ganoderma lingzhi
 GCA_026290005.1	Latrodectus geometricus
 GCA_026546465.2	Palythoa caribaeorum
@@ -5634,11 +5634,11 @@ GCA_034780215.1	Carduelis corsicana
 GCA_036872995.1	Hymenopellis raphanipes
 GCA_036873485.1	Torymus texanus
 GCA_037039885.1	Miamiensis avidus
-GCA_037176725.1	FETCH_FAILED
+GCA_037176725.1	Posidonia oceanica
 GCA_037962975.1	Clitoria ternatea
 GCA_037974545.1	Cucumis variabilis
-GCA_038048845.1	FETCH_FAILED
-GCA_038088225.1	FETCH_FAILED
+GCA_038048845.1	Mixophyes fleayi
+GCA_038088225.1	Cyrtonyx montezumae
 GCA_038088815.1	Boletus nobilissimus
 GCA_038088835.1	Singerocomus rubriflavus
 GCA_038091095.1	Leccinum incarnatum
@@ -5649,7 +5649,7 @@ GCA_038502055.1	Tanytarsus gracilentus
 GCA_900240985.1	Crithidia bombi
 GCA_900312635.1	Pollachius virens
 GCA_900883565.2	Caenorhabditis panamensis
-GCA_902713615.2	FETCH_FAILED
+GCA_902713615.2	Scyliorhinus canicula
 GCA_902806535.1	Hypoxylon rickii
 GCA_902810595.1	Coregonus sp. 'balchen'
 GCA_907165235.1	Zeuzera pyrina
@@ -5663,7 +5663,7 @@ GCA_949358305.1	Strigamia acuminata
 GCA_950022295.1	Bromus sterilis
 GCA_950022955.1	Xestia ashworthii
 GCA_951802165.1	Adalia decempunctata
-GCA_951802735.1	FETCH_FAILED
+GCA_951802735.1	Nomada hirtipes
 GCA_954870865.1	Wickerhamiella slavikovae
 GCA_955876795.1	Eupithecia tripunctaria
 GCA_963082915.1	Dolichopus griseipennis
@@ -5792,7 +5792,7 @@ GCA_034695645.1	Folsomia fimetaria
 GCA_034768055.1	Saccharina latissima
 GCA_034768475.1	Alipiopsitta xanthops
 GCA_034780875.1	Spinus lawrencei
-GCA_035084215.1	FETCH_FAILED
+GCA_035084215.1	Heptranchias perlo
 GCA_035578165.1	Stenolophus ochropezus
 GCA_036023535.2	Galaxias brevipinnis
 GCA_036785405.1	Coenonympha arcania
@@ -5816,25 +5816,25 @@ GCA_038993655.1	Talaromyces verruculosus
 GCA_039545235.1	Mrakia aquatica
 GCA_039619505.1	Cimex hemipterus
 GCA_900312585.1	Malacocephalus occidentalis
-GCA_902827115.2	FETCH_FAILED
+GCA_902827115.2	Pseudochaenichthys georgianus
 GCA_905187475.1	Syritta pipiens
 GCA_913698475.1	Gnoriste bilineata
 GCA_918857605.2	Philereme vetulata
 GCA_921007115.2	Peronospora matthiolae
 GCA_922788865.1	Poeciliopsis turneri
 GCA_943590825.1	Bovichtus diacanthus
-GCA_947532085.1	FETCH_FAILED
-GCA_949709985.1	FETCH_FAILED
+GCA_947532085.1	Elegia similella
+GCA_949709985.1	Luffia ferchaultella
 GCA_958431115.1	Syrphus vitripennis
 GCA_963082905.1	Oligia fasciuncula
-GCA_963457695.1	FETCH_FAILED
-GCA_963572245.1	FETCH_FAILED
+GCA_963457695.1	Neria commutata
+GCA_963572245.1	Caenorhabditis sp. 8 KK-2011
 GCA_963574175.1	Chiropotes sagulatus
 GCA_963682055.1	Primula veris
-GCA_963920525.1	FETCH_FAILED
-GCA_963921185.1	FETCH_FAILED
+GCA_963920525.1	Dichetophora obliterata
+GCA_963921185.1	Dasysyrphus tricinctus
 GCA_963935595.1	Schoenobius gigantellus
-GCA_963978525.1	FETCH_FAILED
+GCA_963978525.1	Ornithomya fringillina
 GCF_000011425.1	Aspergillus nidulans
 GCF_000151265.4	Micromonas pusilla
 GCF_000151425.1	Trichophyton rubrum
@@ -5995,21 +5995,21 @@ GCA_905340365.1	Vespula germanica
 GCA_910592215.1	Entrophospora candida
 GCA_910596185.1	Chrysanthemum makinoi
 GCA_914767815.1	Eupsilia transversa
-GCA_916618145.1	FETCH_FAILED
+GCA_916618145.1	Emmelina monodactyla
 GCA_918226075.1	Microctonus brassicae
-GCA_937654795.1	FETCH_FAILED
+GCA_937654795.1	Cistogaster globosa
 GCA_947247005.1	Spisula solida
 GCA_947562095.1	Branchellion lobata
-GCA_948146395.1	FETCH_FAILED
+GCA_948146395.1	Fragum whitleyi
 GCA_949748235.1	Platypus cylindrus
 GCA_949774965.1	Diarsia brunnea
 GCA_963575035.1	Avahi laniger
 GCA_963575105.1	Cebuella pygmaea
 GCA_963921915.1	Hyposoter dolosus
 GCA_963924115.1	Dovyalis caffra
-GCA_963930725.1	FETCH_FAILED
-GCA_963942525.1	FETCH_FAILED
-GCA_963978905.1	FETCH_FAILED
+GCA_963930725.1	Candelabrum cocksii
+GCA_963942525.1	Ptychoptera contaminata
+GCA_963978905.1	Trichostrongylus colubriformis
 GCF_000203815.1	Cavenderia fasciculata
 GCF_000309985.2	Brassica rapa
 GCF_000349705.1	Leptonychotes weddellii
@@ -6026,9 +6026,9 @@ GCF_026151205.1	Bolinopsis microptera
 GCF_029169275.1	Apis cerana
 GCF_033296635.1	Dichotomopilus funicola
 GCF_034236695.1	Oncorhynchus nerka
-GCA_000393655.2	FETCH_FAILED
+GCA_000393655.2	Nicotiana sylvestris
 GCA_000497715.1	Spathaspora arborariae
-GCA_000512565.3	FETCH_FAILED
+GCA_000512565.3	Kwoniella dejecticola
 GCA_000787155.1	Scartelaos histophorus
 GCA_001050175.1	Trichoderma parareesei
 GCA_001485965.1	Heliconius ismenius
@@ -6131,7 +6131,7 @@ GCA_030570775.1	Ogataea pignaliae
 GCA_030572615.1	Metschnikowia lachancei
 GCA_030574475.1	Trigonopsis californica
 GCA_030674255.1	Wickerhamomyces queroliae
-GCA_030819815.1	FETCH_FAILED
+GCA_030819815.1	Strix occidentalis
 GCA_030844895.1	Ambrosia x helenae
 GCA_031125485.1	Saccharomycopsis javanensis
 GCA_032432875.1	Phytophthora meadii
@@ -6145,7 +6145,7 @@ GCA_035584435.1	Egregia menziesii
 GCA_036320875.1	Cotoneaster glaucophyllus
 GCA_036584705.1	Rhyacophila sp. 25_7
 GCA_037414755.1	Lydus trimaculatus
-GCA_037783105.1	FETCH_FAILED
+GCA_037783105.1	Bactrocera zonata
 GCA_037953035.1	Aquarana catesbeiana
 GCA_037974385.1	Arnoldichthys spilopterus
 GCA_037974755.1	Cicer yamashitae
@@ -6159,20 +6159,20 @@ GCA_900095095.1	Fragilariopsis cylindrus
 GCA_900184695.1	Betula pendula
 GCA_900406495.1	Sisymbrium altissimum
 GCA_904063045.1	Dimorphilus gyrociliatus
-GCA_905147345.3	FETCH_FAILED
+GCA_905147345.3	Mythimna impura
 GCA_911728475.2	Pterostichus madidus
 GCA_947310635.1	Leptodirus hochenwartii
 GCA_948294485.1	Mansonella sp. 'DEUX'
 GCA_948472305.1	Vicia faba
 GCA_951799425.1	Ilex aquifolium
-GCA_954871275.1	FETCH_FAILED
+GCA_954871275.1	Leptopterna dolabrata
 GCA_959347415.1	Mechanitis messenoides
 GCA_963082805.1	Hemicrepidius hirtus
-GCA_963402855.1	FETCH_FAILED
-GCA_963422515.1	FETCH_FAILED
+GCA_963402855.1	Ormia ochracea
+GCA_963422515.1	Blennius ocellaris
 GCA_963556495.2	Valencia hispanica
 GCA_963678675.1	Xiphydria camelus
-GCA_963920655.1	FETCH_FAILED
+GCA_963920655.1	Geranium rotundifolium
 GCA_964023945.1	Ectemnius cavifrons
 GCA_964036275.1	Litoditis marina
 GCF_000143535.2	Botrytis cinerea
@@ -6212,7 +6212,7 @@ GCA_003314125.1	Hygrophorus russula
 GCA_003705745.3	Blastobotrys muscicola
 GCA_003708055.3	Torulaspora maleeae
 GCA_003846335.1	Cuora mccordi
-GCA_004210375.1	FETCH_FAILED
+GCA_004210375.1	Tachypleus tridentatus
 GCA_004802645.1	Amesia nigricolor
 GCA_005281575.1	Taphrina deformans
 GCA_006112555.1	Tuber indicum
@@ -6277,9 +6277,9 @@ GCA_027575915.1	Betancurichthys madagascariensis
 GCA_028455555.1	Augochlorella aurata
 GCA_028554755.1	Cordia subcordata
 GCA_028565275.1	Leiocassis micropogon
-GCA_029030835.1	FETCH_FAILED
+GCA_029030835.1	Brachyistius frenatus
 GCA_029299265.1	Leptographium wageneri
-GCA_029677425.1	FETCH_FAILED
+GCA_029677425.1	Wolffia australiana
 GCA_029814725.1	Acanthurus nigricauda
 GCA_029874045.1	Chelon ramada
 GCA_030159175.1	Glycyrrhiza uralensis
@@ -6308,7 +6308,7 @@ GCA_034695365.1	Enchytraeus norvegicus
 GCA_034700645.1	Xenylla mediterranea
 GCA_034700825.1	Quadroppia sp. Gr-Ori-00064
 GCA_035045005.1	Liodrosophila aerea
-GCA_035046505.1	FETCH_FAILED
+GCA_035046505.1	Tiliqua scincoides
 GCA_035585475.1	Armandia brevis
 GCA_035609425.1	Epinephelus awoara
 GCA_035926095.1	Elasticomyces elasticus
@@ -6317,7 +6317,7 @@ GCA_036873565.1	Xipholeptos notoides
 GCA_036940065.1	Cyclotella cf. meneghiniana
 GCA_036984385.1	Crenuchus spilurus
 GCA_037039905.1	Formica aserva
-GCA_037177615.1	FETCH_FAILED
+GCA_037177615.1	Pyrus communis
 GCA_037355905.1	Heliconius aoede
 GCA_037783545.1	Henricia sp. BOLD:AAB3569
 GCA_037834435.1	Laminaria setchellii
@@ -6331,7 +6331,7 @@ GCA_900406245.1	Odontarrhena argentea
 GCA_900659605.1	Tisbe holothuriae
 GCA_900660455.1	Gephyroberyx darwinii
 GCA_903064625.1	Mallotus villosus
-GCA_905332985.1	FETCH_FAILED
+GCA_905332985.1	Mimas tiliae
 GCA_913698135.1	Labidopullus appendiculatus
 GCA_916701585.1	Sebastes taczanowskii
 GCA_937625935.1	Tetramitus jugosus
@@ -6341,7 +6341,7 @@ GCA_946403475.1	Torulaspora quercuum
 GCA_947462335.1	Harmothoe impar
 GCA_947650365.1	Chionographis japonica
 GCA_948474745.1	Oligia latruncula
-GCA_949152265.1	FETCH_FAILED
+GCA_949152265.1	Phoxinus phoxinus
 GCA_963920795.1	Eutolmus rufibarbis
 GCF_000281045.1	Saprolegnia diclina
 GCF_000981445.1	Babesia bigemina
@@ -6406,7 +6406,7 @@ GCA_018904275.1	Lordiphosa clarofinis
 GCA_019359885.1	Listronotus oregonensis
 GCA_019925295.1	Sporothrix pseudoabietina
 GCA_020002355.1	Intubia oerlemansii
-GCA_020311275.1	FETCH_FAILED
+GCA_020311275.1	Eira barbara
 GCA_021437795.1	Rhodamnia rubescens
 GCA_021462335.1	Ovibos moschatus
 GCA_021764765.1	Vicia sativa
@@ -6481,27 +6481,27 @@ GCA_902984215.1	Willaertia magna
 GCA_903798345.1	Fraxinus anomala
 GCA_905220435.1	Amphipyra tragopoginis
 GCA_910592015.1	Diversispora eburnea
-GCA_916610125.1	FETCH_FAILED
+GCA_916610125.1	Cheilosia vulpina
 GCA_929108375.1	Gymnoscelis rufifasciata
 GCA_930367215.1	Pollenia angustigena
 GCA_943733655.1	[Candida] jaroonii
 GCA_946814055.1	Caenorhabditis sp. 36 PRJEB53466
 GCA_947044815.1	Apomyelois bistriatella
-GCA_949127965.1	FETCH_FAILED
-GCA_949315895.1	FETCH_FAILED
+GCA_949127965.1	Pandemis corylana
+GCA_949315895.1	Anania crocealis
 GCA_949987675.1	Chymomyza fuscimana
-GCA_949987685.1	FETCH_FAILED
-GCA_949987775.1	FETCH_FAILED
+GCA_949987685.1	Ammodytes marinus
+GCA_949987775.1	Aproaerema taeniolella
 GCA_951411735.1	Somateria mollissima
-GCA_963280865.1	FETCH_FAILED
+GCA_963280865.1	Gymnoscopelus braueri
 GCA_963454935.2	Ilex paraguariensis
 GCA_963555705.1	Ligustrum vulgare
-GCA_963669365.1	FETCH_FAILED
+GCA_963669365.1	Verbascum thapsus
 GCA_963853865.1	Helleia helle
 GCA_963932195.1	Empis livida
-GCA_963966105.1	FETCH_FAILED
+GCA_963966105.1	Volucella zonaria
 GCA_964019445.1	Populus tremula
-GCA_964058915.1	FETCH_FAILED
+GCA_964058915.1	Tetropium fuscum
 GCF_000149755.1	Phytophthora sojae
 GCF_000258705.1	Coccomyxa subellipsoidea
 GCF_000296735.1	Chrysochloris asiatica
@@ -6583,11 +6583,11 @@ GCA_018251475.1	Euphyes dion
 GCA_018703695.1	Prunus fruticosa
 GCA_018905715.1	Drosophila lini
 GCA_019455505.1	Pleochaeta shiraiana
-GCA_020186115.1	FETCH_FAILED
+GCA_020186115.1	Histomonas meleagridis
 GCA_022058765.1	Clavispora paralusitaniae
 GCA_022478815.1	Daldinia bambusicola
 GCA_022495005.1	Rhyacophila brunnea
-GCA_023055355.1	FETCH_FAILED
+GCA_023055355.1	Agelaius tricolor
 GCA_023082095.1	Dothiorella sarmentorum
 GCA_023373885.1	Hestina assimilis
 GCA_023624055.1	Paecilomyces sp. PK2413
@@ -6603,7 +6603,7 @@ GCA_026167845.1	Alcyonidium flabelliforme
 GCA_026937815.1	Etheostoma perlongum
 GCA_027560375.1	Imantodes cenchoa
 GCA_027602005.1	Geranomyces michiganensis
-GCA_028536675.1	FETCH_FAILED
+GCA_028536675.1	Aphelocoma californica
 GCA_028566455.1	Botula fusca
 GCA_028571685.1	Heterohyrax brucei
 GCA_028637885.1	Xylariaceae sp. Mn132
@@ -6621,7 +6621,7 @@ GCA_030583345.1	Schwanniomyces pseudopolymorphus
 GCA_030737875.1	Allium sativum
 GCA_030820535.1	Quercus parvula
 GCA_030849845.1	Crithidia brevicula
-GCA_031162955.1	FETCH_FAILED
+GCA_031162955.1	Sander vitreus
 GCA_031763025.1	Macrocystis pyrifera
 GCA_031763155.1	Dirona albolineata
 GCA_032270445.1	Darlingtonia californica
@@ -6648,7 +6648,7 @@ GCA_037974945.1	Mucor circinelloides
 GCA_037975125.1	Latrodectus hesperus
 GCA_038092115.1	Leccinum brunneo-olivaceum
 GCA_038407015.1	Ceratocystis ficicola
-GCA_038497645.1	FETCH_FAILED
+GCA_038497645.1	Lipomyces chichibuensis
 GCA_900068955.1	Clitocybe nebularis
 GCA_900617795.1	Protopolystoma xenopodis
 GCA_900660155.1	Hofstenia miamia
@@ -6658,22 +6658,22 @@ GCA_902810775.1	Myriosclerotinia sulcatula
 GCA_903067105.1	Poeciliopsis infans
 GCA_943704495.1	Pigoraptor chileana
 GCA_946803715.1	Beroe ovata
-GCA_946965045.2	FETCH_FAILED
+GCA_946965045.2	Epithemia pelagica
 GCA_947359355.1	Acrocera orbiculus
 GCA_947857235.1	Jatropha podagrica
 GCA_949677035.1	Omphalea diandra
 GCA_951394425.1	Tipula unca
 GCA_955850985.1	Elophila nymphaeata
-GCA_958449745.1	FETCH_FAILED
+GCA_958449745.1	Ochropleura leucogaster
 GCA_963170745.1	Phymatocera aterrima
-GCA_963402885.1	FETCH_FAILED
+GCA_963402885.1	Antedon bifida
 GCA_963574355.1	Loris lydekkerianus
-GCA_963675205.1	FETCH_FAILED
-GCA_963680705.1	FETCH_FAILED
+GCA_963675205.1	Catocala nupta
+GCA_963680705.1	Rhagium mordax
 GCA_963942555.1	Aleiodes leptofemur
 GCA_964023155.1	Ganoderma resinaceum
 GCA_964028335.1	Altica lythri
-GCA_964056735.1	FETCH_FAILED
+GCA_964056735.1	Koerneria pararmatus
 GCF_000187425.2	Metarhizium robertsii
 GCF_000317375.1	Microtus ochrogaster
 GCF_000715545.1	Opisthorchis viverrini
@@ -6809,8 +6809,8 @@ GCA_900323305.1	Trachyrincus murrayi
 GCA_900332095.2	Cuscuta campestris
 GCA_905147355.2	Apotomis turbidana
 GCA_905340225.1	Abrostola tripartita
-GCA_905475315.1	FETCH_FAILED
-GCA_910589285.2	FETCH_FAILED
+GCA_905475315.1	Autographa pulchrina
+GCA_910589285.2	Mythimna ferrago
 GCA_916701335.1	Sebastes itinus
 GCA_917208275.1	Patella pellucida
 GCA_918844115.2	Phlebotomus perniciosus
@@ -6819,19 +6819,19 @@ GCA_935421215.2	Melolontha melolontha
 GCA_946251815.1	Dasysyrphus albostriatus
 GCA_947369275.1	Nemotelus nigrinus
 GCA_947470075.1	Closterium sp. Yama58-4
-GCA_949316285.1	FETCH_FAILED
+GCA_949316285.1	Eupithecia subumbrata
 GCA_949750685.1	Vernicia montana
 GCA_949751825.1	Blepharisma undulans
 GCA_950371115.1	Anania fuscalis
 GCA_951230915.1	Antitrichia curtipendula
 GCA_951640565.1	Petrophora chlorosata
 GCA_951802695.1	Nomada ruficornis
-GCA_954870635.1	FETCH_FAILED
-GCA_963580335.1	FETCH_FAILED
+GCA_954870635.1	Arctium minus
+GCA_963580335.1	Leptographium flavum
 GCA_963920805.1	Primula vulgaris
 GCA_963921985.1	Agrilus biguttatus
 GCA_964036235.1	Heterorhabditis bacteriophora
-GCA_964058825.1	FETCH_FAILED
+GCA_964058825.1	Carex arenaria
 GCF_000003195.3	Sorghum bicolor
 GCF_000026365.1	Zygosaccharomyces rouxii
 GCF_000150275.1	Trichoplax adhaerens
@@ -6928,7 +6928,7 @@ GCA_028551445.1	Miopithecus talapoin
 GCA_028828415.1	Cordyceps cateniannulata
 GCA_029641185.1	Pseudofabraea citricarpa
 GCA_029874215.1	Squalius alburnoides
-GCA_030035685.1	FETCH_FAILED
+GCA_030035685.1	Mobula birostris
 GCA_030068045.1	Platyallabes tihoni
 GCA_030370435.1	Auanema freiburgensis
 GCA_030444775.1	Atalantia buxifolia
@@ -6970,19 +6970,19 @@ GCA_038407185.1	Chalaropsis ovoidea
 GCA_038502835.1	Octonoba sinensis
 GCA_039654755.1	Calcarius lapponicus
 GCA_900074715.1	Lachancea meyersii
-GCA_900324465.3	FETCH_FAILED
+GCA_900324465.3	Anabas testudineus
 GCA_900474275.1	Synergus japonicus
 GCA_904066265.1	Eimeria zaria
 GCA_905163415.1	Noctua fimbriata
 GCA_906901685.1	Desoria tigrina
-GCA_911387685.1	FETCH_FAILED
+GCA_911387685.1	Dolichovespula media
 GCA_911387805.1	Cantharis rustica
 GCA_916700765.1	Sebastes fasciatus
 GCA_916700835.1	Sebastes baramenuke
 GCA_916701135.1	Sebastes kiyomatsui
 GCA_916701425.1	Sebastes steindachneri
-GCA_918807975.1	FETCH_FAILED
-GCA_920104075.1	FETCH_FAILED
+GCA_918807975.1	Aplidium turbinatum
+GCA_920104075.1	Melanargia galathea
 GCA_933228735.2	Amblyteles armatorius
 GCA_943704525.1	Pigoraptor vietnamica
 GCA_947459985.1	Diloba caeruleocephala
@@ -6993,18 +6993,18 @@ GCA_949640775.1	Jamesozyma spencerorum
 GCA_949987735.1	Leucophora obtusa
 GCA_951230385.1	Staurois parvus
 GCA_951802395.1	Volvariella surrecta
-GCA_955612985.1	FETCH_FAILED
+GCA_955612985.1	Cheilosia scutellata
 GCA_959613375.1	Heteropelma amictum
 GCA_963506565.1	Tachystola acroxantha
 GCA_963555575.2	Hygrocybe coccinea
 GCA_963573305.1	Pyrrhosoma nymphula
 GCA_963575065.1	Cercopithecus petaurista
 GCA_963575645.1	Xanthostigma xanthostigma
-GCA_963576755.1	FETCH_FAILED
+GCA_963576755.1	Noctua janthina
 GCA_963678695.2	Diplodus puntazzo
-GCA_963924515.1	FETCH_FAILED
+GCA_963924515.1	Vespertilio murinus
 GCA_963931895.1	Eupithecia pulchellata
-GCA_963932145.1	FETCH_FAILED
+GCA_963932145.1	Acanthosepion lycidas
 GCA_963971235.1	Cryptus armator
 GCF_000247695.1	Heterocephalus glaber
 GCF_000300595.1	Phanerochaete carnosa
@@ -7028,7 +7028,7 @@ GCF_029633865.1	Lampris incognitus
 GCF_029955315.1	Cylas formicarius
 GCF_030384665.1	Lodderomyces elongisporus
 GCF_030869225.1	Colletotrichum abscissum
-GCA_000002945.3	FETCH_FAILED
+GCA_000002945.3	Schizosaccharomyces pombe
 GCA_000151175.1	Trichophyton equinum
 GCA_000286055.1	Dictyostelium citrinum
 GCA_000504465.1	Cryomyces antarcticus
@@ -7071,7 +7071,7 @@ GCA_018326445.1	Flaveria brownii
 GCA_018360135.1	Claviceps sorghi
 GCA_019775635.1	Cladosporium sp. VS III D KN 1
 GCA_019914995.1	Acanthochlamys bracteata
-GCA_019915185.1	FETCH_FAILED
+GCA_019915185.1	Eucalyptus camaldulensis
 GCA_019915205.1	Eucalyptus rudis
 GCA_019976485.1	Apiospora pterosperma
 GCA_020081605.1	Albifimbria verrucaria
@@ -7138,7 +7138,7 @@ GCA_037576205.1	Pyrocystis lunula
 GCA_037951105.1	Echinarachnius parma
 GCA_038089695.1	Xanthoconium separans
 GCA_038094475.1	Phylloporus aff. rhodophaeus
-GCA_038362705.1	FETCH_FAILED
+GCA_038362705.1	Apiospora aurea
 GCA_038364195.1	Apiospora sp. TS-2023a
 GCA_039545395.1	Filobasidium uniguttulatum
 GCA_039700045.1	Malbranchea zuffiana
@@ -7151,25 +7151,25 @@ GCA_900491605.1	Calamus simplicifolius
 GCA_900683385.1	Anoplogaster cornuta
 GCA_903067095.1	Girardinus metallicus
 GCA_910589775.1	Avena eriantha
-GCA_910591435.1	FETCH_FAILED
+GCA_910591435.1	Acronicta aceris
 GCA_916700745.1	Sebastes cheni
-GCA_918843925.1	FETCH_FAILED
+GCA_918843925.1	Eulithis prunata
 GCA_928724755.1	Sporisorium exsertum
-GCA_932294345.1	FETCH_FAILED
+GCA_932294345.1	Pandemis cinnamomeana
 GCA_947369235.1	Udea olivalis
 GCA_947425015.1	Pterostichus niger
-GCA_947859365.1	FETCH_FAILED
+GCA_947859365.1	Archips crataeganus
 GCA_948243855.1	Flueggea neowawraea
 GCA_950295325.1	Polytrichum commune
-GCA_951799975.1	FETCH_FAILED
-GCA_958295455.1	FETCH_FAILED
-GCA_963572285.1	FETCH_FAILED
+GCA_951799975.1	Gobius niger
+GCA_958295455.1	Coleophora deauratella
+GCA_963572285.1	Caenorhabditis drosophilae
 GCA_963574685.1	Cercopithecus neglectus
 GCA_963584105.1	Alviniconcha strummeri
 GCA_963669975.1	Acanthoscelides obtectus
-GCA_963682095.1	FETCH_FAILED
+GCA_963682095.1	Potentilla sterilis
 GCA_963920785.1	Sphagnum contortum
-GCA_964020975.1	FETCH_FAILED
+GCA_964020975.1	Hermodice carunculata
 GCA_964035595.1	Somion occarium
 GCF_000006565.2	Toxoplasma gondii
 GCF_000478725.1	Eutrema salsugineum
@@ -7250,10 +7250,10 @@ GCA_019565615.1	Trichoderma simmonsii
 GCA_019804575.2	Pseudotulostoma volvatum
 GCA_019973895.1	Chrysanthemum seticuspe
 GCA_020283515.1	Alliaria petiolata
-GCA_021039105.1	FETCH_FAILED
+GCA_021039105.1	Scomber colias
 GCA_022539475.1	Gracilaria domingensis
 GCA_022832235.1	Lepidurus couesii
-GCA_023055335.1	FETCH_FAILED
+GCA_023055335.1	Clinocottus analis
 GCA_023213015.1	Komagataella mondaviorum
 GCA_023313115.1	Rhysida immarginata
 GCA_023362775.1	Charina bottae
@@ -7317,23 +7317,23 @@ GCA_037042525.1	Aspergillus sp. P7301S-1
 GCA_037367295.1	Apogon hyalosoma
 GCA_037833815.1	Zingiber zerumbet
 GCA_037950675.1	Hypophthalmichthys molitrix
-GCA_037975245.1	FETCH_FAILED
+GCA_037975245.1	Apostichopus japonicus
 GCA_038051015.1	Phyllosticta paracitricarpa
 GCA_038089355.1	Pulveroboletus ridleyi
 GCA_038091695.1	Leccinum proximum
 GCA_038094335.1	Tylopilus aff. striatulus
 GCA_900474315.1	Torymus auratus
 GCA_900536425.1	Hymenoscyphus linearis
-GCA_901001165.2	FETCH_FAILED
+GCA_901001165.2	Salmo trutta
 GCA_901779475.1	Panagrolaimus davidi
 GCA_902829195.1	Fraxinus dipetala
 GCA_905220385.1	Xylota sylvarum
 GCA_905220665.1	Albugo candida
 GCA_905250125.1	Rotaria sordida
 GCA_906901655.1	Sminthurides aquaticus
-GCA_911387765.1	FETCH_FAILED
-GCA_912999785.1	FETCH_FAILED
-GCA_916610145.1	FETCH_FAILED
+GCA_911387765.1	Pyrgus malvae
+GCA_912999785.1	Hydriomena furcata
+GCA_916610145.1	Eristalis arbustorum
 GCA_928724745.1	Anthracocystis setariae
 GCA_932521025.1	Oscheius onirici
 GCA_945859715.1	Apamea sordens
@@ -7341,15 +7341,15 @@ GCA_945859745.1	Synanthedon formicaeformis
 GCA_947179155.2	Hedera helix
 GCA_947534325.1	Agonum fuliginosum
 GCA_949715645.1	Portevinia maculata
-GCA_950370525.1	FETCH_FAILED
+GCA_950370525.1	Bellardia bayeri
 GCA_951394285.1	Epirrhoe tristata
 GCA_962446985.1	Xyrichtys novacula
 GCA_963082815.1	Melanotus villosus
 GCA_963583935.1	Diaperis boleti
-GCA_963920205.1	FETCH_FAILED
-GCA_964017055.1	FETCH_FAILED
+GCA_963920205.1	Stenodema calcarata
+GCA_964017055.1	Chloromyia formosa
 GCA_964019155.1	Osedax fenrisi
-GCA_964036015.1	FETCH_FAILED
+GCA_964036015.1	Leptarthrus brevirostris
 GCF_000150825.1	Verticillium alfalfae
 GCF_000320585.1	Heterobasidion irregulare
 GCF_000359705.1	Exserohilum turcicum
@@ -7497,18 +7497,18 @@ GCA_944990035.1	Clitopilus passeckerianus
 GCA_947363905.1	Lithophane semibrunnea
 GCA_947648045.1	Beta corolliflora
 GCA_948474755.1	Ctenosaura bakeri
-GCA_949316025.1	FETCH_FAILED
+GCA_949316025.1	Lapara coniferarum
 GCA_950004255.1	Mesopsocus fuscifrons
-GCA_960531495.1	FETCH_FAILED
+GCA_960531495.1	Zeus faber
 GCA_963280985.1	Strongyloides venezuelensis
-GCA_963680865.1	FETCH_FAILED
-GCA_963854165.1	FETCH_FAILED
-GCA_963930645.1	FETCH_FAILED
+GCA_963680865.1	Spergularia marina
+GCA_963854165.1	Sylvicola cinctus
+GCA_963930645.1	Salticus scenicus
 GCA_963932465.1	Maratus speciosus
-GCA_963969365.1	FETCH_FAILED
+GCA_963969365.1	Asterochloris sp. CNOR1
 GCA_963971225.1	Melieria omissa
-GCA_963978815.1	FETCH_FAILED
-GCA_963991005.1	FETCH_FAILED
+GCA_963978815.1	Aleochara curtula
+GCA_963991005.1	Barypeithes pellucidus
 GCA_964034925.1	Tricholoma hemisulphureum
 GCF_000006405.1	Perkinsus marinus
 GCF_000241765.5	Chrysemys picta
@@ -7557,8 +7557,8 @@ GCA_014898925.1	Fusarium nelsonii
 GCA_015052345.1	Lamprologus callipterus
 GCA_015179125.1	Gautieria morchelliformis
 GCA_016801325.1	Hypholoma fasciculare
-GCA_017916305.1	FETCH_FAILED
-GCA_017918235.1	FETCH_FAILED
+GCA_017916305.1	Leishmania enriettii
+GCA_017918235.1	Porcisia hertigi
 GCA_018155075.1	Cassiopea andromeda
 GCA_018231145.1	Spialia orbifer
 GCA_018246095.1	Toxidia parvulus
@@ -7589,7 +7589,7 @@ GCA_022496185.1	Multifurca ochricompacta
 GCA_022963125.1	Ustilago nuda
 GCA_023337545.1	Pythium coloratum
 GCA_023338075.1	Phytopythium litorale
-GCA_023349555.1	FETCH_FAILED
+GCA_023349555.1	Cebidichthys violaceus
 GCA_023748175.1	Hoolock leuconedys
 GCA_023838395.1	Holcopasites calliopsidis
 GCA_023935145.1	Bretschneidera sinensis
@@ -7626,13 +7626,13 @@ GCA_030583035.1	[Candida] taylorii
 GCA_030788265.1	Drosophila americana
 GCA_031081845.1	Debaryomycetaceae sp. UCDFST 68-768.1
 GCA_031763795.1	Prototheca wickerhamii
-GCA_032118995.1	FETCH_FAILED
+GCA_032118995.1	Asterias amurensis
 GCA_032273605.1	Panulirus laevicauda
 GCA_032353935.1	Desmognathus planiceps
 GCA_032355345.1	Lepetodrilus pustulosus
 GCA_032358235.1	Odonthalia washingtoniensis
 GCA_033118115.1	Pharyngocirrus eroticus
-GCA_033239565.1	FETCH_FAILED
+GCA_033239565.1	Halichoeres trimaculatus
 GCA_033296875.1	Achaetomium macrosporum
 GCA_034695785.1	Galumna obvia
 GCA_034696325.1	Camisiidae sp.
@@ -7646,38 +7646,38 @@ GCA_037177275.1	Acacia concinna
 GCA_037974915.1	Ceratobasidium theobromae
 GCA_038088635.1	Veloboletus limbatus
 GCA_038363315.1	Mugilogobius chulae
-GCA_038363865.1	FETCH_FAILED
+GCA_038363865.1	Apiospora hydei
 GCA_038501625.1	Corbicula japonica
 GCA_039654505.1	Plocamopherus imperialis
 GCA_039764185.1	Tamarix austromongolica
 GCA_039877515.1	Morus serrator
 GCA_900128395.1	Stramenopiles sp. TOSAG23-2
 GCA_900323365.1	Monocentris japonica
-GCA_900324485.3	FETCH_FAILED
+GCA_900324485.3	Mastacembelus armatus
 GCA_900406295.1	Aurinia saxatilis
 GCA_900617985.1	Anisakis simplex
-GCA_902685375.1	FETCH_FAILED
-GCA_910591515.1	FETCH_FAILED
+GCA_902685375.1	Neostethus bicornis
+GCA_910591515.1	Cerceris rybyensis
 GCA_910591585.2	Nysson spinosus
 GCA_916610165.2	Gymnosoma rotundatum
 GCA_916700795.1	Sebastes glaucus
-GCA_921293015.1	FETCH_FAILED
+GCA_921293015.1	Phorcus lineatus
 GCA_932195095.1	Andricus curvator
 GCA_937595015.1	Polyommatus icarus
 GCA_946477585.1	Cheilosia urbana
 GCA_946863875.1	Alloplasta piceator
 GCA_947044365.1	Petrosia ficiformis
 GCA_948356215.1	Stillingia texana
-GCA_949152455.1	FETCH_FAILED
-GCA_951799465.1	FETCH_FAILED
-GCA_958496195.1	FETCH_FAILED
-GCA_963210315.1	FETCH_FAILED
+GCA_949152455.1	Lithophane leautieri
+GCA_951799465.1	Leptophobia aripa
+GCA_958496195.1	Timandra comae
+GCA_963210315.1	Rhynchopus euleeides
 GCA_963556695.1	Anthostomella pinea
 GCA_963576845.1	Megachile leachella
-GCA_963583905.1	FETCH_FAILED
-GCA_963675035.1	FETCH_FAILED
-GCA_963678975.2	FETCH_FAILED
-GCA_963921425.1	FETCH_FAILED
+GCA_963583905.1	Stenurella melanura
+GCA_963675035.1	Allygus modestus
+GCA_963678975.2	Dysidea avara
+GCA_963921425.1	Dryas octopetala
 GCA_963930655.1	Myrica gale
 GCA_963989295.1	Ametastegia equiseti
 GCF_000002715.2	Aspergillus clavatus
@@ -7697,7 +7697,7 @@ GCF_029852145.1	Microplitis mediator
 GCF_030867605.1	Colletotrichum paranaense
 GCF_904848185.1	Acanthopagrus latus
 GCA_000465285.1	Eidolon helvum
-GCA_000512605.3	FETCH_FAILED
+GCA_000512605.3	Kwoniella pini
 GCA_001447215.1	Diaporthe aspalathi
 GCA_001599435.1	Chalaropsis thielavioides
 GCA_001599755.1	Gliomastix tumulicola
@@ -7802,13 +7802,13 @@ GCA_035044325.1	Drosophila nr. medialis 2 BK-2023a
 GCA_035044725.1	Scaptomyza caliginosa
 GCA_035047105.1	Galeopsomyia nigrocyanea
 GCA_035048675.1	Siren sphagnicola
-GCA_035582795.1	FETCH_FAILED
+GCA_035582795.1	Mycteria americana
 GCA_036250245.1	Drosera tokaiensis
-GCA_036320965.1	FETCH_FAILED
-GCA_036373705.1	FETCH_FAILED
+GCA_036320965.1	Panulirus ornatus
+GCA_036373705.1	Amia ocellicauda
 GCA_036669935.1	Montipora foliosa
 GCA_036785495.1	Colletotrichum neosansevieriae
-GCA_036850765.1	FETCH_FAILED
+GCA_036850765.1	Saccopteryx bilineata
 GCA_036897445.1	Pelargonium tetragonum
 GCA_036971725.1	Arthrobotrys conoides
 GCA_038089435.1	Boletus austroedulis
@@ -7824,18 +7824,18 @@ GCA_905146925.1	Autographa gamma
 GCA_916048285.2	Bellardia pandia
 GCA_917880725.1	Selenia dentaria
 GCA_928856705.1	Ustilago xerochloae
-GCA_934045905.1	FETCH_FAILED
-GCA_944452675.1	FETCH_FAILED
-GCA_947172415.1	FETCH_FAILED
+GCA_934045905.1	Leuctra nigra
+GCA_944452675.1	Tachina lurida
+GCA_947172415.1	Chondrosia reniformis
 GCA_947579745.1	Apocheima hispidaria
 GCA_951215215.1	Andrena trimmerana
 GCA_951804975.1	Anthophora plumipes
-GCA_958009085.1	FETCH_FAILED
+GCA_958009085.1	Protoeuglena noctilucae
 GCA_958502075.1	Orchestes rusci
 GCA_963082735.1	Pocota personata
 GCA_963680825.1	Meiosimyza decipiens
 GCA_963921405.1	Cepaea hortensis
-GCA_963942505.1	FETCH_FAILED
+GCA_963942505.1	Lordithon lunulatus
 GCF_000006355.2	Plasmodium knowlesi
 GCF_000223135.1	Cricetulus griseus
 GCF_000235365.1	Eremothecium cymbalariae
@@ -7918,7 +7918,7 @@ GCA_019843655.1	Lethocerus indicus
 GCA_019925545.1	Ophiostoma angusticollis
 GCA_020138205.1	Tilia amurensis
 GCA_020142125.1	Phrynosoma platyrhinos
-GCA_021963965.1	FETCH_FAILED
+GCA_021963965.1	Artemisiospiza belli
 GCA_022315185.1	Agaricus sinodeliciosus
 GCA_022836615.1	Annulohypoxylon bovei
 GCA_023334595.1	Pythium utonaiense
@@ -7941,7 +7941,7 @@ GCA_028534165.1	Coendou prehensilis
 GCA_028564955.1	Terapon puta
 GCA_028565955.2	Melanoides tuberculata
 GCA_028645565.1	Papio papio
-GCA_028753945.1	FETCH_FAILED
+GCA_028753945.1	Hexactinellida sp. DTS-2022
 GCA_029034505.1	Ornithoptera priamus
 GCA_029298735.1	Ophiostoma sp. CBS 140.51
 GCA_029298855.1	Ophiostoma populinum
@@ -7958,7 +7958,7 @@ GCA_030565365.1	Zygoascus flipseniorum
 GCA_030567395.1	Citeromyces hawaiiensis
 GCA_030573035.1	Pichia nanzhaoensis
 GCA_030770255.1	Temnothorax ravouxi
-GCA_030819835.1	FETCH_FAILED
+GCA_030819835.1	Acmispon strigosus
 GCA_031769625.1	Taudactylus pleione
 GCA_032173965.1	Sitta carolinensis
 GCA_032353815.1	Desmognathus cheaha
@@ -7992,7 +7992,7 @@ GCA_917499995.1	Ichneumon xanthorius
 GCA_917563855.2	Limnephilus lunatus
 GCA_931315375.2	Opisthograptis luteolata
 GCA_932521035.1	Oscheius dolichura
-GCA_943138885.2	FETCH_FAILED
+GCA_943138885.2	Tholera decimalis
 GCA_946894065.1	Acleris literana
 GCA_947561695.1	Tyria jacobaeae
 GCA_947561735.1	Cenchrus americanus
@@ -8002,10 +8002,10 @@ GCA_949152435.1	Gastracanthus pulcherrimus
 GCA_963583895.1	Melanophora roralis
 GCA_963682025.1	Cordilura impudica
 GCA_963692815.1	Nyctanthes arbor-tristis
-GCA_963854355.1	FETCH_FAILED
+GCA_963854355.1	Epinotia brunnichana
 GCA_963920665.1	Straminergon stramineum
-GCA_963926505.1	FETCH_FAILED
-GCA_963932015.1	FETCH_FAILED
+GCA_963926505.1	Russula olivacea
+GCA_963932015.1	Anas acuta
 GCA_963978835.1	Tenthredo scrophulariae
 GCA_964035755.1	Teleogryllus oceanicus
 GCF_000146945.2	Sclerotinia sclerotiorum
@@ -8105,7 +8105,7 @@ GCA_027945595.1	Fusarium torreyae
 GCA_028451465.1	Erethizon dorsatum
 GCA_029542965.1	Malassezia yamatoensis
 GCA_029582645.1	Solanum megistacrolobum
-GCA_029618585.1	FETCH_FAILED
+GCA_029618585.1	Citrus australasica
 GCA_029955605.1	Quercus engelmannii
 GCA_030264115.1	Lygus lineolaris
 GCA_030267505.1	Tetraparma gracilis
@@ -8156,10 +8156,10 @@ GCA_903798235.1	Fraxinus ornus
 GCA_903798365.1	Fraxinus sp. 1973-6204
 GCA_905220545.2	Melitaea athalia
 GCA_905329745.1	Rotaria sp. Silwood2
-GCA_905404095.1	FETCH_FAILED
+GCA_905404095.1	Glaucopsyche alexis
 GCA_907169785.1	Menidia menidia
 GCA_914767715.1	Membranipora membranacea
-GCA_932526495.1	FETCH_FAILED
+GCA_932526495.1	Bombylius major
 GCA_943593355.1	Trematomus hansoni
 GCA_943737045.1	Parapristionchus giblindavisi
 GCA_944452665.1	Stenoptilia bipunctidactyla
@@ -8171,8 +8171,8 @@ GCA_947646795.1	Beta lomatogona
 GCA_950111635.1	Agelastica alni
 GCA_951799995.1	Trifolium subterraneum
 GCA_963693315.1	Diogma glabrata
-GCA_963854515.1	FETCH_FAILED
-GCA_963855945.1	FETCH_FAILED
+GCA_963854515.1	Pandemis heparana
+GCA_963855945.1	Thereva nobilitata
 GCA_963969225.1	Xylocopa violacea
 GCA_964057025.1	Standfussiana lucernea
 GCF_000149335.2	Coccidioides immitis
@@ -8200,7 +8200,7 @@ GCF_963169125.1	Humulus lupulus
 GCA_000237925.5	Schistosoma mansoni
 GCA_000956155.1	Cotesia vestalis
 GCA_001599675.1	Basipetospora chlamydospora
-GCA_001889945.1	FETCH_FAILED
+GCA_001889945.1	Aspergillus brasiliensis
 GCA_001929425.1	Citrus x paradisi x Citrus trifoliata
 GCA_002167245.1	Sporophila hypoxantha
 GCA_002242745.2	Lecanicillium sp. LEC01
@@ -8325,7 +8325,7 @@ GCA_900518995.1	Yarrowia yakushimensis
 GCA_900618795.1	Cyanodermella asteris
 GCA_902712375.1	Dioscorea dumetorum
 GCA_905163555.1	Notocelia uddmanniana
-GCA_905332935.1	FETCH_FAILED
+GCA_905332935.1	Bombus hortorum
 GCA_907269125.1	Eristalis pertinax
 GCA_911728415.1	Lagocephalus sceleratus
 GCA_914767755.1	Agrochola circellaris
@@ -8333,17 +8333,17 @@ GCA_914767935.1	Coremacera marginata
 GCA_933228935.1	Pemphredon lugubris
 GCA_937001555.2	Hypsopygia costalis
 GCA_942486025.1	Porites evermanni
-GCA_944548615.1	FETCH_FAILED
+GCA_944548615.1	Micropterix aruncella
 GCA_944738655.2	Andrena hattorfiana
-GCA_945859645.1	FETCH_FAILED
+GCA_945859645.1	Amphipoea oculea
 GCA_947359425.1	Lagria hirta
-GCA_948107665.1	FETCH_FAILED
+GCA_948107665.1	Lomographa bimaculata
 GCA_963573275.1	Caenorhabditis uteleia
-GCA_963662085.1	FETCH_FAILED
-GCA_963662105.1	FETCH_FAILED
+GCA_963662085.1	Eupithecia inturbata
+GCA_963662105.1	Meiosimyza platycephala
 GCA_963693355.1	Pontia daplidice
 GCA_963854805.1	Plagodis dolabraria
-GCA_964020215.1	FETCH_FAILED
+GCA_964020215.1	Aurelia sp. 3 sensu Dawson et al. (2005)
 GCF_000001735.4	Arabidopsis thaliana
 GCF_000342415.1	Theileria equi
 GCF_001465965.1	Polistes dominula
@@ -8438,13 +8438,13 @@ GCA_027569275.1	Emericellopsis terricola
 GCA_027578695.1	Coemansia sp. RSA 1365
 GCA_027578835.1	Coemansia sp. RSA 2050
 GCA_027604725.1	Entophlyctis luteolus
-GCA_027942865.1	FETCH_FAILED
+GCA_027942865.1	Odontesthes bonariensis
 GCA_027946445.1	Ascochyta clinopodiicola
 GCA_027946495.1	Didymella sp. IMI 355093
 GCA_028622995.1	Panagrolaimus kolymaensis
 GCA_028646535.1	Procyon lotor
 GCA_028751855.1	Ambrosia trifida
-GCA_029215755.1	FETCH_FAILED
+GCA_029215755.1	Spea hammondii
 GCA_029590615.1	Nemania bipapillata
 GCA_029891615.1	Natrix natrix
 GCA_029911005.1	Siniperca obscura
@@ -8467,7 +8467,7 @@ GCA_030674785.1	[Candida] pseudoaaseri
 GCA_030704555.1	Heliconius charithonia
 GCA_030704615.1	Takakia lepidozioides
 GCA_030737815.1	Allium fistulosum
-GCA_030867105.1	FETCH_FAILED
+GCA_030867105.1	Liasis olivaceus
 GCA_031762315.1	Hypsolebias antenori
 GCA_031762355.1	Hypsolebias martinsi
 GCA_031762495.1	Anablepsoides rubrolineatus
@@ -8475,7 +8475,7 @@ GCA_032357765.1	Amazona auropalliata
 GCA_032359275.1	Microctenopoma steveboyesi
 GCA_032359645.1	Pododesmus macrochisma
 GCA_032359685.1	Pittosporum tobira
-GCA_032405125.2	FETCH_FAILED
+GCA_032405125.2	Capricornis sumatraensis
 GCA_032872475.1	Leptopilina myrica (nomen nudum)
 GCA_033296885.1	Triangularia verruculosa
 GCA_034509065.1	Eueides lybia
@@ -8508,14 +8508,14 @@ GCA_918026865.1	Phyllotreta striolata
 GCA_918843915.1	Notodonta ziczac
 GCA_943737955.2	Myopa tessellatipennis
 GCA_947846985.1	Fratercula arctica
-GCA_949358125.1	FETCH_FAILED
-GCA_949752795.1	FETCH_FAILED
-GCA_951804965.1	FETCH_FAILED
+GCA_949358125.1	Idaea dimidiata
+GCA_949752795.1	Hyperoodon ampullatus
+GCA_951804965.1	Horisme vitalbata
 GCA_963555685.1	Acrobasis consociella
 GCA_963692855.1	Mycena citricolor
 GCA_963930915.1	Forcipomyia taiwana
 GCA_964007305.1	Netelia melanura
-GCA_964016885.1	FETCH_FAILED
+GCA_964016885.1	Eledone cirrhosa
 GCF_000002035.6	Danio rerio
 GCF_000403515.1	Pseudozyma hubeiensis
 GCF_000524495.1	Plasmodium inui
@@ -8543,7 +8543,7 @@ GCA_001188405.1	Loxosceles reclusa
 GCA_001625485.1	Crotalus horridus
 GCA_001644535.1	Pyrenochaeta sp. DS3sAY3a
 GCA_001676355.1	Baetis rhodani
-GCA_001692895.1	FETCH_FAILED
+GCA_001692895.1	Cenococcum geophilum
 GCA_002076135.1	Xerophyta viscosa
 GCA_002120305.1	Hypoxylon sp. CO27-5
 GCA_002215965.1	Aspergillus persii
@@ -8668,18 +8668,18 @@ GCA_910591775.1	Dentiscutata heterogama
 GCA_916700735.1	Sebastes goodei
 GCA_932526605.1	Nephrotoma flavescens
 GCA_944470425.2	Schistosoma bovis
-GCA_944588485.1	FETCH_FAILED
+GCA_944588485.1	Phosphuga atrata
 GCA_947683365.1	Euphorbia pulcherrima
 GCA_948266635.1	Cnidoscolus chayamansa
 GCA_949630135.1	Balakata baccata
 GCA_949699795.1	Spicauda simplicius
-GCA_949752695.1	FETCH_FAILED
+GCA_949752695.1	Melanostoma scalare
 GCA_949841015.1	Aplysina aerophoba
 GCA_958510875.1	Endomychus coccineus
 GCA_963082605.1	Rhodophaea formosa
 GCA_963564615.1	Rhorus exstirpatorius
 GCA_963971575.1	Liopterus haemorrhoidalis
-GCA_964019065.1	FETCH_FAILED
+GCA_964019065.1	Catostylus mosaicus
 GCF_000002545.3	Nakaseomyces glabratus
 GCF_002847045.1	Aspergillus candidus
 GCF_002938485.1	Sitophilus oryzae
@@ -8722,7 +8722,7 @@ GCA_004335555.1	Nannochloris sp. X1
 GCA_004366825.1	Colletotrichum spinosum
 GCA_006410655.1	Kobus ellipsiprymnus
 GCA_006417275.1	Ourebia ourebi
-GCA_008629635.2	FETCH_FAILED
+GCA_008629635.2	Kwoniella shandongensis
 GCA_009663005.1	Actinidia chinensis
 GCA_009849805.1	Solanum ahanhuiri
 GCA_009869845.1	Pseudachorutes palmiensis
@@ -8803,7 +8803,7 @@ GCA_031780015.1	Citrullus colocynthis
 GCA_032207245.1	Pardosa pseudoannulata
 GCA_032353275.1	Sardinella hualiensis
 GCA_032358795.1	Nuttallia obscurata
-GCA_032884065.1	FETCH_FAILED
+GCA_032884065.1	Artemia franciscana
 GCA_033310375.1	Conus canariensis
 GCA_033815515.1	Cryptocheilus praepositus
 GCA_034509205.1	Ceratonia siliqua
@@ -8821,22 +8821,22 @@ GCA_037356195.1	Penicillium sp. F50
 GCA_037903475.1	Ancylostoma caninum
 GCA_038089975.1	Boletellus ananiceps
 GCA_038091195.1	Phylloporus rhodoxanthus
-GCA_038355195.1	FETCH_FAILED
+GCA_038355195.1	Osmerus mordax
 GCA_039660915.1	Euphorbia tirucalli
 GCA_900291925.1	Thecaphora thlaspeos
 GCA_900474305.1	Cecidostiba fungosa
 GCA_900607525.1	Apocyclops royi
 GCA_904066255.1	Eimeria sp. OTU-X
 GCA_905404145.2	Biston betularia
-GCA_914767735.1	FETCH_FAILED
+GCA_914767735.1	Anoplius nigerrimus
 GCA_916700685.1	Adelosebastes latens
 GCA_917627325.4	Chironomus riparius
 GCA_917880715.2	Matsumyia berberina
 GCA_929113495.1	Andrena minutula
 GCA_932274085.1	Protocalliphora azurea
 GCA_932526365.1	Lobophora halterata
-GCA_934044485.1	FETCH_FAILED
-GCA_945261195.1	FETCH_FAILED
+GCA_934044485.1	Apeira syringaria
+GCA_945261195.1	Cryptosula pallasiana
 GCA_946251855.1	Alsophila aescularia
 GCA_946478455.1	Eupithecia vulgata
 GCA_946808225.1	Silurus aristotelis
@@ -8846,8 +8846,8 @@ GCA_951394065.1	Venusia cambrica
 GCA_951394405.1	Coprinellus micaceus
 GCA_951509635.1	Eupeodes luniger
 GCA_963576865.1	Anania hortulata
-GCA_963930735.1	FETCH_FAILED
-GCA_963930825.1	FETCH_FAILED
+GCA_963930735.1	Dioctria linearis
+GCA_963930825.1	Silvanus unidentatus
 GCF_000091045.1	Cryptococcus deneoformans
 GCF_000149985.1	Pyrenophora tritici-repentis
 GCF_000217595.1	Linepithema humile
@@ -8942,7 +8942,7 @@ GCA_027625915.1	Anaeramoeba flamelloides
 GCA_027743725.1	Rambutsinella grinnellia
 GCA_028458525.1	Ophiosphaerella herpotricha
 GCA_028533165.1	Leontopithecus rosalia
-GCA_028535165.1	FETCH_FAILED
+GCA_028535165.1	Quercus tomentella
 GCA_028570905.1	Dryas integrifolia
 GCA_029030765.1	Salix suchowensis
 GCA_029286655.1	Papilio demoleus
@@ -8959,7 +8959,7 @@ GCA_030780945.1	Aschersonia sp. MBC 593
 GCA_030849635.1	Wallacemonas sp. MBr04
 GCA_031762895.1	Corambe burchi
 GCA_031763035.1	Lilium candidum
-GCA_032209605.1	FETCH_FAILED
+GCA_032209605.1	Mactromeris polynyma
 GCA_032467975.1	Trimeresurus albolabris
 GCA_032468015.1	Mimophis mahfalensis
 GCA_033065855.1	Escallonia rubra
@@ -8974,7 +8974,7 @@ GCA_036937835.1	Pampus argenteus
 GCA_036971365.1	Dactylellina leptospora
 GCA_037040005.1	Zygothrica flavofinira
 GCA_037075105.1	Lissocephala sabroskyi
-GCA_037157565.1	FETCH_FAILED
+GCA_037157565.1	Thalassia testudinum
 GCA_037177395.1	Alpinia galanga
 GCA_037215915.1	Pantherophis vulpinus
 GCA_037577455.1	Pangasius macronema
@@ -8984,7 +8984,7 @@ GCA_038088335.1	Mesorhabditis sp. LJ9110
 GCA_038092095.1	Leccinum colubrinum
 GCA_038092195.1	Leccinum barrowsii
 GCA_038094195.1	Pulveroboletus aff. carminiporus
-GCA_039555335.1	FETCH_FAILED
+GCA_039555335.1	Amphiura filiformis
 GCA_900068455.1	Heliconius hecuba
 GCA_900097035.1	Plasmodium blacklocki (nom. inval.)
 GCA_900157415.1	Armillaria cepistipes
@@ -8996,25 +8996,25 @@ GCA_905220475.3	Ennomos fuscantarius
 GCA_905336975.1	Bombina variegata
 GCA_907164795.1	Hemaris fuciformis
 GCA_914767645.1	Hydraecia micacea
-GCA_916048095.2	FETCH_FAILED
+GCA_916048095.2	Sacculina carcini
 GCA_916700925.1	Sebastes elongatus
 GCA_934047225.1	Ypsolopha sequella
 GCA_936439885.1	Nowickia ferox
 GCA_946251915.1	Abrostola triplasia
 GCA_947522985.1	Lithophane socia
-GCA_947563715.1	FETCH_FAILED
+GCA_947563715.1	Lycia hirtaria
 GCA_951213105.1	Amaurobius ferox
 GCA_951394225.1	Harpalus rufipes
 GCA_951509765.1	Sphenella marginata
 GCA_951804385.1	Trifolium dubium
 GCA_958502065.1	Chrysolina americana
 GCA_963377175.1	Effrenium voratum
-GCA_963455305.1	FETCH_FAILED
+GCA_963455305.1	Plecotus auritus
 GCA_963457585.1	Spergularia bocconei
 GCA_963693515.1	Pipistrellus nathusii
 GCA_963921955.1	Aleiodes alternator
 GCA_963969595.1	Neckera pumila
-GCA_964058895.1	FETCH_FAILED
+GCA_964058895.1	Carex divulsa
 GCF_000001215.4	Drosophila melanogaster
 GCF_000149925.1	Puccinia graminis
 GCF_000151355.1	Fusarium vanettenii
@@ -9063,7 +9063,7 @@ GCA_014182365.1	Eucalyptus tenuipes
 GCA_014825475.1	Pseudomyrmex flavicornis
 GCA_016069955.1	Drepana arcuata
 GCA_016880775.1	Phymatotrichopsis omnivora
-GCA_017918215.1	FETCH_FAILED
+GCA_017918215.1	Leishmania sp. Ghana 2012 LV757
 GCA_018137895.1	Diaporthe sp. DP-2020a
 GCA_018231605.1	Papilio ambrax
 GCA_018236565.1	Emesis glaucescens
@@ -9089,12 +9089,12 @@ GCA_023334415.1	Phytopythium chamaehyphon
 GCA_023336095.1	Pythium pectinolyticum
 GCA_023373905.1	Rhizoglyphus robini
 GCA_024516155.1	Pyronema omphalodes
-GCA_024679245.1	FETCH_FAILED
+GCA_024679245.1	Pseudorasbora parva
 GCA_025084515.1	Ancistrus triradiatus
 GCA_025309795.1	Butastur rufipennis
 GCA_025531455.1	Apiotrichum sp. Y4204
 GCA_025531525.1	Pichia sp. P7020A
-GCA_025532165.1	FETCH_FAILED
+GCA_025532165.1	Camponotus vicinus
 GCA_025593235.1	Vachellia pachyceras
 GCA_025629785.1	Erythroxylum oxycarpum
 GCA_025631255.1	Cornus kousa
@@ -9165,12 +9165,12 @@ GCA_900480035.1	Eupelmus urozonus
 GCA_900536345.3	Caenorhabditis sp. 39 LS-2015
 GCA_902141385.1	Timema californicum
 GCA_903986555.1	Heterotrigona itama
-GCA_905147815.2	FETCH_FAILED
+GCA_905147815.2	Phalera bucephala
 GCA_905333045.1	Lysandra bellargus
 GCA_905404265.1	Fabriciana adippe
 GCA_911649655.1	Penicillium sclerotiorum
 GCA_916701225.1	Sebastes nudus
-GCA_922984085.1	FETCH_FAILED
+GCA_922984085.1	Sicus ferrugineus
 GCA_951805005.1	Othius punctulatus
 GCA_959347315.1	Bimastos eiseni
 GCA_963082625.1	Pasiphila rectangulata
@@ -9275,7 +9275,7 @@ GCA_027943415.1	Closterium sp. NIES-67
 GCA_028015205.1	Mytilisepta virgata
 GCA_028216015.1	Quercus dentata
 GCA_028533395.1	Rousettus madagascariensis
-GCA_028537955.1	FETCH_FAILED
+GCA_028537955.1	Microtus californicus
 GCA_029168755.2	Tillandsia fasciculata
 GCA_029299015.1	Ophiostoma montium
 GCA_030068005.1	Cladophialophora exuberans
@@ -9333,19 +9333,19 @@ GCA_901111295.1	Anguilla obscura
 GCA_905116865.2	Candidula unifasciata
 GCA_905182985.1	Paramecium sonneborni
 GCA_911387755.1	Chrysotoxum bicinctum
-GCA_923062675.1	FETCH_FAILED
+GCA_923062675.1	Marasmarcha lunaedactyla
 GCA_932364175.1	Eruca vesicaria
-GCA_937620795.1	FETCH_FAILED
+GCA_937620795.1	Thecophora atra
 GCA_943181505.1	Phakopsora pachyrhizi
 GCA_949786405.1	Onychomys arenicola
-GCA_951213275.1	FETCH_FAILED
-GCA_955831195.1	FETCH_FAILED
+GCA_951213275.1	Idaea straminata
+GCA_955831195.1	Pilophorus perplexus
 GCA_963242795.1	Inga leiocalycina
-GCA_963576445.1	FETCH_FAILED
-GCA_963965975.1	FETCH_FAILED
+GCA_963576445.1	Lithosia quadra
+GCA_963965975.1	Xestospongia bergquistia
 GCA_963978555.1	Galerucella nymphaeae
 GCA_964030455.1	Linum trigynum
-GCA_964058865.1	FETCH_FAILED
+GCA_964058865.1	Eleocharis quinqueflora
 GCF_000004195.4	Xenopus tropicalis
 GCF_000006515.1	Cryptosporidium muris
 GCF_000313985.2	Echinops telfairi
@@ -9489,7 +9489,7 @@ GCA_036851895.1	Orthonychiurus folsomi
 GCA_036897945.1	Silene undulata
 GCA_036919935.1	Melanotaenia affinis
 GCA_036937285.1	Euphydryas editha
-GCA_037038515.1	FETCH_FAILED
+GCA_037038515.1	Microtus pennsylvanicus
 GCA_037159825.1	Tupiocoris notatus
 GCA_037447655.1	Zygnema cylindricum
 GCA_037577415.1	Fusarium compactum
@@ -9504,22 +9504,22 @@ GCA_900624965.1	Strongylus vulgaris
 GCA_903798115.1	Danio jaintianensis
 GCA_903798335.1	Fraxinus albicans
 GCA_905221635.1	Symbiodinium sp. CCMP2456
-GCA_914767545.1	FETCH_FAILED
-GCA_930367205.1	FETCH_FAILED
+GCA_914767545.1	Sesia apiformis
+GCA_930367205.1	Acanthosoma haemorrhoidale
 GCA_938743325.2	Pycnococcus provasolii
 GCA_948107695.1	Meliscaeva auricollis
 GCA_949089665.1	Macrosiphum euphorbiae
-GCA_949125135.1	FETCH_FAILED
+GCA_949125135.1	Alcis repandata
 GCA_949752895.1	Dendrolimus pini
-GCA_951230905.1	FETCH_FAILED
-GCA_954871525.1	FETCH_FAILED
+GCA_951230905.1	Cheilosia variabilis
+GCA_954871525.1	Parietaria judaica
 GCA_963574585.1	Otolemur crassicaudatus
-GCA_963854785.1	FETCH_FAILED
-GCA_963942565.1	FETCH_FAILED
+GCA_963854785.1	Vaccinium vitis-idaea
+GCA_963942565.1	Maea johnstoni
 GCA_963971435.1	Lasius platythorax
-GCA_963989345.1	FETCH_FAILED
+GCA_963989345.1	Clangula hyemalis
 GCA_964007375.1	Ophion obscuratus
-GCA_964017195.1	FETCH_FAILED
+GCA_964017195.1	Siderastrea radians
 GCF_000264905.1	Stereum hirsutum
 GCF_001204775.2	Aspergillus nomiae
 GCF_001447935.2	Debaryomyces fabryi
@@ -9647,7 +9647,7 @@ GCA_036873755.1	Hanleya hanleyi
 GCA_036971405.1	Orbilia quercus
 GCA_037126225.1	Dillenia turbinata
 GCA_037127355.1	Schoenoplectus tabernaemontani
-GCA_037157625.1	FETCH_FAILED
+GCA_037157625.1	Lathamus discolor
 GCA_037367305.1	Phrynocephalus vlangalii
 GCA_038089375.1	Pseudoaustroboletus valens
 GCA_038089835.1	Retiboletus flavoniger
@@ -9660,7 +9660,7 @@ GCA_039654105.1	Coreius guichenoti
 GCA_900080155.1	Ustilago bromivora
 GCA_901007705.1	Fistularia tabacaria
 GCA_901007745.1	Hippocampus kuda
-GCA_902728285.1	FETCH_FAILED
+GCA_902728285.1	Clytia hemisphaerica
 GCA_903798125.1	Danio choprae
 GCA_903819635.1	Aureobasidium vineae
 GCA_905147385.1	Limenitis camilla
@@ -9671,16 +9671,16 @@ GCA_917563865.1	Phyllotreta cruciferae
 GCA_921293045.1	Aplocera efformata
 GCA_932521415.1	Oscheius sp. DF5120
 GCA_933534255.1	Iphiclides podalirius
-GCA_947095585.1	FETCH_FAILED
+GCA_947095585.1	Nephrocerus scutellatus
 GCA_947683425.1	Excoecaria cochinchinensis
 GCA_948455865.1	Conomelus anceps
 GCA_949128135.1	Parasteatoda lunata
-GCA_949319165.1	FETCH_FAILED
+GCA_949319165.1	Sialis lutaria
 GCA_949751835.1	Blepharisma japonicum
-GCA_958336335.1	FETCH_FAILED
+GCA_958336335.1	Dilophus febrilis
 GCA_963281255.1	Aphrocallistes beatrix
 GCA_963693345.1	Pieris melete
-GCA_963942445.1	FETCH_FAILED
+GCA_963942445.1	Argyra leucocephala
 GCA_963992785.1	Tenthredo livida
 GCF_000149035.1	Colletotrichum graminicola
 GCF_000338995.1	Bipolaris sorokiniana
@@ -9752,7 +9752,7 @@ GCA_023079495.1	Xylaria sp. L1 SY-2022
 GCA_023159215.1	Xylariaceae sp. AK1471
 GCA_023335895.1	Pythium rishiriense
 GCA_023337495.1	Pythium diclinum
-GCA_024362995.1	FETCH_FAILED
+GCA_024362995.1	Heteromeles arbutifolia
 GCA_024706555.1	Mandevilla sanderi x Mandevilla atroviolacea
 GCA_025174535.1	Cantharellus purpuraceus
 GCA_025399855.1	Forbesichthys papilliferus
@@ -9778,7 +9778,7 @@ GCA_030264935.1	Desmognathus ochrophaeus
 GCA_030340665.1	Neosalanx taihuensis
 GCA_030341885.1	Geodia barretti
 GCA_030407005.1	Desarmillaria ectypa
-GCA_030463535.1	FETCH_FAILED
+GCA_030463535.1	Salminus brasiliensis
 GCA_030523105.1	Ophioninae sp. A BG-2022a
 GCA_030556775.1	Scheffersomyces quercinus
 GCA_030557155.1	Cyberlindnera amylophila
@@ -9810,7 +9810,7 @@ GCA_037014315.1	Malurus leucopterus
 GCA_037157785.1	Cephalotes varians
 GCA_037355735.1	Pseudo-nitzschia delicatissima
 GCA_037783415.1	Leptasterias polaris
-GCA_038021145.1	FETCH_FAILED
+GCA_038021145.1	Phyllosticta citriasiana
 GCA_038089855.1	Royoungia palumana
 GCA_038090595.1	Leccinum subfulvum
 GCA_038091315.1	Porphyrellus cyaneotinctus
@@ -9821,7 +9821,7 @@ GCA_900406335.1	Boechera puberula
 GCA_900406405.1	Lepidium africanum
 GCA_900490025.1	Megastigmus dorsalis
 GCA_902151455.1	Timema bartmani
-GCA_905147715.2	FETCH_FAILED
+GCA_905147715.2	Xestia xanthographa
 GCA_905231915.1	Symbiodinium necroappetens
 GCA_905404285.2	Erannis defoliaria
 GCA_916701345.1	Sebastes nivosus
@@ -9832,23 +9832,23 @@ GCA_936446665.2	Synanthedon andrenaeformis
 GCA_941918905.2	Xestia sexstrigata
 GCA_943193695.1	Acrobasis suavella
 GCA_947623375.1	Apotomis capreana
-GCA_949606895.1	FETCH_FAILED
+GCA_949606895.1	Notothenia rossii
 GCA_949709075.1	Wickerhamomyces alni
 GCA_949775065.1	Brachyopa scutellaris
 GCA_954870475.1	Euphrasia confusa
 GCA_958299015.1	Tetanocera ferruginea
-GCA_958299025.2	FETCH_FAILED
-GCA_958496255.1	FETCH_FAILED
+GCA_958299025.2	Drosophila histrio
+GCA_958496255.1	Camptogramma bilineatum
 GCA_963556465.1	Berberis vulgaris
-GCA_963675445.1	FETCH_FAILED
-GCA_963680765.1	FETCH_FAILED
-GCA_963924675.1	FETCH_FAILED
+GCA_963675445.1	Linnaemya vulpina
+GCA_963680765.1	Agrochola lychnidis
+GCA_963924675.1	Phocoena phocoena
 GCA_964027065.1	Pocillopora grandis
 GCA_964034765.1	Knipowitschia caucasica
 GCA_964035015.1	Corallium rubrum
-GCA_964035555.1	FETCH_FAILED
+GCA_964035555.1	Netta rufina
 GCA_964035985.1	Panagrolaimus superbus
-GCA_964058855.1	FETCH_FAILED
+GCA_964058855.1	Carex pendula
 GCF_000026945.1	Candida dubliniensis
 GCF_000150035.1	Vanderwaltozyma polyspora
 GCF_000226115.1	Thermothielavioides terrestris
@@ -9892,7 +9892,7 @@ GCA_009829735.1	Pyropia yezoensis
 GCA_011503125.2	Botryosphaeria dothidea
 GCA_011680675.1	Gymnobelideus leadbeateri
 GCA_011751065.1	Lasiurus cinereus
-GCA_013368605.1	FETCH_FAILED
+GCA_013368605.1	Nyctibius grandis
 GCA_013401315.1	Balaeniceps rex
 GCA_014825535.1	Cystofilobasidium bisporidii
 GCA_014849505.1	Elaeidobius kamerunicus
@@ -9956,7 +9956,7 @@ GCA_030264655.1	Leptusa sp. GC000079
 GCA_030265205.1	Dirona pellucida
 GCA_030340625.1	Merluccius polli
 GCA_030407065.1	Armillaria nabsnona
-GCA_030445035.2	FETCH_FAILED
+GCA_030445035.2	Dasypus novemcinctus
 GCA_030449085.1	Kryptopterus vitreolus
 GCA_030490835.1	Annona cherimola
 GCA_030556225.1	Phodopus sungorus
@@ -9972,7 +9972,7 @@ GCA_030581615.1	Alloascoidea africana
 GCA_030674165.1	Pygoscelis papua
 GCA_030762895.1	Sophora flavescens
 GCA_030762935.1	Hymenopus coronatus
-GCA_030847615.1	FETCH_FAILED
+GCA_030847615.1	Gambelia wislizenii
 GCA_031216635.1	Dissostichus eleginoides
 GCA_032356305.1	Prasiola linearis
 GCA_034096865.1	Theodoxus fluviatilis
@@ -9993,7 +9993,7 @@ GCA_038090015.1	Leccinellum albellum
 GCA_038091255.1	Tylopilus intermedius
 GCA_038092875.1	Lanmaoa pseudosensibilis
 GCA_039707465.1	Rhabdophis nuchalis
-GCA_902459505.2	FETCH_FAILED
+GCA_902459505.2	Geotrypetes seraphini
 GCA_907164435.1	Acomys dimidiatus
 GCA_907165245.1	Habrosyne pyritoides
 GCA_910592295.1	Andrena haemorrhoa
@@ -10003,18 +10003,18 @@ GCA_940586395.1	Vitis riparia x Vitis cinerea
 GCA_943590895.1	Pagetopsis macropterus
 GCA_943735965.1	Eupithecia abbreviata
 GCA_946800695.1	Geum urbanum
-GCA_947578815.1	FETCH_FAILED
+GCA_947578815.1	Epinotia ramella
 GCA_948099385.1	Fasciola hepatica
-GCA_949128155.2	FETCH_FAILED
+GCA_949128155.2	Xanthia icteritia
 GCA_949318255.1	Pollenia labialis
 GCA_949774945.1	Hoplodrina ambigua
-GCA_956483585.1	FETCH_FAILED
-GCA_956483635.1	FETCH_FAILED
+GCA_956483585.1	Gymnocheta viridis
+GCA_956483635.1	Panzeria rudis
 GCA_961210405.1	Drosophila mercatorum
-GCA_963455335.1	FETCH_FAILED
+GCA_963455335.1	Martes martes
 GCA_963573935.1	Arctocebus calabarensis
 GCA_963922045.1	Persicaria maculosa
-GCA_963931975.1	FETCH_FAILED
+GCA_963931975.1	Cataclysta lemnata
 GCF_000150675.1	Verticillium dahliae
 GCF_000327345.1	Myotis davidii
 GCF_000622305.1	Nannospalax galili
@@ -10036,7 +10036,7 @@ GCF_030936135.1	Gavia stellata
 GCF_932294415.1	Quercus robur
 GCA_000180635.4	Pristionchus pacificus
 GCA_000482085.2	Cladonia metacorallifera
-GCA_000696795.3	FETCH_FAILED
+GCA_000696795.3	Halyomorpha halys
 GCA_000827495.1	Hypholoma sublateritium
 GCA_000988905.1	Platynothrus peltifer
 GCA_001642415.1	Nematocida sp. ERTm5
@@ -10136,7 +10136,7 @@ GCA_030068105.1	Sinentomon sp. SZTP_YWyxl
 GCA_030157265.1	Latheticus oryzae
 GCA_030407085.1	Trichopria drosophilae
 GCA_030411535.1	Beauveria australis
-GCA_030444845.1	FETCH_FAILED
+GCA_030444845.1	Prenolepis imparis
 GCA_030563925.1	Wickerhamiella sergipiensis
 GCA_030581635.1	Clavispora carvajalis
 GCA_030583445.1	Debaryomyces nepalensis
@@ -10169,30 +10169,30 @@ GCA_900128585.1	Stramenopiles sp. TOSAG23-3
 GCA_900302605.1	Rondeletia loricata
 GCA_900312945.1	Merluccius capensis
 GCA_900618415.1	Soboliphyme baturini
-GCA_905146935.1	FETCH_FAILED
-GCA_907165275.2	FETCH_FAILED
+GCA_905146935.1	Scaeva pyrastri
+GCA_907165275.2	Zygaena filipendulae
 GCA_910593695.2	Ocypus olens
-GCA_911387795.2	FETCH_FAILED
+GCA_911387795.2	Apamea monoglypha
 GCA_916701595.1	Sebastes wilsoni
 GCA_927349885.1	Psylliodes chrysocephalus
 GCA_927399465.1	Sarcophaga caerulescens
 GCA_932072015.1	Andricus quercustozae
 GCA_932527185.1	Ecliptopera silaceata
 GCA_947359465.1	Metellina segmentata
-GCA_947623445.1	FETCH_FAILED
-GCA_948293265.1	FETCH_FAILED
-GCA_948330725.1	FETCH_FAILED
-GCA_949357685.1	FETCH_FAILED
+GCA_947623445.1	Clavelina lepadiformis
+GCA_948293265.1	Cheilosia impressa
+GCA_948330725.1	Sherardia arvensis
+GCA_949357685.1	Gobio gobio
 GCA_949752745.1	Protula sp. h YS-2021
 GCA_949786385.1	Onychomys leucogaster
 GCA_950371165.1	Lacanobia oleracea
 GCA_958295665.1	Tipula vernalis
 GCA_963082955.1	Cheilosia grossa
-GCA_963210335.1	FETCH_FAILED
-GCA_963576895.1	FETCH_FAILED
+GCA_963210335.1	Falco punctatus
+GCA_963576895.1	Ceraclea dissimilis
 GCA_963920705.1	Odiellus spinosus
 GCA_963924015.1	Macrophya annulata
-GCA_963969555.1	FETCH_FAILED
+GCA_963969555.1	Polydrusus pterygomalis
 GCF_000320565.1	Sphaerulina musiva
 GCF_000517525.1	Limulus polyphemus
 GCF_003184845.1	Aspergillus ibericus
@@ -10252,7 +10252,7 @@ GCA_019776545.1	Brachystomella parvula
 GCA_022063505.1	Calosoma granatense
 GCA_022539655.2	Ceriodaphnia dubia
 GCA_022817385.1	Macroteleia sp. ZL-2020
-GCA_023053685.1	FETCH_FAILED
+GCA_023053685.1	Diadophis punctatus
 GCA_023333695.1	Globisporangium yorkense
 GCA_023333795.1	Globisporangium rhizosaccharum
 GCA_023509735.1	Fusarium liriodendri
@@ -10301,7 +10301,7 @@ GCA_034698745.1	Megaphyllum sjaelandicum
 GCA_035042405.1	Drosophila demipolita
 GCA_035046325.1	Drosophila niveifrons
 GCA_035221805.1	Trichilia hirta
-GCA_036169615.1	FETCH_FAILED
+GCA_036169615.1	Heliangelus exortis
 GCA_036244875.1	Rhodotorula paludigena
 GCA_036419045.1	Scirpophaga incertulas
 GCA_036427605.1	Cryptococcus sp. DSM 104549
@@ -10326,23 +10326,23 @@ GCA_900519025.1	Yarrowia porcina
 GCA_905332915.2	Hecatera dysodea
 GCA_910589475.2	Bembecia ichneumoniformis
 GCA_910591685.1	Galerucella tenella
-GCA_939531405.1	FETCH_FAILED
-GCA_941918925.1	FETCH_FAILED
+GCA_939531405.1	Metschnikowia zobellii
+GCA_941918925.1	Phyto melanocephala
 GCA_947507805.1	Aporophyla nigra
 GCA_947652605.1	Elmis aenea
 GCA_948107755.1	Campoletis raptor
 GCA_948192965.1	Dalechampia spathulata
 GCA_948277035.1	Euphorbia corollata
-GCA_949316265.1	FETCH_FAILED
-GCA_949372485.1	FETCH_FAILED
+GCA_949316265.1	Diarsia mendica
+GCA_949372485.1	Cheilosia soror
 GCA_949671775.1	Mallotus repandus
 GCA_949752705.1	Callimorpha dominula
 GCA_961205875.1	Sialis fuliginosa
 GCA_963082935.1	Malus x robusta
 GCA_963556515.1	Nudaria mundana
 GCA_963855995.1	Muricea muricata
-GCA_963924005.1	FETCH_FAILED
-GCA_963924295.1	FETCH_FAILED
+GCA_963924005.1	Protomyctophum bolini
+GCA_963924295.1	Dioctria rufipes
 GCA_963924565.1	Ascidiella aspersa
 GCA_963931805.1	Microdon myrmicae
 GCF_000001405.40	Homo sapiens
@@ -10484,14 +10484,14 @@ GCA_036971205.1	Arthrobotrys pseudoclavata
 GCA_036971475.1	Prosapia bicincta
 GCA_037013455.1	Ceratitis rosa
 GCA_037013685.1	Acridotheres tristis
-GCA_037038555.1	FETCH_FAILED
+GCA_037038555.1	Rhynchonycteris naso
 GCA_037177075.1	Craterocephalus fluviatilis
 GCA_037974465.1	Brachypetersius altus
 GCA_037974715.1	Lomanotus vermiformis
 GCA_038089315.1	Crocinoboletus aff. laetissimus
 GCA_038091235.1	Tylopilus rubrobrunneus
 GCA_900617895.1	Haemonchus placei
-GCA_900634775.2	FETCH_FAILED
+GCA_900634775.2	Gouania willdenowi
 GCA_905147015.1	Laspeyria flexula
 GCA_905147235.1	Erynnis tages
 GCA_918797485.1	Pelagomonas calceolata
@@ -10510,10 +10510,10 @@ GCA_963082995.1	Noctua comes
 GCA_963422195.1	Carabus problematicus
 GCA_963573565.1	Mico argentatus
 GCA_963574635.1	Cheracebus regulus
-GCA_963678935.1	FETCH_FAILED
-GCA_963853795.1	FETCH_FAILED
+GCA_963678935.1	Umbilicus rupestris
+GCA_963853795.1	Xestia rhomboidea
 GCA_963971545.1	Philophylla caesio
-GCA_964017065.1	FETCH_FAILED
+GCA_964017065.1	Haliclona indistincta
 GCA_964035705.1	Porites rus
 GCF_000220905.1	Megachile rotundata
 GCF_000747805.2	Chaetura pelagica
@@ -10589,10 +10589,10 @@ GCA_021527685.1	Aphanomyces euteiches
 GCA_022457205.1	Saccharum spontaneum
 GCA_022577695.1	Wickerhamiella spandovensis
 GCA_022817945.1	Nakazawaea ishiwadae
-GCA_022965805.1	FETCH_FAILED
+GCA_022965805.1	Primulina eburnea
 GCA_023336445.1	Pythium dissimile
 GCA_023650635.1	Epichloe baconii
-GCA_023851605.1	FETCH_FAILED
+GCA_023851605.1	Tamandua tetradactyla
 GCA_024181965.1	Aduncisulcus paluster
 GCA_025267735.1	Mactra quadrangularis
 GCA_025328355.1	Colletotrichum sp. SAR11_57
@@ -10659,22 +10659,22 @@ GCA_038406235.1	Peronia verruculata
 GCA_039654305.1	Porochilus rendahli
 GCA_900406565.1	Turritis glabra
 GCA_900464855.2	Musa schizocarpa
-GCA_901765095.2	FETCH_FAILED
+GCA_901765095.2	Microcaecilia unicolor
 GCA_904845875.1	Miscanthus lutarioriparius
 GCA_905333025.2	Pyrochroa serraticornis
 GCA_911622165.2	Bombus sylvestris
 GCA_911865555.2	Thlaspi arvense
 GCA_916048165.1	Spilarctia lutea
-GCA_933210815.1	FETCH_FAILED
-GCA_937612035.1	FETCH_FAILED
+GCA_933210815.1	Meta bourneti
+GCA_937612035.1	Aricia artaxerxes
 GCA_946863485.1	Moneuplotes crassus
-GCA_947095535.1	FETCH_FAILED
+GCA_947095535.1	Poecilobothrus nobilitatus
 GCA_947859195.1	Drymonia ruficornis
 GCA_949673435.1	Macaranga tanarius
 GCA_949752835.1	Empis stercorea
 GCA_951394045.1	Nitzschia sp. DOCU1
 GCA_951805265.1	Schizotus pectinicornis
-GCA_955652365.1	FETCH_FAILED
+GCA_955652365.1	Eristalinus aeneus
 GCA_963082685.1	Cyclophora albipunctata
 GCA_963573255.1	Chironomus tentans
 GCA_963574225.1	Lagothrix lagotricha
@@ -10683,10 +10683,10 @@ GCA_963575295.1	Alouatta caraya
 GCA_963675135.1	Galeopsis tetrahit
 GCA_963922005.1	Cornus suecica
 GCA_963924505.1	Agonopterix alstromeriana
-GCA_963930755.1	FETCH_FAILED
+GCA_963930755.1	Eudasyphora cyanicolor
 GCA_964019985.1	Aurelia sp. 4 Dawson et al 2005
-GCA_964056655.1	FETCH_FAILED
-GCA_964057215.1	FETCH_FAILED
+GCA_964056655.1	Arabis hirsuta
+GCA_964057215.1	Oscheius myriophilus
 GCF_000006295.1	Pediculus humanus
 GCF_000346465.2	Prunus persica
 GCF_000499425.1	Eimeria acervulina
@@ -10709,7 +10709,7 @@ GCA_000966675.3	Picea glauca
 GCA_000966865.1	Fusarium sp. JS626
 GCA_001600095.1	Bullera alba
 GCA_001600615.1	Dioszegia crocea
-GCA_001865355.1	FETCH_FAILED
+GCA_001865355.1	Cryptosporidium andersoni
 GCA_002104985.1	Rhizoclosmatium globosum
 GCA_002118135.1	Trebouxia sp. TZW2008
 GCA_002270565.1	Stenocarpella maydis
@@ -10729,7 +10729,7 @@ GCA_006937295.1	Carpinus fangiana
 GCA_007735645.1	Venturia effusa
 GCA_007821475.1	Lachnellula arida
 GCA_008042515.1	Drosophila truncata
-GCA_008692635.1	FETCH_FAILED
+GCA_008692635.1	Crocuta crocuta
 GCA_008750995.1	Microcebus griseorufus
 GCA_013115145.1	Perkinsus chesapeaki
 GCA_013170925.1	Podosphaera leucotricha
@@ -10776,7 +10776,7 @@ GCA_027560355.1	Halcyon chelicuti
 GCA_027564755.1	Amblyopsis hoosieri
 GCA_027569115.1	Aspergillus fructus
 GCA_027575285.2	Zoanthus pulchellus
-GCA_028538565.1	FETCH_FAILED
+GCA_028538565.1	Umbellularia californica
 GCA_028974015.1	Penicillium cf. griseofulvum
 GCA_029228465.1	Salix viminalis
 GCA_029281495.1	Mycena filopes
@@ -10827,18 +10827,18 @@ GCA_038406195.1	Haplosyllis anthogorgicola
 GCA_900303245.1	Selene dorsalis
 GCA_900312565.1	Beryx splendens
 GCA_901007895.1	Syngnathus rostellatus
-GCA_902806685.2	FETCH_FAILED
+GCA_902806685.2	Maniola hyperantus
 GCA_905146915.1	Ostreobium quekettii
 GCA_905147785.2	Thyatira batis
 GCA_905163435.1	Mamestra brassicae
 GCA_905221605.1	Symbiodinium natans
-GCA_905404175.1	FETCH_FAILED
+GCA_905404175.1	Anthocharis cardamines
 GCA_905475445.1	Ochropleura plecta
-GCA_910589295.1	FETCH_FAILED
+GCA_910589295.1	Noctua janthe
 GCA_910589645.1	Tinea semifulvella
 GCA_932294295.1	Alitta virens
-GCA_932294325.1	FETCH_FAILED
-GCA_943193645.1	FETCH_FAILED
+GCA_932294325.1	Allophyes oxyacanthae
+GCA_943193645.1	Acentria ephemerella
 GCA_947069175.1	Scalesia atractyloides
 GCA_947361185.1	Charanyca ferruginea
 GCA_948330485.1	Euphorbia neoarborescens
@@ -10892,7 +10892,7 @@ GCA_004363605.1	Indri indri
 GCA_008921755.1	Aristotelia chilensis
 GCA_008932095.1	Pyrus ussuriensis x Pyrus communis
 GCA_009758055.1	Oreamnos americanus
-GCA_009792415.2	FETCH_FAILED
+GCA_009792415.2	Cryptosporidium ryanae
 GCA_010093605.1	Lophium mytilinum
 GCA_011634625.1	Babylonia areolata
 GCA_011762715.2	Neuroterus valhalla
@@ -10931,7 +10931,7 @@ GCA_025200525.1	Camellia lanceoleosa
 GCA_025448235.2	Buteogallus gundlachii
 GCA_025769935.1	Phoenix roebelenii
 GCA_026260215.1	Pseudoscaphirhynchus fedtschenkoi
-GCA_026437355.1	FETCH_FAILED
+GCA_026437355.1	Eucyclogobius newberryi
 GCA_027410445.1	Discoglossus pictus
 GCA_027569075.1	Aspergillus asperescens
 GCA_027943355.1	Dothideomycetes sp. NU200
@@ -10966,7 +10966,7 @@ GCA_033675105.1	Podospora appendiculata
 GCA_034359265.1	Canna indica
 GCA_034509495.1	Acestrorhynchus altus
 GCA_034642065.1	Darevskia nairensis
-GCA_034663535.1	FETCH_FAILED
+GCA_034663535.1	Citrus x limon
 GCA_034783695.1	Sardinella gibbosa
 GCA_035041235.1	Myiothlypis chrysogaster
 GCA_035045825.1	Drosophila eohydei
@@ -10991,27 +10991,27 @@ GCA_038090975.1	Boletellus pseudochrysenteroides
 GCA_038381815.1	Anodorhynchus leari
 GCA_900128785.1	Arabis alpina
 GCA_900245895.1	Lacerta bilineata
-GCA_901001135.2	FETCH_FAILED
+GCA_901001135.2	Rhinatrema bivittatum
 GCA_903364295.1	Serranus cabrilla
 GCA_905182975.1	Paramecium primaurelia
-GCA_905475405.1	FETCH_FAILED
-GCA_911728495.1	FETCH_FAILED
+GCA_905475405.1	Schrankia costaestrigalis
+GCA_911728495.1	Furcula furcula
 GCA_913698005.1	Platyusa sonomae
 GCA_920618645.1	Peronospora belbahrii
 GCA_935421205.1	Xylocampa areola
 GCA_936014575.1	Bombus lapidarius
 GCA_944470405.2	Schistosoma mattheei
 GCA_947331455.1	Plasmodium cf. malariae
-GCA_947532125.1	FETCH_FAILED
+GCA_947532125.1	Saturnia pavonia
 GCA_948332485.1	Euphorbia guentheri
-GCA_949699075.1	FETCH_FAILED
-GCA_949710005.1	FETCH_FAILED
+GCA_949699075.1	Asteroscopus sphinx
+GCA_949710005.1	Ricordea florida
 GCA_949768715.1	Dascillus cervinus
 GCA_949775025.1	Tricholauxania praeusta
 GCA_963383655.1	Bathymodiolus septemdierum
-GCA_963920215.1	FETCH_FAILED
+GCA_963920215.1	Nineta flava
 GCA_963921325.1	Logfia minima
-GCA_963931995.1	FETCH_FAILED
+GCA_963931995.1	Phaonia tiefii
 GCA_963942605.1	Poecilus cupreus
 GCA_963971285.1	Astropecten irregularis
 GCA_964036195.1	Sphaerolaimus hirsutus
@@ -11103,7 +11103,7 @@ GCA_023337775.1	Pythium aquatile
 GCA_023624935.1	Aspergillus sp. PA3604
 GCA_023629255.1	Pichia sp. PB3310
 GCA_024036415.1	Prochilodus magdalenae
-GCA_024217435.4	FETCH_FAILED
+GCA_024217435.4	Syngnathus scovelli
 GCA_024679075.1	Phytophthora uliginosa
 GCA_024867545.1	Phytopythium helicoides
 GCA_025201725.1	Chytriomyces sp. MP71
@@ -11164,22 +11164,22 @@ GCA_038406115.1	Haemulon aurolineatum
 GCA_900497715.1	Magnusiomyces ingens
 GCA_900518985.1	Yarrowia alimentaria
 GCA_902206195.3	Arabis nemorensis
-GCA_914767535.2	FETCH_FAILED
+GCA_914767535.2	Dunaliella primolecta
 GCA_945859875.1	Cuscuta europaea
 GCA_947369205.1	Cantharis rufa
 GCA_947685225.1	Garcia nutans
 GCA_949129085.1	Zygosaccharomyces pseudobailii
-GCA_949316495.1	FETCH_FAILED
+GCA_949316495.1	Amphiduros pacificus
 GCA_950106755.1	Climacium dendroides
 GCA_951799385.1	Hyppa rectilinea
 GCA_959347395.1	Mechanitis mazaeus
 GCA_963556525.1	Cochlearia excelsa
 GCA_963574665.1	Propithecus deckenii
-GCA_963680895.1	FETCH_FAILED
-GCA_963693475.1	FETCH_FAILED
-GCA_963924145.1	FETCH_FAILED
-GCA_963932035.1	FETCH_FAILED
-GCA_963966045.1	FETCH_FAILED
+GCA_963680895.1	Fragum sueziense
+GCA_963693475.1	Ectropis crepuscularia
+GCA_963924145.1	Pyrausta purpuralis
+GCA_963932035.1	Caenorhabditis wallacei
+GCA_963966045.1	Xestobium rufovillosum
 GCA_964023405.1	Apodemus agrarius
 GCF_000004255.2	Arabidopsis lyrata
 GCF_000151145.1	Microsporum canis
@@ -11247,7 +11247,7 @@ GCA_018904325.1	Drosophila murphyi
 GCA_018983105.1	Silene uniflora
 GCA_019297695.1	Apostasia ramifera
 GCA_019974015.1	Nephila pilipes
-GCA_020726465.1	FETCH_FAILED
+GCA_020726465.1	Chaetomium tenue
 GCA_021030905.1	Pyrenula massariospora
 GCA_022266195.1	Tetranychus cinnabarinus
 GCA_022497145.1	Rostrohypoxylon terebratum
@@ -11302,7 +11302,7 @@ GCA_033042605.1	Pleurophycus gardneri
 GCA_033239045.1	Fagopyrum esculentum
 GCA_033439405.1	Fusarium sp. NFCCI 5145
 GCA_034423695.1	Penicillium polonicum
-GCA_034638445.1	FETCH_FAILED
+GCA_034638445.1	Ciconia boyciana
 GCA_034696905.1	Lepidocyrtus violaceus
 GCA_034699945.1	Chamobates pusillus
 GCA_035041215.1	Gymnopithys bicolor
@@ -11326,7 +11326,7 @@ GCA_038090475.1	Wakefieldia striispora
 GCA_038092635.1	Xerocomus ferrugineus
 GCA_039654565.1	Peronia peronii
 GCA_900302335.1	Phycis phycis
-GCA_900700375.2	FETCH_FAILED
+GCA_900700375.2	Denticeps clupeoides
 GCA_903798205.1	Danio tinwini
 GCA_904066225.2	Bursaphelenchus okinawaensis
 GCA_905231905.1	Symbiodinium pilosum
@@ -11335,20 +11335,20 @@ GCA_913789915.3	Sphecodes monilicornis
 GCA_916048215.3	Malus sylvestris
 GCA_928269145.1	Agriphila tristella
 GCA_932294355.1	Aporophyla lueneburgensis
-GCA_932294365.1	FETCH_FAILED
+GCA_932294365.1	Diachrysia chrysitis
 GCA_944470395.2	Schistosoma turkestanicum
-GCA_944547425.1	FETCH_FAILED
+GCA_944547425.1	Eupithecia centaureata
 GCA_945859915.1	Cuscuta epithymum
-GCA_947563465.1	FETCH_FAILED
+GCA_947563465.1	Archips xylosteana
 GCA_949130495.1	Sambucus nigra
-GCA_949316385.1	FETCH_FAILED
+GCA_949316385.1	Globia sparganii
 GCA_950005045.1	Agrotis exclamationis
-GCA_960531205.1	FETCH_FAILED
-GCA_960531455.1	FETCH_FAILED
+GCA_960531205.1	Andrena bicolor
+GCA_960531455.1	Urophora cardui
 GCA_963855955.1	Luperina nickerlii
 GCA_963969325.1	Lycopodina hypogea
 GCA_964019415.1	Ianthella basta
-GCA_964034865.1	FETCH_FAILED
+GCA_964034865.1	Eristalis intricaria
 GCF_000002515.2	Kluyveromyces lactis
 GCF_000003605.2	Saccoglossus kowalevskii
 GCF_000090985.2	Micromonas commoda
@@ -11429,7 +11429,7 @@ GCA_024500015.1	Ulva compressa
 GCA_024757885.1	Apantesis nais
 GCA_025201705.1	Dissophora ornata
 GCA_025331005.2	Zoanthus gigantus
-GCA_025370935.1	FETCH_FAILED
+GCA_025370935.1	Choristoneura fumiferana
 GCA_025528865.1	Pilobolus umbonatus
 GCA_025769955.1	Setophaga kirtlandii
 GCA_026008555.1	Fistulifera pelliculosa
@@ -11469,7 +11469,7 @@ GCA_030579815.1	Sugiyamaella smithiae
 GCA_030581575.1	Teunomyces aglyptinius
 GCA_030779685.1	Cordyceps farinosa
 GCA_031001725.1	Pseudopyricularia javanii
-GCA_031021105.1	FETCH_FAILED
+GCA_031021105.1	Erythrolamprus reginae
 GCA_034211315.2	Aedes japonicus
 GCA_034509725.1	Sesamum angolense
 GCA_034695945.1	Glomeris hexasticha
@@ -11479,7 +11479,7 @@ GCA_035578125.1	Mellilla xanthometata
 GCA_035584415.1	Eueides aliphera
 GCA_036025875.1	Mogurnda adspersa
 GCA_036250565.1	Sibynophis collaris
-GCA_036850995.1	FETCH_FAILED
+GCA_036850995.1	Saccopteryx leptura
 GCA_036877575.1	Botia almorhae
 GCA_037042295.1	Irpex sp. Y119-03
 GCA_037576055.1	Fusarium sp. M6JPR69
@@ -11494,19 +11494,19 @@ GCA_903067075.1	Micropoecilia bifurca
 GCA_905163395.2	Endotricha flammealis
 GCA_905404275.2	Hedya salicella
 GCA_905477555.1	Coregonus lavaretus
-GCA_907269065.1	FETCH_FAILED
+GCA_907269065.1	Crocallis elinguaria
 GCA_913698395.1	Graphium doson
 GCA_930272665.1	Mariannaea elegans
 GCA_942486035.1	Porites lobata
 GCA_944989445.1	Ampullaceana balthica
 GCA_945779075.1	Brassica incana
 GCA_947650285.1	Hyaloperonospora brassicae
-GCA_958301585.1	FETCH_FAILED
+GCA_958301585.1	Merodon equestris
 GCA_958430865.1	Entrophospora sp. SA101
 GCA_958496275.1	Zele albiditarsus
 GCA_959609185.1	Schmidtea polychroa
 GCA_963855975.1	Andrena chrysosceles
-GCA_963920755.1	FETCH_FAILED
+GCA_963920755.1	Cartodere bifasciata
 GCA_964019425.1	Flectonema sp. DT1601
 GCF_000165365.1	Theileria parva
 GCF_000220395.1	Ichthyophthirius multifiliis
@@ -11611,7 +11611,7 @@ GCA_026122505.1	Aldabrachelys gigantea
 GCA_026283905.1	Psittacula cyanocephala
 GCA_026538345.1	Cryptococcus sp. GC_Crypt_4
 GCA_026546755.1	Genidens planifrons
-GCA_026898505.1	FETCH_FAILED
+GCA_026898505.1	Centroberyx gerrardi
 GCA_027576215.1	Amissidens hainesi
 GCA_027576715.1	Erythroxylum flavicans
 GCA_027604605.1	Borealophlyctis nickersoniae
@@ -11676,17 +11676,17 @@ GCA_902829205.1	Fraxinus paxiana
 GCA_916701095.1	Sebastes oblongus
 GCA_946902875.1	Nematopogon swammerdamellus
 GCA_946959425.1	Argyrosomus regius
-GCA_947579605.1	FETCH_FAILED
+GCA_947579605.1	Athripsodes cinereus
 GCA_948291685.1	Euphorbia celastroides
-GCA_949320105.2	FETCH_FAILED
-GCA_949357725.1	FETCH_FAILED
+GCA_949320105.2	Crepidodera aurea
+GCA_949357725.1	Hyperoplus immaculatus
 GCA_951812415.1	Beris morrisii
 GCA_951813805.1	Limnephilus auricula
 GCA_963082725.1	Pedicia rivosa
 GCA_963457715.1	Argyresthia albistria
 GCA_963555765.1	Orthonevra nobilis
-GCA_963580285.1	FETCH_FAILED
-GCA_964006125.1	FETCH_FAILED
+GCA_963580285.1	Lucinisca nassula
+GCA_964006125.1	Cryptus viduatorius
 GCF_000143185.2	Schizophyllum commune
 GCF_000204515.1	Acromyrmex echinatior
 GCF_000225545.1	Orbilia oligospora
@@ -11833,23 +11833,23 @@ GCA_900642975.1	Magnusiomyces suaveolens
 GCA_903067065.1	Brachyrhaphis terrabensis
 GCA_905216605.1	Arabidopsis arenosa
 GCA_905220505.1	Laothoe populi
-GCA_907165065.1	FETCH_FAILED
+GCA_907165065.1	Caprimulgus europaeus
 GCA_910591945.1	Ambispora gerdemannii
 GCA_910593735.2	Ectemnius lituratus
 GCA_935413205.1	Polydrusus cervinus
 GCA_942486065.2	Calliphora vomitoria
 GCA_943590875.1	Vomeridens infuscipinnis
 GCA_947093115.1	Brenthis daphne
-GCA_947568835.1	FETCH_FAILED
-GCA_948252205.1	FETCH_FAILED
-GCA_949126925.1	FETCH_FAILED
-GCA_949320045.1	FETCH_FAILED
+GCA_947568835.1	Protonemura montana
+GCA_948252205.1	Orthosia incerta
+GCA_949126925.1	Cheilosia vernalis
+GCA_949320045.1	Scotopteryx bipunctaria
 GCA_958299815.1	Sarcophaga carnaria
-GCA_963264785.1	FETCH_FAILED
+GCA_963264785.1	Psittacula echo
 GCA_963574415.1	Tarsius wallacei
 GCA_963691655.1	Toxonevra muliebris
 GCA_963691955.1	Chloroclystis v-ata
-GCA_963921795.1	FETCH_FAILED
+GCA_963921795.1	Nannobrachium achirus
 GCA_963971535.1	Notolepis coatsorum
 GCA_964035475.1	Salix caprea
 GCF_000002765.6	Plasmodium falciparum
@@ -11993,25 +11993,25 @@ GCA_902459845.2	Hepatocystis sp. ex Piliocolobus tephrosceles
 GCA_902687465.1	Secale cereale
 GCA_905066765.1	Sclerotinia trifoliorum
 GCA_905220615.1	Tinea trinotella
-GCA_905404135.1	FETCH_FAILED
-GCA_916610255.1	FETCH_FAILED
+GCA_905404135.1	Hesperia comma
+GCA_916610255.1	Lasioglossum lativentre
 GCA_944739405.2	Euclidia mi
 GCA_946251845.1	Andrena fulva
 GCA_946800305.1	Medicago arabica
-GCA_947386135.1	FETCH_FAILED
+GCA_947386135.1	Melanchra persicariae
 GCA_949129075.1	Zygosaccharomyces bailii
-GCA_949361645.1	FETCH_FAILED
+GCA_949361645.1	Spongilla lacustris
 GCA_949775195.1	Diarsia dahlii
-GCA_951216825.1	FETCH_FAILED
+GCA_951216825.1	Electrona antarctica
 GCA_951802705.1	Netelia virgata
-GCA_958298965.1	FETCH_FAILED
-GCA_963082875.1	FETCH_FAILED
+GCA_958298965.1	Chrysolina haemoptera
+GCA_963082875.1	Corella eumyota
 GCA_963574435.1	Cheirogaleus major
 GCA_963574885.1	Lepilemur ruficaudatus
-GCA_963890685.1	FETCH_FAILED
-GCA_963924605.1	FETCH_FAILED
-GCA_963932345.1	FETCH_FAILED
-GCA_963969455.1	FETCH_FAILED
+GCA_963890685.1	Plagodis pulveraria
+GCA_963924605.1	Malthinus seriepunctatus
+GCA_963932345.1	Ophion ventricosus
+GCA_963969455.1	Arge pagana
 GCA_963989405.1	Trypoxylon attenuatum
 GCA_964017235.1	Sabellastarte sp. h YS-2021
 GCF_000002525.2	Yarrowia lipolytica
@@ -12056,7 +12056,7 @@ GCA_003708465.2	Kazachstania kunashirensis
 GCA_003942215.1	Saitozyma podzolica
 GCA_004024585.1	Paradoxurus hermaphroditus
 GCA_004027165.1	Ctenomys sociabilis
-GCA_004359215.2	FETCH_FAILED
+GCA_004359215.2	Bremia lactucae
 GCA_006410735.1	Raphicerus campestris
 GCA_009764595.1	Geothlypis trichas
 GCA_009805545.1	Oryza longistaminata
@@ -12090,7 +12090,7 @@ GCA_019321725.1	Paulownia fortunei
 GCA_022376535.1	Xylariaceae sp. FL0662B
 GCA_022432385.1	Xylariaceae sp. FL1272
 GCA_022813105.1	Cystobasidium onofrii
-GCA_023055345.1	FETCH_FAILED
+GCA_023055345.1	Quercus wislizeni
 GCA_023105745.1	Austropuccinia psidii
 GCA_023337875.1	Pythium apleroticum
 GCA_023628555.1	Chaetomiaceae sp. R4402
@@ -12108,7 +12108,7 @@ GCA_025882695.1	Amerodectes protonotaria
 GCA_026120085.1	Cadophora luteo-olivacea
 GCA_026413305.1	Hydrozoanthus tunicans
 GCA_027574825.1	Ciconia nigra
-GCA_029207805.1	FETCH_FAILED
+GCA_029207805.1	Tribolium confusum
 GCA_029231665.1	Morus indica
 GCA_030247845.1	Coniosporium tulheliwenetii
 GCA_030267885.1	Mesembryanthemum crystallinum
@@ -12145,7 +12145,7 @@ GCA_037974605.1	Nannopetersius ansorgii
 GCA_038089715.1	Veloporphyrellus conicus
 GCA_038091655.1	Leccinum pseudoinsigne
 GCA_038094615.1	Heimioporus aff. retisporus
-GCA_038363175.2	FETCH_FAILED
+GCA_038363175.2	Artibeus lituratus
 GCA_038363885.1	Apiospora rasikravindrae
 GCA_039119965.1	Talaromyces sp. DC2
 GCA_039657385.1	Citrus x changshan-huyou
@@ -12160,23 +12160,23 @@ GCA_911387785.2	Aelia acuminata
 GCA_916700825.1	Sebastes alutus
 GCA_928722275.1	Ustilago vetiveriae
 GCA_928869825.1	Ustilago lituana
-GCA_932273695.1	FETCH_FAILED
-GCA_934046635.1	FETCH_FAILED
+GCA_932273695.1	Apotomis betuletana
+GCA_934046635.1	Buathra laborator
 GCA_947471745.1	Closterium sp. Naga37s-1
 GCA_947561585.1	Caprella mutica
 GCA_947859335.1	Tortricodes alternella
-GCA_948098905.1	FETCH_FAILED
+GCA_948098905.1	Tiliacea aurago
 GCA_949592205.1	Helichrysum umbraculigerum
-GCA_951394055.1	FETCH_FAILED
-GCA_951812265.1	FETCH_FAILED
+GCA_951394055.1	Villa cingulata
+GCA_951812265.1	Taphrorychus bicolor
 GCA_963082485.1	Eudonia mercurella
-GCA_963210295.1	FETCH_FAILED
+GCA_963210295.1	Ophion ellenae
 GCA_963425845.1	Sphenostylis stenocarpa
 GCA_963565655.1	Aleiodes testaceus
-GCA_963582015.1	FETCH_FAILED
+GCA_963582015.1	Xanthorhoe designata
 GCA_963855545.1	Ethmia dodecea
 GCA_963932335.1	Andrena marginata
-GCA_964017225.1	FETCH_FAILED
+GCA_964017225.1	Netelia inedita
 GCA_964036045.1	Eutreptiella sp. 'Long Island Sound 2002'
 GCF_000150735.1	Paracoccidioides brasiliensis
 GCF_000165395.2	Babesia bovis
@@ -12265,7 +12265,7 @@ GCA_020809705.1	Calonectria ilicicola
 GCA_021202915.1	Heliconius himera
 GCA_021272945.2	Cytospora paraplurivora
 GCA_021901955.1	Brassica balearica
-GCA_022045235.1	FETCH_FAILED
+GCA_022045235.1	Haliotis cracherodii
 GCA_022376545.1	Russula dissimulans
 GCA_022577715.1	Wickerhamiella alocasiicola
 GCA_022985055.1	Beauveria pseudobassiana
@@ -12298,12 +12298,12 @@ GCA_030578475.1	Hyphopichia wangnamkhiaoensis
 GCA_030578635.1	Kodamaea sp. yHQL451
 GCA_030579395.1	Aciculoconidium aculeatum
 GCA_030685255.1	Podospora conica
-GCA_030761205.1	FETCH_FAILED
-GCA_030848855.1	FETCH_FAILED
+GCA_030761205.1	Fremontodendron californicum
+GCA_030848855.1	Branchinecta sandiegonensis
 GCA_030954485.1	Citrullus mucosospermus
 GCA_031761405.1	Serripes groenlandicus
 GCA_031763665.1	Calameuta haemorrhoidalis
-GCA_032191515.2	FETCH_FAILED
+GCA_032191515.2	Phaenicophaeus curvirostris
 GCA_032362345.1	Sandelia bainsii
 GCA_032466195.1	Katharina tunicata
 GCA_032622095.1	Siphonodentalium dalli
@@ -12321,7 +12321,7 @@ GCA_037178615.1	Dione vanillae
 GCA_037179545.1	Sesamia inferens
 GCA_037355855.1	Pseudo-nitzschia pungens
 GCA_037356215.1	Thalassiosira gravida
-GCA_037575425.1	FETCH_FAILED
+GCA_037575425.1	Anastrepha fraterculus
 GCA_037834155.1	Curcuma caesia
 GCA_037976565.1	Mesocentrotus franciscanus
 GCA_038086965.1	Tardiomyces depauwii (nom. inval.)
@@ -12337,7 +12337,7 @@ GCA_900535975.1	[Candida] hispaniensis
 GCA_905250885.1	Didymodactylos carnosus
 GCA_907163345.1	Haberlea rhodopensis
 GCA_916700875.1	Sebastes aleutianus
-GCA_921293095.2	FETCH_FAILED
+GCA_921293095.2	Ischnura elegans
 GCA_943136025.2	Agrotis puta
 GCA_943593645.1	Bovichtus variegatus
 GCA_947086415.1	Pammene aurita
@@ -12347,7 +12347,7 @@ GCA_963422695.1	Xylophagus ater
 GCA_963556185.1	Pseudopediastrum boryanum
 GCA_963574575.1	Galagoides demidoff
 GCA_963574655.1	Perodicticus potto
-GCA_963921415.1	FETCH_FAILED
+GCA_963921415.1	Pyrausta despicata
 GCA_963922195.1	Panagrolaimus sp. PS1159
 GCA_963969485.1	Nomada goodeniana
 GCA_964036255.1	Caenorhabditis virilis
@@ -12442,7 +12442,7 @@ GCA_021461705.1	Cryptotis parvus
 GCA_022376435.1	Amylocystis lapponica
 GCA_022385715.1	Xylaria cubensis
 GCA_022405105.1	Aristolochia contorta
-GCA_022577435.1	FETCH_FAILED
+GCA_022577435.1	Embiotoca jacksoni
 GCA_022578945.1	Hypoxylon fuscum
 GCA_023336175.1	Globisporangium lucens
 GCA_023512835.1	Taxillus chinensis
@@ -12506,11 +12506,11 @@ GCA_914767945.1	Eilema depressum
 GCA_927399475.2	Acleris emargana
 GCA_948150685.1	Rhaphigaster nebulosa
 GCA_948193065.1	Aleurites moluccanus
-GCA_949825005.1	FETCH_FAILED
+GCA_949825005.1	Gasteruption jaculator
 GCA_951361185.1	Ochropacha duplaris
 GCA_958298945.1	Atherix ibis
 GCA_961205895.1	Mythimna pallens
-GCA_963169105.1	FETCH_FAILED
+GCA_963169105.1	Ceriagrion tenellum
 GCA_963422465.1	Lichina pygmaea
 GCA_963691745.1	Ditula angustiorana
 GCA_963919705.1	Alexandromys oeconomus
@@ -12527,7 +12527,7 @@ GCF_011692745.1	Arthroderma uncinatum
 GCF_011745365.1	Cryphonectria parasitica
 GCF_014743375.2	Drosophila subpulchrella
 GCF_016801865.2	Culex pipiens
-GCF_018350175.1	FETCH_FAILED
+GCF_018350175.1	Leopardus geoffroyi
 GCF_018446385.1	Zingiber officinale
 GCF_018983055.1	Penaeus indicus
 GCF_019924925.1	Ctenopharyngodon idella
@@ -12602,7 +12602,7 @@ GCA_023678865.1	Polistes exclamans
 GCA_024112705.1	Microcera coccophila
 GCA_025327145.1	Colletotrichum sp. SAR 10_76
 GCA_026153275.1	Sciades herzbergii
-GCA_026230045.1	FETCH_FAILED
+GCA_026230045.1	Corynorhinus townsendii
 GCA_027422505.1	Craterostigma plantagineum
 GCA_027475725.1	Pythium rhizo-oryzae
 GCA_027478445.1	Coemansia asiatica
@@ -12677,17 +12677,17 @@ GCA_943334845.2	Auanema sp. JU1783
 GCA_945859725.1	Drepana falcataria
 GCA_947308005.1	Yponomeuta malinellus
 GCA_947363495.1	Euzophera pinguis
-GCA_949152495.1	FETCH_FAILED
-GCA_949316235.1	FETCH_FAILED
-GCA_951217055.1	FETCH_FAILED
+GCA_949152495.1	Lasius fuliginosus
+GCA_949316235.1	Oegoconia quadripuncta
+GCA_951217055.1	Gerris lacustris
 GCA_958450335.1	Hibiscus tridactylites
 GCA_963556305.1	Platismatia glauca
 GCA_963575265.1	Leontocebus nigricollis
-GCA_963662175.1	FETCH_FAILED
-GCA_963669345.1	FETCH_FAILED
-GCA_963693305.1	FETCH_FAILED
+GCA_963662175.1	Aradus depressus
+GCA_963669345.1	Gortyna flavago
+GCA_963693305.1	Meandrina meandrites
 GCA_963931855.1	Philhelius festivus
-GCA_963942545.1	FETCH_FAILED
+GCA_963942545.1	Oxycera nigricornis
 GCF_000002415.2	Plasmodium vivax
 GCF_000209065.1	Trypanosoma cruzi
 GCF_000240135.3	Fusarium graminearum
@@ -12742,7 +12742,7 @@ GCA_009756535.1	Metschnikowia sp. UFMG-CM-y6306
 GCA_009761285.1	Aphis glycines
 GCA_010277075.1	Poeciliopsis retropinna
 GCA_011419295.1	Clarias macrocephalus
-GCA_013202065.2	FETCH_FAILED
+GCA_013202065.2	Cotesia typhae
 GCA_013396435.1	Anhinga anhinga
 GCA_013487665.1	Gossypium aridum
 GCA_014578085.1	Cardamine resedifolia
@@ -12775,7 +12775,7 @@ GCA_022577855.1	Wickerhamiella azyma
 GCA_022578875.1	Hypoxylon crocopeplum
 GCA_022606215.1	Trametes maxima
 GCA_022814615.1	Waltergamsia citrina
-GCA_023213295.1	FETCH_FAILED
+GCA_023213295.1	Bruguiera hainesii
 GCA_023627795.1	Barnettozyma californica
 GCA_023653615.1	Apiotrichum siamense
 GCA_024336825.1	Amorphophallus titanum
@@ -12836,26 +12836,26 @@ GCA_902168405.1	Peromyscus aztecus
 GCA_905182995.1	Paramecium octaurelia
 GCA_905335845.1	Sus cebifrons
 GCA_910592285.1	Racocetra persica
-GCA_917880885.1	FETCH_FAILED
+GCA_917880885.1	Limnephilus marmoratus
 GCA_927399505.1	Luperina testacea
-GCA_932274525.1	FETCH_FAILED
+GCA_932274525.1	Podabrus alpinus
 GCA_943593335.1	Lepidonotothen squamifrons
 GCA_946800315.1	Misopates orontium
 GCA_947311025.1	Lypha dubia
-GCA_947462355.1	FETCH_FAILED
+GCA_947462355.1	Caradrina kadenii
 GCA_947507525.1	Apamea epomidion
-GCA_949319445.1	FETCH_FAILED
+GCA_949319445.1	Mythimna lalbum
 GCA_951804985.1	Dryomyza anilis
 GCA_958510855.1	Rhagonycha lutea
 GCA_963082975.1	Labia minor
-GCA_963281015.1	FETCH_FAILED
-GCA_963422505.1	FETCH_FAILED
+GCA_963281015.1	Lactarius tabidus
+GCA_963422505.1	Pseudognaphalium luteoalbum
 GCA_963556175.1	Tipula confusa
 GCA_963580505.1	Ennomos erosarius
-GCA_963921375.1	FETCH_FAILED
+GCA_963921375.1	Tiliacea citrago
 GCA_963922035.1	Amblyjoppa proteus
 GCA_963969525.1	Ontholestes murinus
-GCA_963978915.1	FETCH_FAILED
+GCA_963978915.1	Caenorhabditis parvicauda
 GCA_964034905.1	Itoplectis maculator
 GCA_964036155.1	Diploscapter coronatus
 GCF_000002845.2	Leishmania braziliensis
@@ -13006,21 +13006,21 @@ GCA_916700885.1	Sebastes diploproa
 GCA_918559645.1	Ceratonova shasta
 GCA_918808275.2	Dolichovespula sylvestris
 GCA_940671915.1	Paracentrotus lividus
-GCA_943193625.1	FETCH_FAILED
-GCA_944738965.1	FETCH_FAILED
+GCA_943193625.1	Mucor piriformis
+GCA_944738965.1	Nebria brevicollis
 GCA_945643635.1	Allodiplogaster sudhausi
 GCA_946251955.1	Acronicta psi
 GCA_946474995.1	Funneliformis geosporum
 GCA_946902895.1	Fragum fragum
-GCA_947538895.1	FETCH_FAILED
+GCA_947538895.1	Neoitamus cyanurus
 GCA_948294925.1	Codiaeum variegatum
-GCA_949125355.1	FETCH_FAILED
-GCA_949710035.1	FETCH_FAILED
-GCA_951799955.1	FETCH_FAILED
+GCA_949125355.1	Agriopis leucophaearia
+GCA_949710035.1	Crambus lathoniellus
+GCA_951799955.1	Apamea anceps
 GCA_958299035.1	Cylicocyclus nassatus
 GCA_963573385.1	Cacajao melanocephalus
 GCA_963576725.1	Azorinus chamasolen
-GCA_963678685.1	FETCH_FAILED
+GCA_963678685.1	Patella ulyssiponensis
 GCA_963931815.1	Caenorhabditis plicata
 GCF_000002075.1	Aplysia californica
 GCF_000091025.4	Eremothecium gossypii
@@ -13076,7 +13076,7 @@ GCA_015252635.1	Dictyostelium capitatum
 GCA_015832385.1	Elymnias hypermnestra
 GCA_016785285.1	Brachirus orientalis
 GCA_017140475.1	Eucalyptus fibrosa
-GCA_018151085.1	FETCH_FAILED
+GCA_018151085.1	Drosophila tropicalis
 GCA_018155175.1	Sinocyclocheilus anophthalmus
 GCA_018239245.1	Pyrrhopyge aziza
 GCA_018245675.1	Agara michaeli
@@ -13110,7 +13110,7 @@ GCA_027580175.1	Siniperca scherzeri
 GCA_027925045.1	Hypotaenidia okinawae
 GCA_028555095.1	Dicrostonyx torquatus
 GCA_029041755.1	Resseliella maxima
-GCA_029215685.1	FETCH_FAILED
+GCA_029215685.1	Pituophis catenifer
 GCA_029255805.1	Keiferia lycopersicella
 GCA_029490765.1	Euthynnus affinis
 GCA_029874735.1	Cobitis vettonica
@@ -13133,7 +13133,7 @@ GCA_031304145.1	Cardiospermum halicacabum
 GCA_031763465.1	Squatina squatina
 GCA_032359765.1	Saxidomus gigantea
 GCA_033002965.1	Piper betle
-GCA_033617975.1	FETCH_FAILED
+GCA_033617975.1	Populus alba x Populus glandulosa
 GCA_034509035.1	Saxispiralis lemnorum
 GCA_034642435.1	Megalocaria dilatata
 GCA_034691745.1	Prismatolaimus dolichurus
@@ -13144,7 +13144,7 @@ GCA_034698265.1	Sminthurinus aureus
 GCA_034702105.1	Fuscozetes fuscipes
 GCA_034783095.1	Forpus spengeli
 GCA_035046095.1	Drosophila pseudotakahashii
-GCA_036184795.1	FETCH_FAILED
+GCA_036184795.1	Tokudaia tokunoshimensis
 GCA_036346975.1	Drosophila prolongata
 GCA_036986335.1	Aspergillus sp. AS01
 GCA_037042915.1	Auricularia sp. M13
@@ -13161,14 +13161,14 @@ GCA_900240875.1	Crithidia expoeki
 GCA_900474215.1	Andricus inflator
 GCA_900604375.1	Mesocestoides corti
 GCA_905178165.1	Amoebophrya sp. A25
-GCA_905340355.1	FETCH_FAILED
+GCA_905340355.1	Rhagonycha fulva
 GCA_910589355.1	Parapoynx stratiotata
 GCA_928722295.1	Ustilago curta
-GCA_933228915.1	FETCH_FAILED
-GCA_947037095.2	FETCH_FAILED
+GCA_933228915.1	Telmatherina bonti
+GCA_947037095.2	Nycteola revayana
 GCA_947683625.1	Mallotus nudiflorus
 GCA_948473465.1	Lithophane ornitopus
-GCA_951394025.1	FETCH_FAILED
+GCA_951394025.1	Heteromyza rotundicornis
 GCA_951640165.1	Pseudoips prasinana
 GCA_963070105.1	Litomosoides sigmodontis
 GCA_963170105.1	Cantharis lateralis
@@ -13177,10 +13177,10 @@ GCA_963575195.1	Allochrocebus solatus
 GCA_963930775.1	Cliona cf. orientalis
 GCA_963971245.1	Cladonia rubrotincta
 GCA_963971525.1	Cephus spinipes
-GCA_963995505.1	FETCH_FAILED
-GCA_964019335.1	FETCH_FAILED
+GCA_963995505.1	Hypericum androsaemum
+GCA_964019335.1	Diplonema japonicum
 GCA_964030765.1	Micromesistius poutassou
-GCA_964058805.1	FETCH_FAILED
+GCA_964058805.1	Schoenoplectus triqueter
 GCF_000149405.2	Thalassiosira pseudonana
 GCF_000219625.1	Zymoseptoria tritici
 GCF_000226095.1	Thermothelomyces thermophilus
@@ -13246,7 +13246,7 @@ GCA_015039465.1	Phlegmacium glaucopus
 GCA_015342185.1	Leptinotarsa juncta
 GCA_016785345.1	Trinectes maculatus
 GCA_016801065.1	Sceloporus tristichus
-GCA_017916335.1	FETCH_FAILED
+GCA_017916335.1	Leishmania orientalis
 GCA_018152295.1	Drosophila carrolli
 GCA_018231005.1	Noctuana brunneofusca
 GCA_018231105.1	Muschampia floccifera
@@ -13289,7 +13289,7 @@ GCA_027575275.1	Coemansia sp. RSA 2711
 GCA_027576735.1	Chinchaysuyoa labiata
 GCA_027578755.1	Coemansia sp. RSA 1199
 GCA_027972325.1	Paratrimastix pyriformis
-GCA_028021215.1	FETCH_FAILED
+GCA_028021215.1	Eschrichtius robustus
 GCA_028551475.1	Casuarina equisetifolia
 GCA_028551675.1	Tineola bisselliella
 GCA_028565825.1	Olivaichthys viedmensis
@@ -13297,7 +13297,7 @@ GCA_028583415.1	Protea cynaroides
 GCA_029542845.1	Malassezia nana
 GCA_029783665.1	Naso thynnoides
 GCA_030340685.1	Protosalanx chinensis
-GCA_030449975.1	FETCH_FAILED
+GCA_030449975.1	Polyergus mexicanus
 GCA_030512225.1	Rauvolfia tetraphylla
 GCA_030573095.1	Pichia paraexigua
 GCA_030573495.1	Hanseniaspora nectarophila
@@ -13337,16 +13337,16 @@ GCA_900406535.1	Noccaea bulbosa
 GCA_901007715.1	Dactylopterus volitans
 GCA_913698435.1	Pseudomimeciton antennatum
 GCA_917499265.3	Mimumesa dahlbomi
-GCA_918843875.1	FETCH_FAILED
+GCA_918843875.1	Diadumene lineata
 GCA_920104205.1	Eupeodes latifasciatus
-GCA_947578465.1	FETCH_FAILED
+GCA_947578465.1	Thera obeliscata
 GCA_947645195.1	Patellifolia procumbens
 GCA_948098915.1	Lampropteryx suffumata
-GCA_950022335.1	FETCH_FAILED
+GCA_950022335.1	Eurois occulta
 GCA_951640195.1	Porpolomopsis calyptriformis
 GCA_963514085.1	Chelon labrosus
-GCA_963970385.1	FETCH_FAILED
-GCA_964006365.1	FETCH_FAILED
+GCA_963970385.1	Theonella swinhoei
+GCA_964006365.1	Trididemnum miniatum
 GCA_964016945.1	Microplitis deprimator
 GCA_964017045.1	Omphiscola glabra
 GCF_000313855.2	Musa acuminata
@@ -13489,7 +13489,7 @@ GCA_035044385.1	Drosophila neutralis
 GCA_035045545.1	Drosophila gaucha
 GCA_035046425.1	Drosophila anomalata
 GCA_035047545.1	Drosophila paranaensis
-GCA_035220775.1	FETCH_FAILED
+GCA_035220775.1	Malus fusca
 GCA_035582765.1	Acer negundo
 GCA_035582995.1	Sycophila quercilanae
 GCA_036245785.1	Pristionchus fissidentatus
@@ -13510,24 +13510,24 @@ GCA_039519185.1	Astragalus membranaceus
 GCA_039654915.1	Aquilaria yunnanensis
 GCA_039880875.1	Aspergillus pseudoglaucus
 GCA_901766855.1	Panagrolaimus sp. ES5
-GCA_902686455.2	FETCH_FAILED
+GCA_902686455.2	Sciurus vulgaris
 GCA_902732785.1	Trichogramma evanescens
 GCA_903068105.1	Poecilia wingei
 GCA_928718305.1	Tetramorium bicarinatum
-GCA_929112965.1	FETCH_FAILED
+GCA_929112965.1	Mythimna albipuncta
 GCA_944470375.2	Schistosoma guineensis
 GCA_945859785.2	Tridacna gigas
 GCA_947034885.2	Thuidium tamariscinum
-GCA_947650265.1	FETCH_FAILED
+GCA_947650265.1	Symphodus melops
 GCA_949129095.1	Volucella bombylans
-GCA_949752735.1	FETCH_FAILED
-GCA_958299785.1	FETCH_FAILED
+GCA_949752735.1	Lumbricus terrestris
+GCA_958299785.1	Medicago lupulina
 GCA_958450365.1	Mesorhabditis belari
 GCA_958496175.1	Sisyra terminalis
-GCA_959347355.1	FETCH_FAILED
-GCA_963572205.1	FETCH_FAILED
-GCA_963859945.1	FETCH_FAILED
-GCA_963970395.1	FETCH_FAILED
+GCA_959347355.1	Napeogenes inachia
+GCA_963572205.1	Caenorhabditis imperialis
+GCA_963859945.1	Euplagia quadripunctaria
+GCA_963970395.1	Ephialtes manifestator
 GCF_000147115.1	Myotis lucifugus
 GCF_000242695.1	Lepisosteus oculatus
 GCF_000247815.1	Ficedula albicollis
@@ -13602,7 +13602,7 @@ GCA_022432395.1	Pestalotiopsis sp. NC0098
 GCA_022702705.1	Papilionanthe hookeriana x Papilionanthe teres
 GCA_023212645.1	Farysia itapuensis
 GCA_023333645.1	Sceloporus occidentalis
-GCA_023349425.1	FETCH_FAILED
+GCA_023349425.1	Anthopleura sola
 GCA_023628415.1	Hypoxylon sp. PDH2405
 GCA_024339985.1	Tolypocladium endophyticum
 GCA_024372805.1	Oostethus manadensis
@@ -13621,7 +13621,7 @@ GCA_027946365.1	Kalmusia sp. IMI 367209
 GCA_028454235.1	Halictus rubicundus
 GCA_028564865.1	Zenarchopterus dispar
 GCA_028565235.1	Hypoxylon lenormandii
-GCA_028658345.1	FETCH_FAILED
+GCA_028658345.1	Babesia duncani
 GCA_030014215.1	Clariallabes teugelsi
 GCA_030063025.1	Avena longiglumis
 GCA_030248155.1	Sabatieria punctata
@@ -13667,23 +13667,23 @@ GCA_900302515.1	Boreogadus saida
 GCA_900312595.1	Guentherus altivela
 GCA_902805455.1	Daldinia concentrica
 GCA_905220595.1	Spilosoma lubricipeda
-GCA_905404115.1	FETCH_FAILED
-GCA_912999735.1	FETCH_FAILED
-GCA_916610215.1	FETCH_FAILED
+GCA_905404115.1	Pheosia gnoma
+GCA_912999735.1	Aporia crataegi
+GCA_916610215.1	Omphaloscelis lunosa
 GCA_916701665.1	Sebastiscus tertius
-GCA_916701695.1	FETCH_FAILED
+GCA_916701695.1	Agrochola macilenta
 GCA_918026665.1	Diabrotica balteata
 GCA_928852645.1	Mycosarcoma mackinlayi
 GCA_943591095.1	Bathydraco marri
 GCA_944039245.1	Nebria salina
 GCA_947086425.1	Xanthorhoe spadicearia
 GCA_947095575.1	Electrophaes corylata
-GCA_949987695.1	FETCH_FAILED
+GCA_949987695.1	Merzomyia westermanni
 GCA_951216915.1	Tetheella fluctuosa
-GCA_951804945.1	FETCH_FAILED
-GCA_963565745.1	FETCH_FAILED
+GCA_951804945.1	Podarcis cretensis
+GCA_963565745.1	Phengaris arion
 GCA_963674455.1	Lecanosticta acicola
-GCA_963693285.1	FETCH_FAILED
+GCA_963693285.1	Xestospongia muta
 GCA_963930675.1	Gnaphalium uliginosum
 GCA_963966155.1	Clivina fossor
 GCA_963969585.1	Drosophila helvetica
@@ -13723,7 +13723,7 @@ GCA_003708355.3	Cyberlindnera maclurae
 GCA_003719415.1	Aspergillus olivimuriae
 GCA_003795295.1	Cytospora leucostoma
 GCA_004329385.1	Megaptera novaeangliae
-GCA_004936735.2	FETCH_FAILED
+GCA_004936735.2	Cryptosporidium sp. chipmunk genotype I
 GCA_005406065.1	Metschnikowia sp. JCM 33374
 GCA_006510565.1	Diophrys appendiculata
 GCA_009720345.1	Fragaria iinumae
@@ -13782,7 +13782,7 @@ GCA_026770625.1	Nicotiana glauca
 GCA_027564835.1	Typhlichthys subterraneus
 GCA_027577595.1	Coemansia sp. RSA 487
 GCA_027744375.1	Orchesellides sinensis
-GCA_027789725.1	FETCH_FAILED
+GCA_027789725.1	Dendropsophus ebraccatus
 GCA_027946375.1	Neodidymelliopsis sp. IMI 364377
 GCA_028566735.1	Ammoglanis amapaensis
 GCA_028654335.1	Alnus rubra
@@ -13804,7 +13804,7 @@ GCA_030674695.1	Diutina mesorugosa
 GCA_031002005.1	Vandiemenella viatica
 GCA_031216115.1	Senna siamea
 GCA_031472005.1	Tetracladium setigerum
-GCA_031753505.1	FETCH_FAILED
+GCA_031753505.1	Anomalospiza imberbis
 GCA_031762655.1	Doris verrucosa
 GCA_031763765.1	Psittacara erythrogenys
 GCA_032274825.1	Drosophyllum lusitanicum
@@ -13818,7 +13818,7 @@ GCA_035048815.1	Abelmoschus esculentus
 GCA_036169575.1	Citrus reticulata
 GCA_036250175.1	Myotis planiceps
 GCA_036321655.1	Quercus alba
-GCA_036365495.1	FETCH_FAILED
+GCA_036365495.1	Heterodontus francisci
 GCA_036507285.1	Trichosanthes cucumerina
 GCA_036584685.1	Rhyacophila sp. Rhy_31_5
 GCA_036785865.1	Coffea canephora
@@ -13826,7 +13826,7 @@ GCA_036851105.1	Colletotrichum tabaci
 GCA_036873605.1	Anas crecca
 GCA_036898165.1	Silybum marianum
 GCA_037127315.1	Ascarosepion bandense
-GCA_037306005.1	FETCH_FAILED
+GCA_037306005.1	Rhinophrynus dorsalis
 GCA_037379345.1	Perna viridis
 GCA_038088675.1	Xanthoconium separans
 GCA_038093355.1	Boletus calvinii
@@ -13837,26 +13837,26 @@ GCA_039877255.1	Loriculus beryllinus
 GCA_900010015.1	Tuber aestivum
 GCA_900302545.1	Lampris guttatus
 GCA_900406285.1	Biscutella auriculata
-GCA_900963305.2	FETCH_FAILED
+GCA_900963305.2	Echeneis naucrates
 GCA_902151445.1	Timema monikensis
 GCA_902825105.1	Syncerus caffer
 GCA_907269075.1	Idaea aversata
-GCA_910591455.2	FETCH_FAILED
-GCA_936440315.1	FETCH_FAILED
+GCA_910591455.2	Pholis gunnellus
+GCA_936440315.1	Barbus barbus
 GCA_947034925.1	Eudemis profundana
 GCA_947397865.1	Polietes domitor
-GCA_948473455.1	FETCH_FAILED
-GCA_949987615.1	FETCH_FAILED
+GCA_948473455.1	Teleiodes luculella
+GCA_949987615.1	Pollachius pollachius
 GCA_951799445.1	Pseudisothecium myosuroides
 GCA_951800035.1	Linnaemya tessellans
-GCA_958496325.1	FETCH_FAILED
-GCA_963576675.1	FETCH_FAILED
+GCA_958496325.1	Nomophila noctuella
+GCA_963576675.1	Euphorbia lathyris
 GCA_963932375.1	Phania funesta
-GCA_963965965.1	FETCH_FAILED
-GCA_963971185.1	FETCH_FAILED
+GCA_963965965.1	Trididemnum nubilum
+GCA_963971185.1	Bombus muscorum
 GCA_963988835.1	Hexamita inflata
 GCA_963989385.1	Ctena decussata
-GCA_964035775.1	FETCH_FAILED
+GCA_964035775.1	Osedax frankpressi
 GCF_000142945.1	Phytophthora infestans
 GCF_000230375.1	Plenodomus lingam
 GCF_000298775.1	Drepanopeziza brunnea
@@ -13961,7 +13961,7 @@ GCA_029823295.1	Pseudamia nigra
 GCA_029874935.1	Atherina boyeri
 GCA_029948455.1	Solanum rostratum
 GCA_029952725.1	Salmacisia buchloeana
-GCA_029955515.1	FETCH_FAILED
+GCA_029955515.1	Chrysomela aeneicollis
 GCA_030142615.1	Syrista parreyssii
 GCA_030571835.1	Yamadazyma dushanensis
 GCA_030575175.1	Sugiyamaella novakii
@@ -13977,14 +13977,14 @@ GCA_034695485.1	Entomobrya nivalis
 GCA_035044245.1	Drosophila nr. fundita
 GCA_035045125.1	Hypselothyrea guttata
 GCA_035045945.1	Drosophila anceps
-GCA_035084275.1	FETCH_FAILED
+GCA_035084275.1	Hydrolagus colliei
 GCA_036178185.1	Liparis tanakae
 GCA_036873815.1	Phacellophora camtschatica
 GCA_036898045.1	Erodium gruinum
 GCA_036939455.1	Cyclotella distinguenda
 GCA_036939895.1	Thalassiosira exigua
 GCA_037951595.1	[Candida] sonorensis
-GCA_037974665.1	FETCH_FAILED
+GCA_037974665.1	Ehretia macrophylla
 GCA_038089075.1	Singerocomus inundabilis
 GCA_038089475.1	Boletus aff. vermiculosoides
 GCA_038089735.1	Exsudoporus frostii
@@ -14005,20 +14005,20 @@ GCA_935064755.1	Tragelaphus eurycerus
 GCA_943590975.1	Lindbergichthys nudifrons
 GCA_946800325.1	Luzula sylvatica
 GCA_947359385.1	Chesias legatella
-GCA_947579665.1	FETCH_FAILED
-GCA_947859395.1	FETCH_FAILED
+GCA_947579665.1	Sympetrum striolatum
+GCA_947859395.1	Eupithecia insigniata
 GCA_948098885.1	Drepanosiphum platanoidis
-GCA_948252095.1	FETCH_FAILED
+GCA_948252095.1	Dicycla oo
 GCA_949825065.1	Odontocerum albicorne
 GCA_959613365.1	Balanococcus diminutus
 GCA_963576735.1	Bedellia somnulentella
-GCA_963678965.1	FETCH_FAILED
-GCA_963691665.1	FETCH_FAILED
+GCA_963678965.1	Cruciata laevipes
+GCA_963691665.1	Clepsis dumicolana
 GCA_963924305.1	Polygonum maritimum
-GCA_963924665.1	FETCH_FAILED
+GCA_963924665.1	Micromys minutus
 GCA_964019135.1	Arenicola marina
 GCA_964033795.1	Lymnaea stagnalis
-GCA_964034955.1	FETCH_FAILED
+GCA_964034955.1	Orchesella flavescens
 GCF_000004985.1	Naegleria gruberi
 GCF_000183805.2	Loa loa
 GCF_000187915.1	Pogonomyrmex barbatus
@@ -14170,17 +14170,17 @@ GCA_905183005.1	Paramecium pentaurelia
 GCA_905221615.1	Symbiodinium sp. CCMP2592
 GCA_905368565.1	Medioppia subpectinata
 GCA_910592345.1	Paraglomus brasilianum
-GCA_923062465.1	FETCH_FAILED
+GCA_923062465.1	Acleris sparsana
 GCA_931305995.1	Torulaspora indica
 GCA_936449025.2	Sarcophaga subvicina
 GCA_943591055.1	Gobionotothen gibberifrons
-GCA_947256265.1	FETCH_FAILED
+GCA_947256265.1	Acronicta leporina
 GCA_949320155.1	Melangyna quadrimaculata
-GCA_949987625.1	FETCH_FAILED
-GCA_951394005.1	FETCH_FAILED
-GCA_951800055.1	FETCH_FAILED
+GCA_949987625.1	Chalcis sispes
+GCA_951394005.1	Protophormia terraenovae
+GCA_951800055.1	Cenopis cana
 GCA_951802745.1	Nomada flava
-GCA_951812925.1	FETCH_FAILED
+GCA_951812925.1	Calliopum simillimum
 GCA_963573925.1	Callimico goeldii
 GCA_963574485.1	Hapalemur alaotrensis
 GCA_963662145.1	Sturmia bella
@@ -14188,7 +14188,7 @@ GCA_963920575.1	Narthecium ossifragum
 GCA_963966035.1	Acleris laterana
 GCA_963966055.1	Lathyrus aphaca
 GCA_963966185.1	Rhabditoides inermis
-GCA_964006375.1	FETCH_FAILED
+GCA_964006375.1	Tillus elongatus
 GCA_964020155.1	Chondrilla cf. caribensis
 GCA_964023215.1	Eledona agricola
 GCF_000182965.3	Candida albicans
@@ -14267,7 +14267,7 @@ GCA_024713595.1	Morchella rufobrunnea
 GCA_025698515.1	Gossypium sturtianum
 GCA_025920805.1	Petroica traversi
 GCA_025960845.1	Tachycineta bicolor
-GCA_026167965.1	FETCH_FAILED
+GCA_026167965.1	Cyanocitta stelleri
 GCA_026283885.1	Poicephalus gulielmi
 GCA_026401315.1	Dysphania ambrosioides
 GCA_026776725.1	Gnathonemus echidnorhynchus
@@ -14312,7 +14312,7 @@ GCA_034780635.1	Micrastur mirandollei
 GCA_035047045.1	Vireo griseus
 GCA_035047885.1	Chlorospingus flavigularis
 GCA_035583255.1	Pseudotriton ruber
-GCA_036321105.1	FETCH_FAILED
+GCA_036321105.1	Dracaena cambodiana
 GCA_036346125.1	Lycocerus yunnanus
 GCA_036553675.1	Solanum okadae
 GCA_036897825.1	Plantago rigida
@@ -14324,7 +14324,7 @@ GCA_038090415.1	Rossbeevera mucosa
 GCA_038091595.1	Leccinum subatratum
 GCA_038091915.1	Leccinum griseonigrum
 GCA_038091995.1	Leccinum holopus
-GCA_039105145.1	FETCH_FAILED
+GCA_039105145.1	Kwoniella newhampshirensis
 GCA_039737535.1	Lagodon rhomboides
 GCA_039797435.1	Crotalus adamanteus
 GCA_039880955.1	Chlamydomonas urium
@@ -14340,22 +14340,22 @@ GCA_905160935.1	Enchytraeus crypticus
 GCA_905333015.3	Bombus campestris
 GCA_907164685.1	Colias eurytheme
 GCA_921997135.2	Mus spretus
-GCA_929442735.1	FETCH_FAILED
-GCA_936450015.1	FETCH_FAILED
-GCA_947532105.1	FETCH_FAILED
-GCA_947562105.1	FETCH_FAILED
+GCA_929442735.1	Watsonalla binaria
+GCA_936450015.1	Meganola albula
+GCA_947532105.1	Athrips mouffetella
+GCA_947562105.1	Shargacucullia verbasci
 GCA_948472985.1	Iguana delicatissima
 GCA_949128085.1	Cetonia aurata
-GCA_949317995.1	FETCH_FAILED
+GCA_949317995.1	Acholoe squamosa
 GCA_963575145.1	Galago senegalensis
 GCA_963921515.1	Calotriton arnoldi
 GCA_963931875.1	Pollenia griseotomentosa
-GCA_963932265.1	FETCH_FAILED
-GCA_963966615.1	FETCH_FAILED
-GCA_963969285.1	FETCH_FAILED
+GCA_963932265.1	Thymelicus lineola
+GCA_963966615.1	Tenthredo amoena
+GCA_963969285.1	Odontomyia ornata
 GCA_964016875.1	Fallopia convolvulus
 GCA_964036315.1	Acanthosepion esculentum
-GCA_964056695.1	FETCH_FAILED
+GCA_964056695.1	Melieria picta
 GCF_000002775.5	Populus trichocarpa
 GCF_000250985.1	Nematocida parisii
 GCF_000365145.1	Cyphellophora europaea
@@ -14375,7 +14375,7 @@ GCF_023856365.1	Brienomyrus brachyistius
 GCF_028018385.1	Neofelis nebulosa
 GCF_028974065.1	Penicillium cinerascens
 GCF_905332965.1	Bombus pascuorum
-GCA_000390325.3	FETCH_FAILED
+GCA_000390325.3	Nicotiana tomentosiformis
 GCA_000695325.1	Pleurobrachia bachei
 GCA_000733355.1	Falciphora oryzae
 GCA_000934455.1	Apostichopus parvimensis
@@ -14399,7 +14399,7 @@ GCA_003717275.1	Protomyces pachydermus
 GCA_004369125.1	Pterulicium gracile
 GCA_004380135.1	Stemphylium vesicarium
 GCA_005059885.1	Salinomyces thailandicus
-GCA_005286985.2	FETCH_FAILED
+GCA_005286985.2	Setaria viridis
 GCA_006461725.1	Moschus chrysogaster
 GCA_008271525.1	Sarocladium brachiariae
 GCA_009867235.2	Psittacus erithacus
@@ -14505,7 +14505,7 @@ GCA_037075365.1	Drosophila emarginata
 GCA_037178675.1	Scleroderma bovista
 GCA_038048895.1	Tricuspidalestes caeruleus
 GCA_038094675.1	Spongispora temasekensis
-GCA_038362585.1	FETCH_FAILED
+GCA_038362585.1	Apiospora marii
 GCA_038406275.1	Cataglyphis albicans
 GCA_038407165.1	Ceratocystis variospora
 GCA_039096195.1	Blastocystis sp. BT1
@@ -14516,7 +14516,7 @@ GCA_902728275.1	Cyclocybe aegerita
 GCA_910822075.1	Senecio squalidus
 GCA_914767885.1	Blepharisma stoltei
 GCA_916618015.1	Xestia c-nigrum
-GCA_933228895.1	FETCH_FAILED
+GCA_933228895.1	Platycnemis pennipes
 GCA_935421135.1	Bugulina stolonifera
 GCA_935541525.1	[Candida] railenensis
 GCA_943736025.1	Tenthredo mesomela
@@ -14524,7 +14524,7 @@ GCA_947538915.1	Tenthredo distinguenda
 GCA_948474695.1	Periconia digitata
 GCA_949987645.1	Tachina grossa
 GCA_963281155.1	Rhabditophanes sp. KR3021
-GCA_963695495.1	FETCH_FAILED
+GCA_963695495.1	Hololepta plana
 GCF_000181295.1	Otolemur garnettii
 GCF_000230535.1	Pelodiscus sinensis
 GCF_000585565.1	Capronia epimyces
@@ -14596,9 +14596,9 @@ GCA_018904545.1	Motacilla tschutschensis
 GCA_019054645.1	Fusarium sporotrichioides
 GCA_019775915.2	Cyphomyrus plagiostoma
 GCA_019925425.1	Ophiostoma pallidulum
-GCA_020800215.1	FETCH_FAILED
+GCA_020800215.1	Phytophthora ramorum
 GCA_021533255.1	Ceriops tagal
-GCA_022059095.1	FETCH_FAILED
+GCA_022059095.1	Trypanosoma melophagium
 GCA_022179045.1	Colletotrichum liriopes
 GCA_022344085.1	Microsporum audouinii
 GCA_023212875.1	Komagataella pseudopastoris
@@ -14650,7 +14650,7 @@ GCA_030674515.1	Geotrichum armillariae
 GCA_030849605.1	Wallacemonas sp. 195SL
 GCA_030864215.1	Capsicum pubescens
 GCA_031894815.1	Creontiades dilutus
-GCA_032164185.1	FETCH_FAILED
+GCA_032164185.1	Moxostoma hubbsi
 GCA_033220385.1	Triplophysa yarkandensis
 GCA_034406715.1	Rhodotorula mucilaginosa
 GCA_034698085.1	Polydesmus angustus
@@ -14683,15 +14683,15 @@ GCA_943736015.1	Tridacna crocea
 GCA_944470415.2	Schistosoma rodhaini
 GCA_945999865.1	Vitis cinerea var. helleri x Vitis rupestris
 GCA_947364205.1	Agrochola lota
-GCA_947563765.1	FETCH_FAILED
-GCA_948465745.1	FETCH_FAILED
+GCA_947563765.1	Anarsia innoxiella
+GCA_948465745.1	Chenopodium album
 GCA_949091785.1	Polymixis lichenea
-GCA_949127995.1	FETCH_FAILED
+GCA_949127995.1	Suillia variegata
 GCA_949987565.1	Luidia sarsii
-GCA_951509405.1	FETCH_FAILED
+GCA_951509405.1	Machimus rusticus
 GCA_963556235.1	Cryptophagus acutangulus
 GCA_963583835.1	Drosophila immigrans
-GCA_963680715.1	FETCH_FAILED
+GCA_963680715.1	Tetragnatha montana
 GCA_963681505.1	Eunapius fragilis
 GCA_963920545.1	Lepidium didymum
 GCF_000151645.1	Tuber melanosporum
@@ -14714,7 +14714,7 @@ GCA_000827475.1	Paxillus involutus
 GCA_001304625.1	Trametes sp. AH28-2
 GCA_001592805.2	Peltaster fructicola
 GCA_001632435.1	Calocera cornea
-GCA_001643675.2	FETCH_FAILED
+GCA_001643675.2	Monocercomonoides exilis
 GCA_002091845.1	Anopheles cracens
 GCA_002382865.2	Heliothis virescens
 GCA_002778215.1	Esteya vermicola
@@ -14748,7 +14748,7 @@ GCA_016801885.1	Toxotes chatareus
 GCA_016861445.1	Oryzias woworae
 GCA_017654935.2	Phymorhynchus buccinoides
 GCA_017657125.1	Scopulariopsis brevicaulis
-GCA_017918225.1	FETCH_FAILED
+GCA_017918225.1	Leishmania sp. Namibia
 GCA_018239485.1	Tagiades gana
 GCA_018245135.1	Pyrrhopyge haemon
 GCA_018245795.1	Protelbella ruficauda
@@ -14843,7 +14843,7 @@ GCA_900184765.1	Hymenoscyphus fraxineus
 GCA_900322385.1	Pharnaceum exiguum
 GCA_900618365.1	Thelazia callipaeda
 GCA_902006505.2	Clonostachys byssicola
-GCA_902827135.1	FETCH_FAILED
+GCA_902827135.1	Harpagifer antarcticus
 GCA_943704415.1	Parvularia atlantis
 GCA_944472155.2	Trichobilharzia szidati
 GCA_947086505.1	Morpho deidamia
@@ -14851,14 +14851,14 @@ GCA_947184155.2	Cladocopium goreaui
 GCA_949987655.1	Polymixis flavicincta
 GCA_950022985.1	Udea ferrugalis
 GCA_951394315.1	Lactarius evosmus
-GCA_958296335.1	FETCH_FAILED
-GCA_963565295.1	FETCH_FAILED
+GCA_958296335.1	Urtica urens
+GCA_963565295.1	Epirrhoe alternata
 GCA_963570955.1	Caenorhabditis afra
 GCA_963574895.1	Eulemur rubriventer
 GCA_963576655.1	Gastrophysa polygoni
 GCA_963932295.1	Tipula lateralis
-GCA_963989245.1	FETCH_FAILED
-GCA_964019165.1	FETCH_FAILED
+GCA_963989245.1	Nansenia antarctica
+GCA_964019165.1	Mastigias papua
 GCF_000002595.2	Chlamydomonas reinhardtii
 GCF_000003025.6	Sus scrofa
 GCF_000146605.3	Meleagris gallopavo
@@ -14918,7 +14918,7 @@ GCA_022578495.1	Nemania sp. NC0429
 GCA_022578605.1	Camillea tinctor
 GCA_022749755.1	Azadirachta indica
 GCA_022814695.1	Neocatenulostroma microsporum
-GCA_022839385.1	FETCH_FAILED
+GCA_022839385.1	Asparagus kiusianus
 GCA_023337915.1	Pythium angustatum
 GCA_023338175.1	Phytopythium delawarense
 GCA_023548195.1	Bettongia penicillata
@@ -15008,20 +15008,20 @@ GCA_910574555.1	Trichaptum abietinum
 GCA_910591835.1	Acaulospora morrowiae
 GCA_910591965.1	Dentiscutata erythropus
 GCA_910592205.1	Paraglomus occultum
-GCA_911728535.1	FETCH_FAILED
+GCA_911728535.1	Pammene fasciana
 GCA_913698015.1	Oxypoda opaca
 GCA_913789895.3	Seladonia tumulorum
 GCA_916701015.1	Sebastes iracundus
 GCA_936440205.1	Lepidonotus clava
 GCA_944474145.2	Dicrocoelium dendriticum
-GCA_963383645.1	FETCH_FAILED
+GCA_963383645.1	Muscardinus avellanarius
 GCA_963565915.1	Entoloma clypeatum
-GCA_963662185.1	FETCH_FAILED
-GCA_963891755.1	FETCH_FAILED
-GCA_963989215.1	FETCH_FAILED
-GCA_963989365.1	FETCH_FAILED
+GCA_963662185.1	Eilema griseolum
+GCA_963891755.1	Pyrrhia umbra
+GCA_963989215.1	Hedychridium roseum
+GCA_963989365.1	Rhimphoctona megacephalus
 GCA_964019655.1	Perkinsela sp. pyNocScin1
-GCA_964058845.1	FETCH_FAILED
+GCA_964058845.1	Carex sylvatica
 GCF_000001635.27	Mus musculus
 GCF_000002995.4	Brugia malayi
 GCF_000003125.1	Talaromyces stipitatus

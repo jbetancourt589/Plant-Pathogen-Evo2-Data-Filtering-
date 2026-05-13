@@ -18,7 +18,7 @@ from pathlib import Path
 
 UC_IPM_URL = "https://ipm.ucanr.edu/PMG/diseases/diseaseslist.html"
 DEFAULT_COMBINED_PATHOGEN_FILE = Path("combined_plant_pathogen_list.txt")
-DEFAULT_EUKARYOTIC_PATHOGEN_FILE = Path("evo2_eukaryotic_plant_pathogens.txt")
+DEFAULT_EUKARYOTIC_PATHOGEN_FILE = Path("evo2_eukaryotic_dataset.txt")
 DEFAULT_EVO2_TRAINING_FILE = Path("evo2_full_training_dataset.txt")
 DEFAULT_EUKARYOTIC_OUTPUT_FILE = Path("plant_pathogens_vs._eukaryotes_evo2")
 DEFAULT_ENTIRE_EVO2_OUTPUT_FILE = Path("plant_pathogen_vs._entire_evo2")

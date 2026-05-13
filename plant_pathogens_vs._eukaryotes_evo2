@@ -1,4 +1,4 @@
-# Y = found in evo2_eukaryotic_plant_pathogens.txt; N = not found.
+# Y = found in evo2_eukaryotic_dataset.txt; N = not found.
 # Pathogen	Y/N
 
 
@@ -157,7 +157,7 @@ Botrytis sinoallii	Y
 Botrytis spp.	Y
 Botrytis squamosa	Y
 Botrytis tulipae	Y
-Bremia lactucae	N
+Bremia lactucae	Y
 Brenneria alni	N
 Brenneria nigrifluens	N
 Brenneria roseae	N
@@ -506,7 +506,7 @@ Monilinia laxa	Y
 Monilinia polystroma	Y
 Monilinia spp.	Y
 Monilinia vaccinii-corymbosi	Y
-Mucor piriformis	N
+Mucor piriformis	Y
 Mung bean yellow mosaic virus	N
 Mycosphaerella arachidis	Y
 Mycosphaerella brassicicola	N
@@ -678,7 +678,7 @@ Phytophthora pseudolactucae	N
 Phytophthora pseudosyringae	Y
 Phytophthora quercina	Y
 Phytophthora quininea	Y
-Phytophthora ramorum	N
+Phytophthora ramorum	Y
 Phytophthora rosacearum	N
 Phytophthora rubi	Y
 Phytophthora sansomeana	Y
