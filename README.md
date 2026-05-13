@@ -8,17 +8,16 @@ The program writes two result files:
 
 ```text
 # Y = found in evo2_eukaryotic_dataset.txt; N = not found.
-# Assembly_IDs contains matching Evo2 assembly IDs when Y; N rows leave it blank.
-# Assembly_IDs	Pathogen	Y/N
+# Species_Name	Y/N	Assembly_IDs
 
 
-GCA_017744915.1;GCF_000834635.1	Agrobacterium tumefaciens	Y
-	Alternaria alternata	N
+Agrobacterium tumefaciens	Y	GCA_017744915.1;GCF_000834635.1
+Alternaria alternata	N
 ```
 
-`Y` means the pathogen appears to match an organism in the source file named in the output header.
-`N` means the pathogen was not found.
-The leftmost `Assembly_IDs` column lists the matching Evo2 assembly ID or IDs for `Y` rows. `N` rows leave that column blank.
+`Y` means the plant-pathogen name appears to match an organism in the source file named in the output header.
+`N` means the plant-pathogen name was not found in that source file.
+Each row contains the plant-pathogen species name, the comparison-specific `Y/N`, and the matching Evo2 assembly ID or IDs on the right. `N` rows leave the assembly-ID column blank.
 
 ## What It Does
 
@@ -29,7 +28,7 @@ It runs two comparisons:
 1. The UC IPM names plus `combined_plant_pathogen_list.txt` are checked against `evo2_eukaryotic_dataset.txt`.
 2. The same UC IPM names plus `combined_plant_pathogen_list.txt` are checked against `evo2_full_training_dataset.txt`.
 
-Each output row contains the matching Evo2 assembly ID or IDs, the pathogen name, and `Y` or `N`. Rows with no match leave the leftmost assembly-ID column blank.
+Each output row contains a plant-pathogen species name from the website plus `combined_plant_pathogen_list.txt`, `Y` or `N`, and the matching Evo2 assembly ID or IDs if found.
 
 ## Files
 
@@ -65,7 +64,7 @@ The script will:
 4. Compare the website plus combined-list names to that Evo2 eukaryotic dataset.
 5. Read `evo2_full_training_dataset.txt` as the full Evo2 comparison dataset.
 6. Compare the website plus combined-list names to the full Evo2 dataset.
-7. Write both result files with `Y/N` and matching assembly IDs.
+7. Write both result files with matching Evo2 assembly IDs, plant-pathogen species names, and `Y/N`.
 
 ## Data Source
 

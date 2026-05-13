@@ -1,982 +1,981 @@
 # Y = found in evo2_eukaryotic_dataset.txt; N = not found.
-# Assembly_IDs contains matching Evo2 assembly IDs when Y; N rows leave it blank.
-# Assembly_IDs	Pathogen	Y/N
+# Species_Name	Y/N	Assembly_IDs
 
 
-	Abutilon mosaic virus	N
-	Actinidia yellowing ringspot virus	N
-	African cassava mosaic virus	N
-	Ageratum latent virus 1998	N
-	Agrobacterium albertimagni	N
-	Agrobacterium arsenijevicii	N
-	Agrobacterium bohemicum	N
-	Agrobacterium burrii	N
-	Agrobacterium cavarae	N
-	Agrobacterium cucumeris	N
-	Agrobacterium deltaense	N
-	Agrobacterium fabrum	N
-	Agrobacterium larrymoorei	N
-	Agrobacterium leguminum	N
-	Agrobacterium pusense	N
-	Agrobacterium radiobacter	N
-	Agrobacterium rhizogenes	N
-	Agrobacterium rosae	N
-	Agrobacterium rubi	N
-	Agrobacterium salinitolerans	N
-	Agrobacterium spp.	N
-	Agrobacterium tomkonis	N
-	Agrobacterium tumefaciens	N
-	Agrobacterium vaccinii	N
-	Agrobacterium vitis	N
-	Agropyron mosaic virus	N
-	Alfalfa latent virus	N
-	Alfalfa mosaic virus	N
-	Alternaria alstroemeriae	N
-GCF_001642055.1	Alternaria alternata	Y
-GCA_022814545.1	Alternaria angustiovoidea	Y
-GCF_004154835.1	Alternaria arborescens	Y
-GCF_024043155.1	Alternaria arbusti	Y
-GCF_907166805.1	Alternaria atra	Y
-GCA_004936725.1	Alternaria brassicae	Y
-GCA_002796735.1	Alternaria brassicicola	Y
-GCF_013036055.1	Alternaria burnsii	Y
-	Alternaria citri	N
-GCA_001950455.1	Alternaria consortialis	Y
-GCA_025504955.1	Alternaria dauci	Y
-	Alternaria destruens	N
-GCF_023757985.1	Alternaria ethzedia	Y
-GCA_004156025.2	Alternaria gaisen	Y
-GCA_009289805.1	Alternaria gansuensis	Y
-	Alternaria gerberae	N
-GCF_024043175.1	Alternaria infectoria	Y
-	Alternaria linariae	N
-GCA_019059555.1	Alternaria longipes	Y
-GCF_023757995.1	Alternaria metachromatica	Y
-GCA_019702505.1	Alternaria panax	Y
-	Alternaria porri	N
-	Alternaria radicina	N
-GCA_002952155.1	Alternaria solani	Y
-GCA_001950455.1;GCA_002796735.1;GCA_002952155.1;GCA_003574525.1;GCA_004156025.2;GCA_004156035.1;GCA_004936725.1;GCA_009289805.1;GCA_019059555.1;GCA_019702505.1;GCA_020284155.1;GCA_022609215.1;GCA_022814545.1;GCA_023621305.1;GCA_023758005.1;GCA_023758125.1;GCA_023758145.1;GCA_024321975.1;GCA_025504955.1;GCF_001642055.1;GCF_004154835.1;GCF_013036055.1;GCF_020736505.1;GCF_023757985.1;GCF_023757995.1;GCF_023758015.1;GCF_023758025.1;GCF_023758065.1;GCF_023758075.1;GCF_023758085.1;GCF_024043145.1;GCF_024043155.1;GCF_024043165.1;GCF_024043175.1;GCF_024291825.1;GCF_907166805.1	Alternaria spp.	Y
-GCA_004156035.1	Alternaria tenuissima	Y
-GCF_023758025.1	Alternaria triticimaculans	Y
-GCA_022609215.1	Alternaria triticina	Y
-GCF_023758015.1	Alternaria viburni	Y
-	American hop latent virus	N
-	American plum line pattern virus	N
-	Andean potato mottle virus	N
-GCA_038502455.1	Anisogramma anomala	Y
-	Apiognomonia veneta	N
-	Apple chlorotic leafspot virus	N
-	Apple ilarvirus 2	N
-	Apple mosaic virus	N
-	Apple necrotic mosaic virus	N
-	Apple scar skin viroid	N
-	Apple stem grooving virus	N
-	Arabis mosaic virus	N
-GCA_900157415.1	Armillaria cepistipes	Y
-GCA_001679825.1	Armillaria fuscipes	Y
-GCA_037576215.1	Armillaria gallica	Y
-GCA_030435615.1	Armillaria luteobubalina	Y
-GCA_030407055.1	Armillaria mellea	Y
-GCA_030435655.1	Armillaria novae-zelandiae	Y
-GCA_902506015.1	Armillaria ostoyae	Y
-	Armillaria sinapina	N
-GCA_022818035.1	Armillaria solidipes	Y
-GCA_001679825.1;GCA_022818035.1;GCA_022818075.1;GCA_028551335.1;GCA_030407015.1;GCA_030407055.1;GCA_030407065.1;GCA_030435615.1;GCA_030435635.1;GCA_030435655.1;GCA_037576215.1;GCA_900157415.1;GCA_902506015.1	Armillaria spp.	Y
-	Arracacha virus B	N
-	Arthuriomyces peckianus	N
-	Artichoke Italian latent virus	N
-	Artichoke yellow ringspot virus	N
-GCA_004335285.1	Ascochyta fabae	Y
-	Ascochyta gerberae	N
-GCA_026119515.1	Ascochyta koolunga	Y
-	Ascochyta lathyri	N
-GCA_004011705.1	Ascochyta lentis	Y
-GCA_039634435.1	Ascochyta pisi	Y
-GCF_004011695.2	Ascochyta rabiei	Y
-GCA_004011705.1;GCA_004335155.1;GCA_004335205.1;GCA_004335285.1;GCA_026119515.1;GCA_027946445.1;GCA_039634435.1;GCF_004011695.2	Ascochyta spp.	Y
-GCA_004335155.1;GCA_004335205.1	Ascochyta viciae-villosae	Y
-	Asparagus virus 2	N
-	Aspergillus flavus	N
-GCF_000002655.1	Aspergillus fumigatus	Y
-GCF_000002855.4	Aspergillus niger	Y
-	Aster yellows MLO	N
-	Avocado sunblotch viroid	N
-	BLTVA (beet leafhopper transmitted virescence agent)	N
-	Babaco ilarvirus 1	N
-	Banana streak virus	N
-	Barley mild mosaic virus	N
-	Barley stripe mosaic virus	N
-	Barley yellow striate mosaic virus	N
-	Bean common mosaic virus	N
-	Bean golden mosaic virus	N
-	Bean leaf roll virus	N
-	Bean pod mottle virus	N
-	Bean rugose mosaic virus	N
-	Bean yellow mosaic virus	N
-	Beet curly top virus	N
-	Beet curly top virus (BCTV)	N
-	Beet leafhopper transmitted virescence agent (BLTVA)	N
-	Beet mosaic virus	N
-	Beet necrotic yellow vein virus	N
-	Beet western yellows virus	N
-	Beet yellow stunt virus	N
-	Beet yellows virus	N
-	Belladonna mottle virus	N
-	Bidens mottle virus	N
-GCA_002286855.1;GCA_026262445.1;GCA_030558545.1;GCF_000338995.1;GCF_000354255.1;GCF_000523435.1;GCF_000523455.1;GCF_000527765.1	Bipolaris spp.	Y
-	Black raspberry necrosis virus	N
-	Blackberry chlorotic ringspot virus	N
-	Blackeye cowpea mosaic virus	N
-	Blueberry leaf mottle virus	N
-	Blueberry red ringspot virus	N
-	Blueberry scorch virus	N
-	Blueberry shock virus	N
-	Blueberry shoestring virus	N
-GCA_009599575.1	Blumeriella jaapii	Y
-GCF_020726555.1	Boeremia exigua	Y
-GCA_011503125.2	Botryosphaeria dothidea	Y
-	Botryosphaeria kuwatsukai	N
-GCA_011503125.2;GCA_022813555.1	Botryosphaeria spp.	Y
-	Botryosphaeria stevensii	N
-GCA_014898285.1	Botrytis aclada	Y
-GCF_014898295.1	Botrytis byssoidea	Y
-GCF_000143535.2	Botrytis cinerea	Y
-GCF_000143535.2	Botrytis cinerea B05.10	Y
-GCF_014898535.1	Botrytis deweyae	Y
-GCA_024478385.1	Botrytis elliptica	Y
-	Botrytis euroamericana	N
-GCA_032594075.1	Botrytis fabae	Y
-	Botrytis fabiopsis	N
-GCF_013461495.1	Botrytis fragariae	Y
-GCA_019395255.1	Botrytis medusae	Y
-	Botrytis narcissicola	N
-GCA_004786145.1	Botrytis paeoniae	Y
-GCF_014898465.1	Botrytis porri	Y
-GCA_019395245.1	Botrytis pseudocinerea	Y
-GCF_014898435.1	Botrytis sinoallii	Y
-GCA_004786125.1;GCA_004786145.1;GCA_004786245.1;GCA_004916875.1;GCA_014898285.1;GCA_014898485.2;GCA_019395245.1;GCA_019395255.1;GCA_024478385.1;GCA_032594075.1;GCF_000143535.2;GCF_013461495.1;GCF_014898295.1;GCF_014898435.1;GCF_014898465.1;GCF_014898535.1	Botrytis spp.	Y
-GCA_014898485.2	Botrytis squamosa	Y
-GCA_004786125.1	Botrytis tulipae	Y
-GCA_004359215.2	Bremia lactucae	Y
-	Brenneria alni	N
-	Brenneria nigrifluens	N
-	Brenneria roseae	N
-	Brenneria rubrifaciens	N
-	Brenneria salicis	N
-	Broad bean mottle virus	N
-	Brome mosaic virus	N
-	Cacao swollen shoot virus	N
-	Cacao yellow mosaic virus	N
-	Cactus virus X	N
-	Candidatus Liberibacter asiaticus	N
-	Candidatus liberibacter	N
-	Cape gooseberry ilarvirus 1	N
-	Carnation etched ring virus	N
-	Carnation latent virus	N
-	Carnation mottle virus	N
-	Carnation necrotic fleck virus	N
-	Carnation ringspot virus	N
-	Carnation vein mottle virus	N
-	Carrot mottle virus	N
-	Carrot red leaf virus	N
-	Carrot thin leaf virus	N
-	Cassava Ivorian bacilliform virus	N
-	Cassava common mosaic virus	N
-	Cassava vein mosaic virus	N
-	Cassia yellow blotch virus	N
-	Cauliflower mosaic virus	N
-	Celery mosaic virus	N
-	Ceratobasidium cereale	N
-GCA_037974915.1	Ceratobasidium theobromae	Y
-	Ceratocystis fimbriata	N
-	Cercospora apii	N
-GCA_002933655.1	Cercospora berteroae	Y
-GCF_002742065.1	Cercospora beticola	Y
-GCA_013365245.1	Cercospora brassicicola	Y
-GCA_000347735.1	Cercospora canescens	Y
-	Cercospora carotae	N
-GCA_013365195.1	Cercospora citrullina	Y
-GCA_026725115.1	Cercospora janseana	Y
-	Cercospora kikuchii	N
-GCA_029490675.1	Cercospora nicotianae	Y
-GCA_013365235.1	Cercospora sesami	Y
-GCA_004299825.1	Cercospora sojina	Y
-GCA_000347735.1;GCA_002933655.1;GCA_004299825.1;GCA_005356805.1;GCA_005356885.1;GCA_013365195.1;GCA_013365235.1;GCA_013365245.1;GCA_022702355.1;GCA_022965775.1;GCA_023512815.1;GCA_026725115.1;GCA_029490675.1;GCF_002742065.1	Cercospora spp.	Y
-GCA_023512815.1	Cercospora zeae-maydis	Y
-GCA_022702355.1	Cercospora zeina	Y
-	Cereal chlorotic mottle virus	N
-	Cherry leaf roll virus	N
-	Cherry rasp leaf virus	N
-	Chloris striate mosaic virus	N
-	Chrysanthemum stunt viroid	N
-	Chrysanthemum virus B	N
-GCA_025890175.1	Ciborinia camelliae	Y
-	Citrus exocortis viroid	N
-	Citrus exocortis viroid (CEVd)	N
-	Citrus leaf rugose virus	N
-	Citrus psorosis virus	N
-	Citrus tristeza virus	N
-	Citrus variegation virus	N
-	Cladosporium (syn. Fusicladium) carpophilum	N
-	Cladosporium asperulatum	N
-GCA_026122715.1	Cladosporium colombiae	Y
-GCA_023634325.1	Cladosporium cucumerinum	Y
-	Cladosporium echinulatum	N
-	Cladosporium paeoniae	N
-GCA_003614995.1	Cladosporium phlei	Y
-	Cladosporium pseudocladosporioides	N
-	Cladosporium ramotenellum	N
-	Cladosporium subtilissimum	N
-	Cladosporium subuliforme	N
-	Cladosporium tenuissimum	N
-GCA_024604135.1	Cladosporium velox	Y
-	Clavibacter michiganensis	N
-	Clitoria yellow vein virus	N
-GCA_902006505.2	Clonostachys byssicola	Y
-GCA_902077795.2	Clonostachys rhizophaga	Y
-	Clover yellow vein virus	N
-	Cocksfoot mild mosaic virus	N
-	Cocksfoot mottle virus	N
-	Cocksfoot streak virus	N
-	Coconut cadang-cadang viroid	N
-	Coleus blumei viroid 1	N
-	Collectotrichum gloeosporioides	N
-GCF_011800055.1	Colletotrichum gloeosporioides	Y
-GCF_000149035.1	Colletotrichum graminicola	Y
-	Cowpea aphid-borne mosaic virus	N
-	Cowpea chlorotic mottle virus	N
-	Cowpea mild mottle virus	N
-	Cowpea mosaic virus	N
-	Cowpea mottle virus	N
-	Cowpea severe mosaic virus	N
-	Cryptocline cinerescens	N
-	Cucumber green mottle mosaic virus	N
-	Cucumber leaf spot virus	N
-	Cucumber mosaic virus	N
-	Cucumber necrosis virus	N
-GCA_000817285.1;GCA_002161795.1;GCA_005212705.1;GCA_011058905.1;GCA_020744315.1;GCA_022457065.1;GCA_023920165.1;GCA_026262405.1;GCA_026262435.1;GCA_036172615.1	Curvularia spp.	Y
-	Cylindrocladium buxicola	N
-	Cymbidium mosaic virus	N
-	Cymbidium ringspot virus	N
-GCA_016808195.1	Cytospora chrysosperma	Y
-GCA_003795295.1	Cytospora leucostoma	Y
-GCA_025426655.1	Cytospora mali	Y
-GCA_021272945.2	Cytospora paraplurivora	Y
-GCA_016508685.1	Cytospora piceae	Y
-GCA_023375675.1	Cytospora piceicola	Y
-GCA_003795295.1;GCA_003795315.1;GCA_016508685.1;GCA_016808195.1;GCA_021272945.2;GCA_023375675.1;GCA_025426655.1	Cytospora spp.	Y
-	Dahlia mosaic virus	N
-	Dasheen mosaic virus	N
-	Dematophora necatrix	N
-	Desmodium yellow mottle virus	N
-GCA_023522825.1	Diaporthe ampelina	Y
-GCF_026229845.1	Diaporthe amygdali	Y
-GCA_001447215.1	Diaporthe aspalathi	Y
-GCA_039880735.1	Diaporthe australafricana	Y
-GCF_019321695.1	Diaporthe batatas	Y
-GCA_013364905.1	Diaporthe capsici	Y
-GCA_023703485.1	Diaporthe caulivora	Y
-GCF_014595645.1	Diaporthe citri	Y
-GCA_036986855.1	Diaporthe destruens	Y
-GCA_022225955.2	Diaporthe eres	Y
-GCA_001702395.2	Diaporthe helianthi	Y
-GCA_038088545.1	Diaporthe humulicola	Y
-GCA_023242295.1	Diaporthe ilicicola	Y
-	Diaporthe kyushuensis	N
-GCA_000800745.1	Diaporthe longicolla	Y
-	Diaporthe macadamiae	N
-GCA_023078575.1	Diaporthe nobilis	Y
-	Diaporthe ueckeri	N
-GCA_039880775.1	Diaporthe vaccinii	Y
-GCA_021188095.1	Diaporthe vexans	Y
-GCA_016630955.3	Didymella arachidicola	Y
-GCA_030271015.1	Didymella glomerata	Y
-GCA_039634465.1	Didymella pinodella	Y
-	Didymella pinodes	N
-GCA_022225945.1	Didymella pomorum	Y
-GCA_004522025.1	Didymella segeticola	Y
-	Diplocarpon coronariae	N
-	Diplocarpon earlianum	N
-GCA_024741835.1	Diplocarpon mali	Y
-GCA_032760415.1	Diplocarpon rosae	Y
-	Diplodia quercina	N
-	Discula fraxinea	N
-	Drechslera iridis	N
-	Eggplant mosaic virus	N
-	Eggplant mottled dwarf virus	N
-	Elderberry latent virus	N
-	Elm mottle virus	N
-GCA_005959805.1	Elsinoe ampelina	Y
-GCA_013372555.1	Elsinoe arachidis	Y
-GCA_007556505.1	Elsinoe australis	Y
-GCA_017309325.2	Elsinoe batatas	Y
-	Elsinoe corni	N
-GCA_007556565.1	Elsinoe fawcettii	Y
-GCA_033846785.1	Elsinoe necatrix	Y
-GCA_029448695.1	Elsinoe perseae	Y
-GCA_005959805.1;GCA_007556505.1;GCA_007556565.1;GCA_013372555.1;GCA_017309325.2;GCA_029448695.1;GCA_033846785.1	Elsinoe spp.	Y
-	Entomosporium spp.	N
-GCF_000235365.1	Eremothecium cymbalariae	Y
-	Erwinia amylovora	N
-	Erwinia billingiae	N
-	Erwinia carotovora	N
-	Erwinia nigrifluens	N
-	Erwinia oleae	N
-	Erwinia persicina	N
-	Erwinia piriflorinigrans	N
-	Erwinia plantamica	N
-	Erwinia psidii	N
-	Erwinia pyri	N
-	Erwinia pyrifoliae	N
-	Erwinia quercina	N
-	Erwinia rhapontici	N
-	Erwinia rubrifaciens	N
-	Erwinia sorbitola	N
-	Erwinia spp.	N
-	Erwinia tracheiphila	N
-	Erysimum latent virus	N
-	Erysiphe cichoracearum	N
-	Erysiphe cruciferarum	N
-	Erysiphe graminis	N
-	Erysiphe heraclei	N
-	Erysiphe lagerstroemiae	N
-	Erysiphe lycopersici	N
-	Erysiphe necator	N
-GCA_000208805.1	Erysiphe pisi	Y
-	Erysiphe polygoni	N
-GCA_002918395.1	Erysiphe pulchra	Y
-GCA_022661535.1	Eutypa lata	Y
-GCA_023273805.1;GCA_026210745.1	Exobasidium spp.	Y
-	Fig mosaic emaravirus	N
-	Fiji disease virus	N
-	Fomes annosus	N
-	Foxtail mosaic virus	N
-	Frangipani mosaic virus	N
-GCA_021655885.1	Fusarium abutilonis	Y
-	Fusarium acuminatum	N
-GCA_012932015.1	Fusarium acutatum	Y
-	Fusarium andiyazi	N
-GCA_025258505.1	Fusarium asiaticum	Y
-GCA_025948275.1	Fusarium avenaceum	Y
-GCA_017656985.1	Fusarium boothii	Y
-GCA_018886245.1	Fusarium brachygibbosum	Y
-GCA_019055205.1	Fusarium cerealis	Y
-GCA_014898915.1	Fusarium chlamydosporum	Y
-GCA_024047395.1	Fusarium circinatum	Y
-	Fusarium commune	N
-	Fusarium concentricum	N
-	Fusarium cortaderiae	N
-GCA_016952355.1	Fusarium culmorum	Y
-GCA_013396175.1	Fusarium denticulatum	Y
-GCA_003313175.1	Fusarium equiseti	Y
-GCA_002168265.2	Fusarium euwallaceae	Y
-GCF_026873545.1	Fusarium falciforme	Y
-GCF_900079805.1	Fusarium fujikuroi	Y
-GCF_000240135.3	Fusarium graminearum	Y
-GCF_025433545.1	Fusarium keratoplasticum	Y
-GCA_034753255.1	Fusarium kyushuense	Y
-	Fusarium langsethiae	N
-GCF_900044065.1	Fusarium mangiferae	Y
-GCA_032355295.1	Fusarium meridionale	Y
-GCF_019915245.1	Fusarium musae	Y
-GCA_006518225.1	Fusarium neocosmosporiellum	Y
-	Fusarium nirenbergiae	N
-GCA_001262555.1	Fusarium nygamai	Y
-GCF_000260195.1	Fusarium odoratissimum	Y
-GCA_003946995.1	Fusarium oligoseptatum	Y
-GCF_013085055.1	Fusarium oxysporum	Y
-GCA_027886155.1	Fusarium paranaense	Y
-	Fusarium phalaenopsidis	N
-GCF_019609905.1	Fusarium poae	Y
-GCF_900067095.1	Fusarium proliferatum	Y
-GCA_013395995.1	Fusarium pseudoanthophilum	Y
-GCF_000303195.2	Fusarium pseudograminearum	Y
-GCA_013186785.1	Fusarium pseudonygamai	Y
-GCF_020744475.1	Fusarium redolens	Y
-GCA_017165645.1	Fusarium sacchari	Y
-GCA_001567575.1	Fusarium sambucinum	Y
-GCA_023101225.1	Fusarium solani	Y
-GCA_023101225.1	Fusarium solani-melongenae	Y
-GCA_019054645.1	Fusarium sporotrichioides	Y
-GCA_000966855.1;GCA_000966865.1;GCA_001262555.1;GCA_001513835.1;GCA_001567575.1;GCA_001633045.1;GCA_001654545.1;GCA_001680515.1;GCA_001680625.1;GCA_002093855.1;GCA_002165215.1;GCA_002168265.2;GCA_002234235.1;GCA_002234255.1;GCA_002980475.2;GCA_002980515.1;GCA_002982035.1;GCA_003313175.1;GCA_003353625.1;GCA_003670145.1;GCA_003946985.1;GCA_003946995.1;GCA_003947005.1;GCA_003947015.1;GCA_003947045.1;GCA_004366955.1;GCA_004367055.1;GCA_004367075.1;GCA_004367095.1;GCA_004367155.1;GCA_004367475.1;GCA_004367485.1;GCA_004367495.1;GCA_006518225.1;GCA_008711595.1;GCA_010015875.1;GCA_011033385.1;GCA_011033785.1;GCA_011034095.1;GCA_011035825.1;GCA_011036685.1;GCA_011320165.1;GCA_012931995.1;GCA_012932015.1;GCA_012932025.1;GCA_012977735.1;GCA_012977745.1;GCA_012977755.1;GCA_012978555.1;GCA_013183765.1;GCA_013184325.1;GCA_013184375.1;GCA_013184415.1;GCA_013184445.1;GCA_013184455.1;GCA_013186375.1;GCA_013186395.1;GCA_013186415.1;GCA_013186425.2;GCA_013186755.1;GCA_013186775.1;GCA_013186785.1;GCA_013186845.1;GCA_013186855.1;GCA_013186905.1;GCA_013186925.1;GCA_013266165.1;GCA_013266175.1;GCA_013266185.1;GCA_013266195.1;GCA_013266205.1;GCA_013266265.1;GCA_013363135.1;GCA_013363185.1;GCA_013363205.1;GCA_013364935.1;GCA_013364945.1;GCA_013395995.1;GCA_013396005.1;GCA_013396015.1;GCA_013396025.1;GCA_013396035.1;GCA_013396095.1;GCA_013396165.1;GCA_013396175.1;GCA_013396205.1;GCA_013396255.1;GCA_013396295.1;GCA_013416785.2;GCA_013618265.1;GCA_013618295.1;GCA_013618395.1;GCA_013618405.1;GCA_013618495.1;GCA_013623355.1;GCA_013623515.1;GCA_013623525.1;GCA_013623535.1;GCA_013623555.1;GCA_013623625.1;GCA_013623665.1;GCA_013623685.1;GCA_013623715.1;GCA_013623725.1;GCA_013623845.1;GCA_013624355.1;GCA_013755755.1;GCA_013758895.1;GCA_013759095.1;GCA_013759125.1;GCA_013781345.1;GCA_014764975.2;GCA_014822075.1;GCA_014822085.1;GCA_014824365.1;GCA_014824385.1;GCA_014824405.1;GCA_014884825.1;GCA_014885045.1;GCA_014898835.1;GCA_014898875.1;GCA_014898885.1;GCA_014898915.1;GCA_014898925.1;GCA_014898975.1;GCA_014898995.1;GCA_014899045.1;GCA_014899075.1;GCA_014899095.1;GCA_016952355.1;GCA_017140155.1;GCA_017140175.1;GCA_017165645.1;GCA_017579625.1;GCA_017654865.1;GCA_017656575.1;GCA_017656595.1;GCA_017656675.1;GCA_017656695.1;GCA_017656745.1;GCA_017656775.1;GCA_017656985.1;GCA_017657045.1;GCA_017657105.1;GCA_018886245.1;GCA_019054645.1;GCA_019054715.1;GCA_019054735.1;GCA_019055205.1;GCA_019189775.1;GCA_019191175.1;GCA_019843635.1;GCA_020137375.1;GCA_020615335.1;GCA_020744335.1;GCA_020744515.1;GCA_020883615.1;GCA_020976545.1;GCA_021020635.1;GCA_021223625.1;GCA_021533815.1;GCA_021655865.1;GCA_021655885.1;GCA_021655895.1;GCA_021730345.1;GCA_021730365.1;GCA_022627095.1;GCA_022627125.1;GCA_022833035.1;GCA_023101225.1;GCA_023509735.1;GCA_024047395.1;GCA_025258505.1;GCA_025433565.1;GCA_025433615.1;GCA_025948275.1;GCA_027886155.1;GCA_027886205.1;GCA_027945245.1;GCA_027945595.1;GCA_028416715.1;GCA_030142105.1;GCA_030411635.1;GCA_030772735.1;GCA_030777805.1;GCA_030779165.1;GCA_030779245.1;GCA_032355295.1;GCA_033030565.1;GCA_033439405.1;GCA_034753255.1;GCA_037576055.1;GCA_037577415.1;GCA_037577435.1;GCA_900312805.1;GCA_954870535.1;GCF_000149555.1;GCF_000151355.1;GCF_000240135.3;GCF_000260195.1;GCF_000303195.2;GCF_003316985.1;GCF_013085055.1;GCF_013396075.1;GCF_013396195.1;GCF_019609905.1;GCF_019915245.1;GCF_020744475.1;GCF_025433545.1;GCF_026873545.1;GCF_900007375.1;GCF_900044065.1;GCF_900067095.1;GCF_900079805.1	Fusarium spp.	Y
-GCA_013186845.1	Fusarium sterilihyphosum	Y
-GCA_003670145.1	Fusarium subtropicale	Y
-GCA_037577435.1	Fusarium sulawesiense	Y
-	Fusarium tardichlamydosporum	N
-GCA_001513835.1	Fusarium temperatum	Y
-GCA_020744515.1	Fusarium tricinctum	Y
-GCF_000151355.1	Fusarium vanettenii	Y
-GCF_900007375.1	Fusarium venenatum	Y
-GCF_000149555.1	Fusarium verticillioides	Y
-GCA_020883615.1	Fusarium virguliforme	Y
-GCA_017656575.1	Fusarium vorosii	Y
-GCA_013183765.1	Fusarium xylarioides	Y
-	Fusicladium (syn. Cladosporium) carpophilum	N
-	Gaeumannomyces graminis var. avenae	N
-	Galinsoga mosaic virus	N
-	Ganoderma applanatum	N
-GCA_002900995.3	Ganoderma boninense	Y
-GCA_026283605.1	Ganoderma lingzhi	Y
-GCA_019426095.1	Ganoderma lucidum	Y
-GCA_022814645.1	Ganoderma meredithae	Y
-GCA_030463015.1	Geotrichum citri-aurantii	Y
-	Gloesporium quercum	N
-	Glomerella cingulata	N
-	Gnomonia fragariae	N
-	Gnomonia leptostyla	N
-GCA_003611235.1	Golovinomyces cichoracearum	Y
-	Grapevine Bulgarian latent virus	N
-	Grapevine chrome mosaic virus	N
-	Grapevine fanleaf virus	N
-	Grapevine virus A	N
-	Green Sichuan pepper ilarvirus	N
-	Groundnut rosette virus	N
-	Gymnoconia nitens	N
-	Gymnosporangium libocedri	N
-	Helenium virus S	N
-	Henbane mosaic virus	N
-	Hendersonula tortuloidea	N
-	Heracleum latent virus	N
-GCA_001457955.1	Heterobasidion annosum	Y
-	Heterosporium gracile	N
-	Hibiscus chlorotic ringspot virus	N
-	Hippeastrum mosaic virus	N
-	Hop latent virus	N
-	Hop mosaic virus	N
-	Hop stunt viroid	N
-	Humulus japonicus latent virus	N
-GCA_029452305.1	Hyaloperonospora parasitica	Y
-	Hydrangea ringspot virus	N
-	Ilarvirus	N
-	Ilarvirus APLPV	N
-	Ilarvirus ApMV	N
-	Ilarvirus PrV1	N
-	Ilarvirus RIV1	N
-	Iris mild mosaic virus	N
-	Iris severe mosaic virus	N
-	Johnsongrass mosaic virus	N
-	Kabatina juniperi	N
-	Kennedya yellow mosaic virus	N
-GCF_001632365.1	Laetiporus sulphureus	Y
-	Laetisaria fuciformis	N
-GCA_023089105.1	Lasiodiplodia citricola	Y
-GCA_009829795.1	Lasiodiplodia gonubiensis	Y
-GCA_030512325.1	Lasiodiplodia hormozganensis	Y
-	Lasiodiplodia iranensis	N
-GCA_029590625.1	Lasiodiplodia mahajangana	Y
-	Lasiodiplodia pseudotheobromae	N
-GCF_012971845.1	Lasiodiplodia theobromae	Y
-	Leek yellow stripe virus	N
-	Lettuce big vein virus	N
-	Lettuce infectious yellows virus	N
-	Lettuce mosaic virus	N
-	Lettuce necrotic yellows virus	N
-	Leveillula taurica	N
-	Liberibacter africanus	N
-	Liberibacter americanus	N
-	Liberibacter asiaticus	N
-	Liberibacter brunswickensis	N
-	Liberibacter solanacearum	N
-	Lilac leaf chlorosis virus	N
-	Lilac ring mottle virus	N
-	Lily symptomless virus	N
-	Lucerne transient streak virus	N
-	MLOÂ Â	N
-	Maclura mosaic virus	N
-	Macrophomina euphorbiicola	N
-GCA_020875535.1	Macrophomina phaseolina	Y
-GCA_022204955.1	Macrophomina pseudophaseolina	Y
-	Magnaporthe poae	N
-	Maize chlorotic dwarf virus	N
-	Maize dwarf mosaic virus	N
-	Maize mosaic virus	N
-	Maize rayado fino virus	N
-	Maize rough dwarf virus	N
-	Maize streak virus	N
-	Maize stripe virus	N
-	Maize white line mosaic virus	N
-	Melandrium yellow fleck virus	N
-	Melon necrotic spot virus	N
-GCA_026745475.1	Microdochium nivale	Y
-	Miscanthus streak virus	N
-GCA_002162555.1	Monilinia aucupariae	Y
-GCA_008692225.1	Monilinia fructicola	Y
-GCA_003260565.1	Monilinia fructigena	Y
-GCA_009299455.1	Monilinia laxa	Y
-GCA_002909645.1	Monilinia polystroma	Y
-GCA_002162555.1;GCA_002909645.1;GCA_003260565.1;GCA_008692225.1;GCA_009299455.1;GCA_017357885.1	Monilinia spp.	Y
-GCA_017357885.1	Monilinia vaccinii-corymbosi	Y
-GCA_943193625.1	Mucor piriformis	Y
-	Mung bean yellow mosaic virus	N
-GCA_001297265.1	Mycosphaerella arachidis	Y
-	Mycosphaerella brassicicola	N
-	Mycosphaerella fragariae	N
-	Mycosphaerella rubi	N
-GCA_000504405.2;GCA_001297265.1;GCA_002116345.1;GCA_002153405.1	Mycosphaerella spp.	Y
-	Narcissus late season yellows virus	N
-	Narcissus latent virus	N
-	Narcissus mosaic virus	N
-	Narcissus yellow stripe virus	N
-	Nectria galligena	N
-	Neofusicoccum caryigenum	N
-GCA_009829855.1	Neofusicoccum kwambonambiense	Y
-GCA_029906385.1	Neofusicoccum laricinum	Y
-GCA_020912385.1	Neofusicoccum parvum	Y
-GCA_021436925.1	Neofusicoccum ribis	Y
-GCA_009829365.1;GCA_009829855.1;GCA_009830905.1;GCA_020912385.1;GCA_021436925.1;GCA_029906385.1;GCA_037356075.1;GCA_037356115.1	Neofusicoccum spp.	Y
-	Neonectria candida	N
-GCA_019137265.1	Neonectria coccinea	Y
-GCA_001305505.1	Neonectria ditissima	Y
-GCA_030864175.1	Neonectria faginata	Y
-	Neonectria galligena	N
-GCA_003385265.1	Neonectria hederae	Y
-GCA_037954305.1	Neonectria magnoliae	Y
-GCA_013756995.1;GCA_917563905.1	Neonectria neomacrospora	Y
-GCA_037954315.1	Neonectria punicea	Y
-	Nerine virus X	N
-	Northern cereal mosaic virus	N
-	Oat blue dwarf virus	N
-	Oat chlorotic stunt virus	N
-	Oat necrotic mottle virus	N
-	Oat sterile dwarf virus	N
-	Odontoglossum ringspot virus	N
-GCA_003957845.1	Oidium heveae	Y
-	Okra mosaic virus	N
-	Olive latent virus 2	N
-	Onion yellow dwarf virus	N
-GCA_028456385.1	Ophiosphaerella korrae	Y
-GCA_029298715.1	Ophiostoma ulmi	Y
-	Orchid fleck virus	N
-	Orthotospovirus tomatomaculae	N
-	Ovulinia azalea	N
-	Panicum mosaic virus	N
-	Pantoea beijingensis	N
-	Papaya mosaic virus	N
-	Papaya ringspot virus	N
-	Parietaria mottle virus	N
-	Parsnip yellow fleck virus	N
-	Passionfruit woodiness virus	N
-	Pea early-browning virus	N
-	Pea enation mosaic virus	N
-	Pea seed-borne mosaic virus	N
-	Pea streak virus	N
-	Peach latent mosaic viroid	N
-	Peach rosette mosaic virus	N
-	Peanut clump virus	N
-	Peanut mottle virus	N
-	Peanut stunt virus	N
-	Peanut virus C	N
-	Pear blister canker viroid	N
-	Pectobacterium carotovorum	N
-	Pelargonium flower break virus	N
-	Pelargonium zonate spot virus	N
-GCA_019977855.1	Penicillium aurantiogriseum	Y
-GCF_000315645.1	Penicillium digitatum	Y
-GCF_000769745.1	Penicillium expansum	Y
-GCA_002116305.1	Penicillium italicum	Y
-GCA_000347475.1;GCA_000576735.1;GCA_000577495.1;GCA_000733025.2;GCA_001048715.1;GCA_002000375.1;GCA_002072365.1;GCA_002116305.1;GCA_002382855.1;GCA_002916455.1;GCA_003138045.1;GCA_003852855.1;GCA_005250745.2;GCA_008931925.1;GCA_008931935.1;GCA_008931945.1;GCA_011392555.1;GCA_011750695.1;GCA_014839625.1;GCA_015585785.1;GCA_018340795.1;GCA_018410145.1;GCA_019190355.1;GCA_019775275.1;GCA_019775415.1;GCA_019827475.1;GCA_019977855.1;GCA_020086695.1;GCA_022985105.1;GCA_023626355.1;GCA_023626415.1;GCA_023626435.1;GCA_023626555.1;GCA_023626575.1;GCA_023627375.1;GCA_023627405.1;GCA_024706585.1;GCA_025586815.1;GCA_026122735.1;GCA_027569385.1;GCA_027569415.1;GCA_027569585.1;GCA_027569595.1;GCA_027569675.1;GCA_028827225.1;GCA_028827375.1;GCA_028827385.1;GCA_028827535.1;GCA_028827885.1;GCA_028828245.1;GCA_028828255.1;GCA_028828275.1;GCA_028828865.1;GCA_028828875.1;GCA_028828935.1;GCA_028829675.1;GCA_028974015.1;GCA_028974045.1;GCA_030035635.1;GCA_030142185.1;GCA_030710325.1;GCA_030762825.1;GCA_031761475.1;GCA_034423695.1;GCA_035048945.1;GCA_035985395.1;GCA_036712075.1;GCA_037040985.1;GCA_037042055.1;GCA_037042135.1;GCA_037042255.1;GCA_037043885.1;GCA_037356155.1;GCA_037356195.1;GCA_037414295.1;GCA_039634405.1;GCA_911174995.1;GCA_911197225.1;GCA_911456345.1;GCA_911649655.1;GCA_928213465.1;GCF_000315645.1;GCF_000769745.1;GCF_001561935.1;GCF_001723175.1;GCF_001773325.1;GCF_015533775.1;GCF_028826775.1;GCF_028826845.1;GCF_028826855.1;GCF_028826915.1;GCF_028826965.1;GCF_028827025.1;GCF_028827145.1;GCF_028827165.1;GCF_028827245.1;GCF_028827265.1;GCF_028827395.1;GCF_028827405.1;GCF_028827525.1;GCF_028827545.1;GCF_028827555.1;GCF_028827675.1;GCF_028827695.1;GCF_028827735.1;GCF_028827825.1;GCF_028827895.1;GCF_028828005.1;GCF_028828015.1;GCF_028828045.1;GCF_028828085.1;GCF_028828155.1;GCF_028828195.1;GCF_028828445.1;GCF_028828465.1;GCF_028828495.1;GCF_028828555.1;GCF_028828655.1;GCF_028828765.1;GCF_028829455.1;GCF_028829465.1;GCF_028829585.1;GCF_028829765.1;GCF_028829775.1;GCF_028829835.1;GCF_028974065.1;GCF_028974085.1;GCF_028974205.1	Penicillium spp.	Y
-	Pepino mosaic virus	N
-	Pepper mild mottle virus	N
-	Pepper mottle virus	N
-	Pepper ringspot virus	N
-	Pepper veinal mottle virus	N
-GCA_920618645.1	Peronospora belbahrii	Y
-GCA_011800735.1	Peronospora destructor	Y
-	Peronospora effusa	N
-GCA_947646735.1	Peronospora farinosa	Y
-	Peronospora parasitica	N
-	Peronospora sparsa	N
-GCA_002099245.1	Peronospora tabacina	Y
-GCA_002099245.1;GCA_011800735.1;GCA_920618645.1;GCA_921007115.2;GCA_947646735.1	Peronospora viciae f.sp. pisi	Y
-	Peru tomato virus	N
-	Pestalotiopsis funerea	N
-	Petunia vein clearing virus	N
-GCF_000392275.1	Phaeoacremonium minimum UCRPA7	Y
-GCF_000392275.1	Phaeoacremonium spp.	Y
-GCA_001599375.1	Phoma herbarum	Y
-GCA_001599375.1;GCA_004335185.1;GCA_004835665.1;GCA_033444525.1;GCA_033682645.1	Phoma spp.	Y
-	Phoma terrestris	N
-	Phomopsis juniperovora	N
-	Phomopsis mahothocarpi	N
-	Phomopsis obscurans	N
-	Phomopsis spp.	N
-	Phomopsis viticola	N
-	Phragmidium mucronatum	N
-	Phragmidium rubi-idaei	N
-GCA_029339225.1	Phyllachora maydis	Y
-GCA_020351975.1;GCA_038021145.1;GCA_038025025.1;GCA_038051015.1;GCA_038380885.1;GCA_038381195.1	Phyllosticta spp.	Y
-	Phyllosticta zinniae	N
-GCA_016880775.1	Phymatotrichopsis omnivora	Y
-	Phytophthora abietivora	N
-GCA_025722995.1	Phytophthora agathidicida	Y
-GCA_018873745.1	Phytophthora aleatoria	Y
-	Phytophthora alni	N
-	Phytophthora asiatica	N
-	Phytophthora attenuata	N
-GCA_011320135.1	Phytophthora betacei	Y
-GCA_011947355.1	Phytophthora boehmeriae	Y
-GCA_024679045.1	Phytophthora brassicae	Y
-GCA_016864655.1	Phytophthora cactorum	Y
-GCA_024679175.1	Phytophthora cajani	Y
-	Phytophthora cambivora	N
-GCA_030324255.1	Phytophthora capsici	Y
-	Phytophthora castanetorum	N
-GCA_012295415.1	Phytophthora chlamydospora	Y
-	Phytophthora cinnamomi	N
-GCA_007655245.1	Phytophthora citricola	Y
-GCA_031305395.1	Phytophthora citrophthora	Y
-GCA_018806915.1	Phytophthora colocasiae	Y
-GCA_011947335.1	Phytophthora constricta	Y
-GCA_033557995.1	Phytophthora crassamura	Y
-GCA_000468175.2	Phytophthora cryptogea	Y
-	Phytophthora elongata	N
-GCA_030463285.1	Phytophthora europaea	Y
-	Phytophthora flexuosa	N
-GCA_024679135.1	Phytophthora foliorum	Y
-	Phytophthora formosa	N
-GCA_009729435.1	Phytophthora fragariae	Y
-GCA_030267785.1	Phytophthora fragariaefolia	Y
-	Phytophthora gibbosa	N
-GCA_012295475.1	Phytophthora gonapodyides	Y
-	Phytophthora gregata	N
-	Phytophthora hedraiandra	N
-	Phytophthora heterohybrida	N
-GCA_012656075.1	Phytophthora hibernalis	Y
-	Phytophthora humicola	N
-GCA_016880985.1	Phytophthora idaei	Y
-	Phytophthora incrassata	N
-GCF_000142945.1	Phytophthora infestans	Y
-GCF_000142945.1	Phytophthora infestans T30-4	Y
-	Phytophthora intricata	N
-GCA_008080845.1	Phytophthora kernoviae	Y
-GCA_000500205.2	Phytophthora lateralis	Y
-	Phytophthora lilii	N
-GCA_002812785.1	Phytophthora litchii	Y
-	Phytophthora litoralis	N
-GCA_011947325.1	Phytophthora macrochlamydospora	Y
-GCA_032432875.1	Phytophthora meadii	Y
-GCA_002215365.1	Phytophthora megakarya	Y
-	Phytophthora megasperma	N
-GCA_024211575.1	Phytophthora melonis	Y
-GCA_001314345.1	Phytophthora multivora	Y
-	Phytophthora nagaii	N
-GCF_000247585.1	Phytophthora nicotianae	Y
-GCA_024679275.1	Phytophthora niederhauseri	Y
-GCA_014706125.1	Phytophthora ohioensis (nom. inval.)	Y
-	Phytophthora oleae	N
-	Phytophthora ornamentata	N
-GCA_008079305.1	Phytophthora palmivora	Y
-GCA_024679295.1	Phytophthora parvispora	Y
-GCA_023611945.1	Phytophthora pini	Y
-GCA_000500225.2	Phytophthora pinifolia	Y
-GCA_024679225.1	Phytophthora pisi	Y
-GCA_024679115.1	Phytophthora pistaciae	Y
-GCA_030027945.1	Phytophthora plurivora	Y
-GCA_001314425.1	Phytophthora pluvialis	Y
-GCA_001314375.1	Phytophthora podocarpi	Y
-	Phytophthora pseudolactucae	N
-GCA_019155715.1	Phytophthora pseudosyringae	Y
-GCA_014706105.1	Phytophthora quercina	Y
-GCA_011947345.1	Phytophthora quininea	Y
-GCA_020800215.1	Phytophthora ramorum	Y
-	Phytophthora rosacearum	N
-GCA_000687305.2	Phytophthora rubi	Y
-GCA_032158285.1	Phytophthora sansomeana	Y
-GCF_000149755.1	Phytophthora sojae	Y
-GCA_000439335.1;GCA_000443045.1;GCA_000468175.2;GCA_000500205.2;GCA_000500225.2;GCA_000687305.2;GCA_001314345.1;GCA_001314375.1;GCA_001314425.1;GCA_002215365.1;GCA_002812785.1;GCA_007655245.1;GCA_008079305.1;GCA_008080845.1;GCA_009729435.1;GCA_011320135.1;GCA_011947325.1;GCA_011947335.1;GCA_011947345.1;GCA_011947355.1;GCA_012295415.1;GCA_012295475.1;GCA_012656075.1;GCA_012656105.1;GCA_014706105.1;GCA_014706125.1;GCA_014706135.1;GCA_014706145.1;GCA_016169955.1;GCA_016864655.1;GCA_016880985.1;GCA_018806915.1;GCA_018873745.1;GCA_019155715.1;GCA_020800215.1;GCA_023611945.1;GCA_024211575.1;GCA_024679045.1;GCA_024679075.1;GCA_024679115.1;GCA_024679135.1;GCA_024679175.1;GCA_024679225.1;GCA_024679275.1;GCA_024679295.1;GCA_025722995.1;GCA_030027945.1;GCA_030267785.1;GCA_030324255.1;GCA_030463285.1;GCA_031305395.1;GCA_032158285.1;GCA_032432875.1;GCA_033557915.1;GCA_033557925.1;GCA_033557995.1;GCA_033558005.1;GCA_033558025.1;GCF_000142945.1;GCF_000149755.1;GCF_000247585.1	Phytophthora spp.	Y
-GCA_012656105.1	Phytophthora syringae	Y
-GCA_033557915.1	Phytophthora tentaculata	Y
-GCA_014706135.1	Phytophthora tubulina	Y
-GCA_024679075.1	Phytophthora uliginosa	Y
-GCA_000439335.1;GCA_000443045.1;GCA_000468175.2;GCA_000500205.2;GCA_000500225.2;GCA_000687305.2;GCA_001314345.1;GCA_001314375.1;GCA_001314425.1;GCA_002215365.1;GCA_002812785.1;GCA_007655245.1;GCA_008079305.1;GCA_008080845.1;GCA_009729435.1;GCA_011320135.1;GCA_011947325.1;GCA_011947335.1;GCA_011947345.1;GCA_011947355.1;GCA_012295415.1;GCA_012295475.1;GCA_012656075.1;GCA_012656105.1;GCA_014706105.1;GCA_014706125.1;GCA_014706135.1;GCA_014706145.1;GCA_016169955.1;GCA_016864655.1;GCA_016880985.1;GCA_018806915.1;GCA_018873745.1;GCA_019155715.1;GCA_020800215.1;GCA_023611945.1;GCA_024211575.1;GCA_024679045.1;GCA_024679075.1;GCA_024679115.1;GCA_024679135.1;GCA_024679175.1;GCA_024679225.1;GCA_024679275.1;GCA_024679295.1;GCA_025722995.1;GCA_030027945.1;GCA_030267785.1;GCA_030324255.1;GCA_030463285.1;GCA_031305395.1;GCA_032158285.1;GCA_032432875.1;GCA_033557915.1;GCA_033557925.1;GCA_033557995.1;GCA_033558005.1;GCA_033558025.1;GCF_000142945.1;GCF_000149755.1;GCF_000247585.1	Phytophthora vignae f. sp. vignae	Y
-	Plantain virus X	N
-GCA_039704465.1	Plasmodiophora brassicae	Y
-GCA_001695595.3;GCA_002099245.1;GCA_003676415.1;GCA_011800735.1;GCA_920618645.1;GCA_921007115.2;GCA_947646735.1;GCF_900000015.1	Plasmopara (syn. Peronospora) spp.	Y
-GCF_900000015.1	Plasmopara halstedii	Y
-GCA_003676415.1	Plasmopara muralis	Y
-GCA_001695595.3	Plasmopara viticola	Y
-GCA_024196135.1;GCF_014466165.1	Pleurotus ostreatus	Y
-	Plum pox virus	N
-GCA_022627015.2	Podosphaera aphanis	Y
-	Podosphaera clandestina	N
-GCA_030378345.1	Podosphaera fusca	Y
-GCA_013170925.1	Podosphaera leucotricha	Y
-	Podosphaera pannosa	N
-	Podosphaera tridactyla	N
-GCA_028751805.1	Podosphaera xanthii	Y
-	Poinsettia mosaic virus	N
-	Pokeweed mosaic virus	N
-	Poplar mosaic virus	N
-	Potato aucuba mosaic virus	N
-	Potato black ringspot virus	N
-	Potato leaf roll virus	N
-	Potato leafroll virus	N
-	Potato mop-top virus	N
-	Potato virus Y	N
-	Potato yellow dwarf virus	N
-	Potato yellowing virus	N
-	Pothos latent virus	N
-	Privet ringspot virus	N
-	Prune dwarf virus	N
-	Prunus necrotic ringspot virus	N
-	Pseudomonas gladioli	N
-	Pseudomonas savastanoi pv. nerii	N
-	Pseudomonas savastanoi pv. savastanoi	N
-	Pseudomonas spp.	N
-	Pseudomonas syringae	N
-	Pseudonectria rousseliana	N
-	Pseudoperonospora cubensis	N
-GCA_003991265.1	Pseudoperonospora humuli	Y
-	Puccinia asparagi	N
-GCA_019395275.1	Puccinia brachypodii	Y
-GCA_002873125.1	Puccinia coronata	Y
-GCF_000149925.1	Puccinia graminis	Y
-GCA_007896445.1	Puccinia hordei	Y
-GCA_001624995.1	Puccinia horiana	Y
-GCA_004348175.1	Puccinia novopanici	Y
-GCA_025617555.3	Puccinia polysora	Y
-	Puccinia silphii	N
-GCA_001263375.1	Puccinia sorghi	Y
-GCA_001263375.1;GCA_001624995.1;GCA_002873125.1;GCA_004348175.1;GCA_007896445.1;GCA_019395275.1;GCA_025617555.3;GCF_000149925.1;GCF_021901695.1;GCF_026914185.1	Puccinia spp.	Y
-GCF_021901695.1	Puccinia striiformis	Y
-GCF_026914185.1	Puccinia triticina	Y
-	Pyriculria grisea	N
-	Pythium amasculinum	N
-GCA_023337915.1	Pythium angustatum	Y
-GCA_000387445.2	Pythium aphanidermatum	Y
-GCA_000387445.2	Pythium aphanidermatum DAOM BR444	Y
-	Pythium apiculatum	N
-GCA_023337875.1	Pythium apleroticum	Y
-GCA_023337775.1	Pythium aquatile	Y
-GCA_023337755.1	Pythium aristosporum	Y
-GCA_000387505.2	Pythium arrhenomanes	Y
-GCA_023337735.1	Pythium biforme	Y
-GCA_023337615.1	Pythium brachiatum	Y
-GCA_027475705.1	Pythium catenulatum	Y
-	Pythium cedri	N
-GCA_023337575.1	Pythium chondricola	Y
-GCA_023337545.1	Pythium coloratum	Y
-GCA_023337495.1	Pythium diclinum	Y
-GCA_023336445.1	Pythium dissimile	Y
-GCA_023336355.1	Pythium dissotocum	Y
-GCA_023336295.1	Pythium folliculosum	Y
-GCA_023336255.1	Pythium graminicola	Y
-GCA_023336285.1	Pythium grandisporangium	Y
-GCA_003730235.1	Pythium guiyangense	Y
-	Pythium hydnosporum	N
-GCA_023336345.1	Pythium inflatum	Y
-GCA_022836835.1	Pythium insidiosum	Y
-	Pythium lycopersicum	N
-GCA_023336165.1	Pythium monospermum	Y
-GCA_023091665.1	Pythium myriotylum	Y
-GCA_020085045.1	Pythium oligandrum	Y
-	Pythium ornamentatum	N
-GCA_023336095.1	Pythium pectinolyticum	Y
-GCA_001922765.1	Pythium periplocum	Y
-GCA_023335935.1	Pythium phragmiticola	Y
-GCA_023335925.1	Pythium phragmitis	Y
-GCA_023336035.1	Pythium plurisporium	Y
-	Pythium porphyrae	N
-GCA_023335905.1	Pythium pyrilobum	Y
-GCA_027475725.1	Pythium rhizo-oryzae	Y
-GCA_023335895.1	Pythium rishiriense	Y
-GCA_023335855.1	Pythium scleroteichum	Y
-GCA_000387445.2;GCA_000387505.2;GCA_001922765.1;GCA_003730235.1;GCA_008271595.1;GCA_020085045.1;GCA_022836835.1;GCA_023091665.1;GCA_023334535.1;GCA_023334575.1;GCA_023334595.1;GCA_023334995.1;GCA_023335855.1;GCA_023335895.1;GCA_023335905.1;GCA_023335925.1;GCA_023335935.1;GCA_023336035.1;GCA_023336095.1;GCA_023336165.1;GCA_023336255.1;GCA_023336285.1;GCA_023336295.1;GCA_023336345.1;GCA_023336355.1;GCA_023336445.1;GCA_023337495.1;GCA_023337545.1;GCA_023337575.1;GCA_023337615.1;GCA_023337735.1;GCA_023337755.1;GCA_023337775.1;GCA_023337875.1;GCA_023337915.1;GCA_027475705.1;GCA_027475725.1;GCA_038050625.1	Pythium spp.	Y
-GCA_023334995.1	Pythium sukuiense	Y
-	Pythium torulosum	N
-GCA_023334595.1	Pythium utonaiense	Y
-GCA_023334535.1	Pythium vanterpoolii	Y
-	Pythium violae	N
-GCA_023334575.1	Pythium volutum	Y
-	Radish mosaic virus	N
-GCA_013461505.1	Ramularia coccinea	Y
-GCF_900074925.1	Ramularia collo-cygni	Y
-	Ramularia deusta	N
-	Ramularia primulae	N
-	Ramularia tulasnei	N
-	Raspberry bushy dwarf virus	N
-	Raspberry ringspot virus	N
-	Raspberry vein chlorosis virus	N
-	Red clover necrotic mosaic virus	N
-	Rhizobium rhizogenes	N
-GCF_016906535.1	Rhizoctonia solani	Y
-GCF_016906535.1	Rhizoctonia spp.	Y
-GCA_000149305.1;GCA_000697035.1;GCA_024220505.1;GCA_025529335.1;GCF_002708625.1	Rhizopus spp.	Y
-GCA_000697035.1	Rhizopus stolonifer	Y
-GCA_000467735.1	Rhytidhysteron rufulum	Y
-	Ribgrass mosaic virus	N
-	Rice black streaked dwarf virus	N
-	Rice dwarf virus	N
-	Rice gall dwarf virus	N
-	Rice grassy stunt virus	N
-	Rice hoja blanca virus	N
-	Rice necrosis mosaic virus	N
-	Rice ragged stunt virus	N
-	Rice stripe virus	N
-	Rice transitory yellowing virus	N
-	Rice tungro spherical virus	N
-	Rice yellow mottle virus	N
-GCA_021209875.1	Rosellinia necatrix	Y
-	Rubus yellow net virus	N
-	Ryegrass mosaic virus	N
-	Saguaro cactus virus	N
-	Satsuma dwarf virus	N
-GCF_000143185.2	Schizophyllum commune	Y
-	Sclerotinia asari	N
-GCA_000503235.1	Sclerotinia borealis	Y
-GCA_025389075.1	Sclerotinia minor	Y
-	Sclerotinia narcissicola	N
-GCA_029531795.1	Sclerotinia nivalis	Y
-GCF_000146945.2	Sclerotinia sclerotiorum	Y
-GCA_038090695.1	Sclerotinia spermophila	Y
-GCA_000503235.1;GCA_002162575.1;GCA_025389075.1;GCA_025389085.1;GCA_029531795.1;GCA_038090695.1;GCA_905066765.1;GCF_000146945.2	Sclerotinia spp.	Y
-GCA_025389085.1	Sclerotinia subarctica	Y
-GCA_905066765.1	Sclerotinia trifoliorum	Y
-	Sclerotium cepivorum	N
-	Sclerotium rolfsii	N
-	Scrophularia mottle virus	N
-	Septocyta ruborum	N
-	Septoria chrysanthemi	N
-	Septoria dianthi	N
-	Septoria glycines	N
-GCA_024114885.1	Septoria linicola	Y
-GCA_022559915.2	Septoria petroselini	Y
-GCA_022559915.2;GCA_024114885.1	Septoria spp.	Y
-	Septoria verbenae	N
-	Shallot latent virus	N
-	Shallot virus X	N
-	Soil-borne wheat mosaic virus	N
-	Solanum nigrum ilarvirus 1	N
-	Solanum nodiflorum mottle virus	N
-	Sonchus yellow net virus	N
-	Sorghum mosaic virus	N
-	Southern bean mosaic virus	N
-	Sowbane mosaic virus	N
-	Sowthistle yellow vein virus	N
-	Soybean chlorotic mottle virus	N
-	Soybean dwarf virus	N
-	Soybean mosaic virus	N
-	Sphaceloma rosarum	N
-	Sphacelotheca reiliana	N
-	Sphaerotheca fuliginea	N
-	Sphaerotheca macularis	N
-	Sphaerotheca pannosa	N
-	Spinach latent virus	N
-GCA_900404475.1	Spongospora subterranea	Y
-	Squash leaf curl virus	N
-GCA_029100535.1	Stemphylium beticola	Y
-GCA_003268315.1	Stemphylium lycopersici	Y
-GCA_003268315.1;GCA_004380135.1;GCA_029100535.1	Stemphylium spp.	Y
-GCA_004380135.1	Stemphylium vesicarium	Y
-GCF_000264905.1	Stereum hirsutum FP-91666 SS1	Y
-GCF_000264905.1	Stereum spp.	Y
-	Strawberry crinkle virus	N
-	Strawberry latent ringspot virus	N
-	Strawberry necrotic shock virus	N
-	Strawberry vein banding virus	N
-	Streptomyces spp.	N
-	Stromatinia gladioli	N
-	Subterranean clover stunt virus	N
-	Sunn-hemp mosaic virus	N
-	Sweet clover necrotic mosaic virus	N
-	Sweet potato mild mottle virus	N
-GCA_008802775.1	Taphrina betulina	Y
-GCA_005281525.1	Taphrina communis	Y
-GCA_005281535.1	Taphrina confusa	Y
-GCA_005281575.1	Taphrina deformans	Y
-GCA_000836175.1	Taphrina flavorubra JCM 22207	Y
-GCA_000836195.1	Taphrina populina JCM 22190	Y
-GCA_000836175.1;GCA_000836195.1;GCA_004000165.1;GCA_005281515.1;GCA_005281525.1;GCA_005281535.1;GCA_005281575.1;GCA_005281585.1;GCA_008802775.1	Taphrina spp.	Y
-GCA_005281515.1	Taphrina wiesneri	Y
-	Tea plant line pattern virus	N
-GCA_001599055.1	Thielaviopsis ethacetica	Y
-GCA_001513885.1	Thielaviopsis musarum	Y
-GCA_036034705.1	Thielaviopsis punctulata	Y
-GCA_001513885.1;GCA_001599055.1;GCA_001599615.1;GCA_016859225.1;GCA_017591655.1;GCA_036034705.1	Thielaviopsis spp.	Y
-	Tobacco etch virus	N
-	Tobacco leaf curl virus	N
-	Tobacco mild green mosaic virus	N
-	Tobacco mosaic virus	N
-	Tobacco mosaic virus Â	N
-	Tobacco necrosis virus	N
-	Tobacco rattle virus	N
-	Tobacco ringspot virus	N
-	Tobacco streak virus	N
-	Tobacco vein mottling virus	N
-	Tobacco yellow dwarf virus	N
-	Tomato aspermy virus	N
-	Tomato black ring virus	N
-	Tomato bushy stunt virus	N
-	Tomato golden mosaic virus	N
-	Tomato ilarvirus 1	N
-	Tomato mosaic virus	N
-	Tomato necrotic streak virus	N
-	Tomato pseudo-curly top virus	N
-	Tomato ringspot virus	N
-	Tomato spotted wilt virus	N
-GCA_022606055.1	Trametes gibbosa	Y
-GCA_001302255.2	Trametes hirsuta	Y
-GCA_001895945.1	Trametes pubescens	Y
-GCF_000271585.1	Trametes versicolor	Y
-GCF_000271585.1	Trametes versicolor FP-101664 SS1	Y
-	Tranzschelia discolor	N
-GCF_003025105.1	Trichoderma asperellum	Y
-	Tristeza virus	N
-	Tulare apple mosaic virus	N
-	Tulip breaking virus	N
-	Tulip virus X	N
-	Turnip crinkle virus	N
-	Turnip mosaic virus	N
-	Turnip rosette virus	N
-	Turnip yellow mosaic virus	N
-	Ullucus polerovirus 1	N
-	Uromyces phaseoli	N
-	Uromyces transversalis	N
-GCA_000785685.1	Uromyces viciae-fabae	Y
-	Ustilago maydis	N
-GCA_023159155.1	Ustulina deusta	Y
-	Velvet tobacco mottle virus	N
-GCA_003689335.1	Venturia asperata	Y
-GCA_003693225.1	Venturia aucupariae	Y
-GCA_014858625.1	Venturia carpophila	Y
-GCA_007735645.1	Venturia effusa	Y
-	Venturia inaequalis	N
-GCA_004522665.1	Venturia nashicola	Y
-GCA_013176395.1	Venturia oleaginea	Y
-	Venturia pirina	N
-GCA_000738655.1	Venturia pyrina ICMP 11032	Y
-GCA_002851705.1	Verticillium albo-atrum	Y
-GCF_000150825.1	Verticillium alfalfae VaMs.102	Y
-GCF_000150675.1	Verticillium dahliae	Y
-GCF_000150675.1	Verticillium dahliae VdLs.17	Y
-GCA_002851775.1	Verticillium isaacii	Y
-GCA_002851715.1	Verticillium klebahnii	Y
-GCA_019188255.1	Verticillium longisporum	Y
-GCF_003724135.2	Verticillium nonalfalfae	Y
-GCA_000732205.1;GCA_002851675.1;GCA_002851705.1;GCA_002851715.1;GCA_002851755.1;GCA_002851775.1;GCA_019188255.1;GCF_000150675.1;GCF_000150825.1;GCF_003724135.2	Verticillium spp.	Y
-GCA_002851755.1	Verticillium zaregamsianum	Y
-	Viola yellow mottle virus	N
-	Watermelon mosaic virus	N
-	Wheat spindle streak mosaic virus	N
-	Wheat streak mosaic virus	N
-	Wheat yellow dwarf virus	N
-	White clover mosaic virus	N
-	Wild cucumber mosaic virus	N
-	Wilsonomyces carpophilus	N
-	Wineberry latent virus	N
-	Wound tumor virus	N
-	X-disease	N
-	Xanthamonas campestris	N
-	Xanthamonas fragariae	N
-	Xanthomonas campestris	N
-	Xanthomonas fragariae	N
-	Xanthomonas spp.	N
-	Xylella fastidiosa	N
-	Yam mosaic virus	N
-	Zucchini yellow mosaic virus	N
-	Zythia fragariae	N
-	cherry leaf roll virus	N
-	na	N
-	rose ilarvirus 2	N
-	water chestnut virus A	N
+Abutilon mosaic virus	N	
+Actinidia yellowing ringspot virus	N	
+African cassava mosaic virus	N	
+Ageratum latent virus 1998	N	
+Agrobacterium albertimagni	N	
+Agrobacterium arsenijevicii	N	
+Agrobacterium bohemicum	N	
+Agrobacterium burrii	N	
+Agrobacterium cavarae	N	
+Agrobacterium cucumeris	N	
+Agrobacterium deltaense	N	
+Agrobacterium fabrum	N	
+Agrobacterium larrymoorei	N	
+Agrobacterium leguminum	N	
+Agrobacterium pusense	N	
+Agrobacterium radiobacter	N	
+Agrobacterium rhizogenes	N	
+Agrobacterium rosae	N	
+Agrobacterium rubi	N	
+Agrobacterium salinitolerans	N	
+Agrobacterium spp.	N	
+Agrobacterium tomkonis	N	
+Agrobacterium tumefaciens	N	
+Agrobacterium vaccinii	N	
+Agrobacterium vitis	N	
+Agropyron mosaic virus	N	
+Alfalfa latent virus	N	
+Alfalfa mosaic virus	N	
+Alternaria alstroemeriae	N	
+Alternaria alternata	Y	GCF_001642055.1
+Alternaria angustiovoidea	Y	GCA_022814545.1
+Alternaria arborescens	Y	GCF_004154835.1
+Alternaria arbusti	Y	GCF_024043155.1
+Alternaria atra	Y	GCF_907166805.1
+Alternaria brassicae	Y	GCA_004936725.1
+Alternaria brassicicola	Y	GCA_002796735.1
+Alternaria burnsii	Y	GCF_013036055.1
+Alternaria citri	N	
+Alternaria consortialis	Y	GCA_001950455.1
+Alternaria dauci	Y	GCA_025504955.1
+Alternaria destruens	N	
+Alternaria ethzedia	Y	GCF_023757985.1
+Alternaria gaisen	Y	GCA_004156025.2
+Alternaria gansuensis	Y	GCA_009289805.1
+Alternaria gerberae	N	
+Alternaria infectoria	Y	GCF_024043175.1
+Alternaria linariae	N	
+Alternaria longipes	Y	GCA_019059555.1
+Alternaria metachromatica	Y	GCF_023757995.1
+Alternaria panax	Y	GCA_019702505.1
+Alternaria porri	N	
+Alternaria radicina	N	
+Alternaria solani	Y	GCA_002952155.1
+Alternaria spp.	Y	GCA_001950455.1;GCA_002796735.1;GCA_002952155.1;GCA_003574525.1;GCA_004156025.2;GCA_004156035.1;GCA_004936725.1;GCA_009289805.1;GCA_019059555.1;GCA_019702505.1;GCA_020284155.1;GCA_022609215.1;GCA_022814545.1;GCA_023621305.1;GCA_023758005.1;GCA_023758125.1;GCA_023758145.1;GCA_024321975.1;GCA_025504955.1;GCF_001642055.1;GCF_004154835.1;GCF_013036055.1;GCF_020736505.1;GCF_023757985.1;GCF_023757995.1;GCF_023758015.1;GCF_023758025.1;GCF_023758065.1;GCF_023758075.1;GCF_023758085.1;GCF_024043145.1;GCF_024043155.1;GCF_024043165.1;GCF_024043175.1;GCF_024291825.1;GCF_907166805.1
+Alternaria tenuissima	Y	GCA_004156035.1
+Alternaria triticimaculans	Y	GCF_023758025.1
+Alternaria triticina	Y	GCA_022609215.1
+Alternaria viburni	Y	GCF_023758015.1
+American hop latent virus	N	
+American plum line pattern virus	N	
+Andean potato mottle virus	N	
+Anisogramma anomala	Y	GCA_038502455.1
+Apiognomonia veneta	N	
+Apple chlorotic leafspot virus	N	
+Apple ilarvirus 2	N	
+Apple mosaic virus	N	
+Apple necrotic mosaic virus	N	
+Apple scar skin viroid	N	
+Apple stem grooving virus	N	
+Arabis mosaic virus	N	
+Armillaria cepistipes	Y	GCA_900157415.1
+Armillaria fuscipes	Y	GCA_001679825.1
+Armillaria gallica	Y	GCA_037576215.1
+Armillaria luteobubalina	Y	GCA_030435615.1
+Armillaria mellea	Y	GCA_030407055.1
+Armillaria novae-zelandiae	Y	GCA_030435655.1
+Armillaria ostoyae	Y	GCA_902506015.1
+Armillaria sinapina	N	
+Armillaria solidipes	Y	GCA_022818035.1
+Armillaria spp.	Y	GCA_001679825.1;GCA_022818035.1;GCA_022818075.1;GCA_028551335.1;GCA_030407015.1;GCA_030407055.1;GCA_030407065.1;GCA_030435615.1;GCA_030435635.1;GCA_030435655.1;GCA_037576215.1;GCA_900157415.1;GCA_902506015.1
+Arracacha virus B	N	
+Arthuriomyces peckianus	N	
+Artichoke Italian latent virus	N	
+Artichoke yellow ringspot virus	N	
+Ascochyta fabae	Y	GCA_004335285.1
+Ascochyta gerberae	N	
+Ascochyta koolunga	Y	GCA_026119515.1
+Ascochyta lathyri	N	
+Ascochyta lentis	Y	GCA_004011705.1
+Ascochyta pisi	Y	GCA_039634435.1
+Ascochyta rabiei	Y	GCF_004011695.2
+Ascochyta spp.	Y	GCA_004011705.1;GCA_004335155.1;GCA_004335205.1;GCA_004335285.1;GCA_026119515.1;GCA_027946445.1;GCA_039634435.1;GCF_004011695.2
+Ascochyta viciae-villosae	Y	GCA_004335155.1;GCA_004335205.1
+Asparagus virus 2	N	
+Aspergillus flavus	N	
+Aspergillus fumigatus	Y	GCF_000002655.1
+Aspergillus niger	Y	GCF_000002855.4
+Aster yellows MLO	N	
+Avocado sunblotch viroid	N	
+BLTVA (beet leafhopper transmitted virescence agent)	N	
+Babaco ilarvirus 1	N	
+Banana streak virus	N	
+Barley mild mosaic virus	N	
+Barley stripe mosaic virus	N	
+Barley yellow striate mosaic virus	N	
+Bean common mosaic virus	N	
+Bean golden mosaic virus	N	
+Bean leaf roll virus	N	
+Bean pod mottle virus	N	
+Bean rugose mosaic virus	N	
+Bean yellow mosaic virus	N	
+Beet curly top virus	N	
+Beet curly top virus (BCTV)	N	
+Beet leafhopper transmitted virescence agent (BLTVA)	N	
+Beet mosaic virus	N	
+Beet necrotic yellow vein virus	N	
+Beet western yellows virus	N	
+Beet yellow stunt virus	N	
+Beet yellows virus	N	
+Belladonna mottle virus	N	
+Bidens mottle virus	N	
+Bipolaris spp.	Y	GCA_002286855.1;GCA_026262445.1;GCA_030558545.1;GCF_000338995.1;GCF_000354255.1;GCF_000523435.1;GCF_000523455.1;GCF_000527765.1
+Black raspberry necrosis virus	N	
+Blackberry chlorotic ringspot virus	N	
+Blackeye cowpea mosaic virus	N	
+Blueberry leaf mottle virus	N	
+Blueberry red ringspot virus	N	
+Blueberry scorch virus	N	
+Blueberry shock virus	N	
+Blueberry shoestring virus	N	
+Blumeriella jaapii	Y	GCA_009599575.1
+Boeremia exigua	Y	GCF_020726555.1
+Botryosphaeria dothidea	Y	GCA_011503125.2
+Botryosphaeria kuwatsukai	N	
+Botryosphaeria spp.	Y	GCA_011503125.2;GCA_022813555.1
+Botryosphaeria stevensii	N	
+Botrytis aclada	Y	GCA_014898285.1
+Botrytis byssoidea	Y	GCF_014898295.1
+Botrytis cinerea	Y	GCF_000143535.2
+Botrytis cinerea B05.10	Y	GCF_000143535.2
+Botrytis deweyae	Y	GCF_014898535.1
+Botrytis elliptica	Y	GCA_024478385.1
+Botrytis euroamericana	N	
+Botrytis fabae	Y	GCA_032594075.1
+Botrytis fabiopsis	N	
+Botrytis fragariae	Y	GCF_013461495.1
+Botrytis medusae	Y	GCA_019395255.1
+Botrytis narcissicola	N	
+Botrytis paeoniae	Y	GCA_004786145.1
+Botrytis porri	Y	GCF_014898465.1
+Botrytis pseudocinerea	Y	GCA_019395245.1
+Botrytis sinoallii	Y	GCF_014898435.1
+Botrytis spp.	Y	GCA_004786125.1;GCA_004786145.1;GCA_004786245.1;GCA_004916875.1;GCA_014898285.1;GCA_014898485.2;GCA_019395245.1;GCA_019395255.1;GCA_024478385.1;GCA_032594075.1;GCF_000143535.2;GCF_013461495.1;GCF_014898295.1;GCF_014898435.1;GCF_014898465.1;GCF_014898535.1
+Botrytis squamosa	Y	GCA_014898485.2
+Botrytis tulipae	Y	GCA_004786125.1
+Bremia lactucae	Y	GCA_004359215.2
+Brenneria alni	N	
+Brenneria nigrifluens	N	
+Brenneria roseae	N	
+Brenneria rubrifaciens	N	
+Brenneria salicis	N	
+Broad bean mottle virus	N	
+Brome mosaic virus	N	
+Cacao swollen shoot virus	N	
+Cacao yellow mosaic virus	N	
+Cactus virus X	N	
+Candidatus Liberibacter asiaticus	N	
+Candidatus liberibacter	N	
+Cape gooseberry ilarvirus 1	N	
+Carnation etched ring virus	N	
+Carnation latent virus	N	
+Carnation mottle virus	N	
+Carnation necrotic fleck virus	N	
+Carnation ringspot virus	N	
+Carnation vein mottle virus	N	
+Carrot mottle virus	N	
+Carrot red leaf virus	N	
+Carrot thin leaf virus	N	
+Cassava Ivorian bacilliform virus	N	
+Cassava common mosaic virus	N	
+Cassava vein mosaic virus	N	
+Cassia yellow blotch virus	N	
+Cauliflower mosaic virus	N	
+Celery mosaic virus	N	
+Ceratobasidium cereale	N	
+Ceratobasidium theobromae	Y	GCA_037974915.1
+Ceratocystis fimbriata	N	
+Cercospora apii	N	
+Cercospora berteroae	Y	GCA_002933655.1
+Cercospora beticola	Y	GCF_002742065.1
+Cercospora brassicicola	Y	GCA_013365245.1
+Cercospora canescens	Y	GCA_000347735.1
+Cercospora carotae	N	
+Cercospora citrullina	Y	GCA_013365195.1
+Cercospora janseana	Y	GCA_026725115.1
+Cercospora kikuchii	N	
+Cercospora nicotianae	Y	GCA_029490675.1
+Cercospora sesami	Y	GCA_013365235.1
+Cercospora sojina	Y	GCA_004299825.1
+Cercospora spp.	Y	GCA_000347735.1;GCA_002933655.1;GCA_004299825.1;GCA_005356805.1;GCA_005356885.1;GCA_013365195.1;GCA_013365235.1;GCA_013365245.1;GCA_022702355.1;GCA_022965775.1;GCA_023512815.1;GCA_026725115.1;GCA_029490675.1;GCF_002742065.1
+Cercospora zeae-maydis	Y	GCA_023512815.1
+Cercospora zeina	Y	GCA_022702355.1
+Cereal chlorotic mottle virus	N	
+Cherry leaf roll virus	N	
+Cherry rasp leaf virus	N	
+Chloris striate mosaic virus	N	
+Chrysanthemum stunt viroid	N	
+Chrysanthemum virus B	N	
+Ciborinia camelliae	Y	GCA_025890175.1
+Citrus exocortis viroid	N	
+Citrus exocortis viroid (CEVd)	N	
+Citrus leaf rugose virus	N	
+Citrus psorosis virus	N	
+Citrus tristeza virus	N	
+Citrus variegation virus	N	
+Cladosporium (syn. Fusicladium) carpophilum	N	
+Cladosporium asperulatum	N	
+Cladosporium colombiae	Y	GCA_026122715.1
+Cladosporium cucumerinum	Y	GCA_023634325.1
+Cladosporium echinulatum	N	
+Cladosporium paeoniae	N	
+Cladosporium phlei	Y	GCA_003614995.1
+Cladosporium pseudocladosporioides	N	
+Cladosporium ramotenellum	N	
+Cladosporium subtilissimum	N	
+Cladosporium subuliforme	N	
+Cladosporium tenuissimum	N	
+Cladosporium velox	Y	GCA_024604135.1
+Clavibacter michiganensis	N	
+Clitoria yellow vein virus	N	
+Clonostachys byssicola	Y	GCA_902006505.2
+Clonostachys rhizophaga	Y	GCA_902077795.2
+Clover yellow vein virus	N	
+Cocksfoot mild mosaic virus	N	
+Cocksfoot mottle virus	N	
+Cocksfoot streak virus	N	
+Coconut cadang-cadang viroid	N	
+Coleus blumei viroid 1	N	
+Collectotrichum gloeosporioides	N	
+Colletotrichum gloeosporioides	Y	GCF_011800055.1
+Colletotrichum graminicola	Y	GCF_000149035.1
+Cowpea aphid-borne mosaic virus	N	
+Cowpea chlorotic mottle virus	N	
+Cowpea mild mottle virus	N	
+Cowpea mosaic virus	N	
+Cowpea mottle virus	N	
+Cowpea severe mosaic virus	N	
+Cryptocline cinerescens	N	
+Cucumber green mottle mosaic virus	N	
+Cucumber leaf spot virus	N	
+Cucumber mosaic virus	N	
+Cucumber necrosis virus	N	
+Curvularia spp.	Y	GCA_000817285.1;GCA_002161795.1;GCA_005212705.1;GCA_011058905.1;GCA_020744315.1;GCA_022457065.1;GCA_023920165.1;GCA_026262405.1;GCA_026262435.1;GCA_036172615.1
+Cylindrocladium buxicola	N	
+Cymbidium mosaic virus	N	
+Cymbidium ringspot virus	N	
+Cytospora chrysosperma	Y	GCA_016808195.1
+Cytospora leucostoma	Y	GCA_003795295.1
+Cytospora mali	Y	GCA_025426655.1
+Cytospora paraplurivora	Y	GCA_021272945.2
+Cytospora piceae	Y	GCA_016508685.1
+Cytospora piceicola	Y	GCA_023375675.1
+Cytospora spp.	Y	GCA_003795295.1;GCA_003795315.1;GCA_016508685.1;GCA_016808195.1;GCA_021272945.2;GCA_023375675.1;GCA_025426655.1
+Dahlia mosaic virus	N	
+Dasheen mosaic virus	N	
+Dematophora necatrix	N	
+Desmodium yellow mottle virus	N	
+Diaporthe ampelina	Y	GCA_023522825.1
+Diaporthe amygdali	Y	GCF_026229845.1
+Diaporthe aspalathi	Y	GCA_001447215.1
+Diaporthe australafricana	Y	GCA_039880735.1
+Diaporthe batatas	Y	GCF_019321695.1
+Diaporthe capsici	Y	GCA_013364905.1
+Diaporthe caulivora	Y	GCA_023703485.1
+Diaporthe citri	Y	GCF_014595645.1
+Diaporthe destruens	Y	GCA_036986855.1
+Diaporthe eres	Y	GCA_022225955.2
+Diaporthe helianthi	Y	GCA_001702395.2
+Diaporthe humulicola	Y	GCA_038088545.1
+Diaporthe ilicicola	Y	GCA_023242295.1
+Diaporthe kyushuensis	N	
+Diaporthe longicolla	Y	GCA_000800745.1
+Diaporthe macadamiae	N	
+Diaporthe nobilis	Y	GCA_023078575.1
+Diaporthe ueckeri	N	
+Diaporthe vaccinii	Y	GCA_039880775.1
+Diaporthe vexans	Y	GCA_021188095.1
+Didymella arachidicola	Y	GCA_016630955.3
+Didymella glomerata	Y	GCA_030271015.1
+Didymella pinodella	Y	GCA_039634465.1
+Didymella pinodes	N	
+Didymella pomorum	Y	GCA_022225945.1
+Didymella segeticola	Y	GCA_004522025.1
+Diplocarpon coronariae	N	
+Diplocarpon earlianum	N	
+Diplocarpon mali	Y	GCA_024741835.1
+Diplocarpon rosae	Y	GCA_032760415.1
+Diplodia quercina	N	
+Discula fraxinea	N	
+Drechslera iridis	N	
+Eggplant mosaic virus	N	
+Eggplant mottled dwarf virus	N	
+Elderberry latent virus	N	
+Elm mottle virus	N	
+Elsinoe ampelina	Y	GCA_005959805.1
+Elsinoe arachidis	Y	GCA_013372555.1
+Elsinoe australis	Y	GCA_007556505.1
+Elsinoe batatas	Y	GCA_017309325.2
+Elsinoe corni	N	
+Elsinoe fawcettii	Y	GCA_007556565.1
+Elsinoe necatrix	Y	GCA_033846785.1
+Elsinoe perseae	Y	GCA_029448695.1
+Elsinoe spp.	Y	GCA_005959805.1;GCA_007556505.1;GCA_007556565.1;GCA_013372555.1;GCA_017309325.2;GCA_029448695.1;GCA_033846785.1
+Entomosporium spp.	N	
+Eremothecium cymbalariae	Y	GCF_000235365.1
+Erwinia amylovora	N	
+Erwinia billingiae	N	
+Erwinia carotovora	N	
+Erwinia nigrifluens	N	
+Erwinia oleae	N	
+Erwinia persicina	N	
+Erwinia piriflorinigrans	N	
+Erwinia plantamica	N	
+Erwinia psidii	N	
+Erwinia pyri	N	
+Erwinia pyrifoliae	N	
+Erwinia quercina	N	
+Erwinia rhapontici	N	
+Erwinia rubrifaciens	N	
+Erwinia sorbitola	N	
+Erwinia spp.	N	
+Erwinia tracheiphila	N	
+Erysimum latent virus	N	
+Erysiphe cichoracearum	N	
+Erysiphe cruciferarum	N	
+Erysiphe graminis	N	
+Erysiphe heraclei	N	
+Erysiphe lagerstroemiae	N	
+Erysiphe lycopersici	N	
+Erysiphe necator	N	
+Erysiphe pisi	Y	GCA_000208805.1
+Erysiphe polygoni	N	
+Erysiphe pulchra	Y	GCA_002918395.1
+Eutypa lata	Y	GCA_022661535.1
+Exobasidium spp.	Y	GCA_023273805.1;GCA_026210745.1
+Fig mosaic emaravirus	N	
+Fiji disease virus	N	
+Fomes annosus	N	
+Foxtail mosaic virus	N	
+Frangipani mosaic virus	N	
+Fusarium abutilonis	Y	GCA_021655885.1
+Fusarium acuminatum	N	
+Fusarium acutatum	Y	GCA_012932015.1
+Fusarium andiyazi	N	
+Fusarium asiaticum	Y	GCA_025258505.1
+Fusarium avenaceum	Y	GCA_025948275.1
+Fusarium boothii	Y	GCA_017656985.1
+Fusarium brachygibbosum	Y	GCA_018886245.1
+Fusarium cerealis	Y	GCA_019055205.1
+Fusarium chlamydosporum	Y	GCA_014898915.1
+Fusarium circinatum	Y	GCA_024047395.1
+Fusarium commune	N	
+Fusarium concentricum	N	
+Fusarium cortaderiae	N	
+Fusarium culmorum	Y	GCA_016952355.1
+Fusarium denticulatum	Y	GCA_013396175.1
+Fusarium equiseti	Y	GCA_003313175.1
+Fusarium euwallaceae	Y	GCA_002168265.2
+Fusarium falciforme	Y	GCF_026873545.1
+Fusarium fujikuroi	Y	GCF_900079805.1
+Fusarium graminearum	Y	GCF_000240135.3
+Fusarium keratoplasticum	Y	GCF_025433545.1
+Fusarium kyushuense	Y	GCA_034753255.1
+Fusarium langsethiae	N	
+Fusarium mangiferae	Y	GCF_900044065.1
+Fusarium meridionale	Y	GCA_032355295.1
+Fusarium musae	Y	GCF_019915245.1
+Fusarium neocosmosporiellum	Y	GCA_006518225.1
+Fusarium nirenbergiae	N	
+Fusarium nygamai	Y	GCA_001262555.1
+Fusarium odoratissimum	Y	GCF_000260195.1
+Fusarium oligoseptatum	Y	GCA_003946995.1
+Fusarium oxysporum	Y	GCF_013085055.1
+Fusarium paranaense	Y	GCA_027886155.1
+Fusarium phalaenopsidis	N	
+Fusarium poae	Y	GCF_019609905.1
+Fusarium proliferatum	Y	GCF_900067095.1
+Fusarium pseudoanthophilum	Y	GCA_013395995.1
+Fusarium pseudograminearum	Y	GCF_000303195.2
+Fusarium pseudonygamai	Y	GCA_013186785.1
+Fusarium redolens	Y	GCF_020744475.1
+Fusarium sacchari	Y	GCA_017165645.1
+Fusarium sambucinum	Y	GCA_001567575.1
+Fusarium solani	Y	GCA_023101225.1
+Fusarium solani-melongenae	Y	GCA_023101225.1
+Fusarium sporotrichioides	Y	GCA_019054645.1
+Fusarium spp.	Y	GCA_000966855.1;GCA_000966865.1;GCA_001262555.1;GCA_001513835.1;GCA_001567575.1;GCA_001633045.1;GCA_001654545.1;GCA_001680515.1;GCA_001680625.1;GCA_002093855.1;GCA_002165215.1;GCA_002168265.2;GCA_002234235.1;GCA_002234255.1;GCA_002980475.2;GCA_002980515.1;GCA_002982035.1;GCA_003313175.1;GCA_003353625.1;GCA_003670145.1;GCA_003946985.1;GCA_003946995.1;GCA_003947005.1;GCA_003947015.1;GCA_003947045.1;GCA_004366955.1;GCA_004367055.1;GCA_004367075.1;GCA_004367095.1;GCA_004367155.1;GCA_004367475.1;GCA_004367485.1;GCA_004367495.1;GCA_006518225.1;GCA_008711595.1;GCA_010015875.1;GCA_011033385.1;GCA_011033785.1;GCA_011034095.1;GCA_011035825.1;GCA_011036685.1;GCA_011320165.1;GCA_012931995.1;GCA_012932015.1;GCA_012932025.1;GCA_012977735.1;GCA_012977745.1;GCA_012977755.1;GCA_012978555.1;GCA_013183765.1;GCA_013184325.1;GCA_013184375.1;GCA_013184415.1;GCA_013184445.1;GCA_013184455.1;GCA_013186375.1;GCA_013186395.1;GCA_013186415.1;GCA_013186425.2;GCA_013186755.1;GCA_013186775.1;GCA_013186785.1;GCA_013186845.1;GCA_013186855.1;GCA_013186905.1;GCA_013186925.1;GCA_013266165.1;GCA_013266175.1;GCA_013266185.1;GCA_013266195.1;GCA_013266205.1;GCA_013266265.1;GCA_013363135.1;GCA_013363185.1;GCA_013363205.1;GCA_013364935.1;GCA_013364945.1;GCA_013395995.1;GCA_013396005.1;GCA_013396015.1;GCA_013396025.1;GCA_013396035.1;GCA_013396095.1;GCA_013396165.1;GCA_013396175.1;GCA_013396205.1;GCA_013396255.1;GCA_013396295.1;GCA_013416785.2;GCA_013618265.1;GCA_013618295.1;GCA_013618395.1;GCA_013618405.1;GCA_013618495.1;GCA_013623355.1;GCA_013623515.1;GCA_013623525.1;GCA_013623535.1;GCA_013623555.1;GCA_013623625.1;GCA_013623665.1;GCA_013623685.1;GCA_013623715.1;GCA_013623725.1;GCA_013623845.1;GCA_013624355.1;GCA_013755755.1;GCA_013758895.1;GCA_013759095.1;GCA_013759125.1;GCA_013781345.1;GCA_014764975.2;GCA_014822075.1;GCA_014822085.1;GCA_014824365.1;GCA_014824385.1;GCA_014824405.1;GCA_014884825.1;GCA_014885045.1;GCA_014898835.1;GCA_014898875.1;GCA_014898885.1;GCA_014898915.1;GCA_014898925.1;GCA_014898975.1;GCA_014898995.1;GCA_014899045.1;GCA_014899075.1;GCA_014899095.1;GCA_016952355.1;GCA_017140155.1;GCA_017140175.1;GCA_017165645.1;GCA_017579625.1;GCA_017654865.1;GCA_017656575.1;GCA_017656595.1;GCA_017656675.1;GCA_017656695.1;GCA_017656745.1;GCA_017656775.1;GCA_017656985.1;GCA_017657045.1;GCA_017657105.1;GCA_018886245.1;GCA_019054645.1;GCA_019054715.1;GCA_019054735.1;GCA_019055205.1;GCA_019189775.1;GCA_019191175.1;GCA_019843635.1;GCA_020137375.1;GCA_020615335.1;GCA_020744335.1;GCA_020744515.1;GCA_020883615.1;GCA_020976545.1;GCA_021020635.1;GCA_021223625.1;GCA_021533815.1;GCA_021655865.1;GCA_021655885.1;GCA_021655895.1;GCA_021730345.1;GCA_021730365.1;GCA_022627095.1;GCA_022627125.1;GCA_022833035.1;GCA_023101225.1;GCA_023509735.1;GCA_024047395.1;GCA_025258505.1;GCA_025433565.1;GCA_025433615.1;GCA_025948275.1;GCA_027886155.1;GCA_027886205.1;GCA_027945245.1;GCA_027945595.1;GCA_028416715.1;GCA_030142105.1;GCA_030411635.1;GCA_030772735.1;GCA_030777805.1;GCA_030779165.1;GCA_030779245.1;GCA_032355295.1;GCA_033030565.1;GCA_033439405.1;GCA_034753255.1;GCA_037576055.1;GCA_037577415.1;GCA_037577435.1;GCA_900312805.1;GCA_954870535.1;GCF_000149555.1;GCF_000151355.1;GCF_000240135.3;GCF_000260195.1;GCF_000303195.2;GCF_003316985.1;GCF_013085055.1;GCF_013396075.1;GCF_013396195.1;GCF_019609905.1;GCF_019915245.1;GCF_020744475.1;GCF_025433545.1;GCF_026873545.1;GCF_900007375.1;GCF_900044065.1;GCF_900067095.1;GCF_900079805.1
+Fusarium sterilihyphosum	Y	GCA_013186845.1
+Fusarium subtropicale	Y	GCA_003670145.1
+Fusarium sulawesiense	Y	GCA_037577435.1
+Fusarium tardichlamydosporum	N	
+Fusarium temperatum	Y	GCA_001513835.1
+Fusarium tricinctum	Y	GCA_020744515.1
+Fusarium vanettenii	Y	GCF_000151355.1
+Fusarium venenatum	Y	GCF_900007375.1
+Fusarium verticillioides	Y	GCF_000149555.1
+Fusarium virguliforme	Y	GCA_020883615.1
+Fusarium vorosii	Y	GCA_017656575.1
+Fusarium xylarioides	Y	GCA_013183765.1
+Fusicladium (syn. Cladosporium) carpophilum	N	
+Gaeumannomyces graminis var. avenae	N	
+Galinsoga mosaic virus	N	
+Ganoderma applanatum	N	
+Ganoderma boninense	Y	GCA_002900995.3
+Ganoderma lingzhi	Y	GCA_026283605.1
+Ganoderma lucidum	Y	GCA_019426095.1
+Ganoderma meredithae	Y	GCA_022814645.1
+Geotrichum citri-aurantii	Y	GCA_030463015.1
+Gloesporium quercum	N	
+Glomerella cingulata	N	
+Gnomonia fragariae	N	
+Gnomonia leptostyla	N	
+Golovinomyces cichoracearum	Y	GCA_003611235.1
+Grapevine Bulgarian latent virus	N	
+Grapevine chrome mosaic virus	N	
+Grapevine fanleaf virus	N	
+Grapevine virus A	N	
+Green Sichuan pepper ilarvirus	N	
+Groundnut rosette virus	N	
+Gymnoconia nitens	N	
+Gymnosporangium libocedri	N	
+Helenium virus S	N	
+Henbane mosaic virus	N	
+Hendersonula tortuloidea	N	
+Heracleum latent virus	N	
+Heterobasidion annosum	Y	GCA_001457955.1
+Heterosporium gracile	N	
+Hibiscus chlorotic ringspot virus	N	
+Hippeastrum mosaic virus	N	
+Hop latent virus	N	
+Hop mosaic virus	N	
+Hop stunt viroid	N	
+Humulus japonicus latent virus	N	
+Hyaloperonospora parasitica	Y	GCA_029452305.1
+Hydrangea ringspot virus	N	
+Ilarvirus	N	
+Ilarvirus APLPV	N	
+Ilarvirus ApMV	N	
+Ilarvirus PrV1	N	
+Ilarvirus RIV1	N	
+Iris mild mosaic virus	N	
+Iris severe mosaic virus	N	
+Johnsongrass mosaic virus	N	
+Kabatina juniperi	N	
+Kennedya yellow mosaic virus	N	
+Laetiporus sulphureus	Y	GCF_001632365.1
+Laetisaria fuciformis	N	
+Lasiodiplodia citricola	Y	GCA_023089105.1
+Lasiodiplodia gonubiensis	Y	GCA_009829795.1
+Lasiodiplodia hormozganensis	Y	GCA_030512325.1
+Lasiodiplodia iranensis	N	
+Lasiodiplodia mahajangana	Y	GCA_029590625.1
+Lasiodiplodia pseudotheobromae	N	
+Lasiodiplodia theobromae	Y	GCF_012971845.1
+Leek yellow stripe virus	N	
+Lettuce big vein virus	N	
+Lettuce infectious yellows virus	N	
+Lettuce mosaic virus	N	
+Lettuce necrotic yellows virus	N	
+Leveillula taurica	N	
+Liberibacter africanus	N	
+Liberibacter americanus	N	
+Liberibacter asiaticus	N	
+Liberibacter brunswickensis	N	
+Liberibacter solanacearum	N	
+Lilac leaf chlorosis virus	N	
+Lilac ring mottle virus	N	
+Lily symptomless virus	N	
+Lucerne transient streak virus	N	
+MLOÂ Â	N	
+Maclura mosaic virus	N	
+Macrophomina euphorbiicola	N	
+Macrophomina phaseolina	Y	GCA_020875535.1
+Macrophomina pseudophaseolina	Y	GCA_022204955.1
+Magnaporthe poae	N	
+Maize chlorotic dwarf virus	N	
+Maize dwarf mosaic virus	N	
+Maize mosaic virus	N	
+Maize rayado fino virus	N	
+Maize rough dwarf virus	N	
+Maize streak virus	N	
+Maize stripe virus	N	
+Maize white line mosaic virus	N	
+Melandrium yellow fleck virus	N	
+Melon necrotic spot virus	N	
+Microdochium nivale	Y	GCA_026745475.1
+Miscanthus streak virus	N	
+Monilinia aucupariae	Y	GCA_002162555.1
+Monilinia fructicola	Y	GCA_008692225.1
+Monilinia fructigena	Y	GCA_003260565.1
+Monilinia laxa	Y	GCA_009299455.1
+Monilinia polystroma	Y	GCA_002909645.1
+Monilinia spp.	Y	GCA_002162555.1;GCA_002909645.1;GCA_003260565.1;GCA_008692225.1;GCA_009299455.1;GCA_017357885.1
+Monilinia vaccinii-corymbosi	Y	GCA_017357885.1
+Mucor piriformis	Y	GCA_943193625.1
+Mung bean yellow mosaic virus	N	
+Mycosphaerella arachidis	Y	GCA_001297265.1
+Mycosphaerella brassicicola	N	
+Mycosphaerella fragariae	N	
+Mycosphaerella rubi	N	
+Mycosphaerella spp.	Y	GCA_000504405.2;GCA_001297265.1;GCA_002116345.1;GCA_002153405.1
+Narcissus late season yellows virus	N	
+Narcissus latent virus	N	
+Narcissus mosaic virus	N	
+Narcissus yellow stripe virus	N	
+Nectria galligena	N	
+Neofusicoccum caryigenum	N	
+Neofusicoccum kwambonambiense	Y	GCA_009829855.1
+Neofusicoccum laricinum	Y	GCA_029906385.1
+Neofusicoccum parvum	Y	GCA_020912385.1
+Neofusicoccum ribis	Y	GCA_021436925.1
+Neofusicoccum spp.	Y	GCA_009829365.1;GCA_009829855.1;GCA_009830905.1;GCA_020912385.1;GCA_021436925.1;GCA_029906385.1;GCA_037356075.1;GCA_037356115.1
+Neonectria candida	N	
+Neonectria coccinea	Y	GCA_019137265.1
+Neonectria ditissima	Y	GCA_001305505.1
+Neonectria faginata	Y	GCA_030864175.1
+Neonectria galligena	N	
+Neonectria hederae	Y	GCA_003385265.1
+Neonectria magnoliae	Y	GCA_037954305.1
+Neonectria neomacrospora	Y	GCA_013756995.1;GCA_917563905.1
+Neonectria punicea	Y	GCA_037954315.1
+Nerine virus X	N	
+Northern cereal mosaic virus	N	
+Oat blue dwarf virus	N	
+Oat chlorotic stunt virus	N	
+Oat necrotic mottle virus	N	
+Oat sterile dwarf virus	N	
+Odontoglossum ringspot virus	N	
+Oidium heveae	Y	GCA_003957845.1
+Okra mosaic virus	N	
+Olive latent virus 2	N	
+Onion yellow dwarf virus	N	
+Ophiosphaerella korrae	Y	GCA_028456385.1
+Ophiostoma ulmi	Y	GCA_029298715.1
+Orchid fleck virus	N	
+Orthotospovirus tomatomaculae	N	
+Ovulinia azalea	N	
+Panicum mosaic virus	N	
+Pantoea beijingensis	N	
+Papaya mosaic virus	N	
+Papaya ringspot virus	N	
+Parietaria mottle virus	N	
+Parsnip yellow fleck virus	N	
+Passionfruit woodiness virus	N	
+Pea early-browning virus	N	
+Pea enation mosaic virus	N	
+Pea seed-borne mosaic virus	N	
+Pea streak virus	N	
+Peach latent mosaic viroid	N	
+Peach rosette mosaic virus	N	
+Peanut clump virus	N	
+Peanut mottle virus	N	
+Peanut stunt virus	N	
+Peanut virus C	N	
+Pear blister canker viroid	N	
+Pectobacterium carotovorum	N	
+Pelargonium flower break virus	N	
+Pelargonium zonate spot virus	N	
+Penicillium aurantiogriseum	Y	GCA_019977855.1
+Penicillium digitatum	Y	GCF_000315645.1
+Penicillium expansum	Y	GCF_000769745.1
+Penicillium italicum	Y	GCA_002116305.1
+Penicillium spp.	Y	GCA_000347475.1;GCA_000576735.1;GCA_000577495.1;GCA_000733025.2;GCA_001048715.1;GCA_002000375.1;GCA_002072365.1;GCA_002116305.1;GCA_002382855.1;GCA_002916455.1;GCA_003138045.1;GCA_003852855.1;GCA_005250745.2;GCA_008931925.1;GCA_008931935.1;GCA_008931945.1;GCA_011392555.1;GCA_011750695.1;GCA_014839625.1;GCA_015585785.1;GCA_018340795.1;GCA_018410145.1;GCA_019190355.1;GCA_019775275.1;GCA_019775415.1;GCA_019827475.1;GCA_019977855.1;GCA_020086695.1;GCA_022985105.1;GCA_023626355.1;GCA_023626415.1;GCA_023626435.1;GCA_023626555.1;GCA_023626575.1;GCA_023627375.1;GCA_023627405.1;GCA_024706585.1;GCA_025586815.1;GCA_026122735.1;GCA_027569385.1;GCA_027569415.1;GCA_027569585.1;GCA_027569595.1;GCA_027569675.1;GCA_028827225.1;GCA_028827375.1;GCA_028827385.1;GCA_028827535.1;GCA_028827885.1;GCA_028828245.1;GCA_028828255.1;GCA_028828275.1;GCA_028828865.1;GCA_028828875.1;GCA_028828935.1;GCA_028829675.1;GCA_028974015.1;GCA_028974045.1;GCA_030035635.1;GCA_030142185.1;GCA_030710325.1;GCA_030762825.1;GCA_031761475.1;GCA_034423695.1;GCA_035048945.1;GCA_035985395.1;GCA_036712075.1;GCA_037040985.1;GCA_037042055.1;GCA_037042135.1;GCA_037042255.1;GCA_037043885.1;GCA_037356155.1;GCA_037356195.1;GCA_037414295.1;GCA_039634405.1;GCA_911174995.1;GCA_911197225.1;GCA_911456345.1;GCA_911649655.1;GCA_928213465.1;GCF_000315645.1;GCF_000769745.1;GCF_001561935.1;GCF_001723175.1;GCF_001773325.1;GCF_015533775.1;GCF_028826775.1;GCF_028826845.1;GCF_028826855.1;GCF_028826915.1;GCF_028826965.1;GCF_028827025.1;GCF_028827145.1;GCF_028827165.1;GCF_028827245.1;GCF_028827265.1;GCF_028827395.1;GCF_028827405.1;GCF_028827525.1;GCF_028827545.1;GCF_028827555.1;GCF_028827675.1;GCF_028827695.1;GCF_028827735.1;GCF_028827825.1;GCF_028827895.1;GCF_028828005.1;GCF_028828015.1;GCF_028828045.1;GCF_028828085.1;GCF_028828155.1;GCF_028828195.1;GCF_028828445.1;GCF_028828465.1;GCF_028828495.1;GCF_028828555.1;GCF_028828655.1;GCF_028828765.1;GCF_028829455.1;GCF_028829465.1;GCF_028829585.1;GCF_028829765.1;GCF_028829775.1;GCF_028829835.1;GCF_028974065.1;GCF_028974085.1;GCF_028974205.1
+Pepino mosaic virus	N	
+Pepper mild mottle virus	N	
+Pepper mottle virus	N	
+Pepper ringspot virus	N	
+Pepper veinal mottle virus	N	
+Peronospora belbahrii	Y	GCA_920618645.1
+Peronospora destructor	Y	GCA_011800735.1
+Peronospora effusa	N	
+Peronospora farinosa	Y	GCA_947646735.1
+Peronospora parasitica	N	
+Peronospora sparsa	N	
+Peronospora tabacina	Y	GCA_002099245.1
+Peronospora viciae f.sp. pisi	Y	GCA_002099245.1;GCA_011800735.1;GCA_920618645.1;GCA_921007115.2;GCA_947646735.1
+Peru tomato virus	N	
+Pestalotiopsis funerea	N	
+Petunia vein clearing virus	N	
+Phaeoacremonium minimum UCRPA7	Y	GCF_000392275.1
+Phaeoacremonium spp.	Y	GCF_000392275.1
+Phoma herbarum	Y	GCA_001599375.1
+Phoma spp.	Y	GCA_001599375.1;GCA_004335185.1;GCA_004835665.1;GCA_033444525.1;GCA_033682645.1
+Phoma terrestris	N	
+Phomopsis juniperovora	N	
+Phomopsis mahothocarpi	N	
+Phomopsis obscurans	N	
+Phomopsis spp.	N	
+Phomopsis viticola	N	
+Phragmidium mucronatum	N	
+Phragmidium rubi-idaei	N	
+Phyllachora maydis	Y	GCA_029339225.1
+Phyllosticta spp.	Y	GCA_020351975.1;GCA_038021145.1;GCA_038025025.1;GCA_038051015.1;GCA_038380885.1;GCA_038381195.1
+Phyllosticta zinniae	N	
+Phymatotrichopsis omnivora	Y	GCA_016880775.1
+Phytophthora abietivora	N	
+Phytophthora agathidicida	Y	GCA_025722995.1
+Phytophthora aleatoria	Y	GCA_018873745.1
+Phytophthora alni	N	
+Phytophthora asiatica	N	
+Phytophthora attenuata	N	
+Phytophthora betacei	Y	GCA_011320135.1
+Phytophthora boehmeriae	Y	GCA_011947355.1
+Phytophthora brassicae	Y	GCA_024679045.1
+Phytophthora cactorum	Y	GCA_016864655.1
+Phytophthora cajani	Y	GCA_024679175.1
+Phytophthora cambivora	N	
+Phytophthora capsici	Y	GCA_030324255.1
+Phytophthora castanetorum	N	
+Phytophthora chlamydospora	Y	GCA_012295415.1
+Phytophthora cinnamomi	N	
+Phytophthora citricola	Y	GCA_007655245.1
+Phytophthora citrophthora	Y	GCA_031305395.1
+Phytophthora colocasiae	Y	GCA_018806915.1
+Phytophthora constricta	Y	GCA_011947335.1
+Phytophthora crassamura	Y	GCA_033557995.1
+Phytophthora cryptogea	Y	GCA_000468175.2
+Phytophthora elongata	N	
+Phytophthora europaea	Y	GCA_030463285.1
+Phytophthora flexuosa	N	
+Phytophthora foliorum	Y	GCA_024679135.1
+Phytophthora formosa	N	
+Phytophthora fragariae	Y	GCA_009729435.1
+Phytophthora fragariaefolia	Y	GCA_030267785.1
+Phytophthora gibbosa	N	
+Phytophthora gonapodyides	Y	GCA_012295475.1
+Phytophthora gregata	N	
+Phytophthora hedraiandra	N	
+Phytophthora heterohybrida	N	
+Phytophthora hibernalis	Y	GCA_012656075.1
+Phytophthora humicola	N	
+Phytophthora idaei	Y	GCA_016880985.1
+Phytophthora incrassata	N	
+Phytophthora infestans	Y	GCF_000142945.1
+Phytophthora infestans T30-4	Y	GCF_000142945.1
+Phytophthora intricata	N	
+Phytophthora kernoviae	Y	GCA_008080845.1
+Phytophthora lateralis	Y	GCA_000500205.2
+Phytophthora lilii	N	
+Phytophthora litchii	Y	GCA_002812785.1
+Phytophthora litoralis	N	
+Phytophthora macrochlamydospora	Y	GCA_011947325.1
+Phytophthora meadii	Y	GCA_032432875.1
+Phytophthora megakarya	Y	GCA_002215365.1
+Phytophthora megasperma	N	
+Phytophthora melonis	Y	GCA_024211575.1
+Phytophthora multivora	Y	GCA_001314345.1
+Phytophthora nagaii	N	
+Phytophthora nicotianae	Y	GCF_000247585.1
+Phytophthora niederhauseri	Y	GCA_024679275.1
+Phytophthora ohioensis (nom. inval.)	Y	GCA_014706125.1
+Phytophthora oleae	N	
+Phytophthora ornamentata	N	
+Phytophthora palmivora	Y	GCA_008079305.1
+Phytophthora parvispora	Y	GCA_024679295.1
+Phytophthora pini	Y	GCA_023611945.1
+Phytophthora pinifolia	Y	GCA_000500225.2
+Phytophthora pisi	Y	GCA_024679225.1
+Phytophthora pistaciae	Y	GCA_024679115.1
+Phytophthora plurivora	Y	GCA_030027945.1
+Phytophthora pluvialis	Y	GCA_001314425.1
+Phytophthora podocarpi	Y	GCA_001314375.1
+Phytophthora pseudolactucae	N	
+Phytophthora pseudosyringae	Y	GCA_019155715.1
+Phytophthora quercina	Y	GCA_014706105.1
+Phytophthora quininea	Y	GCA_011947345.1
+Phytophthora ramorum	Y	GCA_020800215.1
+Phytophthora rosacearum	N	
+Phytophthora rubi	Y	GCA_000687305.2
+Phytophthora sansomeana	Y	GCA_032158285.1
+Phytophthora sojae	Y	GCF_000149755.1
+Phytophthora spp.	Y	GCA_000439335.1;GCA_000443045.1;GCA_000468175.2;GCA_000500205.2;GCA_000500225.2;GCA_000687305.2;GCA_001314345.1;GCA_001314375.1;GCA_001314425.1;GCA_002215365.1;GCA_002812785.1;GCA_007655245.1;GCA_008079305.1;GCA_008080845.1;GCA_009729435.1;GCA_011320135.1;GCA_011947325.1;GCA_011947335.1;GCA_011947345.1;GCA_011947355.1;GCA_012295415.1;GCA_012295475.1;GCA_012656075.1;GCA_012656105.1;GCA_014706105.1;GCA_014706125.1;GCA_014706135.1;GCA_014706145.1;GCA_016169955.1;GCA_016864655.1;GCA_016880985.1;GCA_018806915.1;GCA_018873745.1;GCA_019155715.1;GCA_020800215.1;GCA_023611945.1;GCA_024211575.1;GCA_024679045.1;GCA_024679075.1;GCA_024679115.1;GCA_024679135.1;GCA_024679175.1;GCA_024679225.1;GCA_024679275.1;GCA_024679295.1;GCA_025722995.1;GCA_030027945.1;GCA_030267785.1;GCA_030324255.1;GCA_030463285.1;GCA_031305395.1;GCA_032158285.1;GCA_032432875.1;GCA_033557915.1;GCA_033557925.1;GCA_033557995.1;GCA_033558005.1;GCA_033558025.1;GCF_000142945.1;GCF_000149755.1;GCF_000247585.1
+Phytophthora syringae	Y	GCA_012656105.1
+Phytophthora tentaculata	Y	GCA_033557915.1
+Phytophthora tubulina	Y	GCA_014706135.1
+Phytophthora uliginosa	Y	GCA_024679075.1
+Phytophthora vignae f. sp. vignae	Y	GCA_000439335.1;GCA_000443045.1;GCA_000468175.2;GCA_000500205.2;GCA_000500225.2;GCA_000687305.2;GCA_001314345.1;GCA_001314375.1;GCA_001314425.1;GCA_002215365.1;GCA_002812785.1;GCA_007655245.1;GCA_008079305.1;GCA_008080845.1;GCA_009729435.1;GCA_011320135.1;GCA_011947325.1;GCA_011947335.1;GCA_011947345.1;GCA_011947355.1;GCA_012295415.1;GCA_012295475.1;GCA_012656075.1;GCA_012656105.1;GCA_014706105.1;GCA_014706125.1;GCA_014706135.1;GCA_014706145.1;GCA_016169955.1;GCA_016864655.1;GCA_016880985.1;GCA_018806915.1;GCA_018873745.1;GCA_019155715.1;GCA_020800215.1;GCA_023611945.1;GCA_024211575.1;GCA_024679045.1;GCA_024679075.1;GCA_024679115.1;GCA_024679135.1;GCA_024679175.1;GCA_024679225.1;GCA_024679275.1;GCA_024679295.1;GCA_025722995.1;GCA_030027945.1;GCA_030267785.1;GCA_030324255.1;GCA_030463285.1;GCA_031305395.1;GCA_032158285.1;GCA_032432875.1;GCA_033557915.1;GCA_033557925.1;GCA_033557995.1;GCA_033558005.1;GCA_033558025.1;GCF_000142945.1;GCF_000149755.1;GCF_000247585.1
+Plantain virus X	N	
+Plasmodiophora brassicae	Y	GCA_039704465.1
+Plasmopara (syn. Peronospora) spp.	Y	GCA_001695595.3;GCA_002099245.1;GCA_003676415.1;GCA_011800735.1;GCA_920618645.1;GCA_921007115.2;GCA_947646735.1;GCF_900000015.1
+Plasmopara halstedii	Y	GCF_900000015.1
+Plasmopara muralis	Y	GCA_003676415.1
+Plasmopara viticola	Y	GCA_001695595.3
+Pleurotus ostreatus	Y	GCA_024196135.1;GCF_014466165.1
+Plum pox virus	N	
+Podosphaera aphanis	Y	GCA_022627015.2
+Podosphaera clandestina	N	
+Podosphaera fusca	Y	GCA_030378345.1
+Podosphaera leucotricha	Y	GCA_013170925.1
+Podosphaera pannosa	N	
+Podosphaera tridactyla	N	
+Podosphaera xanthii	Y	GCA_028751805.1
+Poinsettia mosaic virus	N	
+Pokeweed mosaic virus	N	
+Poplar mosaic virus	N	
+Potato aucuba mosaic virus	N	
+Potato black ringspot virus	N	
+Potato leaf roll virus	N	
+Potato leafroll virus	N	
+Potato mop-top virus	N	
+Potato virus Y	N	
+Potato yellow dwarf virus	N	
+Potato yellowing virus	N	
+Pothos latent virus	N	
+Privet ringspot virus	N	
+Prune dwarf virus	N	
+Prunus necrotic ringspot virus	N	
+Pseudomonas gladioli	N	
+Pseudomonas savastanoi pv. nerii	N	
+Pseudomonas savastanoi pv. savastanoi	N	
+Pseudomonas spp.	N	
+Pseudomonas syringae	N	
+Pseudonectria rousseliana	N	
+Pseudoperonospora cubensis	N	
+Pseudoperonospora humuli	Y	GCA_003991265.1
+Puccinia asparagi	N	
+Puccinia brachypodii	Y	GCA_019395275.1
+Puccinia coronata	Y	GCA_002873125.1
+Puccinia graminis	Y	GCF_000149925.1
+Puccinia hordei	Y	GCA_007896445.1
+Puccinia horiana	Y	GCA_001624995.1
+Puccinia novopanici	Y	GCA_004348175.1
+Puccinia polysora	Y	GCA_025617555.3
+Puccinia silphii	N	
+Puccinia sorghi	Y	GCA_001263375.1
+Puccinia spp.	Y	GCA_001263375.1;GCA_001624995.1;GCA_002873125.1;GCA_004348175.1;GCA_007896445.1;GCA_019395275.1;GCA_025617555.3;GCF_000149925.1;GCF_021901695.1;GCF_026914185.1
+Puccinia striiformis	Y	GCF_021901695.1
+Puccinia triticina	Y	GCF_026914185.1
+Pyriculria grisea	N	
+Pythium amasculinum	N	
+Pythium angustatum	Y	GCA_023337915.1
+Pythium aphanidermatum	Y	GCA_000387445.2
+Pythium aphanidermatum DAOM BR444	Y	GCA_000387445.2
+Pythium apiculatum	N	
+Pythium apleroticum	Y	GCA_023337875.1
+Pythium aquatile	Y	GCA_023337775.1
+Pythium aristosporum	Y	GCA_023337755.1
+Pythium arrhenomanes	Y	GCA_000387505.2
+Pythium biforme	Y	GCA_023337735.1
+Pythium brachiatum	Y	GCA_023337615.1
+Pythium catenulatum	Y	GCA_027475705.1
+Pythium cedri	N	
+Pythium chondricola	Y	GCA_023337575.1
+Pythium coloratum	Y	GCA_023337545.1
+Pythium diclinum	Y	GCA_023337495.1
+Pythium dissimile	Y	GCA_023336445.1
+Pythium dissotocum	Y	GCA_023336355.1
+Pythium folliculosum	Y	GCA_023336295.1
+Pythium graminicola	Y	GCA_023336255.1
+Pythium grandisporangium	Y	GCA_023336285.1
+Pythium guiyangense	Y	GCA_003730235.1
+Pythium hydnosporum	N	
+Pythium inflatum	Y	GCA_023336345.1
+Pythium insidiosum	Y	GCA_022836835.1
+Pythium lycopersicum	N	
+Pythium monospermum	Y	GCA_023336165.1
+Pythium myriotylum	Y	GCA_023091665.1
+Pythium oligandrum	Y	GCA_020085045.1
+Pythium ornamentatum	N	
+Pythium pectinolyticum	Y	GCA_023336095.1
+Pythium periplocum	Y	GCA_001922765.1
+Pythium phragmiticola	Y	GCA_023335935.1
+Pythium phragmitis	Y	GCA_023335925.1
+Pythium plurisporium	Y	GCA_023336035.1
+Pythium porphyrae	N	
+Pythium pyrilobum	Y	GCA_023335905.1
+Pythium rhizo-oryzae	Y	GCA_027475725.1
+Pythium rishiriense	Y	GCA_023335895.1
+Pythium scleroteichum	Y	GCA_023335855.1
+Pythium spp.	Y	GCA_000387445.2;GCA_000387505.2;GCA_001922765.1;GCA_003730235.1;GCA_008271595.1;GCA_020085045.1;GCA_022836835.1;GCA_023091665.1;GCA_023334535.1;GCA_023334575.1;GCA_023334595.1;GCA_023334995.1;GCA_023335855.1;GCA_023335895.1;GCA_023335905.1;GCA_023335925.1;GCA_023335935.1;GCA_023336035.1;GCA_023336095.1;GCA_023336165.1;GCA_023336255.1;GCA_023336285.1;GCA_023336295.1;GCA_023336345.1;GCA_023336355.1;GCA_023336445.1;GCA_023337495.1;GCA_023337545.1;GCA_023337575.1;GCA_023337615.1;GCA_023337735.1;GCA_023337755.1;GCA_023337775.1;GCA_023337875.1;GCA_023337915.1;GCA_027475705.1;GCA_027475725.1;GCA_038050625.1
+Pythium sukuiense	Y	GCA_023334995.1
+Pythium torulosum	N	
+Pythium utonaiense	Y	GCA_023334595.1
+Pythium vanterpoolii	Y	GCA_023334535.1
+Pythium violae	N	
+Pythium volutum	Y	GCA_023334575.1
+Radish mosaic virus	N	
+Ramularia coccinea	Y	GCA_013461505.1
+Ramularia collo-cygni	Y	GCF_900074925.1
+Ramularia deusta	N	
+Ramularia primulae	N	
+Ramularia tulasnei	N	
+Raspberry bushy dwarf virus	N	
+Raspberry ringspot virus	N	
+Raspberry vein chlorosis virus	N	
+Red clover necrotic mosaic virus	N	
+Rhizobium rhizogenes	N	
+Rhizoctonia solani	Y	GCF_016906535.1
+Rhizoctonia spp.	Y	GCF_016906535.1
+Rhizopus spp.	Y	GCA_000149305.1;GCA_000697035.1;GCA_024220505.1;GCA_025529335.1;GCF_002708625.1
+Rhizopus stolonifer	Y	GCA_000697035.1
+Rhytidhysteron rufulum	Y	GCA_000467735.1
+Ribgrass mosaic virus	N	
+Rice black streaked dwarf virus	N	
+Rice dwarf virus	N	
+Rice gall dwarf virus	N	
+Rice grassy stunt virus	N	
+Rice hoja blanca virus	N	
+Rice necrosis mosaic virus	N	
+Rice ragged stunt virus	N	
+Rice stripe virus	N	
+Rice transitory yellowing virus	N	
+Rice tungro spherical virus	N	
+Rice yellow mottle virus	N	
+Rosellinia necatrix	Y	GCA_021209875.1
+Rubus yellow net virus	N	
+Ryegrass mosaic virus	N	
+Saguaro cactus virus	N	
+Satsuma dwarf virus	N	
+Schizophyllum commune	Y	GCF_000143185.2
+Sclerotinia asari	N	
+Sclerotinia borealis	Y	GCA_000503235.1
+Sclerotinia minor	Y	GCA_025389075.1
+Sclerotinia narcissicola	N	
+Sclerotinia nivalis	Y	GCA_029531795.1
+Sclerotinia sclerotiorum	Y	GCF_000146945.2
+Sclerotinia spermophila	Y	GCA_038090695.1
+Sclerotinia spp.	Y	GCA_000503235.1;GCA_002162575.1;GCA_025389075.1;GCA_025389085.1;GCA_029531795.1;GCA_038090695.1;GCA_905066765.1;GCF_000146945.2
+Sclerotinia subarctica	Y	GCA_025389085.1
+Sclerotinia trifoliorum	Y	GCA_905066765.1
+Sclerotium cepivorum	N	
+Sclerotium rolfsii	N	
+Scrophularia mottle virus	N	
+Septocyta ruborum	N	
+Septoria chrysanthemi	N	
+Septoria dianthi	N	
+Septoria glycines	N	
+Septoria linicola	Y	GCA_024114885.1
+Septoria petroselini	Y	GCA_022559915.2
+Septoria spp.	Y	GCA_022559915.2;GCA_024114885.1
+Septoria verbenae	N	
+Shallot latent virus	N	
+Shallot virus X	N	
+Soil-borne wheat mosaic virus	N	
+Solanum nigrum ilarvirus 1	N	
+Solanum nodiflorum mottle virus	N	
+Sonchus yellow net virus	N	
+Sorghum mosaic virus	N	
+Southern bean mosaic virus	N	
+Sowbane mosaic virus	N	
+Sowthistle yellow vein virus	N	
+Soybean chlorotic mottle virus	N	
+Soybean dwarf virus	N	
+Soybean mosaic virus	N	
+Sphaceloma rosarum	N	
+Sphacelotheca reiliana	N	
+Sphaerotheca fuliginea	N	
+Sphaerotheca macularis	N	
+Sphaerotheca pannosa	N	
+Spinach latent virus	N	
+Spongospora subterranea	Y	GCA_900404475.1
+Squash leaf curl virus	N	
+Stemphylium beticola	Y	GCA_029100535.1
+Stemphylium lycopersici	Y	GCA_003268315.1
+Stemphylium spp.	Y	GCA_003268315.1;GCA_004380135.1;GCA_029100535.1
+Stemphylium vesicarium	Y	GCA_004380135.1
+Stereum hirsutum FP-91666 SS1	Y	GCF_000264905.1
+Stereum spp.	Y	GCF_000264905.1
+Strawberry crinkle virus	N	
+Strawberry latent ringspot virus	N	
+Strawberry necrotic shock virus	N	
+Strawberry vein banding virus	N	
+Streptomyces spp.	N	
+Stromatinia gladioli	N	
+Subterranean clover stunt virus	N	
+Sunn-hemp mosaic virus	N	
+Sweet clover necrotic mosaic virus	N	
+Sweet potato mild mottle virus	N	
+Taphrina betulina	Y	GCA_008802775.1
+Taphrina communis	Y	GCA_005281525.1
+Taphrina confusa	Y	GCA_005281535.1
+Taphrina deformans	Y	GCA_005281575.1
+Taphrina flavorubra JCM 22207	Y	GCA_000836175.1
+Taphrina populina JCM 22190	Y	GCA_000836195.1
+Taphrina spp.	Y	GCA_000836175.1;GCA_000836195.1;GCA_004000165.1;GCA_005281515.1;GCA_005281525.1;GCA_005281535.1;GCA_005281575.1;GCA_005281585.1;GCA_008802775.1
+Taphrina wiesneri	Y	GCA_005281515.1
+Tea plant line pattern virus	N	
+Thielaviopsis ethacetica	Y	GCA_001599055.1
+Thielaviopsis musarum	Y	GCA_001513885.1
+Thielaviopsis punctulata	Y	GCA_036034705.1
+Thielaviopsis spp.	Y	GCA_001513885.1;GCA_001599055.1;GCA_001599615.1;GCA_016859225.1;GCA_017591655.1;GCA_036034705.1
+Tobacco etch virus	N	
+Tobacco leaf curl virus	N	
+Tobacco mild green mosaic virus	N	
+Tobacco mosaic virus	N	
+Tobacco mosaic virus Â	N	
+Tobacco necrosis virus	N	
+Tobacco rattle virus	N	
+Tobacco ringspot virus	N	
+Tobacco streak virus	N	
+Tobacco vein mottling virus	N	
+Tobacco yellow dwarf virus	N	
+Tomato aspermy virus	N	
+Tomato black ring virus	N	
+Tomato bushy stunt virus	N	
+Tomato golden mosaic virus	N	
+Tomato ilarvirus 1	N	
+Tomato mosaic virus	N	
+Tomato necrotic streak virus	N	
+Tomato pseudo-curly top virus	N	
+Tomato ringspot virus	N	
+Tomato spotted wilt virus	N	
+Trametes gibbosa	Y	GCA_022606055.1
+Trametes hirsuta	Y	GCA_001302255.2
+Trametes pubescens	Y	GCA_001895945.1
+Trametes versicolor	Y	GCF_000271585.1
+Trametes versicolor FP-101664 SS1	Y	GCF_000271585.1
+Tranzschelia discolor	N	
+Trichoderma asperellum	Y	GCF_003025105.1
+Tristeza virus	N	
+Tulare apple mosaic virus	N	
+Tulip breaking virus	N	
+Tulip virus X	N	
+Turnip crinkle virus	N	
+Turnip mosaic virus	N	
+Turnip rosette virus	N	
+Turnip yellow mosaic virus	N	
+Ullucus polerovirus 1	N	
+Uromyces phaseoli	N	
+Uromyces transversalis	N	
+Uromyces viciae-fabae	Y	GCA_000785685.1
+Ustilago maydis	N	
+Ustulina deusta	Y	GCA_023159155.1
+Velvet tobacco mottle virus	N	
+Venturia asperata	Y	GCA_003689335.1
+Venturia aucupariae	Y	GCA_003693225.1
+Venturia carpophila	Y	GCA_014858625.1
+Venturia effusa	Y	GCA_007735645.1
+Venturia inaequalis	N	
+Venturia nashicola	Y	GCA_004522665.1
+Venturia oleaginea	Y	GCA_013176395.1
+Venturia pirina	N	
+Venturia pyrina ICMP 11032	Y	GCA_000738655.1
+Verticillium albo-atrum	Y	GCA_002851705.1
+Verticillium alfalfae VaMs.102	Y	GCF_000150825.1
+Verticillium dahliae	Y	GCF_000150675.1
+Verticillium dahliae VdLs.17	Y	GCF_000150675.1
+Verticillium isaacii	Y	GCA_002851775.1
+Verticillium klebahnii	Y	GCA_002851715.1
+Verticillium longisporum	Y	GCA_019188255.1
+Verticillium nonalfalfae	Y	GCF_003724135.2
+Verticillium spp.	Y	GCA_000732205.1;GCA_002851675.1;GCA_002851705.1;GCA_002851715.1;GCA_002851755.1;GCA_002851775.1;GCA_019188255.1;GCF_000150675.1;GCF_000150825.1;GCF_003724135.2
+Verticillium zaregamsianum	Y	GCA_002851755.1
+Viola yellow mottle virus	N	
+Watermelon mosaic virus	N	
+Wheat spindle streak mosaic virus	N	
+Wheat streak mosaic virus	N	
+Wheat yellow dwarf virus	N	
+White clover mosaic virus	N	
+Wild cucumber mosaic virus	N	
+Wilsonomyces carpophilus	N	
+Wineberry latent virus	N	
+Wound tumor virus	N	
+X-disease	N	
+Xanthamonas campestris	N	
+Xanthamonas fragariae	N	
+Xanthomonas campestris	N	
+Xanthomonas fragariae	N	
+Xanthomonas spp.	N	
+Xylella fastidiosa	N	
+Yam mosaic virus	N	
+Zucchini yellow mosaic virus	N	
+Zythia fragariae	N	
+cherry leaf roll virus	N	
+na	N	
+rose ilarvirus 2	N	
+water chestnut virus A	N	
