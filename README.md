@@ -7,18 +7,17 @@ Evo2 is a genomic model trained on biological sequence data. Here, I am checking
 The program writes two result files:
 
 ```text
-# Y = found in evo2_eukaryotic_dataset.txt; N = not found.
-# Assembly_IDs contains matching Evo2 assembly IDs when Y; N rows leave it blank.
-# Assembly_IDs	Pathogen	Y/N
+# Y = plant pathogen match in evo2_eukaryotic_dataset.txt; N = no plant pathogen match.
+# Assembly_ID Species_Name Y/N
 
 
-GCA_017744915.1;GCF_000834635.1	Agrobacterium tumefaciens	Y
-	Alternaria alternata	N
+GCA_017744915.1 Agrobacterium tumefaciens Y
+GCA_000002315.5 Aspergillus fumigatus N
 ```
 
-`Y` means the pathogen appears to match an organism in the source file named in the output header.
-`N` means the pathogen was not found.
-The leftmost `Assembly_IDs` column lists the matching Evo2 assembly ID or IDs for `Y` rows. `N` rows leave that column blank.
+`Y` means the Evo2 organism appears to match a plant pathogen name.
+`N` means the Evo2 organism did not match the plant pathogen list.
+Every row starts with the Evo2 assembly ID, followed by the species name and `Y` or `N`.
 
 ## What It Does
 
@@ -29,7 +28,7 @@ It runs two comparisons:
 1. The UC IPM names plus `combined_plant_pathogen_list.txt` are checked against `evo2_eukaryotic_dataset.txt`.
 2. The same UC IPM names plus `combined_plant_pathogen_list.txt` are checked against `evo2_full_training_dataset.txt`.
 
-Each output row contains the matching Evo2 assembly ID or IDs, the pathogen name, and `Y` or `N`. Rows with no match leave the leftmost assembly-ID column blank.
+Each output row contains the Evo2 assembly ID, the species name, and `Y` or `N`.
 
 ## Files
 
@@ -38,7 +37,7 @@ Each output row contains the matching Evo2 assembly ID or IDs, the pathogen name
 - `evo2_eukaryotic_dataset.txt` - eukaryotic organism dataset from Evo2
 - `evo2_full_training_dataset.txt` - full Evo2 training dataset used for comparison
 - `plant_pathogens_vs._eukaryotes_evo2` - UC IPM plus local pathogen names checked against `evo2_eukaryotic_dataset.txt`
-- `plant_pathogen_vs._entire_evo2` - UC IPM plus local pathogen names checked against `evo2_full_training_dataset.txt`
+- `plant_pathogens_vs._entire_evo2` - UC IPM plus local pathogen names checked against `evo2_full_training_dataset.txt`
 
 ## How To Run
 
@@ -54,7 +53,7 @@ This creates:
 
 ```text
 plant_pathogens_vs._eukaryotes_evo2
-plant_pathogen_vs._entire_evo2
+plant_pathogens_vs._entire_evo2
 ```
 
 The script will:

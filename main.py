@@ -21,7 +21,7 @@ DEFAULT_COMBINED_PATHOGEN_FILE = Path("combined_plant_pathogen_list.txt")
 DEFAULT_EUKARYOTIC_PATHOGEN_FILE = Path("evo2_eukaryotic_dataset.txt")
 DEFAULT_EVO2_TRAINING_FILE = Path("evo2_full_training_dataset.txt")
 DEFAULT_EUKARYOTIC_OUTPUT_FILE = Path("plant_pathogens_vs._eukaryotes_evo2")
-DEFAULT_ENTIRE_EVO2_OUTPUT_FILE = Path("plant_pathogen_vs._entire_evo2")
+DEFAULT_ENTIRE_EVO2_OUTPUT_FILE = Path("plant_pathogens_vs._entire_evo2")
 
 # Names from the UC IPM table that are not actual organisms.
 SKIP_NAMES = {"", "none", "unknown", "various"}
@@ -280,18 +280,15 @@ def matching_assembly_ids(pathogen_name, normalized_evo2_names, main_evo2_names,
     return matches
 
 
-def write_output_file(matches, output_path, source_name):
+def write_output_file(evo2_organisms, matching_assembly_ids, output_path, source_name):
     """Write the Y/N result file."""
     with output_path.open("w", encoding="utf-8", newline="\n") as file:
-        file.write(f"# Y = found in {source_name}; N = not found.\n")
-        file.write("# Assembly_IDs contains matching Evo2 assembly IDs when Y; N rows leave it blank.\n")
-        file.write("# Assembly_IDs\tPathogen\tY/N\n\n\n")
+        file.write(f"# Y = plant pathogen match in {source_name}; N = no plant pathogen match.\n")
+        file.write("# Assembly_ID Species_Name Y/N\n\n\n")
 
-        for pathogen in sorted(matches):
-            assembly_ids = matches[pathogen]
-            status = "Y" if assembly_ids else "N"
-            assembly_id_text = ";".join(sorted(assembly_id for assembly_id in assembly_ids if assembly_id))
-            file.write(f"{assembly_id_text}\t{pathogen}\t{status}\n")
+        for organism in sorted(evo2_organisms, key=lambda row: (row.species_name, row.assembly_id)):
+            status = "Y" if organism.assembly_id in matching_assembly_ids else "N"
+            file.write(f"{organism.assembly_id} {organism.species_name} {status}\n")
 
 
 def get_command_line_args():
@@ -347,7 +344,7 @@ def combined_pathogen_names(url, combined_pathogens_path):
     return list(dict.fromkeys(pathogens + extra_pathogens))
 
 
-def write_matches_for_names(pathogen_names, lookup_maps, output_path, source_name):
+def write_matches_for_names(pathogen_names, evo2_organisms, lookup_maps, output_path, source_name):
     """Make one result file."""
     assembly_names, assembly_main_names, assembly_genera = lookup_maps
     matches = {}
@@ -360,12 +357,19 @@ def write_matches_for_names(pathogen_names, lookup_maps, output_path, source_nam
                 assembly_genera,
             )
 
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    write_output_file(matches, output_path, source_name)
+    matched_assembly_ids = {
+        assembly_id
+        for assembly_ids in matches.values()
+        for assembly_id in assembly_ids
+        if assembly_id
+    }
 
-    yes_count = sum(bool(assembly_ids) for assembly_ids in matches.values())
-    no_count = sum(not assembly_ids for assembly_ids in matches.values())
-    print(f"Wrote {len(matches)} pathogen results to {output_path}")
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    write_output_file(evo2_organisms, matched_assembly_ids, output_path, source_name)
+
+    yes_count = sum(organism.assembly_id in matched_assembly_ids for organism in evo2_organisms)
+    no_count = len(evo2_organisms) - yes_count
+    print(f"Wrote {len(evo2_organisms)} assembly results to {output_path}")
     print(f"Y: {yes_count}")
     print(f"N: {no_count}")
     return matches
@@ -401,6 +405,7 @@ def main():
 
     write_matches_for_names(
         pathogen_names,
+        eukaryotic_rows,
         eukaryotic_lookup_maps,
         args.eukaryotic_output,
         args.eukaryotic_dataset.name,
@@ -408,6 +413,7 @@ def main():
 
     write_matches_for_names(
         pathogen_names,
+        evo2_rows,
         evo2_lookup_maps,
         args.entire_evo2_output,
         args.evo2_training_file.name,
