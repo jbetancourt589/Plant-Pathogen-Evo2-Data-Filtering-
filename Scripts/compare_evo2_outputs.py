@@ -1,13 +1,18 @@
 #!/usr/bin/env python3
 """
-Compare John-filtered and OpenGenome/Evo2-filtered FASTA files.
+Compare John-filtered and OpenGenome/Evo2-filtered FASTA files, then recreate
+an OpenGenome/Evo2-like FASTA from the original NCBI FASTA.
 
-This script uses only the Python standard library. It:
-- summarizes each FASTA file
-- compares John output to OpenGenome output
-- validates OpenGenome split/chunk records against the original FASTA
-- recreates an OpenGenome-like A/C/G/T-only chunk filter
-- compares the recreated FASTA to the actual OpenGenome FASTA
+This version is designed to reproduce the official OpenGenome2 FASTA exactly
+when the observed rules match this organism:
+- Split original contigs into continuous A/C/G/T-only chunks.
+- Treat any non-ACGT character, including N, as a break.
+- Keep chunks with length >= 10,000 bp.
+- Preserve original sequence case exactly.
+- Use 0-based half-open coordinates in recreated FASTA headers.
+- Write each sequence on one line, matching the uploaded OpenGenome2 formatting.
+
+Uses only the Python standard library.
 """
 
 import argparse
@@ -20,6 +25,7 @@ from pathlib import Path
 MIN_CHUNK_LENGTH = 10_000
 ACGT = {"A", "C", "G", "T"}
 SPLIT_ID_RE = re.compile(r"^(.+):(\d+)-(\d+)$")
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_ORIGINAL_PATH = PROJECT_ROOT / "Datasets" / "orginial_from_ncbi_GCA_000359685.2.fasta"
 DEFAULT_JOHN_PATH = PROJECT_ROOT / "Datasets" / "john_filtered_GCA_000359685.2.fasta"
@@ -104,7 +110,8 @@ def add_fasta_record(
     if record_id in records:
         raise ValueError(f"Duplicate FASTA record ID found: {record_id}")
 
-    sequence = "".join(sequence_lines).upper()
+    # Preserve original case exactly. Do not uppercase here.
+    sequence = "".join(sequence_lines)
     records[record_id] = FastaRecord(record_id=record_id, header=header, sequence=sequence)
 
 
@@ -112,10 +119,8 @@ def calculate_stats(records: dict[str, FastaRecord]) -> FastaStats:
     """Calculate basic FASTA statistics."""
     lengths = [len(record.sequence) for record in records.values()]
     total_bp = sum(lengths)
-    total_n_count = sum(record.sequence.count("N") for record in records.values())
-    total_non_acgt_count = sum(
-        count_non_acgt(record.sequence) for record in records.values()
-    )
+    total_n_count = sum(record.sequence.upper().count("N") for record in records.values())
+    total_non_acgt_count = sum(count_non_acgt(record.sequence) for record in records.values())
 
     if lengths:
         min_length = min(lengths)
@@ -139,11 +144,11 @@ def calculate_stats(records: dict[str, FastaRecord]) -> FastaStats:
 
 def count_non_acgt(sequence: str) -> int:
     """Count characters that are not A, C, G, or T. This includes N."""
-    return sum(1 for base in sequence.upper() if base not in ACGT)
+    return sum(1 for base in sequence if base.upper() not in ACGT)
 
 
 def parse_split_id(record_id: str) -> SplitId | None:
-    """Parse IDs like AOUM02000103.1:2471-24374."""
+    """Parse IDs like AOUM02000103.1:2470-24374."""
     match = SPLIT_ID_RE.match(record_id)
     if not match:
         return None
@@ -200,7 +205,7 @@ def validate_opengenome_chunks(
 
         original_record = original_records.get(split_id.original_contig)
         chunk_length = len(record.sequence)
-        contains_n = "N" in record.sequence
+        contains_n = "N" in record.sequence.upper()
         contains_non_acgt = count_non_acgt(record.sequence) > 0
 
         original_found = original_record is not None
@@ -250,18 +255,11 @@ def check_coordinate_match(
     if original_record is None:
         return {
             "coordinates_valid": False,
-            "expected_length": split_id.end - split_id.start + 1,
+            "expected_length": split_id.end - split_id.start,
             "sequence_matches_original": False,
             "coordinate_convention": "",
         }
 
-    one_based = coordinate_candidate(
-        original_record.sequence,
-        split_id.start,
-        split_id.end,
-        chunk_sequence,
-        "1-based inclusive",
-    )
     zero_based = coordinate_candidate(
         original_record.sequence,
         split_id.start,
@@ -269,16 +267,23 @@ def check_coordinate_match(
         chunk_sequence,
         "0-based half-open",
     )
+    one_based = coordinate_candidate(
+        original_record.sequence,
+        split_id.start,
+        split_id.end,
+        chunk_sequence,
+        "1-based inclusive",
+    )
 
-    for candidate in [one_based, zero_based]:
+    for candidate in [zero_based, one_based]:
         if candidate["sequence_matches_original"]:
             return candidate
 
-    if one_based["coordinates_valid"]:
-        return one_based
     if zero_based["coordinates_valid"]:
         return zero_based
-    return one_based
+    if one_based["coordinates_valid"]:
+        return one_based
+    return zero_based
 
 
 def coordinate_candidate(
@@ -313,12 +318,13 @@ def recreate_opengenome_like_records(
     """Split original records into continuous A/C/G/T-only chunks."""
     recreated_records: dict[str, FastaRecord] = {}
 
+    # Dict insertion order preserves the original FASTA record order in Python 3.7+.
     for original_id, original_record in original_records.items():
         sequence = original_record.sequence
         chunk_start_index = None
 
         for index, base in enumerate(sequence):
-            if base in ACGT:
+            if base.upper() in ACGT:
                 if chunk_start_index is None:
                     chunk_start_index = index
             elif chunk_start_index is not None:
@@ -358,10 +364,13 @@ def add_recreated_chunk(
     if chunk_length < min_chunk_length:
         return
 
-    start_coordinate = start_index + 1
+    # OpenGenome/Evo2 uses 0-based half-open coordinates: start is included, end is excluded.
+    start_coordinate = start_index
     end_coordinate = end_index + 1
+
     record_id = f"{original_id}:{start_coordinate}-{end_coordinate}"
     chunk_sequence = sequence[start_index : end_index + 1]
+
     recreated_records[record_id] = FastaRecord(
         record_id=record_id,
         header=record_id,
@@ -370,12 +379,11 @@ def add_recreated_chunk(
 
 
 def write_fasta(records: dict[str, FastaRecord], path: Path) -> None:
-    """Write records to a FASTA file with 80 bases per line."""
+    """Write records to a FASTA file with one sequence line per record."""
     with path.open("w", encoding="utf-8", newline="\n") as output_file:
         for record in records.values():
             output_file.write(f">{record.header}\n")
-            for start in range(0, len(record.sequence), 80):
-                output_file.write(record.sequence[start : start + 80] + "\n")
+            output_file.write(record.sequence + "\n")
 
 
 def write_comparison_report(
@@ -551,9 +559,7 @@ def write_summary(
         summary_file.write(f"  N count: {john_stats.total_n_count}\n")
         summary_file.write(boolean_line("OpenGenome/Evo2 contains N bases", opengenome_stats.total_n_count > 0))
         summary_file.write(f"  N count: {opengenome_stats.total_n_count}\n")
-        summary_file.write(
-            f"- John non-ACGT count, including N: {john_stats.total_non_acgt_count}\n"
-        )
+        summary_file.write(f"- John non-ACGT count, including N: {john_stats.total_non_acgt_count}\n")
         summary_file.write(
             "- OpenGenome/Evo2 non-ACGT count, including N: "
             f"{opengenome_stats.total_non_acgt_count}\n\n"
@@ -565,9 +571,7 @@ def write_summary(
             "- Split records matching the original NCBI subsequence exactly: "
             f"{split_records_matching_original} of {split_records}\n"
         )
-        summary_file.write(
-            f"- Split records containing non-ACGT characters: {split_records_with_non_acgt}\n"
-        )
+        summary_file.write(f"- Split records containing non-ACGT characters: {split_records_with_non_acgt}\n")
         summary_file.write(f"- Coordinate convention observed: {coordinate_conventions}\n")
         summary_file.write(
             boolean_line(
@@ -578,29 +582,30 @@ def write_summary(
         summary_file.write("\n")
 
         summary_file.write("Recreated OpenGenome-like comparison\n")
-        summary_file.write(
-            f"- Exact matching record IDs: {len(recreated_vs_opengenome['shared_ids'])}\n"
-        )
+        summary_file.write(f"- Exact matching record IDs: {len(recreated_vs_opengenome['shared_ids'])}\n")
         summary_file.write(
             "- Exact matching sequences among matching IDs: "
             f"{len(recreated_vs_opengenome['matching_sequences'])}\n"
         )
         summary_file.write(f"- Records missing from recreated output: {recreated_missing}\n")
         summary_file.write(f"- Extra records in recreated output: {recreated_extra}\n")
-        summary_file.write(
-            f"- Sequence mismatches where IDs match: {recreated_mismatches}\n"
-        )
+        summary_file.write(f"- Sequence mismatches where IDs match: {recreated_mismatches}\n")
         summary_file.write(
             boolean_line(
                 "Recreated OpenGenome-like filtering matches the actual OpenGenome/Evo2 file",
                 recreated_matches_actual,
             )
         )
-        summary_file.write(
-            "- Note: recreated chunk names use the requested 1-based inclusive coordinates. "
-            "If the actual OpenGenome/Evo2 file uses a different coordinate convention, "
-            "record IDs can differ even when chunk sequences and total bp agree.\n"
-        )
+
+        if recreated_matches_actual:
+            summary_file.write(
+                "- SUCCESS: Recreated OpenGenome/Evo2 output exactly at the record and sequence level.\n"
+            )
+        else:
+            summary_file.write(
+                "- NOT EXACT: Recreated output differs from OpenGenome/Evo2 output. "
+                "Check comparison_report.csv for missing, extra, or mismatched records.\n"
+            )
 
 
 def write_stats_line(summary_file, label: str, stats: FastaStats) -> None:
@@ -730,6 +735,15 @@ def main() -> None:
     print(f"Wrote comparison report: {comparison_report_path}")
     print(f"Wrote chunk validation: {chunk_validation_path}")
     print(f"Wrote recreated FASTA: {recreated_fasta_path}")
+
+    if (
+        len(recreated_vs_opengenome["only_left"]) == 0
+        and len(recreated_vs_opengenome["only_right"]) == 0
+        and len(recreated_vs_opengenome["sequence_mismatches"]) == 0
+    ):
+        print("SUCCESS: Recreated OpenGenome/Evo2 output exactly at the record and sequence level.")
+    else:
+        print("NOT EXACT: Recreated output differs from OpenGenome/Evo2 output.")
 
 
 if __name__ == "__main__":

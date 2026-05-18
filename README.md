@@ -96,5 +96,5 @@ The script writes:
 - `Results/Evo2 Data Reproduction/opengenome_chunk_validation.csv` - validation of OpenGenome-style `contig:start-end` records against the original NCBI contigs
 - `Results/Evo2 Data Reproduction/recreated_opengenome_like.fasta` - recreated FASTA made by splitting original contigs into continuous A/C/G/T-only chunks of at least 10,000 bp
 
-The analysis asks whether OpenGenome/Evo2 differs from John's output because it splits original contigs around `N` or other non-ACGT bases, keeps only long A/C/G/T-only chunks, and names those chunks with 1-based inclusive coordinates.
+The analysis asks whether OpenGenome/Evo2 differs from John's output because it splits original contigs around `N` or other non-ACGT bases, keeps only long A/C/G/T-only chunks, and names those chunks with OpenGenome-style 0-based half-open coordinates.
 
