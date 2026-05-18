@@ -1,5 +1,5 @@
 [project]
-name = "plant-pathogen-genome-filtering"
+name = "plant-pathogen-evo2-data-processing"
 version = "0.1.0"
 requires-python = ">=3.14"
 dependencies = []

@@ -1,6 +1,6 @@
-# Plant Pathogen Genome Filtering
+# Plant Pathogen Evo2 Data Processing
 
-This project checks a plant-pathogen dataset against Evo2 organism datasets.
+This project processes plant-pathogen genome-related datasets and compares them with Evo2/OpenGenome data.
 
 Evo2 is a genomic model trained on biological sequence data. Here, I am checking which names from the plant-pathogen dataset show up in `evo2_eukaryotic_dataset.txt`, the eukaryotic organism list from the Evo2 dataset, and in `evo2_full_training_dataset.txt`, the full Evo2 training-organism list.
 
@@ -32,28 +32,29 @@ Each output row contains a plant-pathogen species name from the website plus `co
 
 ## Files
 
-- `main.py` - the Python script
-- `combined_plant_pathogen_list.txt` - local plant pathogen names added to the UC IPM website names
-- `evo2_eukaryotic_dataset.txt` - eukaryotic organism dataset from Evo2
-- `evo2_full_training_dataset.txt` - full Evo2 training dataset used for comparison
-- `plant_pathogens_vs._eukaryotes_evo2` - UC IPM plus local pathogen names checked against `evo2_eukaryotic_dataset.txt`
-- `plant_pathogen_vs._entire_evo2` - UC IPM plus local pathogen names checked against `evo2_full_training_dataset.txt`
+- `Scripts/compare_plant_pathogens_to_evo2.py` - compares plant-pathogen names against Evo2 organism datasets
+- `Scripts/compare_evo2_outputs.py` - compares John and OpenGenome/Evo2 FASTA filtering outputs
+- `Datasets/Plant Pathogen Preprocessing Datasets/combined_plant_pathogen_list.txt` - local plant pathogen names added to the UC IPM website names
+- `Datasets/Plant Pathogen Preprocessing Datasets/evo2_eukaryotic_dataset.txt` - eukaryotic organism dataset from Evo2
+- `Datasets/Plant Pathogen Preprocessing Datasets/evo2_full_training_dataset.txt` - full Evo2 training dataset used for comparison
+- `Results/Plant Pathogen Preprocessing Results/plant_pathogens_vs._eukaryotes_evo2` - UC IPM plus local pathogen names checked against `evo2_eukaryotic_dataset.txt`
+- `Results/Plant Pathogen Preprocessing Results/plant_pathogen_vs._entire_evo2` - UC IPM plus local pathogen names checked against `evo2_full_training_dataset.txt`
 
 ## How To Run
 
 From this project folder, run:
 
 ```powershell
-uv run python main.py
+uv run python Scripts/compare_plant_pathogens_to_evo2.py
 ```
 
-If Python is already installed and on your `PATH`, `python main.py` works too.
+If Python is already installed and on your `PATH`, `python Scripts/compare_plant_pathogens_to_evo2.py` works too.
 
 This creates:
 
 ```text
-plant_pathogens_vs._eukaryotes_evo2
-plant_pathogen_vs._entire_evo2
+Results/Plant Pathogen Preprocessing Results/plant_pathogens_vs._eukaryotes_evo2
+Results/Plant Pathogen Preprocessing Results/plant_pathogen_vs._entire_evo2
 ```
 
 The script will:
@@ -71,4 +72,29 @@ The script will:
 Plant pathogen names are downloaded from:
 
 https://ipm.ucanr.edu/PMG/diseases/diseaseslist.html
+
+## Evo2/OpenGenome Filtering Reproducibility Test
+
+This project also includes a reproducibility check for one organism/assembly where three FASTA files are available in `Datasets/`:
+
+- `Datasets/orginial_from_ncbi_GCA_000359685.2.fasta` - the original NCBI input FASTA
+- `Datasets/john_filtered_GCA_000359685.2.fasta` - John's filtered output FASTA
+- `Datasets/open_genome2_filtered_GCA_000359685.2.fasta` - the OpenGenome/Evo2 filtered output FASTA
+
+Run the comparison script from the project root:
+
+```powershell
+uv run python Scripts/compare_evo2_outputs.py
+```
+
+The script uses the three `Datasets/` FASTA files above by default and writes results to `Results/Evo2 Data Reproduction/`. You can still pass `--original`, `--john`, `--opengenome`, or `--outdir` if you want to compare different files.
+
+The script writes:
+
+- `Results/Evo2 Data Reproduction/summary.txt` - human-readable summary of record counts, base counts, N/non-ACGT content, split-record validation, and reproduction results
+- `Results/Evo2 Data Reproduction/comparison_report.csv` - record-level comparisons for John vs OpenGenome/Evo2 and recreated vs OpenGenome/Evo2
+- `Results/Evo2 Data Reproduction/opengenome_chunk_validation.csv` - validation of OpenGenome-style `contig:start-end` records against the original NCBI contigs
+- `Results/Evo2 Data Reproduction/recreated_opengenome_like.fasta` - recreated FASTA made by splitting original contigs into continuous A/C/G/T-only chunks of at least 10,000 bp
+
+The analysis asks whether OpenGenome/Evo2 differs from John's output because it splits original contigs around `N` or other non-ACGT bases, keeps only long A/C/G/T-only chunks, and names those chunks with 1-based inclusive coordinates.
 

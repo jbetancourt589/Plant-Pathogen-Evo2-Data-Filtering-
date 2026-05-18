@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Check plant pathogen names against the Evo2 eukaryotic dataset and full Evo2 list.
+Compare plant pathogen names against the Evo2 eukaryotic and full training datasets.
 
-RUN: python main.py
+RUN: python Scripts/compare_plant_pathogens_to_evo2.py
 """
 
 import argparse
@@ -17,11 +17,14 @@ from pathlib import Path
 
 
 UC_IPM_URL = "https://ipm.ucanr.edu/PMG/diseases/diseaseslist.html"
-DEFAULT_COMBINED_PATHOGEN_FILE = Path("combined_plant_pathogen_list.txt")
-DEFAULT_EUKARYOTIC_PATHOGEN_FILE = Path("evo2_eukaryotic_dataset.txt")
-DEFAULT_EVO2_TRAINING_FILE = Path("evo2_full_training_dataset.txt")
-DEFAULT_EUKARYOTIC_OUTPUT_FILE = Path("plant_pathogens_vs._eukaryotes_evo2")
-DEFAULT_ENTIRE_EVO2_OUTPUT_FILE = Path("plant_pathogen_vs._entire_evo2")
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PREPROCESSING_DATASETS_DIR = PROJECT_ROOT / "Datasets" / "Plant Pathogen Preprocessing Datasets"
+PREPROCESSING_RESULTS_DIR = PROJECT_ROOT / "Results" / "Plant Pathogen Preprocessing Results"
+DEFAULT_COMBINED_PATHOGEN_FILE = PREPROCESSING_DATASETS_DIR / "combined_plant_pathogen_list.txt"
+DEFAULT_EUKARYOTIC_PATHOGEN_FILE = PREPROCESSING_DATASETS_DIR / "evo2_eukaryotic_dataset.txt"
+DEFAULT_EVO2_TRAINING_FILE = PREPROCESSING_DATASETS_DIR / "evo2_full_training_dataset.txt"
+DEFAULT_EUKARYOTIC_OUTPUT_FILE = PREPROCESSING_RESULTS_DIR / "plant_pathogens_vs._eukaryotes_evo2"
+DEFAULT_ENTIRE_EVO2_OUTPUT_FILE = PREPROCESSING_RESULTS_DIR / "plant_pathogen_vs._entire_evo2"
 
 # Names from the UC IPM table that are not actual organisms.
 SKIP_NAMES = {"", "none", "unknown", "various"}

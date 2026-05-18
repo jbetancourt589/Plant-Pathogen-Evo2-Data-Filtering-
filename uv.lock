@@ -3,6 +3,6 @@ revision = 3
 requires-python = ">=3.14"
 
 [[package]]
-name = "plant-pathogen-genome-filtering"
+name = "plant-pathogen-evo2-data-processing"
 version = "0.1.0"
 source = { virtual = "." }
