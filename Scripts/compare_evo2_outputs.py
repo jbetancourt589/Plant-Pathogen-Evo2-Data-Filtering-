@@ -27,9 +27,10 @@ ACGT = {"A", "C", "G", "T"}
 SPLIT_ID_RE = re.compile(r"^(.+):(\d+)-(\d+)$")
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_ORIGINAL_PATH = PROJECT_ROOT / "Datasets" / "orginial_from_ncbi_GCA_000359685.2.fasta"
-DEFAULT_JOHN_PATH = PROJECT_ROOT / "Datasets" / "john_filtered_GCA_000359685.2.fasta"
-DEFAULT_OPENGENOME_PATH = PROJECT_ROOT / "Datasets" / "open_genome2_filtered_GCA_000359685.2.fasta"
+DEFAULT_DATASET_DIR = PROJECT_ROOT / "Datasets" / "Evo2 Data Reproduction 1"
+DEFAULT_ORIGINAL_PATH = DEFAULT_DATASET_DIR / "orginial_from_ncbi_GCA_000359685.2.fasta"
+DEFAULT_JOHN_PATH = DEFAULT_DATASET_DIR / "john_filtered_GCA_000359685.2.fasta"
+DEFAULT_OPENGENOME_PATH = DEFAULT_DATASET_DIR / "open_genome2_filtered_GCA_000359685.2.fasta"
 DEFAULT_OUTDIR = PROJECT_ROOT / "Results" / "Evo2 Data Reproduction"
 
 

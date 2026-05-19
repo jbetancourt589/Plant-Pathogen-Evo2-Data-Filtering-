@@ -1,0 +1,425 @@
+comparison,record_id,status,left_name,left_length,right_name,right_length,sequences_match,note
+john_vs_opengenome,AOUM02000001.1,only_in_john,john,1369792,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000001.1:0-1369792,only_in_opengenome,john,,opengenome,1369792,,missing from john
+john_vs_opengenome,AOUM02000002.1,only_in_john,john,1242686,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000002.1:0-1242686,only_in_opengenome,john,,opengenome,1242686,,missing from john
+john_vs_opengenome,AOUM02000003.1,only_in_john,john,1100242,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000003.1:0-65052,only_in_opengenome,john,,opengenome,65052,,missing from john
+john_vs_opengenome,AOUM02000003.1:65132-1100242,only_in_opengenome,john,,opengenome,1035110,,missing from john
+john_vs_opengenome,AOUM02000004.1,only_in_john,john,908392,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000004.1:0-908392,only_in_opengenome,john,,opengenome,908392,,missing from john
+john_vs_opengenome,AOUM02000005.1,only_in_john,john,873697,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000005.1:7475-873697,only_in_opengenome,john,,opengenome,866222,,missing from john
+john_vs_opengenome,AOUM02000006.1,only_in_john,john,856806,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000006.1:0-856806,only_in_opengenome,john,,opengenome,856806,,missing from john
+john_vs_opengenome,AOUM02000007.1,only_in_john,john,800219,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000007.1:0-800219,only_in_opengenome,john,,opengenome,800219,,missing from john
+john_vs_opengenome,AOUM02000008.1,only_in_john,john,789400,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000008.1:0-789400,only_in_opengenome,john,,opengenome,789400,,missing from john
+john_vs_opengenome,AOUM02000009.1,only_in_john,john,754770,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000009.1:0-754770,only_in_opengenome,john,,opengenome,754770,,missing from john
+john_vs_opengenome,AOUM02000010.1,only_in_john,john,748393,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000010.1:0-748393,only_in_opengenome,john,,opengenome,748393,,missing from john
+john_vs_opengenome,AOUM02000011.1,only_in_john,john,739237,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000011.1:0-739237,only_in_opengenome,john,,opengenome,739237,,missing from john
+john_vs_opengenome,AOUM02000012.1,only_in_john,john,714740,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000012.1:0-714740,only_in_opengenome,john,,opengenome,714740,,missing from john
+john_vs_opengenome,AOUM02000013.1,only_in_john,john,704243,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000013.1:0-704243,only_in_opengenome,john,,opengenome,704243,,missing from john
+john_vs_opengenome,AOUM02000014.1,only_in_john,john,695267,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000014.1:0-695267,only_in_opengenome,john,,opengenome,695267,,missing from john
+john_vs_opengenome,AOUM02000015.1,only_in_john,john,643131,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000015.1:0-643131,only_in_opengenome,john,,opengenome,643131,,missing from john
+john_vs_opengenome,AOUM02000016.1,only_in_john,john,624767,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000016.1:0-624767,only_in_opengenome,john,,opengenome,624767,,missing from john
+john_vs_opengenome,AOUM02000017.1,only_in_john,john,592339,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000017.1:0-592339,only_in_opengenome,john,,opengenome,592339,,missing from john
+john_vs_opengenome,AOUM02000018.1,only_in_john,john,559070,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000018.1:0-559070,only_in_opengenome,john,,opengenome,559070,,missing from john
+john_vs_opengenome,AOUM02000019.1,only_in_john,john,557292,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000019.1:0-298549,only_in_opengenome,john,,opengenome,298549,,missing from john
+john_vs_opengenome,AOUM02000019.1:299580-557292,only_in_opengenome,john,,opengenome,257712,,missing from john
+john_vs_opengenome,AOUM02000020.1,only_in_john,john,546136,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000020.1:0-387589,only_in_opengenome,john,,opengenome,387589,,missing from john
+john_vs_opengenome,AOUM02000020.1:387614-546136,only_in_opengenome,john,,opengenome,158522,,missing from john
+john_vs_opengenome,AOUM02000021.1,only_in_john,john,517113,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000021.1:0-517113,only_in_opengenome,john,,opengenome,517113,,missing from john
+john_vs_opengenome,AOUM02000022.1,only_in_john,john,510847,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000022.1:0-510847,only_in_opengenome,john,,opengenome,510847,,missing from john
+john_vs_opengenome,AOUM02000023.1,only_in_john,john,495509,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000023.1:0-495509,only_in_opengenome,john,,opengenome,495509,,missing from john
+john_vs_opengenome,AOUM02000024.1,only_in_john,john,481751,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000024.1:0-481751,only_in_opengenome,john,,opengenome,481751,,missing from john
+john_vs_opengenome,AOUM02000025.1,only_in_john,john,474138,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000025.1:0-474138,only_in_opengenome,john,,opengenome,474138,,missing from john
+john_vs_opengenome,AOUM02000026.1,only_in_john,john,469373,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000026.1:0-469373,only_in_opengenome,john,,opengenome,469373,,missing from john
+john_vs_opengenome,AOUM02000027.1,only_in_john,john,457153,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000027.1:0-457153,only_in_opengenome,john,,opengenome,457153,,missing from john
+john_vs_opengenome,AOUM02000028.1,only_in_john,john,446500,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000028.1:0-309398,only_in_opengenome,john,,opengenome,309398,,missing from john
+john_vs_opengenome,AOUM02000028.1:311442-446500,only_in_opengenome,john,,opengenome,135058,,missing from john
+john_vs_opengenome,AOUM02000029.1,only_in_john,john,442835,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000029.1:0-372254,only_in_opengenome,john,,opengenome,372254,,missing from john
+john_vs_opengenome,AOUM02000029.1:372279-442835,only_in_opengenome,john,,opengenome,70556,,missing from john
+john_vs_opengenome,AOUM02000030.1,only_in_john,john,423806,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000030.1:0-423806,only_in_opengenome,john,,opengenome,423806,,missing from john
+john_vs_opengenome,AOUM02000031.1,only_in_john,john,410943,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000031.1:0-410943,only_in_opengenome,john,,opengenome,410943,,missing from john
+john_vs_opengenome,AOUM02000032.1,only_in_john,john,401746,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000032.1:0-401746,only_in_opengenome,john,,opengenome,401746,,missing from john
+john_vs_opengenome,AOUM02000033.1,only_in_john,john,400341,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000033.1:0-400341,only_in_opengenome,john,,opengenome,400341,,missing from john
+john_vs_opengenome,AOUM02000034.1,only_in_john,john,398299,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000034.1:0-398299,only_in_opengenome,john,,opengenome,398299,,missing from john
+john_vs_opengenome,AOUM02000035.1,only_in_john,john,389690,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000035.1:0-389690,only_in_opengenome,john,,opengenome,389690,,missing from john
+john_vs_opengenome,AOUM02000036.1,only_in_john,john,382292,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000036.1:0-382292,only_in_opengenome,john,,opengenome,382292,,missing from john
+john_vs_opengenome,AOUM02000037.1,only_in_john,john,373356,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000037.1:0-373356,only_in_opengenome,john,,opengenome,373356,,missing from john
+john_vs_opengenome,AOUM02000038.1,only_in_john,john,367138,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000038.1:0-367138,only_in_opengenome,john,,opengenome,367138,,missing from john
+john_vs_opengenome,AOUM02000039.1,only_in_john,john,354817,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000039.1:0-354817,only_in_opengenome,john,,opengenome,354817,,missing from john
+john_vs_opengenome,AOUM02000040.1,only_in_john,john,353660,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000040.1:0-353660,only_in_opengenome,john,,opengenome,353660,,missing from john
+john_vs_opengenome,AOUM02000041.1,only_in_john,john,339415,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000041.1:0-339415,only_in_opengenome,john,,opengenome,339415,,missing from john
+john_vs_opengenome,AOUM02000042.1,only_in_john,john,311298,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000042.1:0-311298,only_in_opengenome,john,,opengenome,311298,,missing from john
+john_vs_opengenome,AOUM02000043.1,only_in_john,john,305852,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000043.1:0-305852,only_in_opengenome,john,,opengenome,305852,,missing from john
+john_vs_opengenome,AOUM02000044.1,only_in_john,john,299893,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000044.1:0-210412,only_in_opengenome,john,,opengenome,210412,,missing from john
+john_vs_opengenome,AOUM02000044.1:211104-299893,only_in_opengenome,john,,opengenome,88789,,missing from john
+john_vs_opengenome,AOUM02000045.1,only_in_john,john,299255,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000045.1:0-296612,only_in_opengenome,john,,opengenome,296612,,missing from john
+john_vs_opengenome,AOUM02000046.1,only_in_john,john,296290,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000046.1:8220-296290,only_in_opengenome,john,,opengenome,288070,,missing from john
+john_vs_opengenome,AOUM02000047.1,only_in_john,john,279923,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000047.1:0-12410,only_in_opengenome,john,,opengenome,12410,,missing from john
+john_vs_opengenome,AOUM02000047.1:14130-279923,only_in_opengenome,john,,opengenome,265793,,missing from john
+john_vs_opengenome,AOUM02000048.1,only_in_john,john,267834,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000048.1:0-267834,only_in_opengenome,john,,opengenome,267834,,missing from john
+john_vs_opengenome,AOUM02000049.1,only_in_john,john,267567,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000049.1:0-267567,only_in_opengenome,john,,opengenome,267567,,missing from john
+john_vs_opengenome,AOUM02000050.1,only_in_john,john,267449,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000050.1:0-267449,only_in_opengenome,john,,opengenome,267449,,missing from john
+john_vs_opengenome,AOUM02000051.1,only_in_john,john,262125,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000051.1:5953-262125,only_in_opengenome,john,,opengenome,256172,,missing from john
+john_vs_opengenome,AOUM02000052.1,only_in_john,john,252837,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000052.1:0-252837,only_in_opengenome,john,,opengenome,252837,,missing from john
+john_vs_opengenome,AOUM02000053.1,only_in_john,john,251300,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000053.1:0-251300,only_in_opengenome,john,,opengenome,251300,,missing from john
+john_vs_opengenome,AOUM02000054.1,only_in_john,john,228217,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000054.1:0-228217,only_in_opengenome,john,,opengenome,228217,,missing from john
+john_vs_opengenome,AOUM02000055.1,only_in_john,john,216537,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000055.1:0-216537,only_in_opengenome,john,,opengenome,216537,,missing from john
+john_vs_opengenome,AOUM02000056.1,only_in_john,john,213022,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000056.1:0-213022,only_in_opengenome,john,,opengenome,213022,,missing from john
+john_vs_opengenome,AOUM02000057.1,only_in_john,john,212867,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000057.1:0-212867,only_in_opengenome,john,,opengenome,212867,,missing from john
+john_vs_opengenome,AOUM02000058.1,only_in_john,john,212546,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000058.1:0-212546,only_in_opengenome,john,,opengenome,212546,,missing from john
+john_vs_opengenome,AOUM02000059.1,only_in_john,john,200272,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000059.1:0-200272,only_in_opengenome,john,,opengenome,200272,,missing from john
+john_vs_opengenome,AOUM02000060.1,only_in_john,john,198437,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000060.1:0-198437,only_in_opengenome,john,,opengenome,198437,,missing from john
+john_vs_opengenome,AOUM02000061.1,only_in_john,john,192697,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000061.1:0-192697,only_in_opengenome,john,,opengenome,192697,,missing from john
+john_vs_opengenome,AOUM02000062.1,only_in_john,john,188834,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000062.1:0-188834,only_in_opengenome,john,,opengenome,188834,,missing from john
+john_vs_opengenome,AOUM02000063.1,only_in_john,john,187880,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000063.1:0-187880,only_in_opengenome,john,,opengenome,187880,,missing from john
+john_vs_opengenome,AOUM02000064.1,only_in_john,john,185476,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000064.1:0-185476,only_in_opengenome,john,,opengenome,185476,,missing from john
+john_vs_opengenome,AOUM02000065.1,only_in_john,john,171060,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000065.1:0-171060,only_in_opengenome,john,,opengenome,171060,,missing from john
+john_vs_opengenome,AOUM02000066.1,only_in_john,john,170645,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000066.1:0-170645,only_in_opengenome,john,,opengenome,170645,,missing from john
+john_vs_opengenome,AOUM02000067.1,only_in_john,john,160199,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000067.1:0-160199,only_in_opengenome,john,,opengenome,160199,,missing from john
+john_vs_opengenome,AOUM02000068.1,only_in_john,john,150231,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000068.1:0-150231,only_in_opengenome,john,,opengenome,150231,,missing from john
+john_vs_opengenome,AOUM02000069.1,only_in_john,john,145620,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000069.1:0-145620,only_in_opengenome,john,,opengenome,145620,,missing from john
+john_vs_opengenome,AOUM02000070.1,only_in_john,john,143756,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000070.1:0-143756,only_in_opengenome,john,,opengenome,143756,,missing from john
+john_vs_opengenome,AOUM02000071.1,only_in_john,john,126994,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000071.1:0-126994,only_in_opengenome,john,,opengenome,126994,,missing from john
+john_vs_opengenome,AOUM02000072.1,only_in_john,john,126614,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000072.1:0-126614,only_in_opengenome,john,,opengenome,126614,,missing from john
+john_vs_opengenome,AOUM02000073.1,only_in_john,john,121990,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000073.1:0-121990,only_in_opengenome,john,,opengenome,121990,,missing from john
+john_vs_opengenome,AOUM02000074.1,only_in_john,john,117861,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000074.1:0-117861,only_in_opengenome,john,,opengenome,117861,,missing from john
+john_vs_opengenome,AOUM02000075.1,only_in_john,john,116528,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000075.1:0-116528,only_in_opengenome,john,,opengenome,116528,,missing from john
+john_vs_opengenome,AOUM02000076.1,only_in_john,john,114248,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000076.1:0-114248,only_in_opengenome,john,,opengenome,114248,,missing from john
+john_vs_opengenome,AOUM02000077.1,only_in_john,john,114049,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000077.1:0-114049,only_in_opengenome,john,,opengenome,114049,,missing from john
+john_vs_opengenome,AOUM02000078.1,only_in_john,john,113176,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000078.1:0-113176,only_in_opengenome,john,,opengenome,113176,,missing from john
+john_vs_opengenome,AOUM02000079.1,only_in_john,john,109880,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000079.1:0-109880,only_in_opengenome,john,,opengenome,109880,,missing from john
+john_vs_opengenome,AOUM02000080.1,only_in_john,john,110312,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000080.1:0-107547,only_in_opengenome,john,,opengenome,107547,,missing from john
+john_vs_opengenome,AOUM02000081.1,only_in_john,john,99355,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000081.1:0-99355,only_in_opengenome,john,,opengenome,99355,,missing from john
+john_vs_opengenome,AOUM02000082.1,only_in_john,john,98627,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000082.1:0-98627,only_in_opengenome,john,,opengenome,98627,,missing from john
+john_vs_opengenome,AOUM02000083.1,only_in_john,john,97957,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000083.1:0-97957,only_in_opengenome,john,,opengenome,97957,,missing from john
+john_vs_opengenome,AOUM02000084.1,only_in_john,john,93592,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000084.1:0-93592,only_in_opengenome,john,,opengenome,93592,,missing from john
+john_vs_opengenome,AOUM02000085.1,only_in_john,john,90573,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000085.1:0-90573,only_in_opengenome,john,,opengenome,90573,,missing from john
+john_vs_opengenome,AOUM02000086.1,only_in_john,john,88950,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000086.1:0-88950,only_in_opengenome,john,,opengenome,88950,,missing from john
+john_vs_opengenome,AOUM02000087.1,only_in_john,john,84474,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000087.1:0-84474,only_in_opengenome,john,,opengenome,84474,,missing from john
+john_vs_opengenome,AOUM02000088.1,only_in_john,john,84489,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000088.1:5401-84489,only_in_opengenome,john,,opengenome,79088,,missing from john
+john_vs_opengenome,AOUM02000089.1,only_in_john,john,78960,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000089.1:0-78960,only_in_opengenome,john,,opengenome,78960,,missing from john
+john_vs_opengenome,AOUM02000090.1,only_in_john,john,77848,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000090.1:5560-77848,only_in_opengenome,john,,opengenome,72288,,missing from john
+john_vs_opengenome,AOUM02000091.1,only_in_john,john,76852,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000091.1:0-76852,only_in_opengenome,john,,opengenome,76852,,missing from john
+john_vs_opengenome,AOUM02000092.1,only_in_john,john,74942,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000092.1:0-74942,only_in_opengenome,john,,opengenome,74942,,missing from john
+john_vs_opengenome,AOUM02000093.1,only_in_john,john,73557,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000093.1:0-73557,only_in_opengenome,john,,opengenome,73557,,missing from john
+john_vs_opengenome,AOUM02000094.1,only_in_john,john,72247,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000094.1:0-43721,only_in_opengenome,john,,opengenome,43721,,missing from john
+john_vs_opengenome,AOUM02000094.1:44204-72247,only_in_opengenome,john,,opengenome,28043,,missing from john
+john_vs_opengenome,AOUM02000095.1,only_in_john,john,71293,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000095.1:0-71293,only_in_opengenome,john,,opengenome,71293,,missing from john
+john_vs_opengenome,AOUM02000096.1,only_in_john,john,68887,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000096.1:0-68887,only_in_opengenome,john,,opengenome,68887,,missing from john
+john_vs_opengenome,AOUM02000097.1,only_in_john,john,68750,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000097.1:0-68750,only_in_opengenome,john,,opengenome,68750,,missing from john
+john_vs_opengenome,AOUM02000098.1,only_in_john,john,71560,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000098.1:0-52086,only_in_opengenome,john,,opengenome,52086,,missing from john
+john_vs_opengenome,AOUM02000098.1:54513-69938,only_in_opengenome,john,,opengenome,15425,,missing from john
+john_vs_opengenome,AOUM02000099.1,only_in_john,john,63386,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000099.1:0-63386,only_in_opengenome,john,,opengenome,63386,,missing from john
+john_vs_opengenome,AOUM02000100.1,only_in_john,john,60115,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000100.1:0-60115,only_in_opengenome,john,,opengenome,60115,,missing from john
+john_vs_opengenome,AOUM02000101.1,only_in_john,john,54437,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000101.1:0-54437,only_in_opengenome,john,,opengenome,54437,,missing from john
+john_vs_opengenome,AOUM02000102.1,only_in_john,john,52595,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000102.1:0-52595,only_in_opengenome,john,,opengenome,52595,,missing from john
+john_vs_opengenome,AOUM02000103.1:2471-24374,only_in_opengenome,john,,opengenome,21903,,missing from john
+john_vs_opengenome,AOUM02000103.1:27475-52829,only_in_opengenome,john,,opengenome,25354,,missing from john
+john_vs_opengenome,AOUM02000104.1,only_in_john,john,50563,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000104.1:0-50563,only_in_opengenome,john,,opengenome,50563,,missing from john
+john_vs_opengenome,AOUM02000105.1,only_in_john,john,49970,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000105.1:0-49970,only_in_opengenome,john,,opengenome,49970,,missing from john
+john_vs_opengenome,AOUM02000106.1,only_in_john,john,48555,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000106.1:0-48555,only_in_opengenome,john,,opengenome,48555,,missing from john
+john_vs_opengenome,AOUM02000107.1,only_in_john,john,49898,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000107.1:22434-49898,only_in_opengenome,john,,opengenome,27464,,missing from john
+john_vs_opengenome,AOUM02000107.1:7068-22409,only_in_opengenome,john,,opengenome,15341,,missing from john
+john_vs_opengenome,AOUM02000108.1:4101-49961,only_in_opengenome,john,,opengenome,45860,,missing from john
+john_vs_opengenome,AOUM02000109.1,only_in_john,john,46457,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000109.1:0-46457,only_in_opengenome,john,,opengenome,46457,,missing from john
+john_vs_opengenome,AOUM02000110.1,only_in_john,john,46415,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000110.1:0-46415,only_in_opengenome,john,,opengenome,46415,,missing from john
+john_vs_opengenome,AOUM02000111.1,only_in_john,john,44138,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000111.1:0-44138,only_in_opengenome,john,,opengenome,44138,,missing from john
+john_vs_opengenome,AOUM02000112.1,only_in_john,john,41549,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000112.1:0-41549,only_in_opengenome,john,,opengenome,41549,,missing from john
+john_vs_opengenome,AOUM02000113.1,only_in_john,john,41368,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000113.1:0-41368,only_in_opengenome,john,,opengenome,41368,,missing from john
+john_vs_opengenome,AOUM02000114.1,only_in_john,john,40519,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000114.1:0-17809,only_in_opengenome,john,,opengenome,17809,,missing from john
+john_vs_opengenome,AOUM02000114.1:17834-40519,only_in_opengenome,john,,opengenome,22685,,missing from john
+john_vs_opengenome,AOUM02000115.1,only_in_john,john,34716,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000115.1:0-34716,only_in_opengenome,john,,opengenome,34716,,missing from john
+john_vs_opengenome,AOUM02000116.1,only_in_john,john,30933,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000116.1:0-30933,only_in_opengenome,john,,opengenome,30933,,missing from john
+john_vs_opengenome,AOUM02000117.1,only_in_john,john,30122,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000117.1:0-30122,only_in_opengenome,john,,opengenome,30122,,missing from john
+john_vs_opengenome,AOUM02000118.1,only_in_john,john,28856,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000118.1:0-28856,only_in_opengenome,john,,opengenome,28856,,missing from john
+john_vs_opengenome,AOUM02000119.1,only_in_john,john,27982,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000119.1:0-27982,only_in_opengenome,john,,opengenome,27982,,missing from john
+john_vs_opengenome,AOUM02000120.1,only_in_john,john,26502,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000120.1:0-26502,only_in_opengenome,john,,opengenome,26502,,missing from john
+john_vs_opengenome,AOUM02000121.1,only_in_john,john,33212,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000121.1:0-33212,only_in_opengenome,john,,opengenome,33212,,missing from john
+john_vs_opengenome,AOUM02000122.1,only_in_john,john,23982,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000122.1:0-23982,only_in_opengenome,john,,opengenome,23982,,missing from john
+john_vs_opengenome,AOUM02000123.1,only_in_john,john,23142,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000123.1:0-23142,only_in_opengenome,john,,opengenome,23142,,missing from john
+john_vs_opengenome,AOUM02000124.1,only_in_john,john,22726,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000124.1:0-22726,only_in_opengenome,john,,opengenome,22726,,missing from john
+john_vs_opengenome,AOUM02000125.1,only_in_john,john,22421,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000125.1:0-22421,only_in_opengenome,john,,opengenome,22421,,missing from john
+john_vs_opengenome,AOUM02000126.1,only_in_john,john,21299,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000126.1:0-16125,only_in_opengenome,john,,opengenome,16125,,missing from john
+john_vs_opengenome,AOUM02000127.1,only_in_john,john,21269,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000127.1:0-21269,only_in_opengenome,john,,opengenome,21269,,missing from john
+john_vs_opengenome,AOUM02000128.1,only_in_john,john,18692,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000128.1:0-18692,only_in_opengenome,john,,opengenome,18692,,missing from john
+john_vs_opengenome,AOUM02000129.1,only_in_john,john,16028,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000129.1:0-16028,only_in_opengenome,john,,opengenome,16028,,missing from john
+john_vs_opengenome,AOUM02000130.1,only_in_john,john,15109,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000130.1:0-15109,only_in_opengenome,john,,opengenome,15109,,missing from john
+john_vs_opengenome,AOUM02000131.1,only_in_john,john,14108,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000131.1:0-14108,only_in_opengenome,john,,opengenome,14108,,missing from john
+john_vs_opengenome,AOUM02000133.1,only_in_john,john,12432,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000133.1:0-12432,only_in_opengenome,john,,opengenome,12432,,missing from john
+john_vs_opengenome,AOUM02000134.1,only_in_john,john,11093,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000134.1:0-11093,only_in_opengenome,john,,opengenome,11093,,missing from john
+john_vs_opengenome,AOUM02000135.1,only_in_john,john,10328,opengenome,,,missing from opengenome
+john_vs_opengenome,AOUM02000135.1:0-10328,only_in_opengenome,john,,opengenome,10328,,missing from john
+recreated_vs_opengenome,AOUM02000001.1:0-1369792,shared_id_matching_sequence,recreated,1369792,opengenome,1369792,True,
+recreated_vs_opengenome,AOUM02000002.1:0-1242686,shared_id_matching_sequence,recreated,1242686,opengenome,1242686,True,
+recreated_vs_opengenome,AOUM02000003.1:0-65052,shared_id_matching_sequence,recreated,65052,opengenome,65052,True,
+recreated_vs_opengenome,AOUM02000003.1:65132-1100242,shared_id_matching_sequence,recreated,1035110,opengenome,1035110,True,
+recreated_vs_opengenome,AOUM02000004.1:0-908392,shared_id_matching_sequence,recreated,908392,opengenome,908392,True,
+recreated_vs_opengenome,AOUM02000005.1:7475-873697,shared_id_matching_sequence,recreated,866222,opengenome,866222,True,
+recreated_vs_opengenome,AOUM02000006.1:0-856806,shared_id_matching_sequence,recreated,856806,opengenome,856806,True,
+recreated_vs_opengenome,AOUM02000007.1:0-800219,shared_id_matching_sequence,recreated,800219,opengenome,800219,True,
+recreated_vs_opengenome,AOUM02000008.1:0-789400,shared_id_matching_sequence,recreated,789400,opengenome,789400,True,
+recreated_vs_opengenome,AOUM02000009.1:0-754770,shared_id_matching_sequence,recreated,754770,opengenome,754770,True,
+recreated_vs_opengenome,AOUM02000010.1:0-748393,shared_id_matching_sequence,recreated,748393,opengenome,748393,True,
+recreated_vs_opengenome,AOUM02000011.1:0-739237,shared_id_matching_sequence,recreated,739237,opengenome,739237,True,
+recreated_vs_opengenome,AOUM02000012.1:0-714740,shared_id_matching_sequence,recreated,714740,opengenome,714740,True,
+recreated_vs_opengenome,AOUM02000013.1:0-704243,shared_id_matching_sequence,recreated,704243,opengenome,704243,True,
+recreated_vs_opengenome,AOUM02000014.1:0-695267,shared_id_matching_sequence,recreated,695267,opengenome,695267,True,
+recreated_vs_opengenome,AOUM02000015.1:0-643131,shared_id_matching_sequence,recreated,643131,opengenome,643131,True,
+recreated_vs_opengenome,AOUM02000016.1:0-624767,shared_id_matching_sequence,recreated,624767,opengenome,624767,True,
+recreated_vs_opengenome,AOUM02000017.1:0-592339,shared_id_matching_sequence,recreated,592339,opengenome,592339,True,
+recreated_vs_opengenome,AOUM02000018.1:0-559070,shared_id_matching_sequence,recreated,559070,opengenome,559070,True,
+recreated_vs_opengenome,AOUM02000019.1:0-298549,shared_id_matching_sequence,recreated,298549,opengenome,298549,True,
+recreated_vs_opengenome,AOUM02000019.1:299580-557292,shared_id_matching_sequence,recreated,257712,opengenome,257712,True,
+recreated_vs_opengenome,AOUM02000020.1:0-387589,shared_id_matching_sequence,recreated,387589,opengenome,387589,True,
+recreated_vs_opengenome,AOUM02000020.1:387614-546136,shared_id_matching_sequence,recreated,158522,opengenome,158522,True,
+recreated_vs_opengenome,AOUM02000021.1:0-517113,shared_id_matching_sequence,recreated,517113,opengenome,517113,True,
+recreated_vs_opengenome,AOUM02000022.1:0-510847,shared_id_matching_sequence,recreated,510847,opengenome,510847,True,
+recreated_vs_opengenome,AOUM02000023.1:0-495509,shared_id_matching_sequence,recreated,495509,opengenome,495509,True,
+recreated_vs_opengenome,AOUM02000024.1:0-481751,shared_id_matching_sequence,recreated,481751,opengenome,481751,True,
+recreated_vs_opengenome,AOUM02000025.1:0-474138,shared_id_matching_sequence,recreated,474138,opengenome,474138,True,
+recreated_vs_opengenome,AOUM02000026.1:0-469373,shared_id_matching_sequence,recreated,469373,opengenome,469373,True,
+recreated_vs_opengenome,AOUM02000027.1:0-457153,shared_id_matching_sequence,recreated,457153,opengenome,457153,True,
+recreated_vs_opengenome,AOUM02000028.1:0-309398,shared_id_matching_sequence,recreated,309398,opengenome,309398,True,
+recreated_vs_opengenome,AOUM02000028.1:311442-446500,shared_id_matching_sequence,recreated,135058,opengenome,135058,True,
+recreated_vs_opengenome,AOUM02000029.1:0-372254,shared_id_matching_sequence,recreated,372254,opengenome,372254,True,
+recreated_vs_opengenome,AOUM02000029.1:372279-442835,shared_id_matching_sequence,recreated,70556,opengenome,70556,True,
+recreated_vs_opengenome,AOUM02000030.1:0-423806,shared_id_matching_sequence,recreated,423806,opengenome,423806,True,
+recreated_vs_opengenome,AOUM02000031.1:0-410943,shared_id_matching_sequence,recreated,410943,opengenome,410943,True,
+recreated_vs_opengenome,AOUM02000032.1:0-401746,shared_id_matching_sequence,recreated,401746,opengenome,401746,True,
+recreated_vs_opengenome,AOUM02000033.1:0-400341,shared_id_matching_sequence,recreated,400341,opengenome,400341,True,
+recreated_vs_opengenome,AOUM02000034.1:0-398299,shared_id_matching_sequence,recreated,398299,opengenome,398299,True,
+recreated_vs_opengenome,AOUM02000035.1:0-389690,shared_id_matching_sequence,recreated,389690,opengenome,389690,True,
+recreated_vs_opengenome,AOUM02000036.1:0-382292,shared_id_matching_sequence,recreated,382292,opengenome,382292,True,
+recreated_vs_opengenome,AOUM02000037.1:0-373356,shared_id_matching_sequence,recreated,373356,opengenome,373356,True,
+recreated_vs_opengenome,AOUM02000038.1:0-367138,shared_id_matching_sequence,recreated,367138,opengenome,367138,True,
+recreated_vs_opengenome,AOUM02000039.1:0-354817,shared_id_matching_sequence,recreated,354817,opengenome,354817,True,
+recreated_vs_opengenome,AOUM02000040.1:0-353660,shared_id_matching_sequence,recreated,353660,opengenome,353660,True,
+recreated_vs_opengenome,AOUM02000041.1:0-339415,shared_id_matching_sequence,recreated,339415,opengenome,339415,True,
+recreated_vs_opengenome,AOUM02000042.1:0-311298,shared_id_matching_sequence,recreated,311298,opengenome,311298,True,
+recreated_vs_opengenome,AOUM02000043.1:0-305852,shared_id_matching_sequence,recreated,305852,opengenome,305852,True,
+recreated_vs_opengenome,AOUM02000044.1:0-210412,shared_id_matching_sequence,recreated,210412,opengenome,210412,True,
+recreated_vs_opengenome,AOUM02000044.1:211104-299893,shared_id_matching_sequence,recreated,88789,opengenome,88789,True,
+recreated_vs_opengenome,AOUM02000045.1:0-296612,shared_id_matching_sequence,recreated,296612,opengenome,296612,True,
+recreated_vs_opengenome,AOUM02000046.1:8220-296290,shared_id_matching_sequence,recreated,288070,opengenome,288070,True,
+recreated_vs_opengenome,AOUM02000047.1:0-12410,shared_id_matching_sequence,recreated,12410,opengenome,12410,True,
+recreated_vs_opengenome,AOUM02000047.1:14130-279923,shared_id_matching_sequence,recreated,265793,opengenome,265793,True,
+recreated_vs_opengenome,AOUM02000048.1:0-267834,shared_id_matching_sequence,recreated,267834,opengenome,267834,True,
+recreated_vs_opengenome,AOUM02000049.1:0-267567,shared_id_matching_sequence,recreated,267567,opengenome,267567,True,
+recreated_vs_opengenome,AOUM02000050.1:0-267449,shared_id_matching_sequence,recreated,267449,opengenome,267449,True,
+recreated_vs_opengenome,AOUM02000051.1:5953-262125,shared_id_matching_sequence,recreated,256172,opengenome,256172,True,
+recreated_vs_opengenome,AOUM02000052.1:0-252837,shared_id_matching_sequence,recreated,252837,opengenome,252837,True,
+recreated_vs_opengenome,AOUM02000053.1:0-251300,shared_id_matching_sequence,recreated,251300,opengenome,251300,True,
+recreated_vs_opengenome,AOUM02000054.1:0-228217,shared_id_matching_sequence,recreated,228217,opengenome,228217,True,
+recreated_vs_opengenome,AOUM02000055.1:0-216537,shared_id_matching_sequence,recreated,216537,opengenome,216537,True,
+recreated_vs_opengenome,AOUM02000056.1:0-213022,shared_id_matching_sequence,recreated,213022,opengenome,213022,True,
+recreated_vs_opengenome,AOUM02000057.1:0-212867,shared_id_matching_sequence,recreated,212867,opengenome,212867,True,
+recreated_vs_opengenome,AOUM02000058.1:0-212546,shared_id_matching_sequence,recreated,212546,opengenome,212546,True,
+recreated_vs_opengenome,AOUM02000059.1:0-200272,shared_id_matching_sequence,recreated,200272,opengenome,200272,True,
+recreated_vs_opengenome,AOUM02000060.1:0-198437,shared_id_matching_sequence,recreated,198437,opengenome,198437,True,
+recreated_vs_opengenome,AOUM02000061.1:0-192697,shared_id_matching_sequence,recreated,192697,opengenome,192697,True,
+recreated_vs_opengenome,AOUM02000062.1:0-188834,shared_id_matching_sequence,recreated,188834,opengenome,188834,True,
+recreated_vs_opengenome,AOUM02000063.1:0-187880,shared_id_matching_sequence,recreated,187880,opengenome,187880,True,
+recreated_vs_opengenome,AOUM02000064.1:0-185476,shared_id_matching_sequence,recreated,185476,opengenome,185476,True,
+recreated_vs_opengenome,AOUM02000065.1:0-171060,shared_id_matching_sequence,recreated,171060,opengenome,171060,True,
+recreated_vs_opengenome,AOUM02000066.1:0-170645,shared_id_matching_sequence,recreated,170645,opengenome,170645,True,
+recreated_vs_opengenome,AOUM02000067.1:0-160199,shared_id_matching_sequence,recreated,160199,opengenome,160199,True,
+recreated_vs_opengenome,AOUM02000068.1:0-150231,shared_id_matching_sequence,recreated,150231,opengenome,150231,True,
+recreated_vs_opengenome,AOUM02000069.1:0-145620,shared_id_matching_sequence,recreated,145620,opengenome,145620,True,
+recreated_vs_opengenome,AOUM02000070.1:0-143756,shared_id_matching_sequence,recreated,143756,opengenome,143756,True,
+recreated_vs_opengenome,AOUM02000071.1:0-126994,shared_id_matching_sequence,recreated,126994,opengenome,126994,True,
+recreated_vs_opengenome,AOUM02000072.1:0-126614,shared_id_matching_sequence,recreated,126614,opengenome,126614,True,
+recreated_vs_opengenome,AOUM02000073.1:0-121990,shared_id_matching_sequence,recreated,121990,opengenome,121990,True,
+recreated_vs_opengenome,AOUM02000074.1:0-117861,shared_id_matching_sequence,recreated,117861,opengenome,117861,True,
+recreated_vs_opengenome,AOUM02000075.1:0-116528,shared_id_matching_sequence,recreated,116528,opengenome,116528,True,
+recreated_vs_opengenome,AOUM02000076.1:0-114248,shared_id_matching_sequence,recreated,114248,opengenome,114248,True,
+recreated_vs_opengenome,AOUM02000077.1:0-114049,shared_id_matching_sequence,recreated,114049,opengenome,114049,True,
+recreated_vs_opengenome,AOUM02000078.1:0-113176,shared_id_matching_sequence,recreated,113176,opengenome,113176,True,
+recreated_vs_opengenome,AOUM02000079.1:0-109880,shared_id_matching_sequence,recreated,109880,opengenome,109880,True,
+recreated_vs_opengenome,AOUM02000080.1:0-107547,shared_id_matching_sequence,recreated,107547,opengenome,107547,True,
+recreated_vs_opengenome,AOUM02000081.1:0-99355,shared_id_matching_sequence,recreated,99355,opengenome,99355,True,
+recreated_vs_opengenome,AOUM02000082.1:0-98627,shared_id_matching_sequence,recreated,98627,opengenome,98627,True,
+recreated_vs_opengenome,AOUM02000083.1:0-97957,shared_id_matching_sequence,recreated,97957,opengenome,97957,True,
+recreated_vs_opengenome,AOUM02000084.1:0-93592,shared_id_matching_sequence,recreated,93592,opengenome,93592,True,
+recreated_vs_opengenome,AOUM02000085.1:0-90573,shared_id_matching_sequence,recreated,90573,opengenome,90573,True,
+recreated_vs_opengenome,AOUM02000086.1:0-88950,shared_id_matching_sequence,recreated,88950,opengenome,88950,True,
+recreated_vs_opengenome,AOUM02000087.1:0-84474,shared_id_matching_sequence,recreated,84474,opengenome,84474,True,
+recreated_vs_opengenome,AOUM02000088.1:5401-84489,shared_id_matching_sequence,recreated,79088,opengenome,79088,True,
+recreated_vs_opengenome,AOUM02000089.1:0-78960,shared_id_matching_sequence,recreated,78960,opengenome,78960,True,
+recreated_vs_opengenome,AOUM02000090.1:5560-77848,shared_id_matching_sequence,recreated,72288,opengenome,72288,True,
+recreated_vs_opengenome,AOUM02000091.1:0-76852,shared_id_matching_sequence,recreated,76852,opengenome,76852,True,
+recreated_vs_opengenome,AOUM02000092.1:0-74942,shared_id_matching_sequence,recreated,74942,opengenome,74942,True,
+recreated_vs_opengenome,AOUM02000093.1:0-73557,shared_id_matching_sequence,recreated,73557,opengenome,73557,True,
+recreated_vs_opengenome,AOUM02000094.1:0-43721,shared_id_matching_sequence,recreated,43721,opengenome,43721,True,
+recreated_vs_opengenome,AOUM02000094.1:44204-72247,shared_id_matching_sequence,recreated,28043,opengenome,28043,True,
+recreated_vs_opengenome,AOUM02000095.1:0-71293,shared_id_matching_sequence,recreated,71293,opengenome,71293,True,
+recreated_vs_opengenome,AOUM02000096.1:0-68887,shared_id_matching_sequence,recreated,68887,opengenome,68887,True,
+recreated_vs_opengenome,AOUM02000097.1:0-68750,shared_id_matching_sequence,recreated,68750,opengenome,68750,True,
+recreated_vs_opengenome,AOUM02000098.1:0-52086,shared_id_matching_sequence,recreated,52086,opengenome,52086,True,
+recreated_vs_opengenome,AOUM02000098.1:54513-69938,shared_id_matching_sequence,recreated,15425,opengenome,15425,True,
+recreated_vs_opengenome,AOUM02000099.1:0-63386,shared_id_matching_sequence,recreated,63386,opengenome,63386,True,
+recreated_vs_opengenome,AOUM02000100.1:0-60115,shared_id_matching_sequence,recreated,60115,opengenome,60115,True,
+recreated_vs_opengenome,AOUM02000101.1:0-54437,shared_id_matching_sequence,recreated,54437,opengenome,54437,True,
+recreated_vs_opengenome,AOUM02000102.1:0-52595,shared_id_matching_sequence,recreated,52595,opengenome,52595,True,
+recreated_vs_opengenome,AOUM02000103.1:2471-24374,shared_id_matching_sequence,recreated,21903,opengenome,21903,True,
+recreated_vs_opengenome,AOUM02000103.1:27475-52829,shared_id_matching_sequence,recreated,25354,opengenome,25354,True,
+recreated_vs_opengenome,AOUM02000104.1:0-50563,shared_id_matching_sequence,recreated,50563,opengenome,50563,True,
+recreated_vs_opengenome,AOUM02000105.1:0-49970,shared_id_matching_sequence,recreated,49970,opengenome,49970,True,
+recreated_vs_opengenome,AOUM02000106.1:0-48555,shared_id_matching_sequence,recreated,48555,opengenome,48555,True,
+recreated_vs_opengenome,AOUM02000107.1:22434-49898,shared_id_matching_sequence,recreated,27464,opengenome,27464,True,
+recreated_vs_opengenome,AOUM02000107.1:7068-22409,shared_id_matching_sequence,recreated,15341,opengenome,15341,True,
+recreated_vs_opengenome,AOUM02000108.1:4101-49961,shared_id_matching_sequence,recreated,45860,opengenome,45860,True,
+recreated_vs_opengenome,AOUM02000109.1:0-46457,shared_id_matching_sequence,recreated,46457,opengenome,46457,True,
+recreated_vs_opengenome,AOUM02000110.1:0-46415,shared_id_matching_sequence,recreated,46415,opengenome,46415,True,
+recreated_vs_opengenome,AOUM02000111.1:0-44138,shared_id_matching_sequence,recreated,44138,opengenome,44138,True,
+recreated_vs_opengenome,AOUM02000112.1:0-41549,shared_id_matching_sequence,recreated,41549,opengenome,41549,True,
+recreated_vs_opengenome,AOUM02000113.1:0-41368,shared_id_matching_sequence,recreated,41368,opengenome,41368,True,
+recreated_vs_opengenome,AOUM02000114.1:0-17809,shared_id_matching_sequence,recreated,17809,opengenome,17809,True,
+recreated_vs_opengenome,AOUM02000114.1:17834-40519,shared_id_matching_sequence,recreated,22685,opengenome,22685,True,
+recreated_vs_opengenome,AOUM02000115.1:0-34716,shared_id_matching_sequence,recreated,34716,opengenome,34716,True,
+recreated_vs_opengenome,AOUM02000116.1:0-30933,shared_id_matching_sequence,recreated,30933,opengenome,30933,True,
+recreated_vs_opengenome,AOUM02000117.1:0-30122,shared_id_matching_sequence,recreated,30122,opengenome,30122,True,
+recreated_vs_opengenome,AOUM02000118.1:0-28856,shared_id_matching_sequence,recreated,28856,opengenome,28856,True,
+recreated_vs_opengenome,AOUM02000119.1:0-27982,shared_id_matching_sequence,recreated,27982,opengenome,27982,True,
+recreated_vs_opengenome,AOUM02000120.1:0-26502,shared_id_matching_sequence,recreated,26502,opengenome,26502,True,
+recreated_vs_opengenome,AOUM02000121.1:0-33212,shared_id_matching_sequence,recreated,33212,opengenome,33212,True,
+recreated_vs_opengenome,AOUM02000122.1:0-23982,shared_id_matching_sequence,recreated,23982,opengenome,23982,True,
+recreated_vs_opengenome,AOUM02000123.1:0-23142,shared_id_matching_sequence,recreated,23142,opengenome,23142,True,
+recreated_vs_opengenome,AOUM02000124.1:0-22726,shared_id_matching_sequence,recreated,22726,opengenome,22726,True,
+recreated_vs_opengenome,AOUM02000125.1:0-22421,shared_id_matching_sequence,recreated,22421,opengenome,22421,True,
+recreated_vs_opengenome,AOUM02000126.1:0-16125,shared_id_matching_sequence,recreated,16125,opengenome,16125,True,
+recreated_vs_opengenome,AOUM02000127.1:0-21269,shared_id_matching_sequence,recreated,21269,opengenome,21269,True,
+recreated_vs_opengenome,AOUM02000128.1:0-18692,shared_id_matching_sequence,recreated,18692,opengenome,18692,True,
+recreated_vs_opengenome,AOUM02000129.1:0-16028,shared_id_matching_sequence,recreated,16028,opengenome,16028,True,
+recreated_vs_opengenome,AOUM02000130.1:0-15109,shared_id_matching_sequence,recreated,15109,opengenome,15109,True,
+recreated_vs_opengenome,AOUM02000131.1:0-14108,shared_id_matching_sequence,recreated,14108,opengenome,14108,True,
+recreated_vs_opengenome,AOUM02000133.1:0-12432,shared_id_matching_sequence,recreated,12432,opengenome,12432,True,
+recreated_vs_opengenome,AOUM02000134.1:0-11093,shared_id_matching_sequence,recreated,11093,opengenome,11093,True,
+recreated_vs_opengenome,AOUM02000135.1:0-10328,shared_id_matching_sequence,recreated,10328,opengenome,10328,True,
