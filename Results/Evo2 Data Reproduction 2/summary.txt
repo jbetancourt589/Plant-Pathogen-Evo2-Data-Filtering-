@@ -1,0 +1,43 @@
+Evo2/OpenGenome Filtering Reproducibility Summary
+================================================
+
+Input files
+- Original NCBI FASTA: C:\Users\rfito\PycharmProjects\Plant-Pathogen-Genome-Filtering-\Datasets\Evo2 Data Reproduction 2\orginial_from_ncbi_GCA_038094095.1.fasta
+- John's filtered FASTA: C:\Users\rfito\PycharmProjects\Plant-Pathogen-Genome-Filtering-\Datasets\Evo2 Data Reproduction 2\john_filtered_GCA_038094095.1.fasta
+- OpenGenome/Evo2 filtered FASTA: C:\Users\rfito\PycharmProjects\Plant-Pathogen-Genome-Filtering-\Datasets\Evo2 Data Reproduction 2\open_genome2_filtered_GCA_038094095.1.fasta
+
+FASTA summary statistics
+- Original NCBI: records=79844, total_bp=69053481, N_count=299566, non_ACGT_count=299566, min_len=200, max_len=66503, mean_len=864.85
+- John filtered: records=725, total_bp=12118540, N_count=138791, non_ACGT_count=138791, min_len=10001, max_len=66503, mean_len=16715.23
+- OpenGenome/Evo2 filtered: records=434, total_bp=7128591, N_count=0, non_ACGT_count=0, min_len=10013, max_len=66503, mean_len=16425.32
+- Recreated OpenGenome-like: records=434, total_bp=7128591, N_count=0, non_ACGT_count=0, min_len=10013, max_len=66503, mean_len=16425.32
+
+John vs OpenGenome/Evo2
+- Records only in John: 350
+- Records only in OpenGenome/Evo2: 59
+- Records present in both: 375
+- Total bp difference (John minus OpenGenome/Evo2): 4989949
+
+N and non-ACGT content
+- John's output still contains N bases: YES
+  N count: 138791
+- OpenGenome/Evo2 contains N bases: NO
+  N count: 0
+- John non-ACGT count, including N: 138791
+- OpenGenome/Evo2 non-ACGT count, including N: 0
+
+OpenGenome/Evo2 chunk validation
+- OpenGenome-style split records detected: 434
+- Split records matching the original NCBI subsequence exactly: 434 of 434
+- Split records containing non-ACGT characters: 0
+- Coordinate convention observed: 0-based half-open=434
+- OpenGenome/Evo2 appears to split contigs around N/non-ACGT regions: YES
+
+Recreated OpenGenome-like comparison
+- Exact matching record IDs: 434
+- Exact matching sequences among matching IDs: 434
+- Records missing from recreated output: 0
+- Extra records in recreated output: 0
+- Sequence mismatches where IDs match: 0
+- Recreated OpenGenome-like filtering matches the actual OpenGenome/Evo2 file: YES
+- SUCCESS: Recreated OpenGenome/Evo2 output exactly at the record and sequence level.

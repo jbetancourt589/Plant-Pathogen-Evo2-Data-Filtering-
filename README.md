@@ -33,7 +33,8 @@ Each output row contains a plant-pathogen species name from the website plus `co
 ## Files
 
 - `Scripts/compare_plant_pathogens_to_evo2.py` - compares plant-pathogen names against Evo2 organism datasets
-- `Scripts/compare_evo2_outputs.py` - compares John and OpenGenome/Evo2 FASTA filtering outputs
+- `Scripts/Data Reproductions/compare_evo2_outputs_#1.py` - compares John and OpenGenome/Evo2 FASTA filtering outputs for reproduction set 1
+- `Scripts/Data Reproductions/compare_evo2_outputs_gtf.py` - compares OpenGenome/Evo2 FASTA output for the GTF/GFF reproduction dataset
 - `Datasets/Plant Pathogen Preprocessing Datasets/combined_plant_pathogen_list.txt` - local plant pathogen names added to the UC IPM website names
 - `Datasets/Plant Pathogen Preprocessing Datasets/evo2_eukaryotic_dataset.txt` - eukaryotic organism dataset from Evo2
 - `Datasets/Plant Pathogen Preprocessing Datasets/evo2_full_training_dataset.txt` - full Evo2 training dataset used for comparison
@@ -75,19 +76,35 @@ https://ipm.ucanr.edu/PMG/diseases/diseaseslist.html
 
 ## Evo2/OpenGenome Filtering Reproducibility Test
 
-This project also includes a reproducibility check for one organism/assembly where three FASTA files are available in `Datasets/`:
+This project also includes reproducibility checks for Evo2/OpenGenome-style FASTA filtering.
 
-- `Datasets/orginial_from_ncbi_GCA_000359685.2.fasta` - the original NCBI input FASTA
-- `Datasets/john_filtered_GCA_000359685.2.fasta` - John's filtered output FASTA
-- `Datasets/open_genome2_filtered_GCA_000359685.2.fasta` - the OpenGenome/Evo2 filtered output FASTA
+The comparison scripts recreate an OpenGenome/Evo2-like FASTA from the original NCBI FASTA, then compare that recreated file to the official OpenGenome/Evo2 output. The recreated FASTA is strict: only `A`, `C`, `G`, and `T` are kept. `N` and other ambiguity characters such as `R`, `Y`, `M`, `K`, `W`, `S`, `B`, `D`, `H`, and `V` are treated as break points and are not copied into the recreated output.
 
-Run the comparison script from the project root:
+Run the first comparison script from the project root:
 
 ```powershell
-uv run python Scripts/compare_evo2_outputs.py
+uv run python "Scripts/Data Reproductions/compare_evo2_outputs_#1.py"
 ```
 
-The script uses the three `Datasets/` FASTA files above by default and writes results to `Results/Evo2 Data Reproduction/`. You can still pass `--original`, `--john`, `--opengenome`, or `--outdir` if you want to compare different files.
+The scripts accept `--original`, `--john`, `--opengenome`, `--annotation`, and `--outdir`. The `--john` file is optional for datasets that do not have a John-filtered FASTA.
+
+### Optional GTF/GFF Annotation Precheck
+
+Before normal strict OpenGenome-style filtering, the comparison scripts now check whether a GTF/GFF annotation file is available.
+
+If no GTF/GFF file is provided or the path is missing, annotation filtering is skipped and the script continues with the old behavior:
+
+1. Read the original NCBI FASTA.
+2. Split each contig at every non-ACGT character.
+3. Keep only continuous A/C/G/T chunks at least 10,000 bp long.
+4. Name each kept chunk with 0-based half-open coordinates, such as `contig_id:2470-24374`.
+5. Compare the recreated FASTA to the official OpenGenome/Evo2 FASTA.
+
+If a GTF/GFF file is found, the script parses it first and removes only true centromere-region annotations before the normal strict filtering steps. A region is removed if the feature type is exactly `centromere` or if the attributes clearly mark the region itself as a centromere region. The script is conservative: it does not remove genes, transcripts, exons, CDS records, or proteins just because their names mention `centromere protein`, `centrosomal protein`, or `kinetochore protein`.
+
+When annotation filtering runs, the script also writes:
+
+- `annotation_filter_report.csv` - every parsed annotation row, whether it was selected for removal, the reason, and the number of base pairs removed
 
 The script writes:
 
@@ -97,4 +114,24 @@ The script writes:
 - `Results/Evo2 Data Reproduction/recreated_opengenome_like.fasta` - recreated FASTA made by splitting original contigs into continuous A/C/G/T-only chunks of at least 10,000 bp
 
 The analysis asks whether OpenGenome/Evo2 differs from John's output because it splits original contigs around `N` or other non-ACGT bases, keeps only long A/C/G/T-only chunks, and names those chunks with OpenGenome-style 0-based half-open coordinates.
+
+### GTF/GFF Dataset Script
+
+The GTF/GFF reproduction dataset can be run directly with:
+
+```powershell
+uv run python "Scripts/Data Reproductions/compare_evo2_outputs_gtf.py"
+```
+
+By default, this script uses:
+
+- `Datasets/Evo2 Data Reproduction with GTF File/original_yeast_from_NCBI_GCF_000313485.1.fasta`
+- `Datasets/Evo2 Data Reproduction with GTF File/open_genome2_filtered_GCF_000313485.1.fasta`
+- `Datasets/Evo2 Data Reproduction with GTF File/genomic.gtf`
+
+It writes results to:
+
+```text
+Results/Evo2 Data Reproduction with GTF/
+```
 

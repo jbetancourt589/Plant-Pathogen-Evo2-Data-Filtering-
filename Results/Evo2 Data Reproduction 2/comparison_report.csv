@@ -1,0 +1,1219 @@
+comparison,record_id,status,left_name,left_length,right_name,right_length,sequences_match,note
+john_vs_opengenome,JBBPTL010000001.1:0-66503,shared_id_matching_sequence,john,66503,opengenome,66503,True,
+john_vs_opengenome,JBBPTL010000002.1:0-64415,shared_id_matching_sequence,john,64415,opengenome,64415,True,
+john_vs_opengenome,JBBPTL010000003.1:0-62266,only_in_john,john,62266,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000003.1:38072-50382,only_in_opengenome,john,,opengenome,12310,,missing from john
+john_vs_opengenome,JBBPTL010000004.1:0-58420,only_in_john,john,58420,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000004.1:34875-53500,only_in_opengenome,john,,opengenome,18625,,missing from john
+john_vs_opengenome,JBBPTL010000005.1:0-54560,only_in_john,john,54560,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000005.1:1834-54560,only_in_opengenome,john,,opengenome,52726,,missing from john
+john_vs_opengenome,JBBPTL010000006.1:0-53454,shared_id_matching_sequence,john,53454,opengenome,53454,True,
+john_vs_opengenome,JBBPTL010000007.1:0-53113,shared_id_matching_sequence,john,53113,opengenome,53113,True,
+john_vs_opengenome,JBBPTL010000008.1:0-52418,only_in_john,john,52418,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000008.1:22449-34327,only_in_opengenome,john,,opengenome,11878,,missing from john
+john_vs_opengenome,JBBPTL010000008.1:3534-18885,only_in_opengenome,john,,opengenome,15351,,missing from john
+john_vs_opengenome,JBBPTL010000009.1:0-51236,shared_id_matching_sequence,john,51236,opengenome,51236,True,
+john_vs_opengenome,JBBPTL010000010.1:0-23373,only_in_opengenome,john,,opengenome,23373,,missing from john
+john_vs_opengenome,JBBPTL010000010.1:0-51011,only_in_john,john,51011,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000010.1:23383-51011,only_in_opengenome,john,,opengenome,27628,,missing from john
+john_vs_opengenome,JBBPTL010000011.1:0-50509,shared_id_matching_sequence,john,50509,opengenome,50509,True,
+john_vs_opengenome,JBBPTL010000012.1:0-15399,only_in_opengenome,john,,opengenome,15399,,missing from john
+john_vs_opengenome,JBBPTL010000012.1:0-48508,only_in_john,john,48508,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000012.1:15497-29270,only_in_opengenome,john,,opengenome,13773,,missing from john
+john_vs_opengenome,JBBPTL010000013.1:0-47959,shared_id_matching_sequence,john,47959,opengenome,47959,True,
+john_vs_opengenome,JBBPTL010000014.1:0-44122,shared_id_matching_sequence,john,44122,opengenome,44122,True,
+john_vs_opengenome,JBBPTL010000015.1:0-43462,only_in_john,john,43462,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000016.1:0-43432,shared_id_matching_sequence,john,43432,opengenome,43432,True,
+john_vs_opengenome,JBBPTL010000017.1:0-43431,shared_id_matching_sequence,john,43431,opengenome,43431,True,
+john_vs_opengenome,JBBPTL010000018.1:0-42879,shared_id_matching_sequence,john,42879,opengenome,42879,True,
+john_vs_opengenome,JBBPTL010000019.1:0-22067,only_in_opengenome,john,,opengenome,22067,,missing from john
+john_vs_opengenome,JBBPTL010000019.1:0-41621,only_in_john,john,41621,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000019.1:30185-41621,only_in_opengenome,john,,opengenome,11436,,missing from john
+john_vs_opengenome,JBBPTL010000020.1:0-40792,only_in_john,john,40792,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000020.1:3297-23385,only_in_opengenome,john,,opengenome,20088,,missing from john
+john_vs_opengenome,JBBPTL010000021.1:0-40739,only_in_john,john,40739,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000021.1:17215-34314,only_in_opengenome,john,,opengenome,17099,,missing from john
+john_vs_opengenome,JBBPTL010000022.1:0-39509,only_in_john,john,39509,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000022.1:2975-22507,only_in_opengenome,john,,opengenome,19532,,missing from john
+john_vs_opengenome,JBBPTL010000023.1:0-39166,shared_id_matching_sequence,john,39166,opengenome,39166,True,
+john_vs_opengenome,JBBPTL010000024.1:0-38862,shared_id_matching_sequence,john,38862,opengenome,38862,True,
+john_vs_opengenome,JBBPTL010000025.1:0-38827,shared_id_matching_sequence,john,38827,opengenome,38827,True,
+john_vs_opengenome,JBBPTL010000026.1:0-38597,shared_id_matching_sequence,john,38597,opengenome,38597,True,
+john_vs_opengenome,JBBPTL010000027.1:0-37394,only_in_john,john,37394,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000027.1:10292-25180,only_in_opengenome,john,,opengenome,14888,,missing from john
+john_vs_opengenome,JBBPTL010000028.1:0-37149,shared_id_matching_sequence,john,37149,opengenome,37149,True,
+john_vs_opengenome,JBBPTL010000029.1:0-16342,only_in_opengenome,john,,opengenome,16342,,missing from john
+john_vs_opengenome,JBBPTL010000029.1:0-37149,only_in_john,john,37149,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000029.1:16352-37149,only_in_opengenome,john,,opengenome,20797,,missing from john
+john_vs_opengenome,JBBPTL010000030.1:0-36461,shared_id_matching_sequence,john,36461,opengenome,36461,True,
+john_vs_opengenome,JBBPTL010000031.1:0-21445,only_in_opengenome,john,,opengenome,21445,,missing from john
+john_vs_opengenome,JBBPTL010000031.1:0-36221,only_in_john,john,36221,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000032.1:0-36113,shared_id_matching_sequence,john,36113,opengenome,36113,True,
+john_vs_opengenome,JBBPTL010000033.1:0-35335,shared_id_matching_sequence,john,35335,opengenome,35335,True,
+john_vs_opengenome,JBBPTL010000034.1:0-34954,shared_id_matching_sequence,john,34954,opengenome,34954,True,
+john_vs_opengenome,JBBPTL010000035.1:0-33820,only_in_john,john,33820,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000035.1:13901-26022,only_in_opengenome,john,,opengenome,12121,,missing from john
+john_vs_opengenome,JBBPTL010000036.1:0-33604,only_in_john,john,33604,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000037.1:0-33464,shared_id_matching_sequence,john,33464,opengenome,33464,True,
+john_vs_opengenome,JBBPTL010000038.1:0-33296,only_in_john,john,33296,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000039.1:0-33296,shared_id_matching_sequence,john,33296,opengenome,33296,True,
+john_vs_opengenome,JBBPTL010000040.1:0-33023,shared_id_matching_sequence,john,33023,opengenome,33023,True,
+john_vs_opengenome,JBBPTL010000041.1:0-32978,only_in_john,john,32978,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000042.1:0-32843,shared_id_matching_sequence,john,32843,opengenome,32843,True,
+john_vs_opengenome,JBBPTL010000043.1:0-32573,shared_id_matching_sequence,john,32573,opengenome,32573,True,
+john_vs_opengenome,JBBPTL010000044.1:0-32200,shared_id_matching_sequence,john,32200,opengenome,32200,True,
+john_vs_opengenome,JBBPTL010000045.1:0-32097,only_in_john,john,32097,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000045.1:20233-32097,only_in_opengenome,john,,opengenome,11864,,missing from john
+john_vs_opengenome,JBBPTL010000045.1:3056-20136,only_in_opengenome,john,,opengenome,17080,,missing from john
+john_vs_opengenome,JBBPTL010000046.1:0-22172,only_in_opengenome,john,,opengenome,22172,,missing from john
+john_vs_opengenome,JBBPTL010000046.1:0-32005,only_in_john,john,32005,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000047.1:0-31869,shared_id_matching_sequence,john,31869,opengenome,31869,True,
+john_vs_opengenome,JBBPTL010000048.1:0-31191,shared_id_matching_sequence,john,31191,opengenome,31191,True,
+john_vs_opengenome,JBBPTL010000049.1:0-31190,only_in_john,john,31190,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000049.1:14900-25420,only_in_opengenome,john,,opengenome,10520,,missing from john
+john_vs_opengenome,JBBPTL010000050.1:0-30926,only_in_john,john,30926,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000051.1:0-30538,shared_id_matching_sequence,john,30538,opengenome,30538,True,
+john_vs_opengenome,JBBPTL010000052.1:0-30493,shared_id_matching_sequence,john,30493,opengenome,30493,True,
+john_vs_opengenome,JBBPTL010000053.1:0-30400,only_in_john,john,30400,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000054.1:0-29271,shared_id_matching_sequence,john,29271,opengenome,29271,True,
+john_vs_opengenome,JBBPTL010000055.1:0-28989,only_in_john,john,28989,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000055.1:15418-27721,only_in_opengenome,john,,opengenome,12303,,missing from john
+john_vs_opengenome,JBBPTL010000055.1:1722-15320,only_in_opengenome,john,,opengenome,13598,,missing from john
+john_vs_opengenome,JBBPTL010000056.1:0-28553,only_in_john,john,28553,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000057.1:0-28541,only_in_john,john,28541,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000058.1:0-28184,only_in_john,john,28184,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000059.1:0-27995,only_in_john,john,27995,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000059.1:12684-27995,only_in_opengenome,john,,opengenome,15311,,missing from john
+john_vs_opengenome,JBBPTL010000060.1:0-27897,only_in_john,john,27897,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000060.1:2099-16141,only_in_opengenome,john,,opengenome,14042,,missing from john
+john_vs_opengenome,JBBPTL010000061.1:0-27685,only_in_john,john,27685,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000062.1:0-27173,shared_id_matching_sequence,john,27173,opengenome,27173,True,
+john_vs_opengenome,JBBPTL010000063.1:0-27140,only_in_john,john,27140,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000064.1:0-27109,shared_id_matching_sequence,john,27109,opengenome,27109,True,
+john_vs_opengenome,JBBPTL010000065.1:0-27021,shared_id_matching_sequence,john,27021,opengenome,27021,True,
+john_vs_opengenome,JBBPTL010000066.1:0-26915,shared_id_matching_sequence,john,26915,opengenome,26915,True,
+john_vs_opengenome,JBBPTL010000067.1:0-10475,only_in_opengenome,john,,opengenome,10475,,missing from john
+john_vs_opengenome,JBBPTL010000067.1:0-26909,only_in_john,john,26909,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000068.1:0-26833,shared_id_matching_sequence,john,26833,opengenome,26833,True,
+john_vs_opengenome,JBBPTL010000069.1:0-26509,shared_id_matching_sequence,john,26509,opengenome,26509,True,
+john_vs_opengenome,JBBPTL010000070.1:0-26378,only_in_john,john,26378,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000070.1:6068-21120,only_in_opengenome,john,,opengenome,15052,,missing from john
+john_vs_opengenome,JBBPTL010000071.1:0-21072,only_in_opengenome,john,,opengenome,21072,,missing from john
+john_vs_opengenome,JBBPTL010000071.1:0-26352,only_in_john,john,26352,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000072.1:0-26332,shared_id_matching_sequence,john,26332,opengenome,26332,True,
+john_vs_opengenome,JBBPTL010000073.1:0-26222,shared_id_matching_sequence,john,26222,opengenome,26222,True,
+john_vs_opengenome,JBBPTL010000074.1:0-26191,only_in_john,john,26191,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000075.1:0-26181,shared_id_matching_sequence,john,26181,opengenome,26181,True,
+john_vs_opengenome,JBBPTL010000076.1:0-26119,only_in_john,john,26119,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000077.1:0-26109,only_in_john,john,26109,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000078.1:0-26047,only_in_john,john,26047,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000078.1:8913-26047,only_in_opengenome,john,,opengenome,17134,,missing from john
+john_vs_opengenome,JBBPTL010000079.1:0-25949,shared_id_matching_sequence,john,25949,opengenome,25949,True,
+john_vs_opengenome,JBBPTL010000080.1:0-25844,only_in_john,john,25844,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000081.1:0-25802,only_in_john,john,25802,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000081.1:7301-23363,only_in_opengenome,john,,opengenome,16062,,missing from john
+john_vs_opengenome,JBBPTL010000082.1:0-25581,shared_id_matching_sequence,john,25581,opengenome,25581,True,
+john_vs_opengenome,JBBPTL010000083.1:0-25053,only_in_john,john,25053,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000084.1:0-24760,only_in_john,john,24760,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000085.1:0-24589,only_in_john,john,24589,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000086.1:0-24425,only_in_john,john,24425,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000087.1:0-23754,only_in_john,john,23754,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000088.1:0-23736,shared_id_matching_sequence,john,23736,opengenome,23736,True,
+john_vs_opengenome,JBBPTL010000089.1:0-23636,only_in_john,john,23636,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000090.1:0-23512,only_in_john,john,23512,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000091.1:0-23197,only_in_john,john,23197,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000092.1:0-23171,shared_id_matching_sequence,john,23171,opengenome,23171,True,
+john_vs_opengenome,JBBPTL010000093.1:0-23069,shared_id_matching_sequence,john,23069,opengenome,23069,True,
+john_vs_opengenome,JBBPTL010000094.1:0-23050,only_in_john,john,23050,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000095.1:0-23010,only_in_john,john,23010,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000095.1:6193-23010,only_in_opengenome,john,,opengenome,16817,,missing from john
+john_vs_opengenome,JBBPTL010000096.1:0-22956,only_in_john,john,22956,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000097.1:0-22830,shared_id_matching_sequence,john,22830,opengenome,22830,True,
+john_vs_opengenome,JBBPTL010000098.1:0-22742,only_in_john,john,22742,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000099.1:0-22714,only_in_john,john,22714,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000099.1:3216-17569,only_in_opengenome,john,,opengenome,14353,,missing from john
+john_vs_opengenome,JBBPTL010000100.1:0-15427,only_in_opengenome,john,,opengenome,15427,,missing from john
+john_vs_opengenome,JBBPTL010000100.1:0-22520,only_in_john,john,22520,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000101.1:0-22373,only_in_john,john,22373,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000101.1:9733-22373,only_in_opengenome,john,,opengenome,12640,,missing from john
+john_vs_opengenome,JBBPTL010000102.1:0-22326,shared_id_matching_sequence,john,22326,opengenome,22326,True,
+john_vs_opengenome,JBBPTL010000103.1:0-22263,shared_id_matching_sequence,john,22263,opengenome,22263,True,
+john_vs_opengenome,JBBPTL010000104.1:0-22158,shared_id_matching_sequence,john,22158,opengenome,22158,True,
+john_vs_opengenome,JBBPTL010000105.1:0-22102,shared_id_matching_sequence,john,22102,opengenome,22102,True,
+john_vs_opengenome,JBBPTL010000106.1:0-22056,shared_id_matching_sequence,john,22056,opengenome,22056,True,
+john_vs_opengenome,JBBPTL010000107.1:0-22012,only_in_john,john,22012,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000108.1:0-21914,only_in_john,john,21914,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000109.1:0-21636,only_in_john,john,21636,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000110.1:0-21607,shared_id_matching_sequence,john,21607,opengenome,21607,True,
+john_vs_opengenome,JBBPTL010000111.1:0-21582,only_in_john,john,21582,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000112.1:0-21531,only_in_john,john,21531,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000113.1:0-21521,only_in_john,john,21521,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000114.1:0-21503,shared_id_matching_sequence,john,21503,opengenome,21503,True,
+john_vs_opengenome,JBBPTL010000115.1:0-21408,only_in_john,john,21408,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000116.1:0-21405,shared_id_matching_sequence,john,21405,opengenome,21405,True,
+john_vs_opengenome,JBBPTL010000117.1:0-21339,only_in_john,john,21339,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000118.1:0-21337,shared_id_matching_sequence,john,21337,opengenome,21337,True,
+john_vs_opengenome,JBBPTL010000119.1:0-21330,only_in_john,john,21330,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000119.1:7523-21330,only_in_opengenome,john,,opengenome,13807,,missing from john
+john_vs_opengenome,JBBPTL010000120.1:0-21181,only_in_john,john,21181,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000121.1:0-21089,shared_id_matching_sequence,john,21089,opengenome,21089,True,
+john_vs_opengenome,JBBPTL010000122.1:0-21014,shared_id_matching_sequence,john,21014,opengenome,21014,True,
+john_vs_opengenome,JBBPTL010000123.1:0-20905,only_in_john,john,20905,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000124.1:0-20868,only_in_john,john,20868,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000124.1:1238-20868,only_in_opengenome,john,,opengenome,19630,,missing from john
+john_vs_opengenome,JBBPTL010000125.1:0-20860,shared_id_matching_sequence,john,20860,opengenome,20860,True,
+john_vs_opengenome,JBBPTL010000126.1:0-20737,only_in_john,john,20737,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000127.1:0-20689,shared_id_matching_sequence,john,20689,opengenome,20689,True,
+john_vs_opengenome,JBBPTL010000128.1:0-20595,shared_id_matching_sequence,john,20595,opengenome,20595,True,
+john_vs_opengenome,JBBPTL010000129.1:0-20588,only_in_john,john,20588,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000130.1:0-20588,shared_id_matching_sequence,john,20588,opengenome,20588,True,
+john_vs_opengenome,JBBPTL010000131.1:0-20549,shared_id_matching_sequence,john,20549,opengenome,20549,True,
+john_vs_opengenome,JBBPTL010000132.1:0-20427,shared_id_matching_sequence,john,20427,opengenome,20427,True,
+john_vs_opengenome,JBBPTL010000133.1:0-20415,only_in_john,john,20415,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000134.1:0-20405,shared_id_matching_sequence,john,20405,opengenome,20405,True,
+john_vs_opengenome,JBBPTL010000135.1:0-20360,shared_id_matching_sequence,john,20360,opengenome,20360,True,
+john_vs_opengenome,JBBPTL010000136.1:0-20220,shared_id_matching_sequence,john,20220,opengenome,20220,True,
+john_vs_opengenome,JBBPTL010000137.1:0-20085,shared_id_matching_sequence,john,20085,opengenome,20085,True,
+john_vs_opengenome,JBBPTL010000138.1:0-20070,only_in_john,john,20070,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000139.1:0-19969,only_in_john,john,19969,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000140.1:0-19948,only_in_john,john,19948,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000141.1:0-19897,shared_id_matching_sequence,john,19897,opengenome,19897,True,
+john_vs_opengenome,JBBPTL010000142.1:0-19896,only_in_john,john,19896,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000143.1:0-19872,only_in_john,john,19872,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000144.1:0-19843,shared_id_matching_sequence,john,19843,opengenome,19843,True,
+john_vs_opengenome,JBBPTL010000145.1:0-19803,shared_id_matching_sequence,john,19803,opengenome,19803,True,
+john_vs_opengenome,JBBPTL010000146.1:0-10473,only_in_opengenome,john,,opengenome,10473,,missing from john
+john_vs_opengenome,JBBPTL010000146.1:0-19782,only_in_john,john,19782,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000147.1:0-19703,shared_id_matching_sequence,john,19703,opengenome,19703,True,
+john_vs_opengenome,JBBPTL010000148.1:0-19694,shared_id_matching_sequence,john,19694,opengenome,19694,True,
+john_vs_opengenome,JBBPTL010000149.1:0-19656,shared_id_matching_sequence,john,19656,opengenome,19656,True,
+john_vs_opengenome,JBBPTL010000150.1:0-19650,shared_id_matching_sequence,john,19650,opengenome,19650,True,
+john_vs_opengenome,JBBPTL010000151.1:0-19584,only_in_john,john,19584,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000152.1:0-19450,shared_id_matching_sequence,john,19450,opengenome,19450,True,
+john_vs_opengenome,JBBPTL010000153.1:0-19397,shared_id_matching_sequence,john,19397,opengenome,19397,True,
+john_vs_opengenome,JBBPTL010000154.1:0-19297,only_in_john,john,19297,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000155.1:0-19204,shared_id_matching_sequence,john,19204,opengenome,19204,True,
+john_vs_opengenome,JBBPTL010000156.1:0-19043,shared_id_matching_sequence,john,19043,opengenome,19043,True,
+john_vs_opengenome,JBBPTL010000157.1:0-18950,only_in_john,john,18950,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000158.1:0-18950,only_in_john,john,18950,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000159.1:0-18926,only_in_john,john,18926,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000160.1:0-18787,shared_id_matching_sequence,john,18787,opengenome,18787,True,
+john_vs_opengenome,JBBPTL010000161.1:0-18782,only_in_john,john,18782,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000162.1:0-18775,shared_id_matching_sequence,john,18775,opengenome,18775,True,
+john_vs_opengenome,JBBPTL010000163.1:0-18752,only_in_john,john,18752,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000164.1:0-11150,only_in_opengenome,john,,opengenome,11150,,missing from john
+john_vs_opengenome,JBBPTL010000164.1:0-18712,only_in_john,john,18712,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000165.1:0-18706,shared_id_matching_sequence,john,18706,opengenome,18706,True,
+john_vs_opengenome,JBBPTL010000166.1:0-18661,shared_id_matching_sequence,john,18661,opengenome,18661,True,
+john_vs_opengenome,JBBPTL010000167.1:0-18573,only_in_john,john,18573,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000168.1:0-18568,shared_id_matching_sequence,john,18568,opengenome,18568,True,
+john_vs_opengenome,JBBPTL010000169.1:0-18528,only_in_john,john,18528,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000170.1:0-18494,shared_id_matching_sequence,john,18494,opengenome,18494,True,
+john_vs_opengenome,JBBPTL010000171.1:0-18462,shared_id_matching_sequence,john,18462,opengenome,18462,True,
+john_vs_opengenome,JBBPTL010000172.1:0-18449,shared_id_matching_sequence,john,18449,opengenome,18449,True,
+john_vs_opengenome,JBBPTL010000173.1:0-18423,shared_id_matching_sequence,john,18423,opengenome,18423,True,
+john_vs_opengenome,JBBPTL010000174.1:0-18391,only_in_john,john,18391,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000175.1:0-18343,shared_id_matching_sequence,john,18343,opengenome,18343,True,
+john_vs_opengenome,JBBPTL010000176.1:0-18303,only_in_john,john,18303,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000177.1:0-10987,only_in_opengenome,john,,opengenome,10987,,missing from john
+john_vs_opengenome,JBBPTL010000177.1:0-18302,only_in_john,john,18302,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000178.1:0-10144,only_in_opengenome,john,,opengenome,10144,,missing from john
+john_vs_opengenome,JBBPTL010000178.1:0-18298,only_in_john,john,18298,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000179.1:0-18295,only_in_john,john,18295,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000180.1:0-18167,only_in_john,john,18167,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000180.1:1732-18167,only_in_opengenome,john,,opengenome,16435,,missing from john
+john_vs_opengenome,JBBPTL010000181.1:0-18136,shared_id_matching_sequence,john,18136,opengenome,18136,True,
+john_vs_opengenome,JBBPTL010000182.1:0-18132,only_in_john,john,18132,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000183.1:0-15378,only_in_opengenome,john,,opengenome,15378,,missing from john
+john_vs_opengenome,JBBPTL010000183.1:0-18127,only_in_john,john,18127,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000184.1:0-18072,only_in_john,john,18072,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000185.1:0-18039,shared_id_matching_sequence,john,18039,opengenome,18039,True,
+john_vs_opengenome,JBBPTL010000186.1:0-18026,only_in_john,john,18026,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000187.1:0-18020,shared_id_matching_sequence,john,18020,opengenome,18020,True,
+john_vs_opengenome,JBBPTL010000188.1:0-18009,shared_id_matching_sequence,john,18009,opengenome,18009,True,
+john_vs_opengenome,JBBPTL010000189.1:0-17994,only_in_john,john,17994,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000190.1:0-17980,shared_id_matching_sequence,john,17980,opengenome,17980,True,
+john_vs_opengenome,JBBPTL010000191.1:0-17937,only_in_john,john,17937,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000192.1:0-17905,only_in_john,john,17905,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000193.1:0-17850,only_in_john,john,17850,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000194.1:0-17821,only_in_john,john,17821,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000195.1:0-17819,shared_id_matching_sequence,john,17819,opengenome,17819,True,
+john_vs_opengenome,JBBPTL010000196.1:0-17813,only_in_john,john,17813,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000197.1:0-17797,shared_id_matching_sequence,john,17797,opengenome,17797,True,
+john_vs_opengenome,JBBPTL010000198.1:0-17796,shared_id_matching_sequence,john,17796,opengenome,17796,True,
+john_vs_opengenome,JBBPTL010000199.1:0-17722,shared_id_matching_sequence,john,17722,opengenome,17722,True,
+john_vs_opengenome,JBBPTL010000200.1:0-10521,only_in_opengenome,john,,opengenome,10521,,missing from john
+john_vs_opengenome,JBBPTL010000200.1:0-17716,only_in_john,john,17716,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000201.1:0-17684,only_in_john,john,17684,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000202.1:0-17676,only_in_john,john,17676,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000203.1:0-17610,only_in_john,john,17610,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000204.1:0-17540,only_in_john,john,17540,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000205.1:0-17470,shared_id_matching_sequence,john,17470,opengenome,17470,True,
+john_vs_opengenome,JBBPTL010000206.1:0-17433,shared_id_matching_sequence,john,17433,opengenome,17433,True,
+john_vs_opengenome,JBBPTL010000207.1:0-17418,shared_id_matching_sequence,john,17418,opengenome,17418,True,
+john_vs_opengenome,JBBPTL010000208.1:0-17384,only_in_john,john,17384,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000209.1:0-17356,only_in_john,john,17356,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000209.1:5142-17356,only_in_opengenome,john,,opengenome,12214,,missing from john
+john_vs_opengenome,JBBPTL010000210.1:0-17352,shared_id_matching_sequence,john,17352,opengenome,17352,True,
+john_vs_opengenome,JBBPTL010000211.1:0-17334,shared_id_matching_sequence,john,17334,opengenome,17334,True,
+john_vs_opengenome,JBBPTL010000212.1:0-17320,shared_id_matching_sequence,john,17320,opengenome,17320,True,
+john_vs_opengenome,JBBPTL010000213.1:0-17284,only_in_john,john,17284,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000214.1:0-17283,only_in_john,john,17283,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000215.1:0-17257,shared_id_matching_sequence,john,17257,opengenome,17257,True,
+john_vs_opengenome,JBBPTL010000216.1:0-17241,only_in_john,john,17241,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000217.1:0-17215,shared_id_matching_sequence,john,17215,opengenome,17215,True,
+john_vs_opengenome,JBBPTL010000218.1:0-17197,shared_id_matching_sequence,john,17197,opengenome,17197,True,
+john_vs_opengenome,JBBPTL010000219.1:0-17162,only_in_john,john,17162,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000219.1:6161-17162,only_in_opengenome,john,,opengenome,11001,,missing from john
+john_vs_opengenome,JBBPTL010000220.1:0-17131,only_in_john,john,17131,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000221.1:0-17112,shared_id_matching_sequence,john,17112,opengenome,17112,True,
+john_vs_opengenome,JBBPTL010000222.1:0-17091,only_in_john,john,17091,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000223.1:0-17091,shared_id_matching_sequence,john,17091,opengenome,17091,True,
+john_vs_opengenome,JBBPTL010000224.1:0-17076,shared_id_matching_sequence,john,17076,opengenome,17076,True,
+john_vs_opengenome,JBBPTL010000225.1:0-17070,only_in_john,john,17070,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000226.1:0-17058,shared_id_matching_sequence,john,17058,opengenome,17058,True,
+john_vs_opengenome,JBBPTL010000227.1:0-17039,shared_id_matching_sequence,john,17039,opengenome,17039,True,
+john_vs_opengenome,JBBPTL010000228.1:0-17037,only_in_john,john,17037,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000228.1:3697-15286,only_in_opengenome,john,,opengenome,11589,,missing from john
+john_vs_opengenome,JBBPTL010000229.1:0-17032,shared_id_matching_sequence,john,17032,opengenome,17032,True,
+john_vs_opengenome,JBBPTL010000230.1:0-17017,only_in_john,john,17017,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000231.1:0-17013,only_in_john,john,17013,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000232.1:0-16988,only_in_john,john,16988,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000233.1:0-16891,shared_id_matching_sequence,john,16891,opengenome,16891,True,
+john_vs_opengenome,JBBPTL010000234.1:0-16876,only_in_john,john,16876,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000235.1:0-16831,shared_id_matching_sequence,john,16831,opengenome,16831,True,
+john_vs_opengenome,JBBPTL010000236.1:0-16812,only_in_john,john,16812,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000237.1:0-16809,shared_id_matching_sequence,john,16809,opengenome,16809,True,
+john_vs_opengenome,JBBPTL010000238.1:0-16801,only_in_john,john,16801,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000239.1:0-16786,only_in_john,john,16786,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000240.1:0-16738,only_in_john,john,16738,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000241.1:0-16733,shared_id_matching_sequence,john,16733,opengenome,16733,True,
+john_vs_opengenome,JBBPTL010000242.1:0-16708,shared_id_matching_sequence,john,16708,opengenome,16708,True,
+john_vs_opengenome,JBBPTL010000243.1:0-16692,shared_id_matching_sequence,john,16692,opengenome,16692,True,
+john_vs_opengenome,JBBPTL010000244.1:0-16685,shared_id_matching_sequence,john,16685,opengenome,16685,True,
+john_vs_opengenome,JBBPTL010000245.1:0-16661,shared_id_matching_sequence,john,16661,opengenome,16661,True,
+john_vs_opengenome,JBBPTL010000246.1:0-16631,only_in_john,john,16631,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000247.1:0-16627,shared_id_matching_sequence,john,16627,opengenome,16627,True,
+john_vs_opengenome,JBBPTL010000248.1:0-16626,only_in_john,john,16626,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000249.1:0-16566,only_in_john,john,16566,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000250.1:0-16560,only_in_john,john,16560,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000251.1:0-16540,shared_id_matching_sequence,john,16540,opengenome,16540,True,
+john_vs_opengenome,JBBPTL010000252.1:0-16526,only_in_john,john,16526,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000253.1:0-16459,shared_id_matching_sequence,john,16459,opengenome,16459,True,
+john_vs_opengenome,JBBPTL010000254.1:0-16429,shared_id_matching_sequence,john,16429,opengenome,16429,True,
+john_vs_opengenome,JBBPTL010000255.1:0-16417,shared_id_matching_sequence,john,16417,opengenome,16417,True,
+john_vs_opengenome,JBBPTL010000256.1:0-16406,shared_id_matching_sequence,john,16406,opengenome,16406,True,
+john_vs_opengenome,JBBPTL010000257.1:0-16396,shared_id_matching_sequence,john,16396,opengenome,16396,True,
+john_vs_opengenome,JBBPTL010000258.1:0-16364,shared_id_matching_sequence,john,16364,opengenome,16364,True,
+john_vs_opengenome,JBBPTL010000259.1:0-16349,only_in_john,john,16349,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000260.1:0-16296,only_in_john,john,16296,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000261.1:0-16286,only_in_john,john,16286,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000262.1:0-16113,shared_id_matching_sequence,john,16113,opengenome,16113,True,
+john_vs_opengenome,JBBPTL010000263.1:0-16089,only_in_john,john,16089,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000264.1:0-16086,only_in_john,john,16086,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000265.1:0-16074,shared_id_matching_sequence,john,16074,opengenome,16074,True,
+john_vs_opengenome,JBBPTL010000266.1:0-16063,shared_id_matching_sequence,john,16063,opengenome,16063,True,
+john_vs_opengenome,JBBPTL010000267.1:0-16001,shared_id_matching_sequence,john,16001,opengenome,16001,True,
+john_vs_opengenome,JBBPTL010000268.1:0-16000,only_in_john,john,16000,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000269.1:0-15992,only_in_john,john,15992,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000270.1:0-15976,only_in_john,john,15976,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000271.1:0-15947,shared_id_matching_sequence,john,15947,opengenome,15947,True,
+john_vs_opengenome,JBBPTL010000272.1:0-15924,only_in_john,john,15924,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000273.1:0-15914,shared_id_matching_sequence,john,15914,opengenome,15914,True,
+john_vs_opengenome,JBBPTL010000274.1:0-15889,shared_id_matching_sequence,john,15889,opengenome,15889,True,
+john_vs_opengenome,JBBPTL010000275.1:0-15886,only_in_john,john,15886,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000276.1:0-15853,only_in_john,john,15853,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000277.1:0-15823,shared_id_matching_sequence,john,15823,opengenome,15823,True,
+john_vs_opengenome,JBBPTL010000278.1:0-15722,only_in_john,john,15722,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000279.1:0-15716,only_in_john,john,15716,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000280.1:0-15690,only_in_john,john,15690,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000281.1:0-15681,shared_id_matching_sequence,john,15681,opengenome,15681,True,
+john_vs_opengenome,JBBPTL010000282.1:0-15666,shared_id_matching_sequence,john,15666,opengenome,15666,True,
+john_vs_opengenome,JBBPTL010000283.1:0-15662,only_in_john,john,15662,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000284.1:0-15647,shared_id_matching_sequence,john,15647,opengenome,15647,True,
+john_vs_opengenome,JBBPTL010000285.1:0-15632,shared_id_matching_sequence,john,15632,opengenome,15632,True,
+john_vs_opengenome,JBBPTL010000286.1:0-15619,shared_id_matching_sequence,john,15619,opengenome,15619,True,
+john_vs_opengenome,JBBPTL010000287.1:0-15604,only_in_john,john,15604,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000288.1:0-15544,shared_id_matching_sequence,john,15544,opengenome,15544,True,
+john_vs_opengenome,JBBPTL010000289.1:0-15516,only_in_john,john,15516,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000290.1:0-15515,shared_id_matching_sequence,john,15515,opengenome,15515,True,
+john_vs_opengenome,JBBPTL010000291.1:0-15500,shared_id_matching_sequence,john,15500,opengenome,15500,True,
+john_vs_opengenome,JBBPTL010000292.1:0-15497,shared_id_matching_sequence,john,15497,opengenome,15497,True,
+john_vs_opengenome,JBBPTL010000293.1:0-15489,shared_id_matching_sequence,john,15489,opengenome,15489,True,
+john_vs_opengenome,JBBPTL010000294.1:0-15462,shared_id_matching_sequence,john,15462,opengenome,15462,True,
+john_vs_opengenome,JBBPTL010000295.1:0-15452,shared_id_matching_sequence,john,15452,opengenome,15452,True,
+john_vs_opengenome,JBBPTL010000296.1:0-15438,only_in_john,john,15438,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000297.1:0-15411,shared_id_matching_sequence,john,15411,opengenome,15411,True,
+john_vs_opengenome,JBBPTL010000298.1:0-15387,shared_id_matching_sequence,john,15387,opengenome,15387,True,
+john_vs_opengenome,JBBPTL010000299.1:0-11476,only_in_opengenome,john,,opengenome,11476,,missing from john
+john_vs_opengenome,JBBPTL010000299.1:0-15348,only_in_john,john,15348,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000300.1:0-15348,shared_id_matching_sequence,john,15348,opengenome,15348,True,
+john_vs_opengenome,JBBPTL010000301.1:0-15344,shared_id_matching_sequence,john,15344,opengenome,15344,True,
+john_vs_opengenome,JBBPTL010000302.1:0-15321,only_in_john,john,15321,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000303.1:0-15312,only_in_john,john,15312,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000304.1:0-15303,shared_id_matching_sequence,john,15303,opengenome,15303,True,
+john_vs_opengenome,JBBPTL010000305.1:0-15111,shared_id_matching_sequence,john,15111,opengenome,15111,True,
+john_vs_opengenome,JBBPTL010000306.1:0-15088,only_in_john,john,15088,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000307.1:0-15075,shared_id_matching_sequence,john,15075,opengenome,15075,True,
+john_vs_opengenome,JBBPTL010000308.1:0-15068,shared_id_matching_sequence,john,15068,opengenome,15068,True,
+john_vs_opengenome,JBBPTL010000309.1:0-15054,shared_id_matching_sequence,john,15054,opengenome,15054,True,
+john_vs_opengenome,JBBPTL010000310.1:0-15044,only_in_john,john,15044,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000311.1:0-15040,only_in_john,john,15040,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000312.1:0-15034,only_in_john,john,15034,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000313.1:0-14998,shared_id_matching_sequence,john,14998,opengenome,14998,True,
+john_vs_opengenome,JBBPTL010000314.1:0-14947,shared_id_matching_sequence,john,14947,opengenome,14947,True,
+john_vs_opengenome,JBBPTL010000315.1:0-14937,shared_id_matching_sequence,john,14937,opengenome,14937,True,
+john_vs_opengenome,JBBPTL010000316.1:0-14917,shared_id_matching_sequence,john,14917,opengenome,14917,True,
+john_vs_opengenome,JBBPTL010000317.1:0-14915,only_in_john,john,14915,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000318.1:0-14899,only_in_john,john,14899,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000319.1:0-14855,only_in_john,john,14855,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000320.1:0-14833,only_in_john,john,14833,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000321.1:0-14832,only_in_john,john,14832,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000322.1:0-14792,shared_id_matching_sequence,john,14792,opengenome,14792,True,
+john_vs_opengenome,JBBPTL010000323.1:0-14769,shared_id_matching_sequence,john,14769,opengenome,14769,True,
+john_vs_opengenome,JBBPTL010000324.1:0-14763,only_in_john,john,14763,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000325.1:0-14717,only_in_john,john,14717,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000326.1:0-14677,shared_id_matching_sequence,john,14677,opengenome,14677,True,
+john_vs_opengenome,JBBPTL010000327.1:0-10125,only_in_opengenome,john,,opengenome,10125,,missing from john
+john_vs_opengenome,JBBPTL010000327.1:0-14616,only_in_john,john,14616,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000328.1:0-14588,shared_id_matching_sequence,john,14588,opengenome,14588,True,
+john_vs_opengenome,JBBPTL010000329.1:0-14580,shared_id_matching_sequence,john,14580,opengenome,14580,True,
+john_vs_opengenome,JBBPTL010000330.1:0-14572,only_in_john,john,14572,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000331.1:0-14566,only_in_john,john,14566,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000332.1:0-14529,shared_id_matching_sequence,john,14529,opengenome,14529,True,
+john_vs_opengenome,JBBPTL010000333.1:0-14519,shared_id_matching_sequence,john,14519,opengenome,14519,True,
+john_vs_opengenome,JBBPTL010000334.1:0-14502,shared_id_matching_sequence,john,14502,opengenome,14502,True,
+john_vs_opengenome,JBBPTL010000335.1:0-14499,shared_id_matching_sequence,john,14499,opengenome,14499,True,
+john_vs_opengenome,JBBPTL010000336.1:0-14420,shared_id_matching_sequence,john,14420,opengenome,14420,True,
+john_vs_opengenome,JBBPTL010000337.1:0-14361,shared_id_matching_sequence,john,14361,opengenome,14361,True,
+john_vs_opengenome,JBBPTL010000338.1:0-14321,shared_id_matching_sequence,john,14321,opengenome,14321,True,
+john_vs_opengenome,JBBPTL010000339.1:0-14321,shared_id_matching_sequence,john,14321,opengenome,14321,True,
+john_vs_opengenome,JBBPTL010000340.1:0-14318,only_in_john,john,14318,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000341.1:0-14312,shared_id_matching_sequence,john,14312,opengenome,14312,True,
+john_vs_opengenome,JBBPTL010000342.1:0-14294,shared_id_matching_sequence,john,14294,opengenome,14294,True,
+john_vs_opengenome,JBBPTL010000343.1:0-14291,only_in_john,john,14291,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000344.1:0-14255,shared_id_matching_sequence,john,14255,opengenome,14255,True,
+john_vs_opengenome,JBBPTL010000345.1:0-14251,only_in_john,john,14251,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000346.1:0-14202,shared_id_matching_sequence,john,14202,opengenome,14202,True,
+john_vs_opengenome,JBBPTL010000347.1:0-14187,shared_id_matching_sequence,john,14187,opengenome,14187,True,
+john_vs_opengenome,JBBPTL010000348.1:0-14178,only_in_john,john,14178,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000348.1:1222-14178,only_in_opengenome,john,,opengenome,12956,,missing from john
+john_vs_opengenome,JBBPTL010000349.1:0-14174,only_in_john,john,14174,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000350.1:0-14142,shared_id_matching_sequence,john,14142,opengenome,14142,True,
+john_vs_opengenome,JBBPTL010000351.1:0-14139,only_in_john,john,14139,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000352.1:0-14093,only_in_john,john,14093,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000353.1:0-14073,shared_id_matching_sequence,john,14073,opengenome,14073,True,
+john_vs_opengenome,JBBPTL010000354.1:0-14061,shared_id_matching_sequence,john,14061,opengenome,14061,True,
+john_vs_opengenome,JBBPTL010000355.1:0-14057,only_in_john,john,14057,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000355.1:2472-14057,only_in_opengenome,john,,opengenome,11585,,missing from john
+john_vs_opengenome,JBBPTL010000356.1:0-14051,only_in_john,john,14051,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000357.1:0-14040,only_in_john,john,14040,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000358.1:0-14032,only_in_john,john,14032,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000359.1:0-14022,shared_id_matching_sequence,john,14022,opengenome,14022,True,
+john_vs_opengenome,JBBPTL010000360.1:0-14019,only_in_john,john,14019,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000361.1:0-13914,shared_id_matching_sequence,john,13914,opengenome,13914,True,
+john_vs_opengenome,JBBPTL010000362.1:0-13895,shared_id_matching_sequence,john,13895,opengenome,13895,True,
+john_vs_opengenome,JBBPTL010000363.1:0-13851,only_in_john,john,13851,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000364.1:0-13848,shared_id_matching_sequence,john,13848,opengenome,13848,True,
+john_vs_opengenome,JBBPTL010000365.1:0-13846,only_in_john,john,13846,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000366.1:0-13816,shared_id_matching_sequence,john,13816,opengenome,13816,True,
+john_vs_opengenome,JBBPTL010000367.1:0-13803,only_in_john,john,13803,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000368.1:0-13796,shared_id_matching_sequence,john,13796,opengenome,13796,True,
+john_vs_opengenome,JBBPTL010000369.1:0-13761,only_in_john,john,13761,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000370.1:0-13691,shared_id_matching_sequence,john,13691,opengenome,13691,True,
+john_vs_opengenome,JBBPTL010000371.1:0-13663,shared_id_matching_sequence,john,13663,opengenome,13663,True,
+john_vs_opengenome,JBBPTL010000372.1:0-13659,shared_id_matching_sequence,john,13659,opengenome,13659,True,
+john_vs_opengenome,JBBPTL010000373.1:0-13650,only_in_john,john,13650,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000373.1:3162-13650,only_in_opengenome,john,,opengenome,10488,,missing from john
+john_vs_opengenome,JBBPTL010000374.1:0-13645,shared_id_matching_sequence,john,13645,opengenome,13645,True,
+john_vs_opengenome,JBBPTL010000375.1:0-13644,shared_id_matching_sequence,john,13644,opengenome,13644,True,
+john_vs_opengenome,JBBPTL010000376.1:0-13605,only_in_john,john,13605,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000377.1:0-13602,shared_id_matching_sequence,john,13602,opengenome,13602,True,
+john_vs_opengenome,JBBPTL010000378.1:0-13596,only_in_john,john,13596,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000379.1:0-13582,shared_id_matching_sequence,john,13582,opengenome,13582,True,
+john_vs_opengenome,JBBPTL010000380.1:0-13535,only_in_john,john,13535,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000381.1:0-13521,shared_id_matching_sequence,john,13521,opengenome,13521,True,
+john_vs_opengenome,JBBPTL010000382.1:0-13520,shared_id_matching_sequence,john,13520,opengenome,13520,True,
+john_vs_opengenome,JBBPTL010000383.1:0-13514,only_in_john,john,13514,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000384.1:0-13513,only_in_john,john,13513,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000385.1:0-13513,shared_id_matching_sequence,john,13513,opengenome,13513,True,
+john_vs_opengenome,JBBPTL010000386.1:0-13494,only_in_john,john,13494,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000387.1:0-13477,shared_id_matching_sequence,john,13477,opengenome,13477,True,
+john_vs_opengenome,JBBPTL010000388.1:0-13475,shared_id_matching_sequence,john,13475,opengenome,13475,True,
+john_vs_opengenome,JBBPTL010000389.1:0-13436,only_in_john,john,13436,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000390.1:0-13435,only_in_john,john,13435,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000391.1:0-13419,only_in_john,john,13419,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000392.1:0-11832,only_in_opengenome,john,,opengenome,11832,,missing from john
+john_vs_opengenome,JBBPTL010000392.1:0-13419,only_in_john,john,13419,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000393.1:0-13418,only_in_john,john,13418,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000394.1:0-13408,only_in_john,john,13408,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000395.1:0-13388,shared_id_matching_sequence,john,13388,opengenome,13388,True,
+john_vs_opengenome,JBBPTL010000396.1:0-13348,shared_id_matching_sequence,john,13348,opengenome,13348,True,
+john_vs_opengenome,JBBPTL010000397.1:0-13343,shared_id_matching_sequence,john,13343,opengenome,13343,True,
+john_vs_opengenome,JBBPTL010000398.1:0-13333,only_in_john,john,13333,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000399.1:0-13316,only_in_john,john,13316,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000400.1:0-13305,only_in_john,john,13305,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000400.1:1416-11988,only_in_opengenome,john,,opengenome,10572,,missing from john
+john_vs_opengenome,JBBPTL010000401.1:0-13305,shared_id_matching_sequence,john,13305,opengenome,13305,True,
+john_vs_opengenome,JBBPTL010000402.1:0-13287,only_in_john,john,13287,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000403.1:0-13285,only_in_john,john,13285,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000404.1:0-13239,only_in_john,john,13239,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000405.1:0-13238,only_in_john,john,13238,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000406.1:0-13199,only_in_john,john,13199,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000407.1:0-13177,shared_id_matching_sequence,john,13177,opengenome,13177,True,
+john_vs_opengenome,JBBPTL010000408.1:0-13155,shared_id_matching_sequence,john,13155,opengenome,13155,True,
+john_vs_opengenome,JBBPTL010000409.1:0-13152,only_in_john,john,13152,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000410.1:0-13143,only_in_john,john,13143,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000411.1:0-13141,only_in_john,john,13141,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000412.1:0-13129,shared_id_matching_sequence,john,13129,opengenome,13129,True,
+john_vs_opengenome,JBBPTL010000413.1:0-13125,only_in_john,john,13125,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000414.1:0-13123,shared_id_matching_sequence,john,13123,opengenome,13123,True,
+john_vs_opengenome,JBBPTL010000415.1:0-13121,only_in_john,john,13121,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000416.1:0-13112,shared_id_matching_sequence,john,13112,opengenome,13112,True,
+john_vs_opengenome,JBBPTL010000417.1:0-13109,only_in_john,john,13109,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000418.1:0-13093,shared_id_matching_sequence,john,13093,opengenome,13093,True,
+john_vs_opengenome,JBBPTL010000419.1:0-13073,shared_id_matching_sequence,john,13073,opengenome,13073,True,
+john_vs_opengenome,JBBPTL010000420.1:0-13065,only_in_john,john,13065,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000421.1:0-13040,shared_id_matching_sequence,john,13040,opengenome,13040,True,
+john_vs_opengenome,JBBPTL010000422.1:0-13027,shared_id_matching_sequence,john,13027,opengenome,13027,True,
+john_vs_opengenome,JBBPTL010000423.1:0-11389,only_in_opengenome,john,,opengenome,11389,,missing from john
+john_vs_opengenome,JBBPTL010000423.1:0-13016,only_in_john,john,13016,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000424.1:0-13007,shared_id_matching_sequence,john,13007,opengenome,13007,True,
+john_vs_opengenome,JBBPTL010000425.1:0-12998,only_in_john,john,12998,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000426.1:0-12994,only_in_john,john,12994,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000427.1:0-12964,shared_id_matching_sequence,john,12964,opengenome,12964,True,
+john_vs_opengenome,JBBPTL010000428.1:0-12956,shared_id_matching_sequence,john,12956,opengenome,12956,True,
+john_vs_opengenome,JBBPTL010000429.1:0-12935,shared_id_matching_sequence,john,12935,opengenome,12935,True,
+john_vs_opengenome,JBBPTL010000430.1:0-12896,shared_id_matching_sequence,john,12896,opengenome,12896,True,
+john_vs_opengenome,JBBPTL010000431.1:0-12893,only_in_john,john,12893,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000432.1:0-12880,shared_id_matching_sequence,john,12880,opengenome,12880,True,
+john_vs_opengenome,JBBPTL010000433.1:0-12877,shared_id_matching_sequence,john,12877,opengenome,12877,True,
+john_vs_opengenome,JBBPTL010000434.1:0-12872,only_in_john,john,12872,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000435.1:0-12868,shared_id_matching_sequence,john,12868,opengenome,12868,True,
+john_vs_opengenome,JBBPTL010000436.1:0-12864,only_in_john,john,12864,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000437.1:0-12813,only_in_john,john,12813,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000438.1:0-12789,shared_id_matching_sequence,john,12789,opengenome,12789,True,
+john_vs_opengenome,JBBPTL010000439.1:0-12788,shared_id_matching_sequence,john,12788,opengenome,12788,True,
+john_vs_opengenome,JBBPTL010000440.1:0-12771,only_in_john,john,12771,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000441.1:0-10521,only_in_opengenome,john,,opengenome,10521,,missing from john
+john_vs_opengenome,JBBPTL010000441.1:0-12770,only_in_john,john,12770,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000442.1:0-12768,shared_id_matching_sequence,john,12768,opengenome,12768,True,
+john_vs_opengenome,JBBPTL010000443.1:0-12764,shared_id_matching_sequence,john,12764,opengenome,12764,True,
+john_vs_opengenome,JBBPTL010000444.1:0-12752,shared_id_matching_sequence,john,12752,opengenome,12752,True,
+john_vs_opengenome,JBBPTL010000445.1:0-12750,shared_id_matching_sequence,john,12750,opengenome,12750,True,
+john_vs_opengenome,JBBPTL010000446.1:0-12747,only_in_john,john,12747,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000447.1:0-12742,shared_id_matching_sequence,john,12742,opengenome,12742,True,
+john_vs_opengenome,JBBPTL010000448.1:0-12733,shared_id_matching_sequence,john,12733,opengenome,12733,True,
+john_vs_opengenome,JBBPTL010000449.1:0-12724,only_in_john,john,12724,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000450.1:0-12713,shared_id_matching_sequence,john,12713,opengenome,12713,True,
+john_vs_opengenome,JBBPTL010000451.1:0-12660,shared_id_matching_sequence,john,12660,opengenome,12660,True,
+john_vs_opengenome,JBBPTL010000452.1:0-12658,shared_id_matching_sequence,john,12658,opengenome,12658,True,
+john_vs_opengenome,JBBPTL010000453.1:0-12657,shared_id_matching_sequence,john,12657,opengenome,12657,True,
+john_vs_opengenome,JBBPTL010000454.1:0-12621,shared_id_matching_sequence,john,12621,opengenome,12621,True,
+john_vs_opengenome,JBBPTL010000455.1:0-12619,only_in_john,john,12619,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000456.1:0-12616,only_in_john,john,12616,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000457.1:0-12610,only_in_john,john,12610,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000458.1:0-12608,only_in_john,john,12608,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000459.1:0-12605,shared_id_matching_sequence,john,12605,opengenome,12605,True,
+john_vs_opengenome,JBBPTL010000460.1:0-12602,only_in_john,john,12602,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000461.1:0-12590,shared_id_matching_sequence,john,12590,opengenome,12590,True,
+john_vs_opengenome,JBBPTL010000462.1:0-12587,only_in_john,john,12587,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000463.1:0-12579,only_in_john,john,12579,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000464.1:0-12572,only_in_john,john,12572,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000465.1:0-12570,only_in_john,john,12570,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000466.1:0-12564,shared_id_matching_sequence,john,12564,opengenome,12564,True,
+john_vs_opengenome,JBBPTL010000467.1:0-12556,shared_id_matching_sequence,john,12556,opengenome,12556,True,
+john_vs_opengenome,JBBPTL010000468.1:0-12537,shared_id_matching_sequence,john,12537,opengenome,12537,True,
+john_vs_opengenome,JBBPTL010000469.1:0-12536,only_in_john,john,12536,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000470.1:0-12527,shared_id_matching_sequence,john,12527,opengenome,12527,True,
+john_vs_opengenome,JBBPTL010000471.1:0-12523,only_in_john,john,12523,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000472.1:0-12493,shared_id_matching_sequence,john,12493,opengenome,12493,True,
+john_vs_opengenome,JBBPTL010000473.1:0-12465,only_in_john,john,12465,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000474.1:0-12445,shared_id_matching_sequence,john,12445,opengenome,12445,True,
+john_vs_opengenome,JBBPTL010000475.1:0-12434,only_in_john,john,12434,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000476.1:0-12417,only_in_john,john,12417,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000477.1:0-12408,shared_id_matching_sequence,john,12408,opengenome,12408,True,
+john_vs_opengenome,JBBPTL010000478.1:0-12404,only_in_john,john,12404,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000479.1:0-12403,shared_id_matching_sequence,john,12403,opengenome,12403,True,
+john_vs_opengenome,JBBPTL010000480.1:0-12387,shared_id_matching_sequence,john,12387,opengenome,12387,True,
+john_vs_opengenome,JBBPTL010000481.1:0-12364,only_in_john,john,12364,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000482.1:0-12360,shared_id_matching_sequence,john,12360,opengenome,12360,True,
+john_vs_opengenome,JBBPTL010000483.1:0-12347,shared_id_matching_sequence,john,12347,opengenome,12347,True,
+john_vs_opengenome,JBBPTL010000484.1:0-12333,shared_id_matching_sequence,john,12333,opengenome,12333,True,
+john_vs_opengenome,JBBPTL010000485.1:0-12302,shared_id_matching_sequence,john,12302,opengenome,12302,True,
+john_vs_opengenome,JBBPTL010000486.1:0-12291,shared_id_matching_sequence,john,12291,opengenome,12291,True,
+john_vs_opengenome,JBBPTL010000487.1:0-12261,only_in_john,john,12261,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000488.1:0-12244,only_in_john,john,12244,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000489.1:0-12210,shared_id_matching_sequence,john,12210,opengenome,12210,True,
+john_vs_opengenome,JBBPTL010000490.1:0-12180,only_in_john,john,12180,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000491.1:0-12172,only_in_john,john,12172,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000492.1:0-12166,shared_id_matching_sequence,john,12166,opengenome,12166,True,
+john_vs_opengenome,JBBPTL010000493.1:0-12161,shared_id_matching_sequence,john,12161,opengenome,12161,True,
+john_vs_opengenome,JBBPTL010000494.1:0-10419,only_in_opengenome,john,,opengenome,10419,,missing from john
+john_vs_opengenome,JBBPTL010000494.1:0-12148,only_in_john,john,12148,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000495.1:0-12130,only_in_john,john,12130,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000496.1:0-12128,only_in_john,john,12128,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000496.1:2055-12128,only_in_opengenome,john,,opengenome,10073,,missing from john
+john_vs_opengenome,JBBPTL010000497.1:0-12122,shared_id_matching_sequence,john,12122,opengenome,12122,True,
+john_vs_opengenome,JBBPTL010000498.1:0-12105,shared_id_matching_sequence,john,12105,opengenome,12105,True,
+john_vs_opengenome,JBBPTL010000499.1:0-12102,only_in_john,john,12102,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000500.1:0-12091,shared_id_matching_sequence,john,12091,opengenome,12091,True,
+john_vs_opengenome,JBBPTL010000501.1:0-12088,shared_id_matching_sequence,john,12088,opengenome,12088,True,
+john_vs_opengenome,JBBPTL010000502.1:0-12029,only_in_john,john,12029,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000503.1:0-12018,only_in_john,john,12018,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000504.1:0-12010,shared_id_matching_sequence,john,12010,opengenome,12010,True,
+john_vs_opengenome,JBBPTL010000505.1:0-12010,shared_id_matching_sequence,john,12010,opengenome,12010,True,
+john_vs_opengenome,JBBPTL010000506.1:0-12008,only_in_john,john,12008,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000507.1:0-12001,shared_id_matching_sequence,john,12001,opengenome,12001,True,
+john_vs_opengenome,JBBPTL010000508.1:0-11990,shared_id_matching_sequence,john,11990,opengenome,11990,True,
+john_vs_opengenome,JBBPTL010000509.1:0-11984,only_in_john,john,11984,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000510.1:0-11984,only_in_john,john,11984,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000511.1:0-11984,shared_id_matching_sequence,john,11984,opengenome,11984,True,
+john_vs_opengenome,JBBPTL010000512.1:0-11979,shared_id_matching_sequence,john,11979,opengenome,11979,True,
+john_vs_opengenome,JBBPTL010000513.1:0-11978,shared_id_matching_sequence,john,11978,opengenome,11978,True,
+john_vs_opengenome,JBBPTL010000514.1:0-11976,shared_id_matching_sequence,john,11976,opengenome,11976,True,
+john_vs_opengenome,JBBPTL010000515.1:0-11962,shared_id_matching_sequence,john,11962,opengenome,11962,True,
+john_vs_opengenome,JBBPTL010000516.1:0-11956,only_in_john,john,11956,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000517.1:0-11950,shared_id_matching_sequence,john,11950,opengenome,11950,True,
+john_vs_opengenome,JBBPTL010000518.1:0-11947,only_in_john,john,11947,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000519.1:0-11947,only_in_john,john,11947,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000520.1:0-11925,only_in_john,john,11925,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000521.1:0-11895,only_in_john,john,11895,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000522.1:0-11870,only_in_john,john,11870,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000523.1:0-11863,shared_id_matching_sequence,john,11863,opengenome,11863,True,
+john_vs_opengenome,JBBPTL010000524.1:0-11853,shared_id_matching_sequence,john,11853,opengenome,11853,True,
+john_vs_opengenome,JBBPTL010000525.1:0-11852,shared_id_matching_sequence,john,11852,opengenome,11852,True,
+john_vs_opengenome,JBBPTL010000526.1:0-11849,only_in_john,john,11849,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000527.1:0-11844,shared_id_matching_sequence,john,11844,opengenome,11844,True,
+john_vs_opengenome,JBBPTL010000528.1:0-11829,only_in_john,john,11829,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000529.1:0-11814,only_in_john,john,11814,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000530.1:0-11812,shared_id_matching_sequence,john,11812,opengenome,11812,True,
+john_vs_opengenome,JBBPTL010000531.1:0-11803,shared_id_matching_sequence,john,11803,opengenome,11803,True,
+john_vs_opengenome,JBBPTL010000532.1:0-11803,shared_id_matching_sequence,john,11803,opengenome,11803,True,
+john_vs_opengenome,JBBPTL010000533.1:0-11789,only_in_john,john,11789,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000534.1:0-11765,only_in_john,john,11765,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000535.1:0-11754,only_in_john,john,11754,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000536.1:0-11747,shared_id_matching_sequence,john,11747,opengenome,11747,True,
+john_vs_opengenome,JBBPTL010000537.1:0-11738,only_in_john,john,11738,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000538.1:0-11723,shared_id_matching_sequence,john,11723,opengenome,11723,True,
+john_vs_opengenome,JBBPTL010000539.1:0-11703,shared_id_matching_sequence,john,11703,opengenome,11703,True,
+john_vs_opengenome,JBBPTL010000540.1:0-11701,shared_id_matching_sequence,john,11701,opengenome,11701,True,
+john_vs_opengenome,JBBPTL010000541.1:0-11697,shared_id_matching_sequence,john,11697,opengenome,11697,True,
+john_vs_opengenome,JBBPTL010000542.1:0-11696,only_in_john,john,11696,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000543.1:0-11691,only_in_john,john,11691,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000544.1:0-11690,only_in_john,john,11690,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000545.1:0-11662,shared_id_matching_sequence,john,11662,opengenome,11662,True,
+john_vs_opengenome,JBBPTL010000546.1:0-11603,only_in_john,john,11603,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000547.1:0-11584,only_in_john,john,11584,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000548.1:0-11576,shared_id_matching_sequence,john,11576,opengenome,11576,True,
+john_vs_opengenome,JBBPTL010000549.1:0-11574,only_in_john,john,11574,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000550.1:0-11568,shared_id_matching_sequence,john,11568,opengenome,11568,True,
+john_vs_opengenome,JBBPTL010000551.1:0-11555,only_in_john,john,11555,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000552.1:0-11540,only_in_john,john,11540,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000553.1:0-11540,shared_id_matching_sequence,john,11540,opengenome,11540,True,
+john_vs_opengenome,JBBPTL010000554.1:0-11536,shared_id_matching_sequence,john,11536,opengenome,11536,True,
+john_vs_opengenome,JBBPTL010000555.1:0-11525,only_in_john,john,11525,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000556.1:0-11495,only_in_john,john,11495,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000557.1:0-11489,only_in_john,john,11489,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000558.1:0-11453,shared_id_matching_sequence,john,11453,opengenome,11453,True,
+john_vs_opengenome,JBBPTL010000559.1:0-11448,only_in_john,john,11448,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000560.1:0-11434,only_in_john,john,11434,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000561.1:0-11429,shared_id_matching_sequence,john,11429,opengenome,11429,True,
+john_vs_opengenome,JBBPTL010000562.1:0-11414,shared_id_matching_sequence,john,11414,opengenome,11414,True,
+john_vs_opengenome,JBBPTL010000563.1:0-11398,only_in_john,john,11398,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000564.1:0-11394,only_in_john,john,11394,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000565.1:0-11373,shared_id_matching_sequence,john,11373,opengenome,11373,True,
+john_vs_opengenome,JBBPTL010000566.1:0-11370,shared_id_matching_sequence,john,11370,opengenome,11370,True,
+john_vs_opengenome,JBBPTL010000567.1:0-11363,shared_id_matching_sequence,john,11363,opengenome,11363,True,
+john_vs_opengenome,JBBPTL010000568.1:0-11363,only_in_john,john,11363,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000569.1:0-11337,only_in_john,john,11337,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000570.1:0-11331,only_in_john,john,11331,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000571.1:0-11327,shared_id_matching_sequence,john,11327,opengenome,11327,True,
+john_vs_opengenome,JBBPTL010000572.1:0-11321,only_in_john,john,11321,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000573.1:0-11319,shared_id_matching_sequence,john,11319,opengenome,11319,True,
+john_vs_opengenome,JBBPTL010000574.1:0-11318,shared_id_matching_sequence,john,11318,opengenome,11318,True,
+john_vs_opengenome,JBBPTL010000575.1:0-11307,only_in_john,john,11307,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000576.1:0-11292,only_in_john,john,11292,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000577.1:0-11291,only_in_john,john,11291,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000578.1:0-11284,shared_id_matching_sequence,john,11284,opengenome,11284,True,
+john_vs_opengenome,JBBPTL010000579.1:0-11280,only_in_john,john,11280,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000580.1:0-11273,only_in_john,john,11273,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000581.1:0-11217,only_in_john,john,11217,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000582.1:0-11205,only_in_john,john,11205,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000583.1:0-11189,shared_id_matching_sequence,john,11189,opengenome,11189,True,
+john_vs_opengenome,JBBPTL010000584.1:0-11178,only_in_john,john,11178,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000585.1:0-11165,only_in_john,john,11165,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000586.1:0-11160,shared_id_matching_sequence,john,11160,opengenome,11160,True,
+john_vs_opengenome,JBBPTL010000587.1:0-11143,shared_id_matching_sequence,john,11143,opengenome,11143,True,
+john_vs_opengenome,JBBPTL010000588.1:0-11142,only_in_john,john,11142,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000589.1:0-11141,shared_id_matching_sequence,john,11141,opengenome,11141,True,
+john_vs_opengenome,JBBPTL010000590.1:0-11134,shared_id_matching_sequence,john,11134,opengenome,11134,True,
+john_vs_opengenome,JBBPTL010000591.1:0-11126,only_in_john,john,11126,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000592.1:0-11115,only_in_john,john,11115,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000593.1:0-11108,only_in_john,john,11108,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000594.1:0-11079,only_in_john,john,11079,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000595.1:0-11070,shared_id_matching_sequence,john,11070,opengenome,11070,True,
+john_vs_opengenome,JBBPTL010000596.1:0-11065,only_in_john,john,11065,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000597.1:0-11046,shared_id_matching_sequence,john,11046,opengenome,11046,True,
+john_vs_opengenome,JBBPTL010000598.1:0-11035,shared_id_matching_sequence,john,11035,opengenome,11035,True,
+john_vs_opengenome,JBBPTL010000599.1:0-11030,only_in_john,john,11030,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000600.1:0-11022,only_in_john,john,11022,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000601.1:0-11021,shared_id_matching_sequence,john,11021,opengenome,11021,True,
+john_vs_opengenome,JBBPTL010000602.1:0-10990,only_in_john,john,10990,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000603.1:0-10982,only_in_john,john,10982,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000604.1:0-10967,shared_id_matching_sequence,john,10967,opengenome,10967,True,
+john_vs_opengenome,JBBPTL010000605.1:0-10953,only_in_john,john,10953,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000606.1:0-10930,only_in_john,john,10930,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000607.1:0-10930,only_in_john,john,10930,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000608.1:0-10929,only_in_john,john,10929,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000609.1:0-10917,shared_id_matching_sequence,john,10917,opengenome,10917,True,
+john_vs_opengenome,JBBPTL010000610.1:0-10916,only_in_john,john,10916,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000611.1:0-10916,shared_id_matching_sequence,john,10916,opengenome,10916,True,
+john_vs_opengenome,JBBPTL010000612.1:0-10916,shared_id_matching_sequence,john,10916,opengenome,10916,True,
+john_vs_opengenome,JBBPTL010000613.1:0-10914,shared_id_matching_sequence,john,10914,opengenome,10914,True,
+john_vs_opengenome,JBBPTL010000614.1:0-10877,shared_id_matching_sequence,john,10877,opengenome,10877,True,
+john_vs_opengenome,JBBPTL010000615.1:0-10873,shared_id_matching_sequence,john,10873,opengenome,10873,True,
+john_vs_opengenome,JBBPTL010000616.1:0-10869,only_in_john,john,10869,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000617.1:0-10865,shared_id_matching_sequence,john,10865,opengenome,10865,True,
+john_vs_opengenome,JBBPTL010000618.1:0-10859,shared_id_matching_sequence,john,10859,opengenome,10859,True,
+john_vs_opengenome,JBBPTL010000619.1:0-10854,shared_id_matching_sequence,john,10854,opengenome,10854,True,
+john_vs_opengenome,JBBPTL010000620.1:0-10834,shared_id_matching_sequence,john,10834,opengenome,10834,True,
+john_vs_opengenome,JBBPTL010000621.1:0-10826,only_in_john,john,10826,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000622.1:0-10802,shared_id_matching_sequence,john,10802,opengenome,10802,True,
+john_vs_opengenome,JBBPTL010000623.1:0-10785,shared_id_matching_sequence,john,10785,opengenome,10785,True,
+john_vs_opengenome,JBBPTL010000624.1:0-10771,shared_id_matching_sequence,john,10771,opengenome,10771,True,
+john_vs_opengenome,JBBPTL010000625.1:0-10754,shared_id_matching_sequence,john,10754,opengenome,10754,True,
+john_vs_opengenome,JBBPTL010000626.1:0-10744,shared_id_matching_sequence,john,10744,opengenome,10744,True,
+john_vs_opengenome,JBBPTL010000627.1:0-10734,only_in_john,john,10734,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000628.1:0-10727,shared_id_matching_sequence,john,10727,opengenome,10727,True,
+john_vs_opengenome,JBBPTL010000629.1:0-10721,only_in_john,john,10721,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000630.1:0-10717,shared_id_matching_sequence,john,10717,opengenome,10717,True,
+john_vs_opengenome,JBBPTL010000631.1:0-10714,only_in_john,john,10714,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000632.1:0-10702,shared_id_matching_sequence,john,10702,opengenome,10702,True,
+john_vs_opengenome,JBBPTL010000633.1:0-10699,only_in_john,john,10699,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000634.1:0-10684,shared_id_matching_sequence,john,10684,opengenome,10684,True,
+john_vs_opengenome,JBBPTL010000635.1:0-10678,only_in_john,john,10678,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000636.1:0-10671,only_in_john,john,10671,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000637.1:0-10665,only_in_john,john,10665,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000638.1:0-10665,shared_id_matching_sequence,john,10665,opengenome,10665,True,
+john_vs_opengenome,JBBPTL010000639.1:0-10654,only_in_john,john,10654,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000640.1:0-10646,only_in_john,john,10646,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000641.1:0-10642,shared_id_matching_sequence,john,10642,opengenome,10642,True,
+john_vs_opengenome,JBBPTL010000642.1:0-10628,shared_id_matching_sequence,john,10628,opengenome,10628,True,
+john_vs_opengenome,JBBPTL010000643.1:0-10623,only_in_john,john,10623,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000644.1:0-10614,shared_id_matching_sequence,john,10614,opengenome,10614,True,
+john_vs_opengenome,JBBPTL010000645.1:0-10605,shared_id_matching_sequence,john,10605,opengenome,10605,True,
+john_vs_opengenome,JBBPTL010000646.1:0-10602,only_in_john,john,10602,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000647.1:0-10596,shared_id_matching_sequence,john,10596,opengenome,10596,True,
+john_vs_opengenome,JBBPTL010000648.1:0-10566,only_in_john,john,10566,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000649.1:0-10565,shared_id_matching_sequence,john,10565,opengenome,10565,True,
+john_vs_opengenome,JBBPTL010000650.1:0-10554,shared_id_matching_sequence,john,10554,opengenome,10554,True,
+john_vs_opengenome,JBBPTL010000651.1:0-10548,shared_id_matching_sequence,john,10548,opengenome,10548,True,
+john_vs_opengenome,JBBPTL010000652.1:0-10547,shared_id_matching_sequence,john,10547,opengenome,10547,True,
+john_vs_opengenome,JBBPTL010000653.1:0-10544,shared_id_matching_sequence,john,10544,opengenome,10544,True,
+john_vs_opengenome,JBBPTL010000654.1:0-10526,only_in_john,john,10526,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000655.1:0-10518,only_in_john,john,10518,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000656.1:0-10502,shared_id_matching_sequence,john,10502,opengenome,10502,True,
+john_vs_opengenome,JBBPTL010000657.1:0-10495,only_in_john,john,10495,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000658.1:0-10492,only_in_john,john,10492,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000659.1:0-10491,only_in_john,john,10491,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000660.1:0-10480,only_in_john,john,10480,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000661.1:0-10473,only_in_john,john,10473,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000662.1:0-10470,shared_id_matching_sequence,john,10470,opengenome,10470,True,
+john_vs_opengenome,JBBPTL010000663.1:0-10449,only_in_john,john,10449,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000664.1:0-10448,shared_id_matching_sequence,john,10448,opengenome,10448,True,
+john_vs_opengenome,JBBPTL010000665.1:0-10446,only_in_john,john,10446,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000666.1:0-10442,shared_id_matching_sequence,john,10442,opengenome,10442,True,
+john_vs_opengenome,JBBPTL010000667.1:0-10441,only_in_john,john,10441,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000668.1:0-10433,shared_id_matching_sequence,john,10433,opengenome,10433,True,
+john_vs_opengenome,JBBPTL010000669.1:0-10413,only_in_john,john,10413,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000670.1:0-10400,shared_id_matching_sequence,john,10400,opengenome,10400,True,
+john_vs_opengenome,JBBPTL010000671.1:0-10396,shared_id_matching_sequence,john,10396,opengenome,10396,True,
+john_vs_opengenome,JBBPTL010000672.1:0-10388,shared_id_matching_sequence,john,10388,opengenome,10388,True,
+john_vs_opengenome,JBBPTL010000673.1:0-10382,shared_id_matching_sequence,john,10382,opengenome,10382,True,
+john_vs_opengenome,JBBPTL010000674.1:0-10379,shared_id_matching_sequence,john,10379,opengenome,10379,True,
+john_vs_opengenome,JBBPTL010000675.1:0-10352,shared_id_matching_sequence,john,10352,opengenome,10352,True,
+john_vs_opengenome,JBBPTL010000676.1:0-10341,only_in_john,john,10341,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000677.1:0-10329,only_in_john,john,10329,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000678.1:0-10318,shared_id_matching_sequence,john,10318,opengenome,10318,True,
+john_vs_opengenome,JBBPTL010000679.1:0-10311,shared_id_matching_sequence,john,10311,opengenome,10311,True,
+john_vs_opengenome,JBBPTL010000680.1:0-10281,only_in_john,john,10281,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000681.1:0-10275,shared_id_matching_sequence,john,10275,opengenome,10275,True,
+john_vs_opengenome,JBBPTL010000682.1:0-10272,only_in_john,john,10272,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000683.1:0-10264,shared_id_matching_sequence,john,10264,opengenome,10264,True,
+john_vs_opengenome,JBBPTL010000684.1:0-10251,shared_id_matching_sequence,john,10251,opengenome,10251,True,
+john_vs_opengenome,JBBPTL010000685.1:0-10245,only_in_john,john,10245,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000686.1:0-10245,only_in_john,john,10245,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000687.1:0-10229,only_in_john,john,10229,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000688.1:0-10223,shared_id_matching_sequence,john,10223,opengenome,10223,True,
+john_vs_opengenome,JBBPTL010000689.1:0-10218,shared_id_matching_sequence,john,10218,opengenome,10218,True,
+john_vs_opengenome,JBBPTL010000690.1:0-10214,shared_id_matching_sequence,john,10214,opengenome,10214,True,
+john_vs_opengenome,JBBPTL010000691.1:0-10209,shared_id_matching_sequence,john,10209,opengenome,10209,True,
+john_vs_opengenome,JBBPTL010000692.1:0-10205,only_in_john,john,10205,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000693.1:0-10198,only_in_john,john,10198,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000694.1:0-10194,shared_id_matching_sequence,john,10194,opengenome,10194,True,
+john_vs_opengenome,JBBPTL010000695.1:0-10184,only_in_john,john,10184,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000696.1:0-10180,shared_id_matching_sequence,john,10180,opengenome,10180,True,
+john_vs_opengenome,JBBPTL010000697.1:0-10180,shared_id_matching_sequence,john,10180,opengenome,10180,True,
+john_vs_opengenome,JBBPTL010000698.1:0-10173,shared_id_matching_sequence,john,10173,opengenome,10173,True,
+john_vs_opengenome,JBBPTL010000699.1:0-10168,shared_id_matching_sequence,john,10168,opengenome,10168,True,
+john_vs_opengenome,JBBPTL010000700.1:0-10150,only_in_john,john,10150,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000701.1:0-10146,shared_id_matching_sequence,john,10146,opengenome,10146,True,
+john_vs_opengenome,JBBPTL010000702.1:0-10145,only_in_john,john,10145,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000703.1:0-10139,shared_id_matching_sequence,john,10139,opengenome,10139,True,
+john_vs_opengenome,JBBPTL010000704.1:0-10138,shared_id_matching_sequence,john,10138,opengenome,10138,True,
+john_vs_opengenome,JBBPTL010000705.1:0-10129,shared_id_matching_sequence,john,10129,opengenome,10129,True,
+john_vs_opengenome,JBBPTL010000706.1:0-10117,shared_id_matching_sequence,john,10117,opengenome,10117,True,
+john_vs_opengenome,JBBPTL010000707.1:0-10112,only_in_john,john,10112,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000708.1:0-10111,shared_id_matching_sequence,john,10111,opengenome,10111,True,
+john_vs_opengenome,JBBPTL010000709.1:0-10105,shared_id_matching_sequence,john,10105,opengenome,10105,True,
+john_vs_opengenome,JBBPTL010000710.1:0-10097,shared_id_matching_sequence,john,10097,opengenome,10097,True,
+john_vs_opengenome,JBBPTL010000711.1:0-10096,shared_id_matching_sequence,john,10096,opengenome,10096,True,
+john_vs_opengenome,JBBPTL010000712.1:0-10095,only_in_john,john,10095,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000713.1:0-10092,only_in_john,john,10092,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000714.1:0-10085,only_in_john,john,10085,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000715.1:0-10072,only_in_john,john,10072,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000716.1:0-10066,shared_id_matching_sequence,john,10066,opengenome,10066,True,
+john_vs_opengenome,JBBPTL010000717.1:0-10057,shared_id_matching_sequence,john,10057,opengenome,10057,True,
+john_vs_opengenome,JBBPTL010000718.1:0-10053,shared_id_matching_sequence,john,10053,opengenome,10053,True,
+john_vs_opengenome,JBBPTL010000719.1:0-10052,only_in_john,john,10052,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000720.1:0-10026,shared_id_matching_sequence,john,10026,opengenome,10026,True,
+john_vs_opengenome,JBBPTL010000721.1:0-10022,shared_id_matching_sequence,john,10022,opengenome,10022,True,
+john_vs_opengenome,JBBPTL010000722.1:0-10021,shared_id_matching_sequence,john,10021,opengenome,10021,True,
+john_vs_opengenome,JBBPTL010000723.1:0-10013,shared_id_matching_sequence,john,10013,opengenome,10013,True,
+john_vs_opengenome,JBBPTL010000724.1:0-10010,only_in_john,john,10010,opengenome,,,missing from opengenome
+john_vs_opengenome,JBBPTL010000725.1:0-10001,only_in_john,john,10001,opengenome,,,missing from opengenome
+recreated_vs_opengenome,JBBPTL010000001.1:0-66503,shared_id_matching_sequence,recreated,66503,opengenome,66503,True,
+recreated_vs_opengenome,JBBPTL010000002.1:0-64415,shared_id_matching_sequence,recreated,64415,opengenome,64415,True,
+recreated_vs_opengenome,JBBPTL010000003.1:38072-50382,shared_id_matching_sequence,recreated,12310,opengenome,12310,True,
+recreated_vs_opengenome,JBBPTL010000004.1:34875-53500,shared_id_matching_sequence,recreated,18625,opengenome,18625,True,
+recreated_vs_opengenome,JBBPTL010000005.1:1834-54560,shared_id_matching_sequence,recreated,52726,opengenome,52726,True,
+recreated_vs_opengenome,JBBPTL010000006.1:0-53454,shared_id_matching_sequence,recreated,53454,opengenome,53454,True,
+recreated_vs_opengenome,JBBPTL010000007.1:0-53113,shared_id_matching_sequence,recreated,53113,opengenome,53113,True,
+recreated_vs_opengenome,JBBPTL010000008.1:22449-34327,shared_id_matching_sequence,recreated,11878,opengenome,11878,True,
+recreated_vs_opengenome,JBBPTL010000008.1:3534-18885,shared_id_matching_sequence,recreated,15351,opengenome,15351,True,
+recreated_vs_opengenome,JBBPTL010000009.1:0-51236,shared_id_matching_sequence,recreated,51236,opengenome,51236,True,
+recreated_vs_opengenome,JBBPTL010000010.1:0-23373,shared_id_matching_sequence,recreated,23373,opengenome,23373,True,
+recreated_vs_opengenome,JBBPTL010000010.1:23383-51011,shared_id_matching_sequence,recreated,27628,opengenome,27628,True,
+recreated_vs_opengenome,JBBPTL010000011.1:0-50509,shared_id_matching_sequence,recreated,50509,opengenome,50509,True,
+recreated_vs_opengenome,JBBPTL010000012.1:0-15399,shared_id_matching_sequence,recreated,15399,opengenome,15399,True,
+recreated_vs_opengenome,JBBPTL010000012.1:15497-29270,shared_id_matching_sequence,recreated,13773,opengenome,13773,True,
+recreated_vs_opengenome,JBBPTL010000013.1:0-47959,shared_id_matching_sequence,recreated,47959,opengenome,47959,True,
+recreated_vs_opengenome,JBBPTL010000014.1:0-44122,shared_id_matching_sequence,recreated,44122,opengenome,44122,True,
+recreated_vs_opengenome,JBBPTL010000016.1:0-43432,shared_id_matching_sequence,recreated,43432,opengenome,43432,True,
+recreated_vs_opengenome,JBBPTL010000017.1:0-43431,shared_id_matching_sequence,recreated,43431,opengenome,43431,True,
+recreated_vs_opengenome,JBBPTL010000018.1:0-42879,shared_id_matching_sequence,recreated,42879,opengenome,42879,True,
+recreated_vs_opengenome,JBBPTL010000019.1:0-22067,shared_id_matching_sequence,recreated,22067,opengenome,22067,True,
+recreated_vs_opengenome,JBBPTL010000019.1:30185-41621,shared_id_matching_sequence,recreated,11436,opengenome,11436,True,
+recreated_vs_opengenome,JBBPTL010000020.1:3297-23385,shared_id_matching_sequence,recreated,20088,opengenome,20088,True,
+recreated_vs_opengenome,JBBPTL010000021.1:17215-34314,shared_id_matching_sequence,recreated,17099,opengenome,17099,True,
+recreated_vs_opengenome,JBBPTL010000022.1:2975-22507,shared_id_matching_sequence,recreated,19532,opengenome,19532,True,
+recreated_vs_opengenome,JBBPTL010000023.1:0-39166,shared_id_matching_sequence,recreated,39166,opengenome,39166,True,
+recreated_vs_opengenome,JBBPTL010000024.1:0-38862,shared_id_matching_sequence,recreated,38862,opengenome,38862,True,
+recreated_vs_opengenome,JBBPTL010000025.1:0-38827,shared_id_matching_sequence,recreated,38827,opengenome,38827,True,
+recreated_vs_opengenome,JBBPTL010000026.1:0-38597,shared_id_matching_sequence,recreated,38597,opengenome,38597,True,
+recreated_vs_opengenome,JBBPTL010000027.1:10292-25180,shared_id_matching_sequence,recreated,14888,opengenome,14888,True,
+recreated_vs_opengenome,JBBPTL010000028.1:0-37149,shared_id_matching_sequence,recreated,37149,opengenome,37149,True,
+recreated_vs_opengenome,JBBPTL010000029.1:0-16342,shared_id_matching_sequence,recreated,16342,opengenome,16342,True,
+recreated_vs_opengenome,JBBPTL010000029.1:16352-37149,shared_id_matching_sequence,recreated,20797,opengenome,20797,True,
+recreated_vs_opengenome,JBBPTL010000030.1:0-36461,shared_id_matching_sequence,recreated,36461,opengenome,36461,True,
+recreated_vs_opengenome,JBBPTL010000031.1:0-21445,shared_id_matching_sequence,recreated,21445,opengenome,21445,True,
+recreated_vs_opengenome,JBBPTL010000032.1:0-36113,shared_id_matching_sequence,recreated,36113,opengenome,36113,True,
+recreated_vs_opengenome,JBBPTL010000033.1:0-35335,shared_id_matching_sequence,recreated,35335,opengenome,35335,True,
+recreated_vs_opengenome,JBBPTL010000034.1:0-34954,shared_id_matching_sequence,recreated,34954,opengenome,34954,True,
+recreated_vs_opengenome,JBBPTL010000035.1:13901-26022,shared_id_matching_sequence,recreated,12121,opengenome,12121,True,
+recreated_vs_opengenome,JBBPTL010000037.1:0-33464,shared_id_matching_sequence,recreated,33464,opengenome,33464,True,
+recreated_vs_opengenome,JBBPTL010000039.1:0-33296,shared_id_matching_sequence,recreated,33296,opengenome,33296,True,
+recreated_vs_opengenome,JBBPTL010000040.1:0-33023,shared_id_matching_sequence,recreated,33023,opengenome,33023,True,
+recreated_vs_opengenome,JBBPTL010000042.1:0-32843,shared_id_matching_sequence,recreated,32843,opengenome,32843,True,
+recreated_vs_opengenome,JBBPTL010000043.1:0-32573,shared_id_matching_sequence,recreated,32573,opengenome,32573,True,
+recreated_vs_opengenome,JBBPTL010000044.1:0-32200,shared_id_matching_sequence,recreated,32200,opengenome,32200,True,
+recreated_vs_opengenome,JBBPTL010000045.1:20233-32097,shared_id_matching_sequence,recreated,11864,opengenome,11864,True,
+recreated_vs_opengenome,JBBPTL010000045.1:3056-20136,shared_id_matching_sequence,recreated,17080,opengenome,17080,True,
+recreated_vs_opengenome,JBBPTL010000046.1:0-22172,shared_id_matching_sequence,recreated,22172,opengenome,22172,True,
+recreated_vs_opengenome,JBBPTL010000047.1:0-31869,shared_id_matching_sequence,recreated,31869,opengenome,31869,True,
+recreated_vs_opengenome,JBBPTL010000048.1:0-31191,shared_id_matching_sequence,recreated,31191,opengenome,31191,True,
+recreated_vs_opengenome,JBBPTL010000049.1:14900-25420,shared_id_matching_sequence,recreated,10520,opengenome,10520,True,
+recreated_vs_opengenome,JBBPTL010000051.1:0-30538,shared_id_matching_sequence,recreated,30538,opengenome,30538,True,
+recreated_vs_opengenome,JBBPTL010000052.1:0-30493,shared_id_matching_sequence,recreated,30493,opengenome,30493,True,
+recreated_vs_opengenome,JBBPTL010000054.1:0-29271,shared_id_matching_sequence,recreated,29271,opengenome,29271,True,
+recreated_vs_opengenome,JBBPTL010000055.1:15418-27721,shared_id_matching_sequence,recreated,12303,opengenome,12303,True,
+recreated_vs_opengenome,JBBPTL010000055.1:1722-15320,shared_id_matching_sequence,recreated,13598,opengenome,13598,True,
+recreated_vs_opengenome,JBBPTL010000059.1:12684-27995,shared_id_matching_sequence,recreated,15311,opengenome,15311,True,
+recreated_vs_opengenome,JBBPTL010000060.1:2099-16141,shared_id_matching_sequence,recreated,14042,opengenome,14042,True,
+recreated_vs_opengenome,JBBPTL010000062.1:0-27173,shared_id_matching_sequence,recreated,27173,opengenome,27173,True,
+recreated_vs_opengenome,JBBPTL010000064.1:0-27109,shared_id_matching_sequence,recreated,27109,opengenome,27109,True,
+recreated_vs_opengenome,JBBPTL010000065.1:0-27021,shared_id_matching_sequence,recreated,27021,opengenome,27021,True,
+recreated_vs_opengenome,JBBPTL010000066.1:0-26915,shared_id_matching_sequence,recreated,26915,opengenome,26915,True,
+recreated_vs_opengenome,JBBPTL010000067.1:0-10475,shared_id_matching_sequence,recreated,10475,opengenome,10475,True,
+recreated_vs_opengenome,JBBPTL010000068.1:0-26833,shared_id_matching_sequence,recreated,26833,opengenome,26833,True,
+recreated_vs_opengenome,JBBPTL010000069.1:0-26509,shared_id_matching_sequence,recreated,26509,opengenome,26509,True,
+recreated_vs_opengenome,JBBPTL010000070.1:6068-21120,shared_id_matching_sequence,recreated,15052,opengenome,15052,True,
+recreated_vs_opengenome,JBBPTL010000071.1:0-21072,shared_id_matching_sequence,recreated,21072,opengenome,21072,True,
+recreated_vs_opengenome,JBBPTL010000072.1:0-26332,shared_id_matching_sequence,recreated,26332,opengenome,26332,True,
+recreated_vs_opengenome,JBBPTL010000073.1:0-26222,shared_id_matching_sequence,recreated,26222,opengenome,26222,True,
+recreated_vs_opengenome,JBBPTL010000075.1:0-26181,shared_id_matching_sequence,recreated,26181,opengenome,26181,True,
+recreated_vs_opengenome,JBBPTL010000078.1:8913-26047,shared_id_matching_sequence,recreated,17134,opengenome,17134,True,
+recreated_vs_opengenome,JBBPTL010000079.1:0-25949,shared_id_matching_sequence,recreated,25949,opengenome,25949,True,
+recreated_vs_opengenome,JBBPTL010000081.1:7301-23363,shared_id_matching_sequence,recreated,16062,opengenome,16062,True,
+recreated_vs_opengenome,JBBPTL010000082.1:0-25581,shared_id_matching_sequence,recreated,25581,opengenome,25581,True,
+recreated_vs_opengenome,JBBPTL010000088.1:0-23736,shared_id_matching_sequence,recreated,23736,opengenome,23736,True,
+recreated_vs_opengenome,JBBPTL010000092.1:0-23171,shared_id_matching_sequence,recreated,23171,opengenome,23171,True,
+recreated_vs_opengenome,JBBPTL010000093.1:0-23069,shared_id_matching_sequence,recreated,23069,opengenome,23069,True,
+recreated_vs_opengenome,JBBPTL010000095.1:6193-23010,shared_id_matching_sequence,recreated,16817,opengenome,16817,True,
+recreated_vs_opengenome,JBBPTL010000097.1:0-22830,shared_id_matching_sequence,recreated,22830,opengenome,22830,True,
+recreated_vs_opengenome,JBBPTL010000099.1:3216-17569,shared_id_matching_sequence,recreated,14353,opengenome,14353,True,
+recreated_vs_opengenome,JBBPTL010000100.1:0-15427,shared_id_matching_sequence,recreated,15427,opengenome,15427,True,
+recreated_vs_opengenome,JBBPTL010000101.1:9733-22373,shared_id_matching_sequence,recreated,12640,opengenome,12640,True,
+recreated_vs_opengenome,JBBPTL010000102.1:0-22326,shared_id_matching_sequence,recreated,22326,opengenome,22326,True,
+recreated_vs_opengenome,JBBPTL010000103.1:0-22263,shared_id_matching_sequence,recreated,22263,opengenome,22263,True,
+recreated_vs_opengenome,JBBPTL010000104.1:0-22158,shared_id_matching_sequence,recreated,22158,opengenome,22158,True,
+recreated_vs_opengenome,JBBPTL010000105.1:0-22102,shared_id_matching_sequence,recreated,22102,opengenome,22102,True,
+recreated_vs_opengenome,JBBPTL010000106.1:0-22056,shared_id_matching_sequence,recreated,22056,opengenome,22056,True,
+recreated_vs_opengenome,JBBPTL010000110.1:0-21607,shared_id_matching_sequence,recreated,21607,opengenome,21607,True,
+recreated_vs_opengenome,JBBPTL010000114.1:0-21503,shared_id_matching_sequence,recreated,21503,opengenome,21503,True,
+recreated_vs_opengenome,JBBPTL010000116.1:0-21405,shared_id_matching_sequence,recreated,21405,opengenome,21405,True,
+recreated_vs_opengenome,JBBPTL010000118.1:0-21337,shared_id_matching_sequence,recreated,21337,opengenome,21337,True,
+recreated_vs_opengenome,JBBPTL010000119.1:7523-21330,shared_id_matching_sequence,recreated,13807,opengenome,13807,True,
+recreated_vs_opengenome,JBBPTL010000121.1:0-21089,shared_id_matching_sequence,recreated,21089,opengenome,21089,True,
+recreated_vs_opengenome,JBBPTL010000122.1:0-21014,shared_id_matching_sequence,recreated,21014,opengenome,21014,True,
+recreated_vs_opengenome,JBBPTL010000124.1:1238-20868,shared_id_matching_sequence,recreated,19630,opengenome,19630,True,
+recreated_vs_opengenome,JBBPTL010000125.1:0-20860,shared_id_matching_sequence,recreated,20860,opengenome,20860,True,
+recreated_vs_opengenome,JBBPTL010000127.1:0-20689,shared_id_matching_sequence,recreated,20689,opengenome,20689,True,
+recreated_vs_opengenome,JBBPTL010000128.1:0-20595,shared_id_matching_sequence,recreated,20595,opengenome,20595,True,
+recreated_vs_opengenome,JBBPTL010000130.1:0-20588,shared_id_matching_sequence,recreated,20588,opengenome,20588,True,
+recreated_vs_opengenome,JBBPTL010000131.1:0-20549,shared_id_matching_sequence,recreated,20549,opengenome,20549,True,
+recreated_vs_opengenome,JBBPTL010000132.1:0-20427,shared_id_matching_sequence,recreated,20427,opengenome,20427,True,
+recreated_vs_opengenome,JBBPTL010000134.1:0-20405,shared_id_matching_sequence,recreated,20405,opengenome,20405,True,
+recreated_vs_opengenome,JBBPTL010000135.1:0-20360,shared_id_matching_sequence,recreated,20360,opengenome,20360,True,
+recreated_vs_opengenome,JBBPTL010000136.1:0-20220,shared_id_matching_sequence,recreated,20220,opengenome,20220,True,
+recreated_vs_opengenome,JBBPTL010000137.1:0-20085,shared_id_matching_sequence,recreated,20085,opengenome,20085,True,
+recreated_vs_opengenome,JBBPTL010000141.1:0-19897,shared_id_matching_sequence,recreated,19897,opengenome,19897,True,
+recreated_vs_opengenome,JBBPTL010000144.1:0-19843,shared_id_matching_sequence,recreated,19843,opengenome,19843,True,
+recreated_vs_opengenome,JBBPTL010000145.1:0-19803,shared_id_matching_sequence,recreated,19803,opengenome,19803,True,
+recreated_vs_opengenome,JBBPTL010000146.1:0-10473,shared_id_matching_sequence,recreated,10473,opengenome,10473,True,
+recreated_vs_opengenome,JBBPTL010000147.1:0-19703,shared_id_matching_sequence,recreated,19703,opengenome,19703,True,
+recreated_vs_opengenome,JBBPTL010000148.1:0-19694,shared_id_matching_sequence,recreated,19694,opengenome,19694,True,
+recreated_vs_opengenome,JBBPTL010000149.1:0-19656,shared_id_matching_sequence,recreated,19656,opengenome,19656,True,
+recreated_vs_opengenome,JBBPTL010000150.1:0-19650,shared_id_matching_sequence,recreated,19650,opengenome,19650,True,
+recreated_vs_opengenome,JBBPTL010000152.1:0-19450,shared_id_matching_sequence,recreated,19450,opengenome,19450,True,
+recreated_vs_opengenome,JBBPTL010000153.1:0-19397,shared_id_matching_sequence,recreated,19397,opengenome,19397,True,
+recreated_vs_opengenome,JBBPTL010000155.1:0-19204,shared_id_matching_sequence,recreated,19204,opengenome,19204,True,
+recreated_vs_opengenome,JBBPTL010000156.1:0-19043,shared_id_matching_sequence,recreated,19043,opengenome,19043,True,
+recreated_vs_opengenome,JBBPTL010000160.1:0-18787,shared_id_matching_sequence,recreated,18787,opengenome,18787,True,
+recreated_vs_opengenome,JBBPTL010000162.1:0-18775,shared_id_matching_sequence,recreated,18775,opengenome,18775,True,
+recreated_vs_opengenome,JBBPTL010000164.1:0-11150,shared_id_matching_sequence,recreated,11150,opengenome,11150,True,
+recreated_vs_opengenome,JBBPTL010000165.1:0-18706,shared_id_matching_sequence,recreated,18706,opengenome,18706,True,
+recreated_vs_opengenome,JBBPTL010000166.1:0-18661,shared_id_matching_sequence,recreated,18661,opengenome,18661,True,
+recreated_vs_opengenome,JBBPTL010000168.1:0-18568,shared_id_matching_sequence,recreated,18568,opengenome,18568,True,
+recreated_vs_opengenome,JBBPTL010000170.1:0-18494,shared_id_matching_sequence,recreated,18494,opengenome,18494,True,
+recreated_vs_opengenome,JBBPTL010000171.1:0-18462,shared_id_matching_sequence,recreated,18462,opengenome,18462,True,
+recreated_vs_opengenome,JBBPTL010000172.1:0-18449,shared_id_matching_sequence,recreated,18449,opengenome,18449,True,
+recreated_vs_opengenome,JBBPTL010000173.1:0-18423,shared_id_matching_sequence,recreated,18423,opengenome,18423,True,
+recreated_vs_opengenome,JBBPTL010000175.1:0-18343,shared_id_matching_sequence,recreated,18343,opengenome,18343,True,
+recreated_vs_opengenome,JBBPTL010000177.1:0-10987,shared_id_matching_sequence,recreated,10987,opengenome,10987,True,
+recreated_vs_opengenome,JBBPTL010000178.1:0-10144,shared_id_matching_sequence,recreated,10144,opengenome,10144,True,
+recreated_vs_opengenome,JBBPTL010000180.1:1732-18167,shared_id_matching_sequence,recreated,16435,opengenome,16435,True,
+recreated_vs_opengenome,JBBPTL010000181.1:0-18136,shared_id_matching_sequence,recreated,18136,opengenome,18136,True,
+recreated_vs_opengenome,JBBPTL010000183.1:0-15378,shared_id_matching_sequence,recreated,15378,opengenome,15378,True,
+recreated_vs_opengenome,JBBPTL010000185.1:0-18039,shared_id_matching_sequence,recreated,18039,opengenome,18039,True,
+recreated_vs_opengenome,JBBPTL010000187.1:0-18020,shared_id_matching_sequence,recreated,18020,opengenome,18020,True,
+recreated_vs_opengenome,JBBPTL010000188.1:0-18009,shared_id_matching_sequence,recreated,18009,opengenome,18009,True,
+recreated_vs_opengenome,JBBPTL010000190.1:0-17980,shared_id_matching_sequence,recreated,17980,opengenome,17980,True,
+recreated_vs_opengenome,JBBPTL010000195.1:0-17819,shared_id_matching_sequence,recreated,17819,opengenome,17819,True,
+recreated_vs_opengenome,JBBPTL010000197.1:0-17797,shared_id_matching_sequence,recreated,17797,opengenome,17797,True,
+recreated_vs_opengenome,JBBPTL010000198.1:0-17796,shared_id_matching_sequence,recreated,17796,opengenome,17796,True,
+recreated_vs_opengenome,JBBPTL010000199.1:0-17722,shared_id_matching_sequence,recreated,17722,opengenome,17722,True,
+recreated_vs_opengenome,JBBPTL010000200.1:0-10521,shared_id_matching_sequence,recreated,10521,opengenome,10521,True,
+recreated_vs_opengenome,JBBPTL010000205.1:0-17470,shared_id_matching_sequence,recreated,17470,opengenome,17470,True,
+recreated_vs_opengenome,JBBPTL010000206.1:0-17433,shared_id_matching_sequence,recreated,17433,opengenome,17433,True,
+recreated_vs_opengenome,JBBPTL010000207.1:0-17418,shared_id_matching_sequence,recreated,17418,opengenome,17418,True,
+recreated_vs_opengenome,JBBPTL010000209.1:5142-17356,shared_id_matching_sequence,recreated,12214,opengenome,12214,True,
+recreated_vs_opengenome,JBBPTL010000210.1:0-17352,shared_id_matching_sequence,recreated,17352,opengenome,17352,True,
+recreated_vs_opengenome,JBBPTL010000211.1:0-17334,shared_id_matching_sequence,recreated,17334,opengenome,17334,True,
+recreated_vs_opengenome,JBBPTL010000212.1:0-17320,shared_id_matching_sequence,recreated,17320,opengenome,17320,True,
+recreated_vs_opengenome,JBBPTL010000215.1:0-17257,shared_id_matching_sequence,recreated,17257,opengenome,17257,True,
+recreated_vs_opengenome,JBBPTL010000217.1:0-17215,shared_id_matching_sequence,recreated,17215,opengenome,17215,True,
+recreated_vs_opengenome,JBBPTL010000218.1:0-17197,shared_id_matching_sequence,recreated,17197,opengenome,17197,True,
+recreated_vs_opengenome,JBBPTL010000219.1:6161-17162,shared_id_matching_sequence,recreated,11001,opengenome,11001,True,
+recreated_vs_opengenome,JBBPTL010000221.1:0-17112,shared_id_matching_sequence,recreated,17112,opengenome,17112,True,
+recreated_vs_opengenome,JBBPTL010000223.1:0-17091,shared_id_matching_sequence,recreated,17091,opengenome,17091,True,
+recreated_vs_opengenome,JBBPTL010000224.1:0-17076,shared_id_matching_sequence,recreated,17076,opengenome,17076,True,
+recreated_vs_opengenome,JBBPTL010000226.1:0-17058,shared_id_matching_sequence,recreated,17058,opengenome,17058,True,
+recreated_vs_opengenome,JBBPTL010000227.1:0-17039,shared_id_matching_sequence,recreated,17039,opengenome,17039,True,
+recreated_vs_opengenome,JBBPTL010000228.1:3697-15286,shared_id_matching_sequence,recreated,11589,opengenome,11589,True,
+recreated_vs_opengenome,JBBPTL010000229.1:0-17032,shared_id_matching_sequence,recreated,17032,opengenome,17032,True,
+recreated_vs_opengenome,JBBPTL010000233.1:0-16891,shared_id_matching_sequence,recreated,16891,opengenome,16891,True,
+recreated_vs_opengenome,JBBPTL010000235.1:0-16831,shared_id_matching_sequence,recreated,16831,opengenome,16831,True,
+recreated_vs_opengenome,JBBPTL010000237.1:0-16809,shared_id_matching_sequence,recreated,16809,opengenome,16809,True,
+recreated_vs_opengenome,JBBPTL010000241.1:0-16733,shared_id_matching_sequence,recreated,16733,opengenome,16733,True,
+recreated_vs_opengenome,JBBPTL010000242.1:0-16708,shared_id_matching_sequence,recreated,16708,opengenome,16708,True,
+recreated_vs_opengenome,JBBPTL010000243.1:0-16692,shared_id_matching_sequence,recreated,16692,opengenome,16692,True,
+recreated_vs_opengenome,JBBPTL010000244.1:0-16685,shared_id_matching_sequence,recreated,16685,opengenome,16685,True,
+recreated_vs_opengenome,JBBPTL010000245.1:0-16661,shared_id_matching_sequence,recreated,16661,opengenome,16661,True,
+recreated_vs_opengenome,JBBPTL010000247.1:0-16627,shared_id_matching_sequence,recreated,16627,opengenome,16627,True,
+recreated_vs_opengenome,JBBPTL010000251.1:0-16540,shared_id_matching_sequence,recreated,16540,opengenome,16540,True,
+recreated_vs_opengenome,JBBPTL010000253.1:0-16459,shared_id_matching_sequence,recreated,16459,opengenome,16459,True,
+recreated_vs_opengenome,JBBPTL010000254.1:0-16429,shared_id_matching_sequence,recreated,16429,opengenome,16429,True,
+recreated_vs_opengenome,JBBPTL010000255.1:0-16417,shared_id_matching_sequence,recreated,16417,opengenome,16417,True,
+recreated_vs_opengenome,JBBPTL010000256.1:0-16406,shared_id_matching_sequence,recreated,16406,opengenome,16406,True,
+recreated_vs_opengenome,JBBPTL010000257.1:0-16396,shared_id_matching_sequence,recreated,16396,opengenome,16396,True,
+recreated_vs_opengenome,JBBPTL010000258.1:0-16364,shared_id_matching_sequence,recreated,16364,opengenome,16364,True,
+recreated_vs_opengenome,JBBPTL010000262.1:0-16113,shared_id_matching_sequence,recreated,16113,opengenome,16113,True,
+recreated_vs_opengenome,JBBPTL010000265.1:0-16074,shared_id_matching_sequence,recreated,16074,opengenome,16074,True,
+recreated_vs_opengenome,JBBPTL010000266.1:0-16063,shared_id_matching_sequence,recreated,16063,opengenome,16063,True,
+recreated_vs_opengenome,JBBPTL010000267.1:0-16001,shared_id_matching_sequence,recreated,16001,opengenome,16001,True,
+recreated_vs_opengenome,JBBPTL010000271.1:0-15947,shared_id_matching_sequence,recreated,15947,opengenome,15947,True,
+recreated_vs_opengenome,JBBPTL010000273.1:0-15914,shared_id_matching_sequence,recreated,15914,opengenome,15914,True,
+recreated_vs_opengenome,JBBPTL010000274.1:0-15889,shared_id_matching_sequence,recreated,15889,opengenome,15889,True,
+recreated_vs_opengenome,JBBPTL010000277.1:0-15823,shared_id_matching_sequence,recreated,15823,opengenome,15823,True,
+recreated_vs_opengenome,JBBPTL010000281.1:0-15681,shared_id_matching_sequence,recreated,15681,opengenome,15681,True,
+recreated_vs_opengenome,JBBPTL010000282.1:0-15666,shared_id_matching_sequence,recreated,15666,opengenome,15666,True,
+recreated_vs_opengenome,JBBPTL010000284.1:0-15647,shared_id_matching_sequence,recreated,15647,opengenome,15647,True,
+recreated_vs_opengenome,JBBPTL010000285.1:0-15632,shared_id_matching_sequence,recreated,15632,opengenome,15632,True,
+recreated_vs_opengenome,JBBPTL010000286.1:0-15619,shared_id_matching_sequence,recreated,15619,opengenome,15619,True,
+recreated_vs_opengenome,JBBPTL010000288.1:0-15544,shared_id_matching_sequence,recreated,15544,opengenome,15544,True,
+recreated_vs_opengenome,JBBPTL010000290.1:0-15515,shared_id_matching_sequence,recreated,15515,opengenome,15515,True,
+recreated_vs_opengenome,JBBPTL010000291.1:0-15500,shared_id_matching_sequence,recreated,15500,opengenome,15500,True,
+recreated_vs_opengenome,JBBPTL010000292.1:0-15497,shared_id_matching_sequence,recreated,15497,opengenome,15497,True,
+recreated_vs_opengenome,JBBPTL010000293.1:0-15489,shared_id_matching_sequence,recreated,15489,opengenome,15489,True,
+recreated_vs_opengenome,JBBPTL010000294.1:0-15462,shared_id_matching_sequence,recreated,15462,opengenome,15462,True,
+recreated_vs_opengenome,JBBPTL010000295.1:0-15452,shared_id_matching_sequence,recreated,15452,opengenome,15452,True,
+recreated_vs_opengenome,JBBPTL010000297.1:0-15411,shared_id_matching_sequence,recreated,15411,opengenome,15411,True,
+recreated_vs_opengenome,JBBPTL010000298.1:0-15387,shared_id_matching_sequence,recreated,15387,opengenome,15387,True,
+recreated_vs_opengenome,JBBPTL010000299.1:0-11476,shared_id_matching_sequence,recreated,11476,opengenome,11476,True,
+recreated_vs_opengenome,JBBPTL010000300.1:0-15348,shared_id_matching_sequence,recreated,15348,opengenome,15348,True,
+recreated_vs_opengenome,JBBPTL010000301.1:0-15344,shared_id_matching_sequence,recreated,15344,opengenome,15344,True,
+recreated_vs_opengenome,JBBPTL010000304.1:0-15303,shared_id_matching_sequence,recreated,15303,opengenome,15303,True,
+recreated_vs_opengenome,JBBPTL010000305.1:0-15111,shared_id_matching_sequence,recreated,15111,opengenome,15111,True,
+recreated_vs_opengenome,JBBPTL010000307.1:0-15075,shared_id_matching_sequence,recreated,15075,opengenome,15075,True,
+recreated_vs_opengenome,JBBPTL010000308.1:0-15068,shared_id_matching_sequence,recreated,15068,opengenome,15068,True,
+recreated_vs_opengenome,JBBPTL010000309.1:0-15054,shared_id_matching_sequence,recreated,15054,opengenome,15054,True,
+recreated_vs_opengenome,JBBPTL010000313.1:0-14998,shared_id_matching_sequence,recreated,14998,opengenome,14998,True,
+recreated_vs_opengenome,JBBPTL010000314.1:0-14947,shared_id_matching_sequence,recreated,14947,opengenome,14947,True,
+recreated_vs_opengenome,JBBPTL010000315.1:0-14937,shared_id_matching_sequence,recreated,14937,opengenome,14937,True,
+recreated_vs_opengenome,JBBPTL010000316.1:0-14917,shared_id_matching_sequence,recreated,14917,opengenome,14917,True,
+recreated_vs_opengenome,JBBPTL010000322.1:0-14792,shared_id_matching_sequence,recreated,14792,opengenome,14792,True,
+recreated_vs_opengenome,JBBPTL010000323.1:0-14769,shared_id_matching_sequence,recreated,14769,opengenome,14769,True,
+recreated_vs_opengenome,JBBPTL010000326.1:0-14677,shared_id_matching_sequence,recreated,14677,opengenome,14677,True,
+recreated_vs_opengenome,JBBPTL010000327.1:0-10125,shared_id_matching_sequence,recreated,10125,opengenome,10125,True,
+recreated_vs_opengenome,JBBPTL010000328.1:0-14588,shared_id_matching_sequence,recreated,14588,opengenome,14588,True,
+recreated_vs_opengenome,JBBPTL010000329.1:0-14580,shared_id_matching_sequence,recreated,14580,opengenome,14580,True,
+recreated_vs_opengenome,JBBPTL010000332.1:0-14529,shared_id_matching_sequence,recreated,14529,opengenome,14529,True,
+recreated_vs_opengenome,JBBPTL010000333.1:0-14519,shared_id_matching_sequence,recreated,14519,opengenome,14519,True,
+recreated_vs_opengenome,JBBPTL010000334.1:0-14502,shared_id_matching_sequence,recreated,14502,opengenome,14502,True,
+recreated_vs_opengenome,JBBPTL010000335.1:0-14499,shared_id_matching_sequence,recreated,14499,opengenome,14499,True,
+recreated_vs_opengenome,JBBPTL010000336.1:0-14420,shared_id_matching_sequence,recreated,14420,opengenome,14420,True,
+recreated_vs_opengenome,JBBPTL010000337.1:0-14361,shared_id_matching_sequence,recreated,14361,opengenome,14361,True,
+recreated_vs_opengenome,JBBPTL010000338.1:0-14321,shared_id_matching_sequence,recreated,14321,opengenome,14321,True,
+recreated_vs_opengenome,JBBPTL010000339.1:0-14321,shared_id_matching_sequence,recreated,14321,opengenome,14321,True,
+recreated_vs_opengenome,JBBPTL010000341.1:0-14312,shared_id_matching_sequence,recreated,14312,opengenome,14312,True,
+recreated_vs_opengenome,JBBPTL010000342.1:0-14294,shared_id_matching_sequence,recreated,14294,opengenome,14294,True,
+recreated_vs_opengenome,JBBPTL010000344.1:0-14255,shared_id_matching_sequence,recreated,14255,opengenome,14255,True,
+recreated_vs_opengenome,JBBPTL010000346.1:0-14202,shared_id_matching_sequence,recreated,14202,opengenome,14202,True,
+recreated_vs_opengenome,JBBPTL010000347.1:0-14187,shared_id_matching_sequence,recreated,14187,opengenome,14187,True,
+recreated_vs_opengenome,JBBPTL010000348.1:1222-14178,shared_id_matching_sequence,recreated,12956,opengenome,12956,True,
+recreated_vs_opengenome,JBBPTL010000350.1:0-14142,shared_id_matching_sequence,recreated,14142,opengenome,14142,True,
+recreated_vs_opengenome,JBBPTL010000353.1:0-14073,shared_id_matching_sequence,recreated,14073,opengenome,14073,True,
+recreated_vs_opengenome,JBBPTL010000354.1:0-14061,shared_id_matching_sequence,recreated,14061,opengenome,14061,True,
+recreated_vs_opengenome,JBBPTL010000355.1:2472-14057,shared_id_matching_sequence,recreated,11585,opengenome,11585,True,
+recreated_vs_opengenome,JBBPTL010000359.1:0-14022,shared_id_matching_sequence,recreated,14022,opengenome,14022,True,
+recreated_vs_opengenome,JBBPTL010000361.1:0-13914,shared_id_matching_sequence,recreated,13914,opengenome,13914,True,
+recreated_vs_opengenome,JBBPTL010000362.1:0-13895,shared_id_matching_sequence,recreated,13895,opengenome,13895,True,
+recreated_vs_opengenome,JBBPTL010000364.1:0-13848,shared_id_matching_sequence,recreated,13848,opengenome,13848,True,
+recreated_vs_opengenome,JBBPTL010000366.1:0-13816,shared_id_matching_sequence,recreated,13816,opengenome,13816,True,
+recreated_vs_opengenome,JBBPTL010000368.1:0-13796,shared_id_matching_sequence,recreated,13796,opengenome,13796,True,
+recreated_vs_opengenome,JBBPTL010000370.1:0-13691,shared_id_matching_sequence,recreated,13691,opengenome,13691,True,
+recreated_vs_opengenome,JBBPTL010000371.1:0-13663,shared_id_matching_sequence,recreated,13663,opengenome,13663,True,
+recreated_vs_opengenome,JBBPTL010000372.1:0-13659,shared_id_matching_sequence,recreated,13659,opengenome,13659,True,
+recreated_vs_opengenome,JBBPTL010000373.1:3162-13650,shared_id_matching_sequence,recreated,10488,opengenome,10488,True,
+recreated_vs_opengenome,JBBPTL010000374.1:0-13645,shared_id_matching_sequence,recreated,13645,opengenome,13645,True,
+recreated_vs_opengenome,JBBPTL010000375.1:0-13644,shared_id_matching_sequence,recreated,13644,opengenome,13644,True,
+recreated_vs_opengenome,JBBPTL010000377.1:0-13602,shared_id_matching_sequence,recreated,13602,opengenome,13602,True,
+recreated_vs_opengenome,JBBPTL010000379.1:0-13582,shared_id_matching_sequence,recreated,13582,opengenome,13582,True,
+recreated_vs_opengenome,JBBPTL010000381.1:0-13521,shared_id_matching_sequence,recreated,13521,opengenome,13521,True,
+recreated_vs_opengenome,JBBPTL010000382.1:0-13520,shared_id_matching_sequence,recreated,13520,opengenome,13520,True,
+recreated_vs_opengenome,JBBPTL010000385.1:0-13513,shared_id_matching_sequence,recreated,13513,opengenome,13513,True,
+recreated_vs_opengenome,JBBPTL010000387.1:0-13477,shared_id_matching_sequence,recreated,13477,opengenome,13477,True,
+recreated_vs_opengenome,JBBPTL010000388.1:0-13475,shared_id_matching_sequence,recreated,13475,opengenome,13475,True,
+recreated_vs_opengenome,JBBPTL010000392.1:0-11832,shared_id_matching_sequence,recreated,11832,opengenome,11832,True,
+recreated_vs_opengenome,JBBPTL010000395.1:0-13388,shared_id_matching_sequence,recreated,13388,opengenome,13388,True,
+recreated_vs_opengenome,JBBPTL010000396.1:0-13348,shared_id_matching_sequence,recreated,13348,opengenome,13348,True,
+recreated_vs_opengenome,JBBPTL010000397.1:0-13343,shared_id_matching_sequence,recreated,13343,opengenome,13343,True,
+recreated_vs_opengenome,JBBPTL010000400.1:1416-11988,shared_id_matching_sequence,recreated,10572,opengenome,10572,True,
+recreated_vs_opengenome,JBBPTL010000401.1:0-13305,shared_id_matching_sequence,recreated,13305,opengenome,13305,True,
+recreated_vs_opengenome,JBBPTL010000407.1:0-13177,shared_id_matching_sequence,recreated,13177,opengenome,13177,True,
+recreated_vs_opengenome,JBBPTL010000408.1:0-13155,shared_id_matching_sequence,recreated,13155,opengenome,13155,True,
+recreated_vs_opengenome,JBBPTL010000412.1:0-13129,shared_id_matching_sequence,recreated,13129,opengenome,13129,True,
+recreated_vs_opengenome,JBBPTL010000414.1:0-13123,shared_id_matching_sequence,recreated,13123,opengenome,13123,True,
+recreated_vs_opengenome,JBBPTL010000416.1:0-13112,shared_id_matching_sequence,recreated,13112,opengenome,13112,True,
+recreated_vs_opengenome,JBBPTL010000418.1:0-13093,shared_id_matching_sequence,recreated,13093,opengenome,13093,True,
+recreated_vs_opengenome,JBBPTL010000419.1:0-13073,shared_id_matching_sequence,recreated,13073,opengenome,13073,True,
+recreated_vs_opengenome,JBBPTL010000421.1:0-13040,shared_id_matching_sequence,recreated,13040,opengenome,13040,True,
+recreated_vs_opengenome,JBBPTL010000422.1:0-13027,shared_id_matching_sequence,recreated,13027,opengenome,13027,True,
+recreated_vs_opengenome,JBBPTL010000423.1:0-11389,shared_id_matching_sequence,recreated,11389,opengenome,11389,True,
+recreated_vs_opengenome,JBBPTL010000424.1:0-13007,shared_id_matching_sequence,recreated,13007,opengenome,13007,True,
+recreated_vs_opengenome,JBBPTL010000427.1:0-12964,shared_id_matching_sequence,recreated,12964,opengenome,12964,True,
+recreated_vs_opengenome,JBBPTL010000428.1:0-12956,shared_id_matching_sequence,recreated,12956,opengenome,12956,True,
+recreated_vs_opengenome,JBBPTL010000429.1:0-12935,shared_id_matching_sequence,recreated,12935,opengenome,12935,True,
+recreated_vs_opengenome,JBBPTL010000430.1:0-12896,shared_id_matching_sequence,recreated,12896,opengenome,12896,True,
+recreated_vs_opengenome,JBBPTL010000432.1:0-12880,shared_id_matching_sequence,recreated,12880,opengenome,12880,True,
+recreated_vs_opengenome,JBBPTL010000433.1:0-12877,shared_id_matching_sequence,recreated,12877,opengenome,12877,True,
+recreated_vs_opengenome,JBBPTL010000435.1:0-12868,shared_id_matching_sequence,recreated,12868,opengenome,12868,True,
+recreated_vs_opengenome,JBBPTL010000438.1:0-12789,shared_id_matching_sequence,recreated,12789,opengenome,12789,True,
+recreated_vs_opengenome,JBBPTL010000439.1:0-12788,shared_id_matching_sequence,recreated,12788,opengenome,12788,True,
+recreated_vs_opengenome,JBBPTL010000441.1:0-10521,shared_id_matching_sequence,recreated,10521,opengenome,10521,True,
+recreated_vs_opengenome,JBBPTL010000442.1:0-12768,shared_id_matching_sequence,recreated,12768,opengenome,12768,True,
+recreated_vs_opengenome,JBBPTL010000443.1:0-12764,shared_id_matching_sequence,recreated,12764,opengenome,12764,True,
+recreated_vs_opengenome,JBBPTL010000444.1:0-12752,shared_id_matching_sequence,recreated,12752,opengenome,12752,True,
+recreated_vs_opengenome,JBBPTL010000445.1:0-12750,shared_id_matching_sequence,recreated,12750,opengenome,12750,True,
+recreated_vs_opengenome,JBBPTL010000447.1:0-12742,shared_id_matching_sequence,recreated,12742,opengenome,12742,True,
+recreated_vs_opengenome,JBBPTL010000448.1:0-12733,shared_id_matching_sequence,recreated,12733,opengenome,12733,True,
+recreated_vs_opengenome,JBBPTL010000450.1:0-12713,shared_id_matching_sequence,recreated,12713,opengenome,12713,True,
+recreated_vs_opengenome,JBBPTL010000451.1:0-12660,shared_id_matching_sequence,recreated,12660,opengenome,12660,True,
+recreated_vs_opengenome,JBBPTL010000452.1:0-12658,shared_id_matching_sequence,recreated,12658,opengenome,12658,True,
+recreated_vs_opengenome,JBBPTL010000453.1:0-12657,shared_id_matching_sequence,recreated,12657,opengenome,12657,True,
+recreated_vs_opengenome,JBBPTL010000454.1:0-12621,shared_id_matching_sequence,recreated,12621,opengenome,12621,True,
+recreated_vs_opengenome,JBBPTL010000459.1:0-12605,shared_id_matching_sequence,recreated,12605,opengenome,12605,True,
+recreated_vs_opengenome,JBBPTL010000461.1:0-12590,shared_id_matching_sequence,recreated,12590,opengenome,12590,True,
+recreated_vs_opengenome,JBBPTL010000466.1:0-12564,shared_id_matching_sequence,recreated,12564,opengenome,12564,True,
+recreated_vs_opengenome,JBBPTL010000467.1:0-12556,shared_id_matching_sequence,recreated,12556,opengenome,12556,True,
+recreated_vs_opengenome,JBBPTL010000468.1:0-12537,shared_id_matching_sequence,recreated,12537,opengenome,12537,True,
+recreated_vs_opengenome,JBBPTL010000470.1:0-12527,shared_id_matching_sequence,recreated,12527,opengenome,12527,True,
+recreated_vs_opengenome,JBBPTL010000472.1:0-12493,shared_id_matching_sequence,recreated,12493,opengenome,12493,True,
+recreated_vs_opengenome,JBBPTL010000474.1:0-12445,shared_id_matching_sequence,recreated,12445,opengenome,12445,True,
+recreated_vs_opengenome,JBBPTL010000477.1:0-12408,shared_id_matching_sequence,recreated,12408,opengenome,12408,True,
+recreated_vs_opengenome,JBBPTL010000479.1:0-12403,shared_id_matching_sequence,recreated,12403,opengenome,12403,True,
+recreated_vs_opengenome,JBBPTL010000480.1:0-12387,shared_id_matching_sequence,recreated,12387,opengenome,12387,True,
+recreated_vs_opengenome,JBBPTL010000482.1:0-12360,shared_id_matching_sequence,recreated,12360,opengenome,12360,True,
+recreated_vs_opengenome,JBBPTL010000483.1:0-12347,shared_id_matching_sequence,recreated,12347,opengenome,12347,True,
+recreated_vs_opengenome,JBBPTL010000484.1:0-12333,shared_id_matching_sequence,recreated,12333,opengenome,12333,True,
+recreated_vs_opengenome,JBBPTL010000485.1:0-12302,shared_id_matching_sequence,recreated,12302,opengenome,12302,True,
+recreated_vs_opengenome,JBBPTL010000486.1:0-12291,shared_id_matching_sequence,recreated,12291,opengenome,12291,True,
+recreated_vs_opengenome,JBBPTL010000489.1:0-12210,shared_id_matching_sequence,recreated,12210,opengenome,12210,True,
+recreated_vs_opengenome,JBBPTL010000492.1:0-12166,shared_id_matching_sequence,recreated,12166,opengenome,12166,True,
+recreated_vs_opengenome,JBBPTL010000493.1:0-12161,shared_id_matching_sequence,recreated,12161,opengenome,12161,True,
+recreated_vs_opengenome,JBBPTL010000494.1:0-10419,shared_id_matching_sequence,recreated,10419,opengenome,10419,True,
+recreated_vs_opengenome,JBBPTL010000496.1:2055-12128,shared_id_matching_sequence,recreated,10073,opengenome,10073,True,
+recreated_vs_opengenome,JBBPTL010000497.1:0-12122,shared_id_matching_sequence,recreated,12122,opengenome,12122,True,
+recreated_vs_opengenome,JBBPTL010000498.1:0-12105,shared_id_matching_sequence,recreated,12105,opengenome,12105,True,
+recreated_vs_opengenome,JBBPTL010000500.1:0-12091,shared_id_matching_sequence,recreated,12091,opengenome,12091,True,
+recreated_vs_opengenome,JBBPTL010000501.1:0-12088,shared_id_matching_sequence,recreated,12088,opengenome,12088,True,
+recreated_vs_opengenome,JBBPTL010000504.1:0-12010,shared_id_matching_sequence,recreated,12010,opengenome,12010,True,
+recreated_vs_opengenome,JBBPTL010000505.1:0-12010,shared_id_matching_sequence,recreated,12010,opengenome,12010,True,
+recreated_vs_opengenome,JBBPTL010000507.1:0-12001,shared_id_matching_sequence,recreated,12001,opengenome,12001,True,
+recreated_vs_opengenome,JBBPTL010000508.1:0-11990,shared_id_matching_sequence,recreated,11990,opengenome,11990,True,
+recreated_vs_opengenome,JBBPTL010000511.1:0-11984,shared_id_matching_sequence,recreated,11984,opengenome,11984,True,
+recreated_vs_opengenome,JBBPTL010000512.1:0-11979,shared_id_matching_sequence,recreated,11979,opengenome,11979,True,
+recreated_vs_opengenome,JBBPTL010000513.1:0-11978,shared_id_matching_sequence,recreated,11978,opengenome,11978,True,
+recreated_vs_opengenome,JBBPTL010000514.1:0-11976,shared_id_matching_sequence,recreated,11976,opengenome,11976,True,
+recreated_vs_opengenome,JBBPTL010000515.1:0-11962,shared_id_matching_sequence,recreated,11962,opengenome,11962,True,
+recreated_vs_opengenome,JBBPTL010000517.1:0-11950,shared_id_matching_sequence,recreated,11950,opengenome,11950,True,
+recreated_vs_opengenome,JBBPTL010000523.1:0-11863,shared_id_matching_sequence,recreated,11863,opengenome,11863,True,
+recreated_vs_opengenome,JBBPTL010000524.1:0-11853,shared_id_matching_sequence,recreated,11853,opengenome,11853,True,
+recreated_vs_opengenome,JBBPTL010000525.1:0-11852,shared_id_matching_sequence,recreated,11852,opengenome,11852,True,
+recreated_vs_opengenome,JBBPTL010000527.1:0-11844,shared_id_matching_sequence,recreated,11844,opengenome,11844,True,
+recreated_vs_opengenome,JBBPTL010000530.1:0-11812,shared_id_matching_sequence,recreated,11812,opengenome,11812,True,
+recreated_vs_opengenome,JBBPTL010000531.1:0-11803,shared_id_matching_sequence,recreated,11803,opengenome,11803,True,
+recreated_vs_opengenome,JBBPTL010000532.1:0-11803,shared_id_matching_sequence,recreated,11803,opengenome,11803,True,
+recreated_vs_opengenome,JBBPTL010000536.1:0-11747,shared_id_matching_sequence,recreated,11747,opengenome,11747,True,
+recreated_vs_opengenome,JBBPTL010000538.1:0-11723,shared_id_matching_sequence,recreated,11723,opengenome,11723,True,
+recreated_vs_opengenome,JBBPTL010000539.1:0-11703,shared_id_matching_sequence,recreated,11703,opengenome,11703,True,
+recreated_vs_opengenome,JBBPTL010000540.1:0-11701,shared_id_matching_sequence,recreated,11701,opengenome,11701,True,
+recreated_vs_opengenome,JBBPTL010000541.1:0-11697,shared_id_matching_sequence,recreated,11697,opengenome,11697,True,
+recreated_vs_opengenome,JBBPTL010000545.1:0-11662,shared_id_matching_sequence,recreated,11662,opengenome,11662,True,
+recreated_vs_opengenome,JBBPTL010000548.1:0-11576,shared_id_matching_sequence,recreated,11576,opengenome,11576,True,
+recreated_vs_opengenome,JBBPTL010000550.1:0-11568,shared_id_matching_sequence,recreated,11568,opengenome,11568,True,
+recreated_vs_opengenome,JBBPTL010000553.1:0-11540,shared_id_matching_sequence,recreated,11540,opengenome,11540,True,
+recreated_vs_opengenome,JBBPTL010000554.1:0-11536,shared_id_matching_sequence,recreated,11536,opengenome,11536,True,
+recreated_vs_opengenome,JBBPTL010000558.1:0-11453,shared_id_matching_sequence,recreated,11453,opengenome,11453,True,
+recreated_vs_opengenome,JBBPTL010000561.1:0-11429,shared_id_matching_sequence,recreated,11429,opengenome,11429,True,
+recreated_vs_opengenome,JBBPTL010000562.1:0-11414,shared_id_matching_sequence,recreated,11414,opengenome,11414,True,
+recreated_vs_opengenome,JBBPTL010000565.1:0-11373,shared_id_matching_sequence,recreated,11373,opengenome,11373,True,
+recreated_vs_opengenome,JBBPTL010000566.1:0-11370,shared_id_matching_sequence,recreated,11370,opengenome,11370,True,
+recreated_vs_opengenome,JBBPTL010000567.1:0-11363,shared_id_matching_sequence,recreated,11363,opengenome,11363,True,
+recreated_vs_opengenome,JBBPTL010000571.1:0-11327,shared_id_matching_sequence,recreated,11327,opengenome,11327,True,
+recreated_vs_opengenome,JBBPTL010000573.1:0-11319,shared_id_matching_sequence,recreated,11319,opengenome,11319,True,
+recreated_vs_opengenome,JBBPTL010000574.1:0-11318,shared_id_matching_sequence,recreated,11318,opengenome,11318,True,
+recreated_vs_opengenome,JBBPTL010000578.1:0-11284,shared_id_matching_sequence,recreated,11284,opengenome,11284,True,
+recreated_vs_opengenome,JBBPTL010000583.1:0-11189,shared_id_matching_sequence,recreated,11189,opengenome,11189,True,
+recreated_vs_opengenome,JBBPTL010000586.1:0-11160,shared_id_matching_sequence,recreated,11160,opengenome,11160,True,
+recreated_vs_opengenome,JBBPTL010000587.1:0-11143,shared_id_matching_sequence,recreated,11143,opengenome,11143,True,
+recreated_vs_opengenome,JBBPTL010000589.1:0-11141,shared_id_matching_sequence,recreated,11141,opengenome,11141,True,
+recreated_vs_opengenome,JBBPTL010000590.1:0-11134,shared_id_matching_sequence,recreated,11134,opengenome,11134,True,
+recreated_vs_opengenome,JBBPTL010000595.1:0-11070,shared_id_matching_sequence,recreated,11070,opengenome,11070,True,
+recreated_vs_opengenome,JBBPTL010000597.1:0-11046,shared_id_matching_sequence,recreated,11046,opengenome,11046,True,
+recreated_vs_opengenome,JBBPTL010000598.1:0-11035,shared_id_matching_sequence,recreated,11035,opengenome,11035,True,
+recreated_vs_opengenome,JBBPTL010000601.1:0-11021,shared_id_matching_sequence,recreated,11021,opengenome,11021,True,
+recreated_vs_opengenome,JBBPTL010000604.1:0-10967,shared_id_matching_sequence,recreated,10967,opengenome,10967,True,
+recreated_vs_opengenome,JBBPTL010000609.1:0-10917,shared_id_matching_sequence,recreated,10917,opengenome,10917,True,
+recreated_vs_opengenome,JBBPTL010000611.1:0-10916,shared_id_matching_sequence,recreated,10916,opengenome,10916,True,
+recreated_vs_opengenome,JBBPTL010000612.1:0-10916,shared_id_matching_sequence,recreated,10916,opengenome,10916,True,
+recreated_vs_opengenome,JBBPTL010000613.1:0-10914,shared_id_matching_sequence,recreated,10914,opengenome,10914,True,
+recreated_vs_opengenome,JBBPTL010000614.1:0-10877,shared_id_matching_sequence,recreated,10877,opengenome,10877,True,
+recreated_vs_opengenome,JBBPTL010000615.1:0-10873,shared_id_matching_sequence,recreated,10873,opengenome,10873,True,
+recreated_vs_opengenome,JBBPTL010000617.1:0-10865,shared_id_matching_sequence,recreated,10865,opengenome,10865,True,
+recreated_vs_opengenome,JBBPTL010000618.1:0-10859,shared_id_matching_sequence,recreated,10859,opengenome,10859,True,
+recreated_vs_opengenome,JBBPTL010000619.1:0-10854,shared_id_matching_sequence,recreated,10854,opengenome,10854,True,
+recreated_vs_opengenome,JBBPTL010000620.1:0-10834,shared_id_matching_sequence,recreated,10834,opengenome,10834,True,
+recreated_vs_opengenome,JBBPTL010000622.1:0-10802,shared_id_matching_sequence,recreated,10802,opengenome,10802,True,
+recreated_vs_opengenome,JBBPTL010000623.1:0-10785,shared_id_matching_sequence,recreated,10785,opengenome,10785,True,
+recreated_vs_opengenome,JBBPTL010000624.1:0-10771,shared_id_matching_sequence,recreated,10771,opengenome,10771,True,
+recreated_vs_opengenome,JBBPTL010000625.1:0-10754,shared_id_matching_sequence,recreated,10754,opengenome,10754,True,
+recreated_vs_opengenome,JBBPTL010000626.1:0-10744,shared_id_matching_sequence,recreated,10744,opengenome,10744,True,
+recreated_vs_opengenome,JBBPTL010000628.1:0-10727,shared_id_matching_sequence,recreated,10727,opengenome,10727,True,
+recreated_vs_opengenome,JBBPTL010000630.1:0-10717,shared_id_matching_sequence,recreated,10717,opengenome,10717,True,
+recreated_vs_opengenome,JBBPTL010000632.1:0-10702,shared_id_matching_sequence,recreated,10702,opengenome,10702,True,
+recreated_vs_opengenome,JBBPTL010000634.1:0-10684,shared_id_matching_sequence,recreated,10684,opengenome,10684,True,
+recreated_vs_opengenome,JBBPTL010000638.1:0-10665,shared_id_matching_sequence,recreated,10665,opengenome,10665,True,
+recreated_vs_opengenome,JBBPTL010000641.1:0-10642,shared_id_matching_sequence,recreated,10642,opengenome,10642,True,
+recreated_vs_opengenome,JBBPTL010000642.1:0-10628,shared_id_matching_sequence,recreated,10628,opengenome,10628,True,
+recreated_vs_opengenome,JBBPTL010000644.1:0-10614,shared_id_matching_sequence,recreated,10614,opengenome,10614,True,
+recreated_vs_opengenome,JBBPTL010000645.1:0-10605,shared_id_matching_sequence,recreated,10605,opengenome,10605,True,
+recreated_vs_opengenome,JBBPTL010000647.1:0-10596,shared_id_matching_sequence,recreated,10596,opengenome,10596,True,
+recreated_vs_opengenome,JBBPTL010000649.1:0-10565,shared_id_matching_sequence,recreated,10565,opengenome,10565,True,
+recreated_vs_opengenome,JBBPTL010000650.1:0-10554,shared_id_matching_sequence,recreated,10554,opengenome,10554,True,
+recreated_vs_opengenome,JBBPTL010000651.1:0-10548,shared_id_matching_sequence,recreated,10548,opengenome,10548,True,
+recreated_vs_opengenome,JBBPTL010000652.1:0-10547,shared_id_matching_sequence,recreated,10547,opengenome,10547,True,
+recreated_vs_opengenome,JBBPTL010000653.1:0-10544,shared_id_matching_sequence,recreated,10544,opengenome,10544,True,
+recreated_vs_opengenome,JBBPTL010000656.1:0-10502,shared_id_matching_sequence,recreated,10502,opengenome,10502,True,
+recreated_vs_opengenome,JBBPTL010000662.1:0-10470,shared_id_matching_sequence,recreated,10470,opengenome,10470,True,
+recreated_vs_opengenome,JBBPTL010000664.1:0-10448,shared_id_matching_sequence,recreated,10448,opengenome,10448,True,
+recreated_vs_opengenome,JBBPTL010000666.1:0-10442,shared_id_matching_sequence,recreated,10442,opengenome,10442,True,
+recreated_vs_opengenome,JBBPTL010000668.1:0-10433,shared_id_matching_sequence,recreated,10433,opengenome,10433,True,
+recreated_vs_opengenome,JBBPTL010000670.1:0-10400,shared_id_matching_sequence,recreated,10400,opengenome,10400,True,
+recreated_vs_opengenome,JBBPTL010000671.1:0-10396,shared_id_matching_sequence,recreated,10396,opengenome,10396,True,
+recreated_vs_opengenome,JBBPTL010000672.1:0-10388,shared_id_matching_sequence,recreated,10388,opengenome,10388,True,
+recreated_vs_opengenome,JBBPTL010000673.1:0-10382,shared_id_matching_sequence,recreated,10382,opengenome,10382,True,
+recreated_vs_opengenome,JBBPTL010000674.1:0-10379,shared_id_matching_sequence,recreated,10379,opengenome,10379,True,
+recreated_vs_opengenome,JBBPTL010000675.1:0-10352,shared_id_matching_sequence,recreated,10352,opengenome,10352,True,
+recreated_vs_opengenome,JBBPTL010000678.1:0-10318,shared_id_matching_sequence,recreated,10318,opengenome,10318,True,
+recreated_vs_opengenome,JBBPTL010000679.1:0-10311,shared_id_matching_sequence,recreated,10311,opengenome,10311,True,
+recreated_vs_opengenome,JBBPTL010000681.1:0-10275,shared_id_matching_sequence,recreated,10275,opengenome,10275,True,
+recreated_vs_opengenome,JBBPTL010000683.1:0-10264,shared_id_matching_sequence,recreated,10264,opengenome,10264,True,
+recreated_vs_opengenome,JBBPTL010000684.1:0-10251,shared_id_matching_sequence,recreated,10251,opengenome,10251,True,
+recreated_vs_opengenome,JBBPTL010000688.1:0-10223,shared_id_matching_sequence,recreated,10223,opengenome,10223,True,
+recreated_vs_opengenome,JBBPTL010000689.1:0-10218,shared_id_matching_sequence,recreated,10218,opengenome,10218,True,
+recreated_vs_opengenome,JBBPTL010000690.1:0-10214,shared_id_matching_sequence,recreated,10214,opengenome,10214,True,
+recreated_vs_opengenome,JBBPTL010000691.1:0-10209,shared_id_matching_sequence,recreated,10209,opengenome,10209,True,
+recreated_vs_opengenome,JBBPTL010000694.1:0-10194,shared_id_matching_sequence,recreated,10194,opengenome,10194,True,
+recreated_vs_opengenome,JBBPTL010000696.1:0-10180,shared_id_matching_sequence,recreated,10180,opengenome,10180,True,
+recreated_vs_opengenome,JBBPTL010000697.1:0-10180,shared_id_matching_sequence,recreated,10180,opengenome,10180,True,
+recreated_vs_opengenome,JBBPTL010000698.1:0-10173,shared_id_matching_sequence,recreated,10173,opengenome,10173,True,
+recreated_vs_opengenome,JBBPTL010000699.1:0-10168,shared_id_matching_sequence,recreated,10168,opengenome,10168,True,
+recreated_vs_opengenome,JBBPTL010000701.1:0-10146,shared_id_matching_sequence,recreated,10146,opengenome,10146,True,
+recreated_vs_opengenome,JBBPTL010000703.1:0-10139,shared_id_matching_sequence,recreated,10139,opengenome,10139,True,
+recreated_vs_opengenome,JBBPTL010000704.1:0-10138,shared_id_matching_sequence,recreated,10138,opengenome,10138,True,
+recreated_vs_opengenome,JBBPTL010000705.1:0-10129,shared_id_matching_sequence,recreated,10129,opengenome,10129,True,
+recreated_vs_opengenome,JBBPTL010000706.1:0-10117,shared_id_matching_sequence,recreated,10117,opengenome,10117,True,
+recreated_vs_opengenome,JBBPTL010000708.1:0-10111,shared_id_matching_sequence,recreated,10111,opengenome,10111,True,
+recreated_vs_opengenome,JBBPTL010000709.1:0-10105,shared_id_matching_sequence,recreated,10105,opengenome,10105,True,
+recreated_vs_opengenome,JBBPTL010000710.1:0-10097,shared_id_matching_sequence,recreated,10097,opengenome,10097,True,
+recreated_vs_opengenome,JBBPTL010000711.1:0-10096,shared_id_matching_sequence,recreated,10096,opengenome,10096,True,
+recreated_vs_opengenome,JBBPTL010000716.1:0-10066,shared_id_matching_sequence,recreated,10066,opengenome,10066,True,
+recreated_vs_opengenome,JBBPTL010000717.1:0-10057,shared_id_matching_sequence,recreated,10057,opengenome,10057,True,
+recreated_vs_opengenome,JBBPTL010000718.1:0-10053,shared_id_matching_sequence,recreated,10053,opengenome,10053,True,
+recreated_vs_opengenome,JBBPTL010000720.1:0-10026,shared_id_matching_sequence,recreated,10026,opengenome,10026,True,
+recreated_vs_opengenome,JBBPTL010000721.1:0-10022,shared_id_matching_sequence,recreated,10022,opengenome,10022,True,
+recreated_vs_opengenome,JBBPTL010000722.1:0-10021,shared_id_matching_sequence,recreated,10021,opengenome,10021,True,
+recreated_vs_opengenome,JBBPTL010000723.1:0-10013,shared_id_matching_sequence,recreated,10013,opengenome,10013,True,
